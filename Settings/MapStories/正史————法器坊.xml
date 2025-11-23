@@ -1,0 +1,314 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_B_02"  Parent="BaseFillingStory">
+		<DisplayName>法器坊</DisplayName>
+		<Desc>[NAME]抬头一看，只见【法器坊】三字赫然在目，仔细想想应该是买卖法器有关，[IT]正好感觉自己还缺一件称手的法器，要不就进去挑挑看吧。</Desc>
+		<Selections>
+			<li>
+				<Display>购买宗门法器【1500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 1500
+				]]>
+				</Condition>
+				<Tip>十二大宗门的镇派法器</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02A");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("法器坊老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被法器坊老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"法器坊老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买剑冢法器【1500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 1500
+				]]>
+				</Condition>
+				<Tip>六大剑冢法器</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02B");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("法器坊老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被法器坊老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"法器坊老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买典藏法器【3000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 3000
+				]]>
+				</Condition>
+				<Tip>修仙正史MOD法器</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02C");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("法器坊老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被法器坊老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"法器坊老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<!-- <li> -->
+				<!-- <Display>购买订制法器</Display> -->
+				<!-- <Tip>订制适合自己的法器【暂无】</Tip> -->
+				<!-- <OKResult> -->
+				<!-- me:TriggerStory("XXZS_CS_B_02D") -->
+				<!-- </OKResult> -->
+			<!-- </li> -->
+			<li>
+				<Display>离开法器坊</Display>
+				<Tip>返回西市</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Story Name="XXZS_CS_B_02A"  Parent="BaseFillingStory">
+		<DisplayName>法器坊</DisplayName>
+		<Desc>【法器坊】的【宗门法器】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>红云神砂【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_Cinnabar",nil,"红云神砂","丹霞宗镇派法宝，以万年朱砂炼制，破一切邪秽。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天莲剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_ShuiEssence","天莲剑","昆仑宫镇派法宝，以五色金莲为胎铸成剑形，深具灵性。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天极神针【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_SysAcupuncture","Item_JinEssence","天极神针","极天宫镇派法宝，以天地灵药琅琊果为材料制成针体，又用天雷淬炼百年而成。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>紫霞锁云镯【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_Bracelet","Item_MuEssence","紫霞锁云镯","紫霄宗镇派法宝，以天地灵药木枯藤打造而成，威力不凡。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>五雷镇狱神符【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_SpellPaper","Item_StarEssence","五雷镇狱神符","正一道镇派之宝，以太古陨星为原料制成的法宝，上面刻五雷天心正法，威力惊人。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>青索剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_StarEssence","青索剑","青莲剑宗镇派之宝，以陨星之铁锻造，锋利无匹。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>寒织五云帕【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_Handkerchief","Item_Other_BingCanSi","寒织五云帕","栖霞宗镇派之宝，以冰蚕丝织成，神妙非常。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>百灵腐仙剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_SoulPearl","百灵腐仙剑","百蛮山镇派邪剑，以数百妖兽内丹铸成，一旦祭出，邪气滔天。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>元磁两心环【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponAxeRing","Item_LingCrystal","元磁两心环","七仟坞镇派之宝，威力惊人且深具灵性，传说法宝有自我意识，只要认主，哪怕是白痴都可以使用。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>七杀剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_ExtremeJade","七杀剑","黑山镇派之宝，历经数次正邪大战，无物不斩。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>合欢铃【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_SmallBell","Item_ExtremeJade","合欢铃","合欢派镇派法宝，用千棱神玉制成，细看之下有神光流转其中。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>七炎伞【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_Umbrella","Item_HuoEssence","七炎伞","万妖殿镇派之宝，以神药朱果之核雕成，祭出有焚山煮海之力。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回法器坊</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B_02B"  Parent="BaseFillingStory">
+		<DisplayName>法器坊</DisplayName>
+		<Desc>【法器坊】的【剑冢法器】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>无属性神剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_NoneJing","","蜀山剑冢中沉睡多年的神剑，被剑意唤醒，重新出世。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>金属性神剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_JinJing","","蜀山剑冢中沉睡多年的神剑，被剑意唤醒，重新出世。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>木属性神剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_MuJing","","蜀山剑冢中沉睡多年的神剑，被剑意唤醒，重新出世。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>水属性神剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_ShuiJing","","蜀山剑冢中沉睡多年的神剑，被剑意唤醒，重新出世。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>火属性神剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_HuoJing","","蜀山剑冢中沉睡多年的神剑，被剑意唤醒，重新出世。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>土属性神剑【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_TuJing","","蜀山剑冢中沉睡多年的神剑，被剑意唤醒，重新出世。",1,12);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回法器坊</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B_02C"  Parent="BaseFillingStory">
+		<DisplayName>法器坊</DisplayName>
+		<Desc>【法器坊】的【典藏法器】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>乾坤归元令【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_WuEX","","乾坤归元令","据说是集市中一个法器坊精心制作而成，据说使用了老板的特殊部位做材料，也不知是真是假。",1,12,9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>白虎诛魔令【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_JinEX","","白虎诛魔令","据说是集市中一个法器坊精心制作而成，据说使用了老板的特殊部位做材料，也不知是真是假。",1,12,9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>青龙囚魂令【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_MuEX","","青龙囚魂令","据说是集市中一个法器坊精心制作而成，据说使用了老板的特殊部位做材料，也不知是真是假。",1,12,9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>玄武镇煞令【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_ShuiEX","","玄武镇煞令","据说是集市中一个法器坊精心制作而成，据说使用了老板的特殊部位做材料，也不知是真是假。",1,12,9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>朱雀降妖令【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_HuoEX","","朱雀降妖令","据说是集市中一个法器坊精心制作而成，据说使用了老板的特殊部位做材料，也不知是真是假。",1,12,9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>黄麟慑鬼令【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一件[color=#BC1717]法器[/color]，便匆匆离开了。");
+				me:DropFabao(0,"Item_TuEX","","黄麟慑鬼令","据说是集市中一个法器坊精心制作而成，据说使用了老板的特殊部位做材料，也不知是真是假。",1,12,9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回法器坊</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	
+</List></Stories>

@@ -1,0 +1,1112 @@
+<Esotericas><List>
+	<Esoterica Name="Tianshu_1">
+		<DisplayName>天书：丹经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的丹方。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>学习后可习得所有丹方。</EffectDesc>
+		<Dans>
+			<li>BasePracticeDrug</li><!-- 筑基丹 -->
+			<li>Dan_Restore</li><!-- 归源散 -->
+			<li>Dan_Defense</li><!-- 真罡丹 -->
+			<li>Dan_CalmDown</li><!-- 清心丹 -->
+			<li>Dan_Happiness</li><!-- 极乐丹 -->
+			<li>Dan_LostSoul</li><!-- 摄神丹 -->
+			<li>Dan_PracticeRate</li><!-- 黄庭丹 -->
+			<li>Dan_PracticeSpeed</li><!-- 黄芽丹 -->
+			<li>Dan_Thin</li><!-- 塑身丹 -->
+			<li>Dan_Fat</li><!-- 壮体丹 -->
+			<li>Dan_DredgeQi</li><!-- 理气丹 -->
+			<li>Dan_DredgeQi1</li><!-- 通脉散 -->
+			<li>Dan_WuLingSan</li><!-- 五灵散 -->
+			<li>Dan_CureFiveElementDamage</li><!-- 五方化伤丹 -->
+			<li>Dan_CureJinDamage</li><!-- 庚金万化丹 -->
+			<li>Dan_CureMuDamage</li><!-- 碧春丹 -->
+			<li>Dan_CureShuiDamage</li><!-- 天一承气散 -->
+			<li>Dan_CureHuoDamage</li><!-- 火真丹 -->
+			<li>Dan_CureTuDamage</li><!-- 定坤丹 -->
+			<li>Dan_NoHunger2</li><!-- 辟谷丹 -->
+			<li>Dan_NoHunger1</li><!-- 兵粮丸 -->
+			<li>Dan_NoHunger</li><!-- 饮气丹 -->
+			<li>Dan_JingYuan</li><!-- 精元丹 -->
+			<li>Dan_JingYuan2</li><!-- 参芝九窍丸 -->
+			<li>Dan_JingYuan3</li><!-- 血竭散 -->
+			<li>Dan_Ling</li><!-- 聚灵丹 -->
+			<li>Dan_Ling2</li><!-- 紫阳丹 -->
+			<li>Dan_Ling3</li><!-- 万灵散 -->
+			<li>Dan_HundredRefine</li><!-- 九转金丹 -->
+			<li>Dan_ExtremeLofty</li><!-- 造化神丹 -->
+			<li>Dan_IncreaseLife1</li><!-- 长生丹 -->
+			<li>Dan_IncreaseLife2</li><!-- 玄牝续命散 -->
+			<li>Dan_IncreaseLife3</li><!-- 五极灵丹 -->
+			<li>Dan_IncreaseLife4</li><!-- 再造金丹 -->
+			<li>Dan_IncreaseLife5</li><!-- 未来星宿化劫丹 -->
+			<li>Dan_IncreaseNeckCountdown1</li><!-- 乾元避劫丹 -->
+			<li>Dan_IncreaseNeckCountdown2</li><!-- 碧血丹青 -->
+			<li>Dan_FiveBase1</li><!-- 通天丸 -->
+			<li>Dan_FiveBase2</li><!-- 纳地丸 -->
+			<li>Dan_FiveBase3</li><!-- 逸仙丸 -->
+			<li>Dan_FiveBase4</li><!-- 明通丸 -->
+			<li>Dan_FiveBase5</li><!-- 神佑丸 -->
+			<li>Dan_FiveBaseFromLife</li><!-- 五毒五蕴五炁神丹 -->
+			<li>Dan_Soul1</li><!-- 神泣丹 -->
+			<li>Dan_Soul2</li><!-- 通玄丹 -->
+			<li>Dan_Soul3</li><!-- 凝珀丹 -->
+			<li>Dan_Soul4</li><!-- 燃魂丹 -->
+			<li>Dan_SwordBall</li><!-- 剑丸 -->
+			<li>Dan_Fail1</li><!-- 炼毁的丹药 -->
+			<li>Dan_Fail2</li><!-- 炼毁的丹药 -->
+			<li>Dan_Fail3</li><!-- 炼毁的丹药 -->
+			<li>Dan_Fail4</li><!-- 炼毁的丹药 -->
+			<li>Dan_Fail5</li><!-- 炼毁的丹药 -->
+			<li>Dan_TreeEXP</li><!-- 天道神丹 -->
+			<li>Dan_LunHui1</li><!-- 封印的记忆：星途闪耀 -->
+			<li>Dan_ReBorn</li><!-- 玄牝重生丹 -->
+			<li>Dan_ReBorn_4</li><!-- 六道轮回丹 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
+			<li>Dan_LingYuanSha</li><!-- 造化玉砂 -->
+			<li>Dan_LongDan1</li><!-- 龙魂真灵丹 -->
+			<li>Dan_FengDan1</li><!-- 凤魂真灵丹 -->
+			<li>Dan_ZhuLongDan1</li><!-- 阴阳真灵丹 -->
+			<li>Dan_FenShen1</li><!-- 盘古元神丹 -->
+			<li>Dan_FenShen2</li><!-- 造化同心丹 -->
+			<li>Dan_FenShen3</li><!-- 裂神丹 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
+			<li>Dan_TiShen</li><!-- 替身丹 -->
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_2">
+		<DisplayName>天书：游记</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的地点。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可解锁所有地点。</EffectDesc>
+		<Places>
+			<li>Place_CentralPlains</li><!-- 中原 -->
+			<li>Place_CentralPlains1</li>
+			<li>Place_CentralPlains2</li>
+			<li>Place_CentralPlains3</li>
+			<li>Place_CentralPlains4</li>
+			<li>Place_CentralPlains5</li>
+			<li>Place_FertileField</li><!-- 江岸沃野 -->
+			<li>Place_FertileField1</li>
+			<li>Place_FertileField2</li>
+			<li>Place_FertileField3</li>
+			<li>Place_FertileField4</li>
+			<li>Place_FertileField5</li>
+			<li>Place_SouthForest</li><!-- 南荒 -->
+			<li>Place_SouthForest1</li>
+			<li>Place_SouthForest2</li>
+			<li>Place_SouthForest3</li>
+			<li>Place_Snowfield</li><!-- 雪原 -->
+			<li>Place_Snowfield1</li>
+			<li>Place_Snowfield2</li>
+			<li>Place_Snowfield3</li>
+			<li>Place_Desert</li><!-- 大漠 -->
+			<li>Place_Desert1</li><!-- 万妖殿 -->
+			<li>Place_Desert2</li>
+			<li>Place_Desert3</li>
+			<li>Place_Desert4</li>
+			<li>Place_LongHu</li><!-- 龙虎山 -->
+			<li>Place_LongHu1</li>
+			<li>Place_LongHu2</li>
+			<li>Place_WuLian</li><!-- 五莲山 -->
+			<li>Place_WuLian1</li>
+			<li>Place_WuLian2</li>
+			<li>Place_TianJi</li><!-- 天极峰 -->
+			<li>Place_TianJi1</li>
+			<li>Place_TianJi2</li>
+			<li>Place_Hei</li><!-- 黑山 -->
+			<li>Place_Hei1</li>
+			<li>Place_Hei2</li>
+			<li>Place_Hei3</li>
+			<li>Place_Hei4</li>
+			<li>Place_KunLun</li><!-- 昆仑山 -->
+			<li>Place_KunLun1</li>
+			<li>Place_KunLun2</li>
+			<li>Place_KunLun2_1</li>
+			<li>Place_XianKong</li><!-- 陷空山 -->
+			<li>Place_XianKong1</li>
+			<li>Place_BaiMan</li><!-- 百蛮山 -->
+			<li>Place_BaiMan1</li>
+			<li>Place_BaiMan2</li>
+			<li>Place_BaiMan3</li>
+			<li>Place_Shu</li><!-- 蜀山 -->
+			<li>Place_Shu1</li>
+			<li>Place_Shu2</li>
+			<li>Place_Shu3</li>
+			<li>Place_Shu4</li>
+			<li>Place_Shu5</li>
+			<li>Place_JiuHua</li><!-- 九华山 -->
+			<li>Place_JiuHua1</li>
+			<li>Place_JiuHua2</li>
+			<li>Place_JiuHua3</li>
+			<li>Place_HeHuan</li><!-- 合欢岛 -->
+			<li>Place_HeHuan1</li>
+			<li>Place_HeHuan2</li>
+			<li>Place_DanXia</li><!-- 丹霞山 -->
+			<li>Place_DanXia1</li>
+			<li>Place_DanXia2</li>
+			<li>Place_DanXia3</li>
+			<li>Place_LongTai</li><!-- 龙台 -->
+			<li>Place_YiJieLieFeng</li><!-- 异界裂缝 -->
+			<li>Place_ShengDianYiJi</li><!-- 圣殿遗迹 -->
+			<li>Place_JiangYuanMiJing</li><!-- 江源秘境 -->
+			<li>Place_QingLianShan</li><!-- 青莲山 -->
+			<li>Place_ChiLianYuan</li><!-- 琼楼 -->
+			<li>Place_XuanKongDong</li><!-- 玄空洞 -->
+			<li>Place_GuZhanChang</li><!-- 仙魔战场 -->
+			<li>Place_YuLun</li><!-- 玉轮仙府 -->
+			<li>Place_TianKeng</li><!-- 天坑 -->
+			<li>Place_BirthPlace11</li>
+			<li>Place_BirthPlace12</li>
+			<li>Place_BirthPlace13</li>
+			<li>Place_BirthPlace14</li>
+			<li>Place_BirthPlace15</li>
+			<li>Place_BirthPlace16</li>
+			<li>Place_HeYinCity</li>
+			<li>Place_HuCity</li>
+			<li>Place_PanSheCity</li>
+			<li>Place_ShanCity</li>
+			<li>Place_DaLiangCity</li>
+			<li>Place_SouthMount</li>
+		</Places>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_3">
+		<DisplayName>天书：符图</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的符篆。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可获得所有符篆。</EffectDesc>
+		<Spells>
+			<li>Spell_MoveSpeed1</li><!-- 轻身符 -->
+			<li>Spell_TempLow1</li><!-- 避寒符 -->
+			<li>Spell_TempHigh1</li><!-- 避暑符 -->
+			<li>Spell_MoveSpeed2</li><!-- 神行符 -->
+			<li>Spell_RecoveryPower</li><!-- 药师祛病符 -->
+			<li>Spell_VisionRadius</li><!-- 千里神视符 -->
+			<li>Spell_Fatigue</li><!-- 周公涤神符 -->
+			<li>Spell_Nutrition</li><!-- 饮气符 -->
+			<li>Spell_Nutrition1</li><!-- 辟谷符 -->
+			<li>Spell_Hide</li><!-- 隐匿符 -->
+			<li>Spell_Happy</li><!-- 长乐符 -->
+			<li>Spell_LunHui_ShenShen</li><!-- 申申符 -->
+			<li>Spell_TempLow2</li><!-- 太阳符 -->
+			<li>Spell_TempHigh2</li><!-- 太阴符 -->
+			<li>Spell_Intelligence</li><!-- 文昌符 -->
+			<li>Spell_Fight</li><!-- 武昌符 -->
+			<li>Spell_GlobalEfficiency</li><!-- 神勤符 -->
+			<li>Spell_MadeQualityAddValue</li><!-- 天工符 -->
+			<li>Spell_Yield</li><!-- 丰饶符 -->
+			<li>Spell_Treatment</li><!-- 药王符 -->
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient1</li><!-- 宁心符 -->
+			<li>Spell_MindState1</li><!-- 天心符 -->
+			<li>Spell_MindState2</li><!-- 洞神符 -->
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient2</li><!-- 洞真符 -->
+			<li>Spell_SpeedOfMindStateCoefficientByMoods</li><!-- 洞玄符 -->
+			<li>Spell_MindState2_LunHui</li><!-- 天通洞神符 -->
+			<li>Spell_WorldMapFlySpeed</li><!-- 分影遁空符 -->
+			<li>Spell_FabaoMake_SuccessRateAddV</li><!-- 太上通宝符 -->
+			<li>Spell_FabaoMake_LingInheritRateAddV</li><!-- 五方万灵符 -->
+			<li>Spell_DanMake_SuccessRateAddV</li><!-- 兜率神符 -->
+			<li>Spell_DanMake_YieldAddP</li><!-- 万化承丹符 -->
+			<li>Spell_Fu</li><!-- 万福图 -->
+			<li>Spell_Lu</li><!-- 万禄图 -->
+			<li>Spell_Shou</li><!-- 万寿图 -->
+		</Spells>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_4">
+		<DisplayName>天书：神策</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ST\ST_yi.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的神通。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可习得所有神通。</EffectDesc>
+		<Magics>
+			<li>BuildMine</li><!-- 造山术 -->
+			<li>BuildLand</li><!-- 造陆术 -->
+			<li>BuildSea</li><!-- 开湖术 -->
+			<li>BuildLing</li><!-- 造化灵土 -->
+			<li>BuildLingWater</li><!-- 造化灵池 -->
+			<li>BuildFertileSoil</li><!-- 造化沃土 -->
+			<li>RebornSelf</li><!-- 玄牝重生法 -->
+			<li>BuidPuppet</li><!-- 赋灵术 -->
+			<li>MakePuppet</li><!-- 御灵术 -->
+			<li>PlantGrowUp</li><!-- 御木诀 -->
+			<li>ClosedDoor</li><!-- 入定之术 -->
+			<li>Healing_Damage</li><!-- 化伤术 -->
+			<li>BuildBody</li><!-- 再造术 -->
+			<li>AbsorbGong_1</li><!-- 鼎炉吸真术 -->
+			<li>AbsorbGong_2</li><!-- 风月幻境 -->
+			<li>AbsorbGong_3</li><!-- 摄神御鬼大法 -->
+			<li>AbsorbGong_4</li><!-- 天魔化身术 -->
+			<li>AbsorbGong_5</li><!-- 他化自在大法 -->
+			<li>AbsorbGong_6</li><!-- 魂体寄生 -->
+			<li>AbsorbGong_7</li><!-- 献祭 -->
+			<li>AbsorbGong_8</li><!-- 清心咒 -->
+			<li>AbsorbGong_9_1</li><!-- 天心正法 -->
+			<li>AbsorbGong_9_2</li><!-- 天魔解体大法 -->
+			<li>AbsorbGong_10</li><!-- 慧剑斩念 -->
+			<li>AbsorbLing_Live</li><!-- 冥灵真法 -->
+			<li>AbsorbLing_Body</li><!-- 天妖化血术 -->
+			<li>AbsorbLing_Thing</li><!-- 托体同山诀 -->
+			<li>AbsorbLing_Item</li><!-- 吸星掌 -->
+			<li>AbsorbLing_Aoe</li><!-- 灵息诀 -->
+			<li>RobBodyLow</li><!-- 阴神夺舍 -->
+			<li>RobBodyHigh</li><!-- 阳神夺舍 -->
+			<li>LingStoneMake</li><!-- 炼制灵石之术 -->
+			<li>LingCrystalMake</li><!-- 炼制灵晶之术 -->
+			<li>SeachSoul</li><!-- 搜魂大法 -->
+			<li>MakeSoulCrystal</li><!-- 凝珀诀 -->
+			<li>SoulCrystalYouPowerUp</li><!-- 幽淬之法 -->
+			<li>SoulCrystalLingPowerUp</li><!-- 灵淬之法 -->
+			<li>Prophesy</li><!-- 周天神算 -->
+			<li>Prophesy_MapStory</li><!-- 大衍神算 -->
+			<li>PrayForRain</li><!-- 求雨术 -->
+			<li>PrayForSun</li><!-- 驱云诀 -->
+			<li>PrayForRainstorm</li><!-- 暴雨术 -->
+			<li>PrayForFohn</li><!-- 焚风术 -->
+			<li>PrayForDustStorm</li><!-- 尘暴术 -->
+			<li>PrayForMiasma</li><!-- 毒瘴术 -->
+			<li>PrayForLightningStorm</li><!-- 雷暴术 -->
+			<li>Healing_Physique</li><!-- 伐毛洗髓之术 -->
+			<li>Healing_Intelligence</li><!-- 醍醐灌顶之术 -->
+			<li>Healing_Charisma</li><!-- 再造形神之术 -->
+			<li>Healing_Perception</li><!-- 开天眼之术 -->
+			<li>FengshuiItemOpen</li><!-- 风水鉴定 -->
+			<li>BuildRain</li><!-- 甘霖术 -->
+			<li>LingXiZhou</li><!-- 灵犀咒 -->
+			<li>XinYinJue</li><!-- 心印诀 -->
+			<li>TianMoWu</li><!-- 天魔舞 -->
+			<li>WuYinKeShen</li><!-- 五印刻神 -->
+			<li>ClosedDoor_Gong1</li><!-- 水镜观心定 -->
+			<li>ClosedDoor_Gong4</li><!-- 玉清定境 -->
+			<li>AbsorbGong_1_Gong9</li><!-- 元央归息法 -->
+			<li>AbsorbGong_2_Gong7</li><!-- 如意幻境 -->
+			<li>AbsorbGong_3_Gong11</li><!-- 九幽炼神 -->
+			<li>PlantGrowUp_Gong1</li><!-- 天霖诀 -->
+			<li>PlantGrowUp_Gong9</li><!-- 万木回春 -->
+			<li>PrayForZhenShuiJieJie_Gong1</li><!-- 九阴真水界 -->
+			<li>PrayForZhenHuoJieJie_Gong10</li><!-- 九阳真火界 -->
+			<li>PrayForBeiDouJianJie_Gong8</li><!-- 北斗剑界 -->
+			<li>FenShenZhiShu</li><!-- 分神之术 -->
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_5">
+		<DisplayName>天书：匠书</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了特殊的建筑。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可解锁特殊的建筑。</EffectDesc>
+		<Buildings>
+			<li>Lantern6</li><!-- 灯笼 -->
+			<li>Lantern5</li><!-- 灯笼 -->
+			<li>WoodRoof_SpringFestival</li><!-- 屋顶 -->
+			<li>StoneRoof_SpringFestival</li><!-- 屋顶 -->
+			<li>Firecracker</li><!-- 烟花 -->
+			<li>SmallPool</li><!-- 灵池 -->
+			<li>Building_BaBaoGongDe_Our</li>
+			<li>Building_WanDaoZunFaZuo_Our</li>
+			<li>Building_QiQingQingTongShu_Our</li>
+			<li>Building_ZhouTianXingDouPan_Our</li>
+			<li>Building_WuLongXuanJinTa_Our</li>
+			<li>Building_ShuShanJianChi_Our</li>
+			<li>Building_LingYuFeng_Our</li>
+			<li>Building_WanGuXieFaTan_Our</li>
+			<li>Building_XuanCiTianKeng_Our</li>
+			<li>Building_QiShaShenBei</li>
+			<li>Building_XuanYinShengQuan_Our</li>
+			<li>Building_QiShi1</li>
+			<li>Building_QiShi2</li>
+			<li>Building_QiShi3</li>
+			<li>Building_QiShi4</li>
+			<li>Building_QiShi5</li>
+			<li>Building_QiShi6</li>
+			<li>Building_LingShu1</li>
+			<li>Building_LingShu2</li>
+			<li>Building_LingShu3</li>
+			<li>Building_LingShu4</li>
+			<li>Building_LingShu5</li>
+			<li>Building_LingShu6</li>
+			<li>Building_ZiXiaoJuShu</li>
+			<li>Building_ShaShenMu1</li>
+			<li>Building_ShaShenMu2</li>
+			<li>Building_ShaShenMu3</li>
+			<li>Building_ShaShenMu4</li>
+			<li>Building_ShuiShenHuaShu1</li>
+			<li>Building_ShuiShenHuaShu1</li>
+			<li>Building_ShuiShenHuaShu2</li>
+			<li>Building_ShuiShenHuaShu3</li>
+			<li>Building_TaoShu1</li>
+			<li>Building_TaoShu2</li>
+			<li>Building_TaoShu3</li>
+			<li>Building_YuShu1</li>
+			<li>Building_YuShu2</li>
+			<li>Building_YuShu3</li>
+			<li>Building_YuShu4</li>
+			<li>Building_YuShu5</li>
+			<li>Building_YuShu6</li>
+			<li>Building_LingDiShuiChi</li>
+			<li>Building_LianFaTan</li>
+			<li>Building_TaiXuanBingZhu</li>
+			<li>Build_KunLunFang</li>
+			<li>Building_QingTongLong</li>
+			<li>Building_QingTongShouXiangLu</li>
+			<li>Building_QingTongFanQi</li>
+			<li>Building_YanDiTai</li>
+			<li>Building_JuXingXiangLu</li>
+			<li>Building_TengLongZhu</li>
+			<li>Building_HuangLongDengTai</li>
+			<li>Building_LianHuaDengTai</li>
+			<li>Building_YuHeQingLian1</li>
+			<li>Building_YuHeQingLian2</li>
+			<li>Building_YuHeQingLian3</li>
+			<li>Building_JianYiFuDiao</li>
+			<li>Building_XiaoDanLu1</li>
+			<li>Building_XiaoDanLu2</li>
+			<li>Building_HuoDing</li>
+			<li>Building_ShuiLianTai</li>
+			<li>Building_XieXiDeng</li>
+			<li>Building_KuLouDeng</li>
+			<li>Build_BaiManFang</li>
+			<li>Building_DiMuJiDeng</li>
+			<li>Building_DiMuJiQi</li>
+			<li>Building_DiMuMiXue</li>
+			<li>Building_QiShaJianZhu</li>
+			<li>Building_XieLongDiaoXiang</li>
+			<li>Building_XiongKuiDeng</li>
+			<li>Building_ShaZhang1</li>
+			<li>Building_ShaZhang2</li>
+			<li>Building_QingShaDeng</li>
+			<li>Building_BingFengDiaoSu</li>
+			<li>Building_DiMuKuiShou</li>
+			<li>Building_MoMenJiQi</li>
+			<li>Building_MoMenJiQi1</li>
+			<li>Building_MoZhuaDiaoSu</li>
+			<li>Building_MoWenHuaPing</li>
+			<li>Building_KuLouHuaPing</li>
+			<li>Building_XiePingFeng</li>
+		</Buildings>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_6">
+		<DisplayName>天书：秘录</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的上乘秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可习得所有法术。</EffectDesc>
+		<Skills>
+			<li>DamageSkill_1</li><!-- 先天罡气 -->
+			<li>DamageSkill_2</li><!-- 烈焰决 -->
+			<li>DamageSkill_3</li><!-- 庚金神雷 -->
+			<li>DamageSkill_4</li><!-- 元磁灭绝神光 -->
+			<li>HealthSkill_Gong1_1</li><!-- 天水化伤术 -->
+			<li>HealthSkill_Gong1_2</li><!-- 天一真法 -->
+			<li>FabaoSkill_Gong3_1</li><!-- 神剑共鸣 -->
+			<li>DamageSkill_Gong4_1</li><!-- 玉清太虚神雷 -->
+			<li>SheildSkill_Gong4_1</li><!-- 厚土之盾 -->
+			<li>HealthSkill_Gong4_1</li><!-- 回春诀 -->
+			<li>SheildSkill_Gong5_1</li><!-- 凝血神盾 -->
+			<li>DamageSkill_Gong7_1</li><!-- 斩念剑 -->
+			<li>FabaoSkill_Gong8_1</li><!-- 北极剑煞 -->
+			<li>HealthSkill_Gong9_1</li><!-- 逆转轮回 -->
+			<li>HealthSkill_Gong9_2</li><!-- 轮回逆转·秘 -->
+			<li>SkillSkill_Gong10_1</li><!-- 焚日真法 -->
+			<li>SheildSkill_Gong11_1</li><!-- 太虚神盾 -->
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_7">
+		<DisplayName>天书：圣典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的不传奥义。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可习得所有稀有秘籍。</EffectDesc>
+		<Skills>
+			<li>XXZS_TJYYJ_1</li>
+			<li>XXZS_TJYYJ_2</li>
+			<li>XXZS_SCZJL_1</li>
+			<li>XXZS_SCZJL_2</li>
+			<li>XXZS_SCZJL_3</li>
+			<li>XXZS_SCZJL_4</li>
+			<li>XXZS_JTJDDBJ_1</li>
+			<li>XXZS_JTJDDBJ_2</li>
+			<li>XXZS_JTJDDBJ_3</li>
+			<li>XXZS_JTJDDBJ_4</li>
+			<li>XXZS_TXHYD_1</li>
+			<li>XXZS_TXHYD_2</li>
+			<li>XXZS_TXHYD_3</li>
+			<li>XXZS_TXHYD_4</li>
+			<li>XXZS_TXHYD_5</li>
+			<li>XXZS_TXHYD_6</li>
+			<li>XXZS_TXHYD_7</li>
+			<li>XXZS_TXHYD_8</li>
+			<li>XXZS_FXYGL_1</li>
+			<li>XXZS_FXYGL_2</li>
+			<li>XXZS_FXYGL_3</li>
+			<li>XXZS_FXYGL_4</li>
+			<li>XXZS_LXQZZF_1</li>
+			<li>XXZS_LXQZZF_2</li>
+			<li>XXZS_LXQZZF_3</li>
+			<li>XXZS_WMYS_A_1</li>
+			<li>XXZS_WMYS_A_2</li>
+			<li>XXZS_WMYS_A_3</li>
+			<li>XXZS_WMYS_A_4</li>
+			<li>XXZS_WMYS_B_1</li>
+			<li>XXZS_WMYS_B_2</li>
+			<li>XXZS_WMYS_B_3</li>
+			<li>XXZS_WMYS_B_4</li>
+			<li>XXZS_WMYS_C_1</li>
+			<li>XXZS_WMYS_C_2</li>
+			<li>XXZS_WMYS_C_3</li>
+			<li>XXZS_WMYS_C_4</li>
+			<li>XXZS_WMYS_D_1</li>
+			<li>XXZS_WMYS_D_2</li>
+			<li>XXZS_WMYS_D_3</li>
+			<li>XXZS_WMYS_D_4</li>
+			<li>XXZS_WMYS_E_1</li>
+			<li>XXZS_WMYS_E_2</li>
+			<li>XXZS_WMYS_E_3</li>
+			<li>XXZS_WMYS_E_4</li>
+			<li>XXZS_WMYS_E_5</li>
+			<li>XXZS_WMYS_E_6</li>
+			<li>XXZS_WMYS_E_7</li>
+			<li>XXZS_WMYS_E_8</li>
+			<li>XXZS_WMYS_E_9</li>
+			<li>XXZS_WMYS_E_10</li>
+			<li>XXZS_WMYS_E_11</li>
+			<li>XXZS_WMYS_E_12</li>
+			<li>XXZS_WMYS_E_13</li>
+			<li>XXZS_WMYS_E_14</li>
+			<li>XXZS_WMYS_E_15</li>
+			<li>XXZS_WMYS_E_16</li>
+			<li>XXZS_WMYS_E_17</li>
+			<li>XXZS_WMYS_E_18</li>
+			<li>XXZS_WMYS_E_19</li>
+			<li>XXZS_WMYS_E_20</li>
+		</Skills>
+		<Fabaos>
+			<li>XXZS_YJSZ_01</li>
+			<li>XXZS_YJSZ_02</li>
+			<li>XXZS_YJSZ_03</li>
+			<li>XXZS_YJSZ_04</li>
+			<li>XXZS_MXG_01</li>
+			<li>XXZS_MXG_02</li>
+			<li>XXZS_BCG_01</li>
+		</Fabaos>
+		<Magics>
+			<li>XXZZ_SNBCL_ST_01</li>
+		</Magics>
+		<Buildings>
+			<li>XXZS_JT</li>
+			<li>XXZS_JL</li>
+			<li>XXZS_JZ</li>
+		</Buildings>
+		<ZhenNodes>
+			<li>XXZS_WM_A1</li>
+			<li>XXZS_WM_A2</li>
+			<li>XXZS_WM_A3</li>
+			<li>XXZS_WM_A4</li>
+			<li>XXZS_WM_A5</li>
+			<li>XXZS_WM_B1</li>
+			<li>XXZS_WM_B2</li>
+			<li>XXZS_WM_B3</li>
+			<li>XXZS_WM_B4</li>
+			<li>XXZS_WM_B5</li>
+			<li>XXZS_WM_C1</li>
+			<li>XXZS_WM_C2</li>
+			<li>XXZS_WM_C3</li>
+			<li>XXZS_WM_C4</li>
+			<li>XXZS_WM_C5</li>
+			<li>WM_AAABBB_01</li>
+			<li>WM_AAABBB_02</li>
+			<li>WM_AAABBB_03</li>
+			<li>WM_AAABBB_04</li>
+			<li>XXZS_WM_AAAAAA_01</li>
+			<li>XXZS_WM_AAAAAB_01</li>
+			<li>XXZS_WM_AAAABB_01</li>
+			<li>XXZS_WM_AAAABB_02</li>
+			<li>XXZS_WM_AAAABB_03</li>
+			<li>XXZS_WM_BBBBBB_01</li>
+			<li>XXZS_WM_BBBBBA_01</li>
+			<li>XXZS_WM_BBBBAA_01</li>
+			<li>XXZS_WM_BBBBAA_02</li>
+			<li>XXZS_WM_BBBBAA_03</li>
+			<li>XXZS_WM_AAAAA_01</li>
+			<li>XXZS_WM_AAAAB_01</li>
+			<li>XXZS_WM_AAAAB_02</li>
+			<li>XXZS_WM_AAAAB_03</li>
+			<li>XXZS_WM_AAABB_01</li>
+			<li>XXZS_WM_AAABB_02</li>
+			<li>XXZS_WM_AAABB_03</li>
+			<li>XXZS_WM_BBBBB_01</li>
+			<li>XXZS_WM_BBBBA_01</li>
+			<li>XXZS_WM_BBBBA_02</li>
+			<li>XXZS_WM_BBBBA_03</li>
+			<li>XXZS_WM_BBBAA_01</li>
+			<li>XXZS_WM_BBBAA_02</li>
+			<li>XXZS_WM_BBBAA_03</li>
+			<li>XXZS_WM_AAAA_01</li>
+			<li>XXZS_WM_AAAA_02</li>
+			<li>XXZS_WM_AAAA_03</li>
+			<li>XXZS_WM_BBBB_01</li>
+			<li>XXZS_WM_BBBB_02</li>
+			<li>XXZS_WM_BBBB_03</li>
+			<li>XXZS_WM_AABB_01</li>
+			<li>XXZS_WM_AABB_02</li>
+			<li>XXZS_WM_AABB_03</li>
+			<li>XXZS_WM_AABB_04</li>
+			<li>XXZS_WM_AABB_05</li>
+			<li>XXZS_WM_AABB_06</li>
+			<li>XXZS_WM_AABB_07</li>
+			<li>XXZS_WM_AABB_08</li>
+			<li>XXZS_WM_AABB_09</li>
+			<li>XXZS_WM_AABB_10</li>
+			<li>XXZS_WM_AAA_01</li>
+			<li>XXZS_WM_AAA_02</li>
+			<li>XXZS_WM_AAA_03</li>
+			<li>XXZS_WM_AAA_04</li>
+			<li>XXZS_WM_BBB_01</li>
+			<li>XXZS_WM_BBB_02</li>
+			<li>XXZS_WM_BBB_03</li>
+			<li>XXZS_WM_BBB_04</li>
+			<li>XXZS_WM_AAB_01</li>
+			<li>XXZS_WM_AAB_02</li>
+			<li>XXZS_WM_AAB_03</li>
+			<li>XXZS_WM_AAB_04</li>
+			<li>XXZS_WM_AAB_05</li>
+			<li>XXZS_WM_AAB_06</li>
+			<li>XXZS_WM_AAB_07</li>
+			<li>XXZS_WM_ABB_01</li>
+			<li>XXZS_WM_ABB_02</li>
+			<li>XXZS_WM_ABB_03</li>
+			<li>XXZS_WM_ABB_04</li>
+			<li>XXZS_WM_ABB_05</li>
+			<li>XXZS_WM_ABB_06</li>
+			<li>XXZS_WM_ABB_07</li>
+			<li>XXZS_WM_AA_01</li>
+			<li>XXZS_WM_AA_02</li>
+			<li>XXZS_WM_AA_03</li>
+			<li>XXZS_WM_BB_01</li>
+			<li>XXZS_WM_BB_02</li>
+			<li>XXZS_WM_BB_03</li>
+			<li>XXZS_WM_AB_01</li>
+			<li>XXZS_WM_AB_02</li>
+			<li>XXZS_WM_AB_03</li>
+			<li>XXZS_WM_AB_04</li>
+			<li>XXZS_WM_AB_05</li>
+			<li>XXZS_WM_A_01</li>
+			<li>XXZS_WM_B_01</li>
+		</ZhenNodes>
+		<Dans>
+			<li>Dan_FX1_01</li>
+			<li>Dan_FX1_02</li>
+			<li>Dan_FX1_03</li>
+			<li>Dan_FX1_04</li>
+			<li>Dan_FX1_05</li>
+			<li>Dan_FX1_06</li>
+			<li>Dan_FX1_07</li>
+			<li>Dan_FX1_08</li>
+			<li>Dan_FX2_01</li>
+			<li>Dan_FX2_02</li>
+			<li>Dan_FX2_03</li>
+			<li>Dan_FX2_04</li>
+			<li>Dan_FX2_05</li>
+			<li>Dan_FX2_06</li>
+			<li>Dan_FX2_07</li>
+			<li>Dan_FX2_08</li>
+			<li>Dan_SN1_01</li>
+			<li>Dan_SN1_02</li>
+			<li>Dan_SN1_03</li>
+			<li>Dan_SN2_01</li>
+			<li>Dan_SN2_02</li>
+			<li>Dan_SN2_03</li>
+			<li>Dan_SN3_01</li>
+			<li>Dan_SN3_02</li>
+			<li>Dan_SN3_03</li>
+			<li>Dan_SN3_04</li>
+			<li>Dan_SN4_01</li>
+			<li>Dan_SN4_02</li>
+			<li>Dan_SN4_03</li>
+			<li>Dan_SN4_04</li>
+			<li>Dan_NW1_01</li>
+			<li>Dan_NW1_02</li>
+			<li>Dan_NW1_03</li>
+			<li>Dan_NW1_04</li>
+			<li>Dan_NW1_05</li>
+			<li>Dan_NW2_01</li>
+			<li>Dan_NW2_02</li>
+			<li>Dan_NW2_03</li>
+			<li>Dan_NW2_04</li>
+			<li>Dan_NW2_05</li>
+			<li>Dan_NW3_01</li>
+			<li>Dan_NW3_02</li>
+			<li>Dan_NW3_03</li>
+			<li>Dan_NW3_04</li>
+			<li>Dan_NW3_05</li>
+			<li>Dan_NW3_06</li>
+			<li>JinEX</li>
+			<li>MuEX</li>
+			<li>ShuiEX</li>
+			<li>HuoEX</li>
+			<li>TuEX</li>
+			<li>WuEX</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_8">
+		<DisplayName>天书：阵图</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的阵法。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可解锁所有阵法。</EffectDesc>
+		<ZhenNodes>
+			<li>zhuxian_0</li>
+			<li>zhuxian_1</li>
+			<li>zhuxian_2</li>
+			<li>zhuxian_3</li>
+			<li>zhuxian_4</li>
+			<li>qixing_0</li>
+			<li>qixing_1</li>
+			<li>qixing_2</li>
+			<li>qixing_3</li>
+			<li>qixing_4</li>
+			<li>qixing_5</li>
+			<li>qixing_6</li>
+			<li>wufang_0</li>
+			<li>wufang_1</li>
+			<li>wufang_2</li>
+			<li>wufang_3</li>
+			<li>wufang_4</li>
+			<li>wufang_5</li>
+			<li>liuyu_0</li>
+			<li>liuyu_1</li>
+			<li>liuyu_2</li>
+			<li>liuyu_3</li>
+			<li>liuyu_4</li>
+			<li>liuyu_5</li>
+			<li>longxing_0</li>
+			<li>longxing_1</li>
+			<li>longxing_2</li>
+			<li>longxing_3</li>
+			<li>longxing_4</li>
+			<li>longxing_5</li>
+			<li>longxing_6</li>
+			<li>longxing_7</li>
+			<li>longxing_8</li>
+			<li>fengjian_0</li>
+			<li>fengjian_1</li>
+			<li>fengjian_2</li>
+			<li>fengjian_3</li>
+			<li>fengjian_4</li>
+			<li>fengjian_5</li>
+			<li>fengjian_6</li>
+			<li>fengjian_7</li>
+			<li>fengjian_8</li>
+			<li>yinyang_0</li>
+			<li>yinyang_1</li>
+			<li>yinyang_2</li>
+			<li>sanyin_0</li>
+			<li>sanyin_1</li>
+			<li>sanyin_2</li>
+			<li>bamen_0</li>
+			<li>bamen_1</li>
+			<li>bamen_2</li>
+			<li>bamen_3</li>
+			<li>bamen_4</li>
+			<li>bamen_5</li>
+			<li>bamen_6</li>
+			<li>bamen_7</li>
+			<li>jiayimuzhen_0</li>
+			<li>jiayimuzhen_1</li>
+			<li>jiayimuzhen_2</li>
+			<li>jiayimuzhen_3</li>
+			<li>jiayimuzhen_4</li>
+			<li>wushan_0</li>
+			<li>wushan_1</li>
+			<li>wushan_2</li>
+			<li>wushan_3</li>
+			<li>wushan_4</li>
+			<li>ZhenNode_Lv0_1_1</li>
+			<li>ZhenNode_Lv0_2_1</li>
+			<li>ZhenNode_Lv0_2_2</li>
+			<li>ZhenNode_Lv0_2_3</li>
+			<li>ZhenNode_Lv0_3_1</li>
+			<li>ZhenNode_Lv0_3_2</li>
+			<li>ZhenNode_Lv0_3_3</li>
+			<li>ZhenNode_Lv0_3_4</li>
+			<li>ZhenMainNode_School_1</li>
+			<li>ZhenMainNode_School_2</li>
+			<li>ZhenMainNode_School_3</li>
+			<li>ZhenMainNode_School_4</li>
+			<li>ZhenMainNode_School_5</li>
+			<li>ZhenMainNode_School_6</li>
+			<li>ZhenMainNode_School_7</li>
+			<li>ZhenMainNode_School_8</li>
+			<li>ZhenMainNode_School_9</li>
+			<li>ZhenMainNode_School_10</li>
+			<li>ZhenMainNode_School_11</li>
+			<li>ZhenMainNode_Lv0_3_1</li>
+			<li>ZhenMainNode_Lv0_3_2</li>
+			<li>ZhenMainNode_Lv0_3_3</li>
+			<li>ZhenMainNode_Lv0_3_4</li>
+			<li>ZhenMainNode_Lv0_4_1</li>
+			<li>ZhenMainNode_Lv0_4_2</li>
+			<li>ZhenMainNode_Lv0_4_3</li>
+			<li>ZhenMainNode_Lv0_5_1</li>
+			<li>ZhenMainNode_Lv0_6_1</li>
+			<li>ZhenMainNode_Lv1_3_1</li>
+			<li>ZhenMainNode_Lv1_3_2</li>
+			<li>ZhenMainNode_Lv1_3_3</li>
+			<li>ZhenMainNode_Lv1_3_4</li>
+			<li>ZhenMainNode_Lv1_3_5</li>
+			<li>ZhenMainNode_Lv1_3_6</li>
+			<li>ZhenMainNode_Lv1_3_7</li>
+			<li>ZhenMainNode_Lv1_3_8</li>
+			<li>ZhenMainNode_Lv1_3_9</li>
+			<li>ZhenMainNode_Lv1_3_10</li>
+			<li>ZhenMainNode_Lv1_3_11</li>
+			<li>ZhenMainNode_Lv1_3_12</li>
+			<li>ZhenMainNode_Lv1_3_13</li>
+			<li>ZhenMainNode_Lv1_3_14</li>
+			<li>ZhenMainNode_Lv1_3_15</li>
+			<li>ZhenMainNode_Lv1_3_16</li>
+			<li>ZhenMainNode_Lv1_4_1</li>
+			<li>ZhenMainNode_Lv1_4_2</li>
+			<li>ZhenMainNode_Lv1_4_3</li>
+			<li>ZhenMainNode_Lv1_4_4</li>
+			<li>ZhenMainNode_Lv1_4_5</li>
+			<li>ZhenMainNode_Lv1_4_6</li>
+			<li>ZhenMainNode_Lv1_4_7</li>
+			<li>ZhenMainNode_Lv1_4_8</li>
+			<li>ZhenMainNode_Lv1_4_9</li>
+			<li>ZhenMainNode_Lv1_4_10</li>
+			<li>ZhenMainNode_Lv1_4_11</li>
+			<li>ZhenMainNode_Lv1_4_12</li>
+			<li>ZhenMainNode_Lv2_4_1</li>
+			<li>ZhenMainNode_Lv2_4_2</li>
+			<li>ZhenMainNode_Lv2_4_3</li>
+			<li>ZhenMainNode_Lv2_4_4</li>
+			<li>ZhenMainNode_Lv2_4_5</li>
+			<li>ZhenMainNode_Lv2_4_6</li>
+			<li>ZhenMainNode_Lv3_2_1</li>
+			<li>ZhenMainNode_Lv3_2_2</li>
+			<li>ZhenMainNode_Lv3_2_3</li>
+			<li>ZhenMainNode_Lv3_2_4</li>
+			<li>ZhenMainNode_Lv3_2_5</li>
+			<li>ZhenMainNode_Lv3_2_6</li>
+			<li>ZhenMainNode_Lv4_2_1</li>
+			<li>ZhenNode_Lv1_1_1</li>
+			<li>ZhenNode_Lv1_1_2</li>
+			<li>ZhenNode_Lv1_1_3</li>
+			<li>ZhenNode_Lv1_1_4</li>
+			<li>ZhenNode_Lv1_2_1</li>
+			<li>ZhenNode_Lv1_2_2</li>
+			<li>ZhenNode_Lv1_2_3</li>
+			<li>ZhenNode_Lv1_2_4</li>
+			<li>ZhenNode_Lv1_2_5</li>
+			<li>ZhenNode_Lv1_2_6</li>
+			<li>ZhenNode_Lv1_2_7</li>
+			<li>ZhenNode_Lv1_2_8</li>
+			<li>ZhenNode_Lv1_2_9</li>
+			<li>ZhenNode_Lv1_2_10</li>
+			<li>ZhenNode_Lv1_3_1</li>
+			<li>ZhenNode_Lv1_3_2</li>
+			<li>ZhenNode_Lv1_3_3</li>
+			<li>ZhenNode_Lv1_3_4</li>
+			<li>ZhenNode_Lv1_3_5</li>
+			<li>ZhenNode_Lv1_3_6</li>
+			<li>ZhenNode_Lv1_3_7</li>
+			<li>ZhenNode_Lv1_3_8</li>
+			<li>ZhenNode_Lv1_3_9</li>
+			<li>ZhenNode_Lv1_3_10</li>
+			<li>ZhenNode_Lv1_3_11</li>
+			<li>ZhenNode_Lv1_3_12</li>
+			<li>ZhenNode_Lv1_3_13</li>
+			<li>ZhenNode_Lv1_3_14</li>
+			<li>ZhenNode_Lv1_3_15</li>
+			<li>ZhenNode_Lv1_3_16</li>
+			<li>ZhenNode_Lv2_1_1</li>
+			<li>ZhenNode_Lv2_1_2</li>
+			<li>ZhenNode_Lv2_1_3</li>
+			<li>ZhenNode_Lv2_1_4</li>
+			<li>ZhenNode_Lv2_1_5</li>
+			<li>ZhenNode_Lv2_1_6</li>
+			<li>ZhenNode_Lv2_1_7</li>
+			<li>ZhenNode_Lv2_1_8</li>
+			<li>ZhenNode_Lv2_2_9</li>
+			<li>ZhenNode_Lv2_2_10</li>
+			<li>ZhenNode_Lv2_2_11</li>
+			<li>ZhenNode_Lv2_2_12</li>
+			<li>ZhenNode_Lv2_2_13</li>
+			<li>ZhenNode_Lv2_2_14</li>
+			<li>ZhenNode_Lv2_2_15</li>
+			<li>ZhenNode_Lv2_2_16</li>
+			<li>ZhenNode_Lv2_2_17</li>
+			<li>ZhenNode_Lv2_2_18</li>
+			<li>ZhenNode_Lv2_2_19</li>
+			<li>ZhenNode_Lv2_2_20</li>
+			<li>ZhenNode_Lv2_2_21</li>
+			<li>ZhenNode_Lv2_2_22</li>
+			<li>ZhenNode_Lv2_2_23</li>
+			<li>ZhenNode_Lv2_2_24</li>
+			<li>ZhenNode_Lv2_2_25</li>
+			<li>ZhenNode_Lv2_2_26</li>
+			<li>ZhenNode_Lv2_2_27</li>
+			<li>ZhenNode_Lv2_2_28</li>
+			<li>ZhenNode_Lv2_2_29</li>
+			<li>ZhenNode_Lv2_2_30</li>
+			<li>ZhenNode_Lv2_2_31</li>
+			<li>ZhenNode_Lv2_2_32</li>
+			<li>ZhenNode_Lv2_2_33</li>
+			<li>ZhenNode_Lv2_2_34</li>
+			<li>ZhenNode_Lv2_2_35</li>
+			<li>ZhenNode_Lv2_2_36</li>
+			<li>ZhenNode_Lv2_2_37</li>
+			<li>ZhenNode_Lv2_2_38</li>
+			<li>ZhenNode_Lv2_2_39</li>
+			<li>ZhenNode_Lv2_2_40</li>
+			<li>ZhenNode_Lv2_2_41</li>
+			<li>ZhenNode_Lv2_2_42</li>
+			<li>ZhenNode_Lv2_2_43</li>
+			<li>ZhenNode_Lv2_2_44</li>
+			<li>ZhenNode_Lv2_2_45</li>
+			<li>ZhenNode_Lv2_2_46</li>
+			<li>ZhenNode_Lv2_2_47</li>
+			<li>ZhenNode_Lv2_2_48</li>
+			<li>ZhenNode_Lv2_2_49</li>
+			<li>ZhenNode_Lv2_2_50</li>
+			<li>ZhenNode_Lv2_2_51</li>
+			<li>ZhenNode_Lv2_2_52</li>
+			<li>ZhenNode_Lv2_2_53</li>
+			<li>ZhenNode_Lv2_2_54</li>
+			<li>ZhenNode_Lv2_2_55</li>
+			<li>ZhenNode_Lv2_2_56</li>
+			<li>ZhenNode_Lv2_2_57</li>
+			<li>ZhenNode_Lv2_2_58</li>
+			<li>ZhenNode_Lv2_2_59</li>
+			<li>ZhenNode_Lv2_2_60</li>
+			<li>ZhenNode_Lv2_2_61</li>
+			<li>ZhenNode_Lv2_2_62</li>
+			<li>ZhenNode_Lv2_2_63</li>
+			<li>ZhenNode_Lv2_2_64</li>
+			<li>ZhenNode_Lv2_2_65</li>
+			<li>ZhenNode_Lv2_2_66</li>
+			<li>ZhenNode_Lv2_2_67</li>
+			<li>ZhenNode_Lv2_2_68</li>
+			<li>ZhenNode_Lv2_2_69</li>
+			<li>ZhenNode_Lv2_2_70</li>
+			<li>ZhenNode_Lv2_2_71</li>
+			<li>ZhenNode_Lv2_2_72</li>
+			<li>ZhenNode_Lv2_3_1</li>
+			<li>ZhenNode_Lv2_3_2</li>
+			<li>ZhenNode_Lv2_3_3</li>
+			<li>ZhenNode_Lv2_3_4</li>
+			<li>ZhenNode_Lv2_3_5</li>
+			<li>ZhenNode_Lv2_3_6</li>
+			<li>ZhenNode_Lv2_3_7</li>
+			<li>ZhenNode_Lv2_3_8</li>
+			<li>ZhenNode_Lv2_3_9</li>
+			<li>ZhenNode_Lv2_3_10</li>
+			<li>ZhenNode_Lv2_3_11</li>
+			<li>ZhenNode_Lv2_3_12</li>
+			<li>ZhenNode_Lv2_3_13</li>
+			<li>ZhenNode_Lv2_3_14</li>
+			<li>ZhenNode_Lv2_3_15</li>
+			<li>ZhenNode_Lv2_3_16</li>
+			<li>ZhenNode_Lv2_3_17</li>
+			<li>ZhenNode_Lv2_3_18</li>
+			<li>ZhenNode_Lv2_3_19</li>
+			<li>ZhenNode_Lv2_3_20</li>
+			<li>ZhenNode_Lv2_3_21</li>
+			<li>ZhenNode_Lv2_3_22</li>
+			<li>ZhenNode_Lv2_3_23</li>
+			<li>ZhenNode_Lv2_3_24</li>
+			<li>ZhenNode_Lv3_3_1</li>
+			<li>ZhenNode_Lv3_3_2</li>
+			<li>ZhenNode_Lv3_3_3</li>
+			<li>ZhenNode_Lv3_3_4</li>
+			<li>ZhenNode_Lv3_3_5</li>
+			<li>ZhenNode_Lv3_3_6</li>
+			<li>ZhenNode_Lv3_3_7</li>
+			<li>ZhenNode_Lv3_3_8</li>
+			<li>ZhenNode_Lv3_3_9</li>
+			<li>ZhenNode_Lv3_3_10</li>
+			<li>ZhenNode_Lv3_3_11</li>
+			<li>ZhenNode_Lv3_3_12</li>
+			<li>ZhenNode_Lv3_3_13</li>
+			<li>ZhenNode_Lv3_3_14</li>
+			<li>ZhenNode_Lv3_3_15</li>
+			<li>ZhenNode_Lv3_3_16</li>
+			<li>ZhenNode_Lv3_3_17</li>
+			<li>ZhenNode_Lv3_3_18</li>
+			<li>ZhenNode_Lv3_3_19</li>
+			<li>ZhenNode_Lv3_3_20</li>
+			<li>ZhenNode_Lv3_3_21</li>
+			<li>ZhenNode_Lv3_3_22</li>
+			<li>ZhenNode_Lv3_3_23</li>
+			<li>ZhenNode_Lv3_3_24</li>
+			<li>ZhenNode_Lv3_3_25</li>
+			<li>ZhenNode_Lv3_3_26</li>
+			<li>ZhenNode_Lv3_3_27</li>
+			<li>ZhenNode_Lv3_3_28</li>
+			<li>ZhenNode_Lv3_3_29</li>
+			<li>ZhenNode_Lv3_3_30</li>
+			<li>ZhenNode_Lv3_3_31</li>
+			<li>ZhenNode_Lv3_3_32</li>
+			<li>ZhenNode_Lv3_3_33</li>
+			<li>ZhenNode_Lv3_3_34</li>
+			<li>ZhenNode_Lv3_3_35</li>
+			<li>ZhenNode_Lv3_3_36</li>
+			<li>ZhenNode_Lv3_3_37</li>
+			<li>ZhenNode_Lv3_3_38</li>
+			<li>ZhenNode_Lv3_3_39</li>
+			<li>ZhenNode_Lv3_3_40</li>
+			<li>ZhenNode_Lv3_3_41</li>
+			<li>ZhenNode_Lv3_3_42</li>
+			<li>ZhenNode_Lv3_3_43</li>
+			<li>ZhenNode_Lv3_3_44</li>
+			<li>ZhenNode_Lv3_3_45</li>
+			<li>ZhenNode_Lv3_3_46</li>
+			<li>ZhenNode_Lv3_3_47</li>
+			<li>ZhenNode_Lv3_3_48</li>
+			<li>ZhenNode_Lv4_5_1</li>
+			<li>ZhenNode_Lv4_5_2</li>
+			<li>ZhenNode_Lv4_5_3</li>
+			<li>ZhenNode_Lv4_5_4</li>
+			<li>ZhenNode_Lv4_5_5</li>
+			<li>ZhenNode_Lv4_5_6</li>
+		</ZhenNodes>
+		<ZhenShapes>
+			<li Name="诛仙剑阵"> 
+				<ShapeInfo>9|8|0|zhuxian_0|10|9|2|zhuxian_3|10|8|0|zhuxian_4|8|8|5|zhuxian_1|8|7|0|zhuxian_2</ShapeInfo>
+				<Descript>宇宙开辟以来第一杀阵，阵图铺开便化作四幢旗门，旗门之上各悬一剑，将中央团团围住。元灵催动之下，四剑齐齐一震，阵中便剑气纵横，便是万劫真仙也难存。</Descript>
+			</li>
+			<li Name="北斗真武戮魔大阵"> 
+				<ShapeInfo>10|9|5|qixing_0|11|9|2|qixing_3|12|10|3|qixing_2|12|11|3|qixing_1|9|8|4|qixing_4|8|7|5|qixing_5|8|6|0|qixing_6</ShapeInfo>
+				<Descript>传闻乃九重天仙境真武荡魔大帝所传仙阵，此阵可引七星星宿之力凝聚北斗破妄神光，戮魔屠妖，万邪辟易。</Descript>
+			</li>
+			<li Name="天地五方不灭阵"> 
+				<ShapeInfo>10|9|0|wufang_0|10|10|0|wufang_5|11|10|3|wufang_2|11|9|4|wufang_4|9|8|0|wufang_1|9|9|1|wufang_3</ShapeInfo>
+				<Descript>以开天辟地诞生的五方旗为根脚所布置的大阵，其北曰真武皂雕，其南曰离地焰光，其中曰戊己杏黄，其西曰素色云界，其东曰青莲宝色。五行汇聚可布天地五方不灭界，万法辟易，无物可侵。</Descript>
+			</li>
+			<li Name="诸天六御行法仪轨"> 
+				<ShapeInfo>10|10|0|liuyu_0|11|10|1|liuyu_1|11|9|2|liuyu_2|10|8|3|liuyu_5|9|8|4|liuyu_4|9|9|5|liuyu_3</ShapeInfo>
+				<Descript>天庭六御行法之仪轨，布下此阵可展开诸天六御清灵胜境，化凡间为仙境，使人神思清明无忧。。</Descript>
+			</li>
+			<li Name="九御赋龙形阵"> 
+				<ShapeInfo>10|9|5|longxing_0|11|10|5|longxing_4|11|11|5|longxing_3|12|12|5|longxing_2|12|13|3|longxing_1|10|8|5|longxing_5|9|7|5|longxing_6|9|6|5|longxing_7|8|5|1|longxing_8</ShapeInfo>
+				<Descript>以蛟龙之躯为根脚布置而出的奇阵，传闻此阵乃御龙之阵，布下可借助龙魂施展一些威力强大的阵法神通。</Descript>
+			</li>
+			<li Name="真凰羽剑阵"> 
+				<ShapeInfo>10|9|0|fengjian_0|10|10|3|fengjian_1|10|8|0|fengjian_2|9|9|0|fengjian_3|11|10|3|fengjian_6|12|10|5|fengjian_4|13|11|4|fengjian_5|8|8|5|fengjian_7|7|8|2|fengjian_8</ShapeInfo>
+				<Descript>以凶凤之躯为根脚布置而出的奇阵，传闻此阵乃御凤之阵，布下可借助凤魂施展一些威力强大的阵法神通。</Descript>
+			</li>
+			<li Name="阴阳二行神阵"> 
+				<ShapeInfo>10|9|0|yinyang_0|10|10|3|yinyang_1|10|8|0|yinyang_2</ShapeInfo>
+				<Descript>自天地阴阳流转中总结而出的阵法，传闻此阵驾驭阴阳之道而布置，阴阳相化，极其灵活。</Descript>
+			</li>
+			<li Name="三阴三绝阵"> 
+				<ShapeInfo>10|10|3|sanyin_0|9|9|1|sanyin_1|10|9|5|sanyin_2</ShapeInfo>
+				<Descript>借助天地人三才纯阴之意布置的阵法，传闻此阵可聚天下纯阴之力，以此御法，威力大增。</Descript>
+			</li>
+			<li Name="八门玄金天劫剑阵"> 
+				<ShapeInfo>10|8|0|bamen_0|10|9|0|bamen_5|10|10|0|bamen_4|10|11|3|bamen_3|9|7|1|bamen_7|11|8|5|bamen_6|10|7|0|bamen_1|10|6|0|bamen_2</ShapeInfo>
+				<Descript>传闻此阵以八门之理成阵，进可杀伐，退可护身，非常玄妙。</Descript>
+			</li>
+			<li Name="先天甲乙木神阵"> 
+				<ShapeInfo>10|9|0|jiayimuzhen_0|10|10|0|jiayimuzhen_1|9|9|1|jiayimuzhen_2|11|10|4|jiayimuzhen_3|10|8|0|jiayimuzhen_4</ShapeInfo>
+				<Descript>聚集先天甲乙木之元精成阵，传闻此阵以可唤醒天地间生发之气，复苏万物。</Descript>
+			</li>
+			<li Name="五峰镇归墟"> 
+				<ShapeInfo>10|9|0|wushan_0|9|9|5|wushan_1|9|8|0|wushan_2|11|10|2|wushan_3|11|9|0|wushan_4</ShapeInfo>
+				<Descript>以归墟五神峰之神髓成阵，传闻此阵布下可以五峰之形镇护一方，牢不可摧。</Descript>
+			</li>
+		</ZhenShapes>
+	</Esoterica>
+	
+	<Esoterica Name="Tianshu_9">
+		<DisplayName>天书：秘宝</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的秘宝。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>学习后可解锁所有秘宝。</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_ZhuXianJian</li>
+			<li>MiBaoFormula_LuXianJian</li>
+			<li>MiBaoFormula_XianXianJian</li>
+			<li>MiBaoFormula_JueXianJian</li>
+			<li>MiBaoFormula_WuDuZhuXianSword</li>
+			<li>MiBaoFormula_BaiLingZhanXianSword</li>
+			<li>MiBaoFormula_DaiShenZhu</li>
+			<li>MiBaoFormula_YinHunZhu</li>
+			<li>MiBaoFormula_ShiErShaShenMoLingSha</li>
+			<li>MiBaoFormula_JiuTianYuanYangChi</li>
+			<li>MiBaoFormula_WuqiLeiFu</li>
+			<li>MiBaoFormula_JinLianShenZuo</li>
+			<li>MiBaoFormula_YuanShenXinJian</li>
+			<li>MiBaoFormula_TianLangDing</li>
+			<li>MiBaoFormula_TianMoHuaXueShenDao</li>
+			<li>MiBaoFormula_XiXingShenSuo</li>
+			<li>MiBaoFormula_TunLingShenJian</li>
+			<li>MiBaoFormula_JinFabao</li>
+			<li>MiBaoFormula_MuFabao</li>
+			<li>MiBaoFormula_ShuiFabao</li>
+			<li>MiBaoFormula_HuoFabao</li>
+			<li>MiBaoFormula_TuFabao</li>
+			<li>MiBaoFormula_LongXinYinYangGui</li>
+			<li>MiBaoFormula_QiJueShenZhen</li>
+			<li>MiBaoFormula_TaiYiFenGuangJian</li>
+			<li>MiBaoFormula_ShenNongDing</li>
+			<li>MiBaoFormula_QingNingFeiYu</li>
+			<li>MiBaoFormula_TianShu</li>
+			<li>MiBaoFormula_TianQuan</li>
+			<li>MiBaoFormula_TianJi</li>
+			<li>MiBaoFormula_TianXuan</li>
+			<li>MiBaoFormula_YuHeng</li>
+			<li>MiBaoFormula_KaiYang</li>
+			<li>MiBaoFormula_YaoGuang</li>
+			<li>MiBaoFormula_KuiHuaShenJian</li>
+		</Fabaos>
+	</Esoterica>
+	
+</List></Esotericas>

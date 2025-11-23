@@ -1,0 +1,259 @@
+<Stories><List>
+	
+	<Story Name="Story_Item_ShenMiBox1">
+		<DisplayName>神秘魔方</DisplayName>
+		<Desc>从一个神秘洞府中挖掘出来的神秘魔方，大约一尺见方，水火不侵，十分怪异，外壳若隐若现的写着一些看不懂的文字，或许里面暗藏着什么不为人知的秘密呢。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>尝试打开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过一番思索，似乎对这些歪歪扭扭文字有了点头绪，并顺着神秘魔方上文字的指引，轻松的找到了魔方的机关所在，最终打开了这个神秘魔方！");
+				me:AddMsg("[NAME]在打开的魔方中发现了几本书册和几枚丹药，逐一翻开这些书册竟然发现了一个不得了的秘密！\n而这本功法貌似出自于上古时期一个著名的宗门————【墨仙谷】！\n获得上古道统传承！");
+				me:AddMsg("据传在很久以前的上古时期，有这么一个显赫宗门，名曰【墨仙谷】；其门人精修术法之道，行事作风不以常理度之，乎正乎邪，游戏红尘；然立派祖师本是一介散修，却独具天资，仅仅凭借其独创的【太虚混元道】一法就成功开山立派，然随后同门人又演化出【太极阴阳诀】【九天九地盗宝经】等上乘功法，威震一方，成为当时鼎盛一时的法术宗门！\n。。。。。。\n不知过了多少时辰，[NAME]从书中回过神来，恍如隔世，似乎已经过了千百年，[IT]晃了晃有些发昏的脑袋，似乎脑海深处多了些不能名状的记忆。。。")
+				me:DropAwardItem("Item_ZuShiZhiCi", 3);
+				me:UnLockGong("XXZS_TJYYJ");
+				me:UnLockGong("XXZS_JTJDDBJ");
+				me:UnLockGong("XXZS_TXHYD");
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Story_Item_ShenMiBox2">
+		<DisplayName>神秘魔方</DisplayName>
+		<Desc>从一个神秘洞府中挖掘出来的神秘魔方，大约一尺见方，水火不侵，十分怪异，外壳若隐若现的写着一些看不懂的文字，或许里面暗藏着什么不为人知的秘密呢。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>尝试打开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过一番思索，似乎对这些歪歪扭扭文字有了点头绪，并顺着神秘魔方上文字的指引，轻松的找到了魔方的机关所在，最终打开了这个神秘魔方！");
+				me:AddMsg("[NAME]在打开的魔方中发现了几本书册和几枚丹药，逐一翻开这些书册竟然发现了一个不得了的秘密！\n而这本功法貌似出自于上古时期一个著名的宗门————【百草谷】！\n获得上古道统传承！");
+				me:AddMsg("据传在很久以前的上古时期，有这么一个显赫宗门，名曰【百草谷】；其门人精修炼丹之道，并与世间各大宗门交好，常将上等丹药售换各种利益，以求门人安定；其立派祖师本是一名残疾人，依靠摸骨算命勉强过活，后从伏羲推演八卦中获得启发，最终悟出立派之道————【伏羲演卦论】，而后又参悟出【神农本草论】【女娲采石论】等上乘功法，名震一方，成为当时鼎盛一时的炼丹强宗！\n。。。。。。\n不知过了多少时辰，[NAME]从书中回过神来，恍如隔世，似乎已经过了千百年，[IT]晃了晃有些发昏的脑袋，似乎脑海深处多了些不能名状的记忆。。。")
+				me:DropAwardItem("Item_ZuShiZhiCi", 3);
+				me:UnLockGong("XXZS_FXYGL");
+				me:UnLockGong("XXZS_SNBCL");
+				me:UnLockGong("XXZS_NWCSL");
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Story_Item_ShenMiBox3">
+		<DisplayName>神秘魔方</DisplayName>
+		<Desc>从一个神秘洞府中挖掘出来的神秘魔方，大约一尺见方，水火不侵，十分怪异，外壳若隐若现的写着一些看不懂的文字，或许里面暗藏着什么不为人知的秘密呢。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>尝试打开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过一番思索，似乎对这些歪歪扭扭文字有了点头绪，并顺着神秘魔方上文字的指引，轻松的找到了魔方的机关所在，最终打开了这个神秘魔方！");
+				me:AddMsg("[NAME]在打开的魔方中发现了几本书册和几枚丹药，逐一翻开这些书册竟然发现了一个不得了的秘密！\n而这本功法貌似出自于上古时期一个著名的宗门————【御剑山庄】！\n获得上古道统传承！");
+				me:AddMsg("据传在很久以前的上古时期，有这么一个显赫宗门，名曰【御剑山庄】；其门人精修炼器之道，善售圣灵法器，并以此广交天下英豪，盛极一时；其立派祖师曾于昆仑秘境中偶然习得【星芒补器真解】功法，并因此崭露头角，随后又同仙侣一同推演出【洪荒御剑真意】【凌霄器宗真法】等上等功法，威震一方，成为当时鼎盛一时的炼器大宗！\n。。。。。。\n不知过了多少时辰，[NAME]从书中回过神来，恍如隔世，似乎已经过了千百年，[IT]晃了晃有些发昏的脑袋，似乎脑海深处多了些不能名状的记忆。。。")
+				me:DropAwardItem("Item_ZuShiZhiCi", 3);
+				me:UnLockGong("XXZS_XMBQZJ");
+				me:UnLockGong("XXZS_HHYJZY");
+				me:UnLockGong("XXZS_LXQZZF");
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Story_Item_DanYao_1">
+		<DisplayName>精致的丹药宝箱</DisplayName>
+		<Desc>一方精致的宝箱，四周弥漫着淡淡的丹药香气，快快打开看看里面有什么上等丹药吧。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>尝试打开</Display>
+				<Tip>五维属性之和</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过一番生拉硬拽，终于是拆开了这个丹药宝箱！");
+				story:RemoveBindItem();
+				local nQ = me:GetPhysique()
+				local nW = me:GetPerception()
+				local nE = me:GetCharisma()
+				local nR = me:GetIntelligence()
+				local nT = me:GetLuck()
+				local nY = nQ + nW + nE + nR + nT 
+				me:AddMsg("宝箱打开的刹那，发出耀眼的光芒，刺得[NAME]睁不开眼睛。。。\n好一会儿过去，只瞧见哪还有什么宝箱！只留下一地的丹药，[NAME]简直不敢相信自己的眼睛！！");
+				if nY <= 9 then 
+					me:DropAwardItem("Item_Dan_Fail1", 1);
+					me:DropAwardItem("Item_Dan_Fail2", 1);
+					me:DropAwardItem("Item_Dan_Fail3", 1);
+					me:DropAwardItem("Item_Dan_Fail4", 1);
+					me:DropAwardItem("Item_Dan_Fail5", 1);
+				end
+				if nY <= 14 then 
+					me:DropAwardItem("Item_Fruit", 1);
+					me:DropAwardItem("Item_LingWater", 1);
+					me:DropAwardItem("Item_Ginseng", 1);
+					me:DropAwardItem("Item_RedGinseng", 1);
+					me:DropAwardItem("Item_GanodermaLucidum", 1);
+					me:DropAwardItem("Item_PurpleGanodermaLucidum", 1);
+					me:DropAwardItem("Item_Mint", 1);
+					me:DropAwardItem("Item_MagicHerb", 1);
+					me:DropAwardItem("Item_Ginkgo", 1);
+				end
+				if nY <= 19 then 
+					me:DropAwardItem("Item_Dan_CalmDown", 1);
+					me:DropAwardItem("Item_Dan_Happiness", 1);
+					me:DropAwardItem("Item_Dan_NoHunger", 1);
+					me:DropAwardItem("Item_Dan_NoHunger1", 1);
+					me:DropAwardItem("Item_Dan_NoHunger2", 1);
+					me:DropAwardItem("Item_Dan_LostSoul", 1);
+					me:DropAwardItem("Item_Dan_Restore", 1);
+					me:DropAwardItem("Item_Dan_SwordBall", 1);
+					me:DropAwardItem("Item_Dan_Thin", 1);
+					me:DropAwardItem("Item_Dan_Fat", 1);
+				end
+				if nY <= 24 then 
+					me:DropAwardItem("Item_Dan_DredgeQi", 1);
+					me:DropAwardItem("Item_Dan_DredgeQi1", 1);
+					me:DropAwardItem("Item_Dan_WuLingSan", 1);
+					me:DropAwardItem("Item_Dan_CureJinDamage", 1);
+					me:DropAwardItem("Item_Dan_CureMuDamage", 1);
+					me:DropAwardItem("Item_Dan_CureShuiDamage", 1);
+					me:DropAwardItem("Item_Dan_CureHuoDamage", 1);
+					me:DropAwardItem("Item_Dan_CureTuDamage", 1);
+					me:DropAwardItem("Item_Dan_CureFiveElementDamage", 1);
+					me:DropAwardItem("Item_Dan_ExtremeLofty", 1);
+				end
+				if nY <= 29 then 
+					me:DropAwardItem("Item_Dan_JingYuan", 1);
+					me:DropAwardItem("Item_Dan_JingYuan2", 1);
+					me:DropAwardItem("Item_Dan_JingYuan3", 1);
+					me:DropAwardItem("Item_Dan_Ling", 1);
+					me:DropAwardItem("Item_Dan_Ling2", 1);
+					me:DropAwardItem("Item_Dan_Ling3", 1);
+				end
+				if nY <= 34 then 
+					me:DropAwardItem("Item_Dan_PracticeRate", 1);
+					me:DropAwardItem("Item_Dan_PracticeSpeed", 1);
+					me:DropAwardItem("Item_Dan_HundredRefine", 1);
+					me:DropAwardItem("Item_Dan_IncreaseNeckCountdown", 1);
+					me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1", 1);
+					me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2", 1);
+					me:DropAwardItem("Item_Dan_Defense", 1);
+				end
+				if nY <= 39 then 
+					me:DropAwardItem("Item_BasePracticeDrug", 1);
+					me:DropAwardItem("Item_Dan_FiveBase1", 1);
+					me:DropAwardItem("Item_Dan_FiveBase2", 1);
+					me:DropAwardItem("Item_Dan_FiveBase3", 1);
+					me:DropAwardItem("Item_Dan_FiveBase4", 1);
+					me:DropAwardItem("Item_Dan_FiveBase5", 1);
+					me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				end
+				if nY <= 44 then 
+					me:DropAwardItem("Item_Dan_Soul1", 1);
+					me:DropAwardItem("Item_Dan_Soul2", 1);
+					me:DropAwardItem("Item_Dan_Soul3", 1);
+					me:DropAwardItem("Item_Dan_Soul4", 1);
+					me:DropAwardItem("Item_Dan_ReBorn", 1);
+					me:DropAwardItem("Item_Dan_ReBorn_4", 1);
+				end
+				if nY <= 49 then 
+					me:DropAwardItem("Item_Dan_IncreaseLife1", 1);
+					me:DropAwardItem("Item_Dan_IncreaseLife2", 1);
+					me:DropAwardItem("Item_Dan_IncreaseLife3", 1);
+					me:DropAwardItem("Item_Dan_IncreaseLife4", 1);
+					me:DropAwardItem("Item_Dan_IncreaseLife5", 1);
+				end
+				if nY <= 50 then 
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:DropAwardItem("Item_Dan_FenShen1", 1);
+					me:DropAwardItem("Item_Dan_FenShen2", 1);
+					me:DropAwardItem("Item_Dan_FenShen3", 1);
+					me:DropAwardItem("Item_Dan_LongDan1", 1);
+					me:DropAwardItem("Item_Dan_FengDan1", 1);
+					me:DropAwardItem("Item_Dan_ZhuLongDan1", 1);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Story_Item_CaiLiao_1">
+		<DisplayName>精致的材料宝箱</DisplayName>
+		<Desc>一方精致的宝箱，四周散发着淡淡的微弱荧光，快快打开看看里面有什么稀有材料吧。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>尝试打开</Display>
+				<Tip>五维属性</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过一番生拉硬拽，终于是拆开了这个材料宝箱！");
+				story:RemoveBindItem();
+				local nQ = me:GetPhysique()
+				local nW = me:GetPerception()
+				local nE = me:GetCharisma()
+				local nR = me:GetIntelligence()
+				local nT = me:GetLuck()
+				local nY = math.max(nQ ,nW ,nE ,nR ,nT )
+				me:AddMsg("宝箱打开的刹那，发出耀眼的光芒，刺得[NAME]睁不开眼睛。。。\n好一会儿过去，只瞧见哪还有什么宝箱！只留下一地的材料，[NAME]简直不敢相信自己的眼睛！！");
+				if nY == nQ then 
+					me:DropAwardItem("Item_SoulCrystalYou", 10);
+					me:DropAwardItem("Item_SoulCrystalNing", 10);
+					me:DropAwardItem("Item_SoulCrystalLing", 10);
+					me:DropAwardItem("Item_YanDaoGuo", 1);
+					me:DropAwardItem("Item_QieDaoGuo", 1);
+				end
+				if nY == nW then 
+					me:DropAwardItem("Item_SkyStoneBlock", 100);
+					me:DropAwardItem("Item_ParasolWoodBlock", 100);
+					me:DropAwardItem("Item_CopperBlock1", 100);
+					me:DropAwardItem("Item_SilverBlock1", 100);
+					me:DropAwardItem("Item_StarEssenceBlock", 100);
+					me:DropAwardItem("Item_LingCrystalBlock", 100);
+				end
+				if nY == nE then 
+					me:DropAwardItem("Item_JinEssence", 1);
+					me:DropAwardItem("Item_MuEssence", 1);
+					me:DropAwardItem("Item_ShuiEssence", 1);
+					me:DropAwardItem("Item_HuoEssence", 1);
+					me:DropAwardItem("Item_TuEssence", 1);
+				end
+				if nY == nR then 
+					me:DropAwardItem("Item_ThunderAir", 1);
+					me:DropAwardItem("Item_XianBone", 1);
+					me:DropAwardItem("Item_ZaoHuaYuZi", 1);
+					me:DropAwardItem("Item_ZaoHuaYuLu", 1);
+				end
+				if nY == nT then 
+					me:DropAwardItem("Item_GuanyinMud", 20);
+					me:DropAwardItem("Item_HorribleMeal", 20);
+					me:DropAwardItem("Item_Shit", 20);
+					me:DropAwardItem("Item_Garbage", 20);
+					me:DropAwardItem("Item_DirtyWater", 20);
+				end
+				if nY == 10 then 
+					me:DropAwardItem("Item_BenYuan_None", 1);
+					me:DropAwardItem("Item_BenYuan_Jin", 1);
+					me:DropAwardItem("Item_BenYuan_Mu", 1);
+					me:DropAwardItem("Item_BenYuan_Shui", 1);
+					me:DropAwardItem("Item_BenYuan_Huo", 1);
+					me:DropAwardItem("Item_BenYuan_Tu", 1);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+</List></Stories>

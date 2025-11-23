@@ -1,0 +1,221 @@
+<Places><List>
+	
+	<Place Name="Place_MoXianGu_1" Parent="Place_Level1Base">
+		<Location X="1840" Y="320"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\zongmen_MX.png</Icon>
+		<DisplayName>墨仙谷洞府</DisplayName>
+		<Desc>据传立派祖师本是一介无名散修，游历至江岸沃野时，偶然发现一处风水宝地，便就地施展神通，将其打造成为修行洞府，同年立教成派，称之【墨仙谷】。而日后得道升仙，留下此处洞府，供弟子修炼。</Desc>
+		<UnLocked>0</UnLocked>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+	</Place>
+	
+	<Place Name="Place_BaiCaoGu_1" Parent="Place_Level1Base">
+		<Location X="60" Y="800"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\zongmen_BC.png</Icon>
+		<DisplayName>百草谷故地</DisplayName>
+		<Desc>据传立派祖师本是一名小门派练气弟子，因偷偷【潜入】他派藏经阁时被发现，被人打至重残，挑断经脉，丢出山门，后被同门救起并带回门内，但因其底蕴太浅，最终逃离师门，四处乞讨求医，当流浪至【南荒】一带时，竟睡在神兽四圣曾经修行过的山洞，恰巧又吸入一丝四圣修行时遗留下来的仙气，醒来后竟然演化出一门心法，之后又从这门心法再创出两门功法，从此奠定一方道统，后于天苍历九年开山立派，名曰【百草谷】，门人皆以卖丹治病为己任。</Desc>
+		<UnLocked>0</UnLocked>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+	</Place>
+	
+	<Place Name="Place_YuJianShanZhuang_1" Parent="Place_Level1Base">
+		<Location X="650" Y="200"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\zongmen_YJ.png</Icon>
+		<DisplayName>御剑山庄遗址</DisplayName>
+		<Desc>据传立派祖师曾于【昆仑法会】的历练中获得上古炼器秘法，日后祖师凭此炼器之法，与众仙宗炼制法器，是以苦心经营之下，终显富一方，后于【中原】腹地买下一座宝宅，同年广发豪杰令，邀请无数教派前往之，当日席间众仙友赐名【铸剑山庄】，从此世间皆传“法器若非山庄铸，不成金仙又何妨！”的佳话。</Desc>
+		<UnLocked>0</UnLocked>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+	</Place>
+	
+	<Place Name="Place_XiaoYaoFeng_1" Parent="Place_Level1Base">
+		<Location X="626" Y="35"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\zongmen_XY.png</Icon>
+		<DisplayName>逍遥峰仙迹</DisplayName>
+		<Desc>据传立派祖师本是一介斗爷，因此修炼怠之不精，自知难有造化，直至天苍历前九十五年，探至大雪原一处【龙脉】【墓宝】内，其墓内灵气浓郁，顶嵌二八星宿，壁刻三清五老十方天尊，中央置【碧玉棺】，周立六方青铜圣兽，祖师自知这棺内定不是凡物，费劲浑身解数，终启之，内无尸骨，只一金玉方盒，再启之，神识竟被吸入，遁入虚空之中，内坐一五丈巨人，也不说话，只对祖师传音“吾乃逍遥上仙，汝若入吾神定，必有缘尔，汝拜之三合，缘乃尽”，音毕，祖师便已回到墓中，金玉盒却归于原位，祖师惶恐，遂三跪拜三合掌，方离去，当夜，祖师梦中得道统，忘墓之方位，次年破元神，渡雷劫，半步成仙，择址【大雪原】开山立教，谓之【逍遥峰】。</Desc>
+		<UnLocked>0</UnLocked>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+	</Place>
+	
+	<Place Name="Place_YouMingDian_1" Parent="Place_Level1Base">
+		<Location X="120" Y="330"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\zongmen_YM.png</Icon>
+		<DisplayName>幽冥殿遗宗</DisplayName>
+		<Desc>据传立派祖师本是一介凡夫俗子，只因早些年得知千年之前，灵气枯竭之时，有人仅靠透支生命潜力而获得飞升，而后通过多方尝试，终于天苍历前十年，在大漠深处，找到一处九幽绝地，从此创出秘法，建教立派，祖师称之为【幽冥殿】，并立祖训“凡修仙者，若不私己，天地难存！”。</Desc>
+		<UnLocked>0</UnLocked>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+	</Place>
+	
+	
+	
+	
+	
+	<Place Name="Place_CunLuo_01" Parent="Place_Level2Base">
+		<Location X="1223" Y="950"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\didian03.png</Icon>
+		<DisplayName>西郊集市</DisplayName>
+		<Desc>十里八乡的村民，经常到这里买卖货物，久而久之，这里成为了一个远近闻名的集市。</Desc>
+		<UnLocked>0</UnLocked>
+		<Events>
+			<li Name="City" Rate="10"/>
+		</Events>
+	</Place>
+	
+	<Place Name="Place_CunLuo_02" Parent="Place_Level2Base">
+		<Location X="1400" Y="889"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\didian03.png</Icon>
+		<DisplayName>南郊集市</DisplayName>
+		<Desc>十里八乡的村民，经常到这里买卖货物，久而久之，这里成为了一个远近闻名的集市。</Desc>
+		<UnLocked>0</UnLocked>
+		<Events>
+			<li Name="City" Rate="10"/>
+			<li Name="Find" Rate="10"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_JC_01</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_02</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_03</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_04</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_05</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_06</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_CunLuo_03" Parent="Place_Level2Base">
+		<Location X="1620" Y="540"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\didian03.png</Icon>
+		<DisplayName>东郊集市</DisplayName>
+		<Desc>十里八乡的村民，经常到这里买卖货物，久而久之，这里成为了一个远近闻名的集市。</Desc>
+		<UnLocked>0</UnLocked>
+		<Events>
+			<li Name="City" Rate="10"/>
+			<li Name="Find" Rate="10"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_JL_01</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JL_02</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JL_03</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JL_04</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JL_05</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JL_06</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_CunLuo_04" Parent="Place_Level2Base">
+		<Location X="1100" Y="770"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\didian03.png</Icon>
+		<DisplayName>北郊集市</DisplayName>
+		<Desc>十里八乡的村民，经常到这里买卖货物，久而久之，这里成为了一个远近闻名的集市。</Desc>
+		<UnLocked>0</UnLocked>
+		<Events>
+			<li Name="City" Rate="1"/>
+		</Events>
+		<!-- <Produce>
+			<li>
+				<ThingDef>Item_Other_JinJing</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_MuJing</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_ShuiJing</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_HuoJing</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_TuJing</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_NoneJing</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce> -->
+	</Place>
+	
+	
+	
+	
+</List></Places>

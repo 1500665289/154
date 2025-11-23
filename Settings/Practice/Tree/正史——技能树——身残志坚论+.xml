@@ -1,0 +1,643 @@
+<SkillTree><List>	
+	<Node Name="XXZS_SCZJL_a2" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_1</Esoterica>
+		<DisplayName>玄武篇</DisplayName>
+		<Level>Qi</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<li>XXZS_SCZJL_a4</li>
+			<li>XXZS_SCZJL_a6</li>
+			<li>XXZS_SCZJL_a8</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_a4" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_2</Esoterica>
+		<DisplayName>青龙篇</DisplayName>
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<li>XXZS_SCZJL_a2</li>
+			<li>XXZS_SCZJL_a6</li>
+			<li>XXZS_SCZJL_a8</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_a6" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_3</Esoterica>
+		<DisplayName>朱雀篇</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<li>XXZS_SCZJL_a2</li>
+			<li>XXZS_SCZJL_a4</li>
+			<li>XXZS_SCZJL_a8</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_a8" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_4</Esoterica>
+		<DisplayName>白虎篇</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<li>XXZS_SCZJL_a2</li>
+			<li>XXZS_SCZJL_a4</li>
+			<li>XXZS_SCZJL_a6</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b2" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_5</Esoterica>
+		<DisplayName>玄武归元经</DisplayName>
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_a2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b3" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_6</Esoterica>
+		<DisplayName>玄武丹略</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b4" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_7</Esoterica>
+		<DisplayName>青龙吐息术</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_a4</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b5" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_8</Esoterica>
+		<DisplayName>青龙丹略</DisplayName>
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b4</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b6" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_9</Esoterica>
+		<DisplayName>朱雀窥天诀</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_a6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b7" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_10</Esoterica>
+		<DisplayName>朱雀丹略</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b8" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_11</Esoterica>
+		<DisplayName>白虎荡魔令</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_a8</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_b9" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_12</Esoterica>
+		<DisplayName>白虎丹略</DisplayName>
+		<Level>Dan1</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b8</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c2" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_13</Esoterica>
+		<DisplayName>玄武祈天经</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c3" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_14</Esoterica>
+		<DisplayName>玄武秘术</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c4" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_15</Esoterica>
+		<DisplayName>青龙聚灵术</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b4</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c5" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_16</Esoterica>
+		<DisplayName>青龙秘术</DisplayName>
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c4</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c6" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_17</Esoterica>
+		<DisplayName>朱雀凌天诀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c7" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_18</Esoterica>
+		<DisplayName>朱雀秘术</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c8" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_19</Esoterica>
+		<DisplayName>白虎诛仙令</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_b8</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_c9" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_20</Esoterica>
+		<DisplayName>白虎秘术</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c8</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d2" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_21</Esoterica>
+		<DisplayName>玄武避世经</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d3" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_22</Esoterica>
+		<DisplayName>玄武真罡</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_d2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d4" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_23</Esoterica>
+		<DisplayName>青龙渡劫术</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c4</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d5" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_24</Esoterica>
+		<DisplayName>青龙天罡</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_d4</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d6" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_25</Esoterica>
+		<DisplayName>朱雀逆天诀</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d7" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_26</Esoterica>
+		<DisplayName>朱雀神罡</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_d6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d8" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_27</Esoterica>
+		<DisplayName>白虎灭世令</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_c8</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_d9" Gong="XXZS_SCZJL">
+		<Esoterica>XXZS_SCZJL_Esoterica_28</Esoterica>
+		<DisplayName>白虎仙罡</DisplayName>
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>XXZS_SCZJL_d8</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_e4" Gong="XXZS_SCZJL">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SCZJL_e8" Gong="XXZS_SCZJL">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+</List></SkillTree> 

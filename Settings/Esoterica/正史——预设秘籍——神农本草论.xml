@@ -1,0 +1,296 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_1A">
+		<DisplayName>神农卷·一</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏尝百草，炼万千神丹，方著此书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_1B">
+		<DisplayName>养气血</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>百草成丹，以养气血。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼丹速度\n加炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_1C">
+		<DisplayName>练筋骨</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>百草成丹，以练筋骨。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加寿命\n加饮气效率\n加精元转换率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_2A">
+		<DisplayName>神农卷·二</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏尝百草，炼万千神丹，方著此书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_2B">
+		<DisplayName>采百草</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>天下百草，引以入丹。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼丹速度\n加炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_2C">
+		<DisplayName>制灵丹</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>灵丹妙药，皆为吾丹。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加极限温度限值\n加舒适温度限值\n加个人灵气\n个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_3A">
+		<DisplayName>神农卷·三</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏尝百草，炼万千神丹，方著此书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_3B">
+		<DisplayName>滋阴补阳</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>阴阳滋补，非丹药不能及。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼丹速度\n加炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_3C">
+		<DisplayName>五运六气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>五运六气，非丹药不能补。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加心境\n加心境稳定度\n加心情\n加修炼速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_4A">
+		<DisplayName>本草总纲</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ST\ST_yi.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏尝百草，炼万千神丹，方著此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_4B">
+		<DisplayName>本草·外经</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ST\ST_yi.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>外经所录，丹不过草木之本。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼丹速度\n加炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_4C">
+		<DisplayName>本草·内经</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ST\ST_yi.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>内经所记，丹不出五行之谱。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n减天谴\n加炼丹产量\n加炼丹等级\n习得  神通：\n\n移花接木[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_4C</Modifier>
+		<Magics>
+			<li>XXZZ_SNBCL_ST_01</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_5A">
+		<DisplayName>神农丹经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_5B">
+		<DisplayName>神农丹经</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——神农丹经：\n丹砂\n云母\n石英[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_SN1_01</li>
+			<li>Dan_SN1_02</li>
+			<li>Dan_SN1_03</li>
+		</Dans>
+		<Modifier>XXZS_SNBCL_5B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_6A">
+		<DisplayName>神农丹典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_6B">
+		<DisplayName>神农丹典</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——神农丹典：\n车前子\n五味子\n决明子[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_SN2_01</li>
+			<li>Dan_SN2_02</li>
+			<li>Dan_SN2_03</li>
+		</Dans>
+		<Modifier>XXZS_SNBCL_6B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_7A">
+		<DisplayName>神农丹集</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_7B">
+		<DisplayName>神农丹集</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——神农丹集：\n龙骨\n龙胆\n麝香\n犀角[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_SN3_01</li>
+			<li>Dan_SN3_02</li>
+			<li>Dan_SN3_03</li>
+			<li>Dan_SN3_04</li>
+		</Dans>
+		<Modifier>XXZS_SNBCL_7B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_SNBCL_8A">
+		<DisplayName>神农丹册</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SNBCL_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SNBCL_8B">
+		<DisplayName>神农丹册</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>神农氏所撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——神农丹册：\n丹参\n沙参\n泽兰\n白芷[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_SN4_01</li>
+			<li>Dan_SN4_02</li>
+			<li>Dan_SN4_03</li>
+			<li>Dan_SN4_04</li>
+		</Dans>
+		<Modifier>XXZS_SNBCL_8B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

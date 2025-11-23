@@ -1,0 +1,358 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_1A" Type="Normal">
+		<DisplayName>一剑出</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddV="-1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_1B" Type="Normal">
+		<DisplayName>一剑出</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_1C" Type="Normal">
+		<DisplayName>一剑出</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_2A" Type="Normal">
+		<DisplayName>双剑并</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddV="-1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_2B" Type="Normal">
+		<DisplayName>双剑并</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="1"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_2C" Type="Normal">
+		<DisplayName>双剑并</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_3A" Type="Normal">
+		<DisplayName>三剑诛</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddV="-1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_3B" Type="Normal">
+		<DisplayName>三剑诛</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_3C" Type="Normal">
+		<DisplayName>三剑诛</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_4A" Type="Normal">
+		<DisplayName>四剑灭</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddV="-1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_4B" Type="Normal">
+		<DisplayName>四剑灭</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_4C" Type="Normal">
+		<DisplayName>四剑灭</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_5A" Type="Normal">
+		<DisplayName>剑悬梁</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRate" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_5B" Type="Normal">
+		<DisplayName>剑悬梁</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_5C" Type="Normal">
+		<DisplayName>剑悬梁</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ComfyTMax" AddV="45"/>
+			<li Name="ComfyTMin" AddV="-45"/>
+			<li Name="ToleranceTMax" AddV="45"/>
+			<li Name="ToleranceTMin" AddV="-45"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_6A" Type="Normal">
+		<DisplayName>剑封棺</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRate" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_6B" Type="Normal">
+		<DisplayName>剑封棺</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_6C" Type="Normal">
+		<DisplayName>剑封棺</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_7A" Type="Normal">
+		<DisplayName>剑入冢</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRate" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_7B" Type="Normal">
+		<DisplayName>剑入冢</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="2"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_7C" Type="Normal">
+		<DisplayName>剑入冢</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_8A" Type="Normal">
+		<DisplayName>剑归宗</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRate" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_8B" Type="Normal">
+		<DisplayName>剑归宗</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Manual" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_8C" Type="Normal">
+		<DisplayName>剑归宗</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="50000"/>
+			<li Name="MaxAge" AddV="300"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_9A" Type="Normal">
+		<DisplayName>剑灵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_9B" Type="Normal">
+		<DisplayName>剑灵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_10A" Type="Normal">
+		<DisplayName>剑魂</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_10B" Type="Normal">
+		<DisplayName>剑魂</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Modifier Name="XXZS_HHYJZY_11A" Type="Normal">
+		<DisplayName>剑意</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_HHYJZY_11B" Type="Normal">
+		<DisplayName>剑意</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

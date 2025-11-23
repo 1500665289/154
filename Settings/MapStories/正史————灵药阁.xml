@@ -1,0 +1,405 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_A_03"  Parent="BaseFillingStory">
+		<DisplayName>灵药阁</DisplayName>
+		<Desc>[NAME]抬头一看，只见【灵药阁】三字赫然在目，仔细想想应该大多是灵丹妙药之类，[IT]正好感觉门派内的丹药储备也快竭尽了，要不就进去挑挑看吧。</Desc>
+		<Selections>
+			<li>
+				<Display>购买五行灵根【3000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 3000
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03A");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("灵药阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被灵药阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"灵药阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买天道本源【3000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 3000
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03B");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("灵药阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被灵药阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"灵药阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买稀世灵药【3000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 3000
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03C");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("灵药阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被灵药阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"灵药阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买罕见药材【7500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 7500
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03D");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("灵药阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被灵药阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"灵药阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开灵药阁</Display>
+				<Tip>返回东坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS_A_03A"  Parent="BaseFillingStory">
+		<DisplayName>灵药阁</DisplayName>
+		<Desc>【灵药阁】的【五行灵根】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>琅琊果【3*1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了三株[color=#BC1717]灵根[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_JinEssence",3);
+				</OKResult>
+			</li>
+			<li>
+				<Display>木枯藤【3*1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了三株[color=#BC1717]灵根[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_MuEssence",3);
+				</OKResult>
+			</li>
+			<li>
+				<Display>五色金莲【3*1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了三株[color=#BC1717]灵根[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_ShuiEssence",3);
+				</OKResult>
+			</li>
+			<li>
+				<Display>朱果【3*1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了三株[color=#BC1717]灵根[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_HuoEssence",3);
+				</OKResult>
+			</li>
+			<li>
+				<Display>赭黄精【3*1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了三株[color=#BC1717]灵根[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_TuEssence",3);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回灵药阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_A_03B"  Parent="BaseFillingStory">
+		<DisplayName>灵药阁</DisplayName>
+		<Desc>【灵药阁】的【天道本源】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>天道本源-无【5*600】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一些[color=#BC1717]天道本源[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BenYuan_None",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天道本源-金【5*600】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一些[color=#BC1717]天道本源[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BenYuan_Jin",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天道本源-木【5*600】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一些[color=#BC1717]天道本源[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BenYuan_Mu",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天道本源-水【5*600】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一些[color=#BC1717]天道本源[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BenYuan_Shui",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天道本源-火【5*600】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一些[color=#BC1717]天道本源[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BenYuan_Huo",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天道本源-土【5*600】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一些[color=#BC1717]天道本源[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BenYuan_Tu",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回灵药阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_A_03C"  Parent="BaseFillingStory">
+		<DisplayName>灵药阁</DisplayName>
+		<Desc>【灵药阁】的【稀世灵药】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>邪脉血泉【5*200】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_EarthEssence1",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵木血竭【5*200】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_LingMuXueJie",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵髓脂【5*200】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_EarthEssence_1",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>血髓脂【5*200】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_EarthEssence1_1",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>元魂露【5*200】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_YuanHunLu",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>邪魂露【5*200】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_XieHunLu",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>演道果【1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_YanDaoGuo",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>窃道果【1000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_QieDaoGuo",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>仙识神念【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_XianDaoShenNian",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>仙识邪念【1500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1500[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_XianDaoXieNian",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天劫之息【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_ThunderAir",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>仙人遗骨【3000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_XianBone",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>造化玉籽【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_ZaoHuaYuZi",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>造化玉露【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一份[color=#BC1717]灵药[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_ZaoHuaYuLu",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回灵药阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_A_03D"  Parent="BaseFillingStory">
+		<DisplayName>灵药阁</DisplayName>
+		<Desc>【灵药阁】的【罕见药材】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>龙涎果【20*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_Fruit",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵初露【20*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_LingWater",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>紫芝【15*500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 7500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]7500[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_PurpleGanodermaLucidum",500);
+				</OKResult>
+			</li>
+			<li>
+				<Display>赤参【15*500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 7500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]7500[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_RedGinseng",500);
+				</OKResult>
+			</li>
+			<li>
+				<Display>蛇胆【25*50】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1250;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1250[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_SnakeGallbladder",50);
+				</OKResult>
+			</li>
+			<li>
+				<Display>熊胆【25*50】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1250;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1250[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_BearGallbladder",50);
+				</OKResult>
+			</li>
+			<li>
+				<Display>冬虫【50*20】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_WinterWarm",20);
+				</OKResult>
+			</li>
+			<li>
+				<Display>夏草【50*20】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]药材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_SummerHerb",20);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回灵药阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+</List></Stories>

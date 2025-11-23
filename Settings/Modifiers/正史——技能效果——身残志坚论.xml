@@ -1,0 +1,310 @@
+<ModifierDefs><List>
+	<Modifier Name="XXZS_SCZJL_Esoterica_1" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_1</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,1,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="RecoveryPower" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_2" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_2</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="300"/>
+			<li Name="RecoveryPower" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_3" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_3</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,1,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="500"/>
+			<li Name="RecoveryPower" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_4" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_4</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,1,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="400"/>
+			<li Name="RecoveryPower" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_5" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_5</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="1200"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_6" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_6</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_7" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_7</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="1000"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_8" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_8</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_9" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_9</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="500"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_10" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_10</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_11" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_11</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_12" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_12</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_13" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_13</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="25"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="25"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_14" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_14</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-1"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_15" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_15</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="25"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="25"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_16" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_16</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="WaterConsumeConstant" AddP="-1"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_17" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_17</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="50"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_18" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_18</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddP="-1"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_19" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_19</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="50"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_20" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_20</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="HappyConsumeConstant" AddP="-1"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_21" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_21</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="25"/>
+			<li Name="NpcFight_ShieldConversionRate" AddP="1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_22" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_22</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_23" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_23</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="25"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_24" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_24</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_25" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_25</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="75"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_26" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_26</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_27" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_27</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="75"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="XXZS_SCZJL_Esoterica_28" Type="Normal">
+		<DisplayName>XXZS_SCZJL_Esoterica_28</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+	</Modifier>
+	
+</List></ModifierDefs>

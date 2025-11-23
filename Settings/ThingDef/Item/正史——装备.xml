@@ -1,0 +1,711 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_A" Parent="ClothesBase">
+		<ThingName>女装大佬上衣</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>女装群主穿上之后，会因为神奇的功效，而感到无比快乐。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_A</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_A" Parent="TrousersBase">
+		<ThingName>女装大佬下装</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>女装群主穿上之后，会因为神奇的功效，而感到无比快乐。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_A</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_B" Parent="ClothesBase">
+		<ThingName>男上加男上衣</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>哲学基佬穿上之后，会因为神奇的功效，而感到无比快乐。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_B</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_B" Parent="TrousersBase">
+		<ThingName>男上加男下装</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>哲学基佬穿上之后，会因为神奇的功效，而感到无比快乐。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_B</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_C" Parent="ClothesBase">
+		<ThingName>百合花开上衣</ThingName>
+		<TexPath>res/Sprs/object/object_mianyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>女装群主穿上之后，会因为神奇的功效，而感到无比快乐。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_C</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_C" Parent="TrousersBase">
+		<ThingName>百合花开下装</ThingName>
+		<TexPath>res/Sprs/object/object_mianku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>幼幼百合穿上之后，会因为神奇的功效，而感到无比快乐。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_C</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<!--================================================ 特效分割线 ================================================-->
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_02" Parent="ClothesBase">
+		<ThingName>伪娘衣_金</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个金属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_02</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_02" Parent="TrousersBase">
+		<ThingName>伪娘裤_金</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个金属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_02</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_03" Parent="ClothesBase">
+		<ThingName>伪娘衣_木</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个木属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_03</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_03" Parent="TrousersBase">
+		<ThingName>伪娘裤_木</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个木属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_03</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_04" Parent="ClothesBase">
+		<ThingName>伪娘衣_水</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个水属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_04</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_04" Parent="TrousersBase">
+		<ThingName>伪娘裤_水</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个水属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_04</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_05" Parent="ClothesBase">
+		<ThingName>伪娘衣_火</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个火属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_05</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_05" Parent="TrousersBase">
+		<ThingName>伪娘裤_火</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个火属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_05</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_06" Parent="ClothesBase">
+		<ThingName>伪娘衣_土</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个土属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_06</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_06" Parent="TrousersBase">
+		<ThingName>伪娘裤_土</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个土属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_06</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_YF_07" Parent="ClothesBase">
+		<ThingName>伪娘衣_混</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个混沌属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_YF_07</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XXZS_KZ_07" Parent="TrousersBase">
+		<ThingName>伪娘裤_混</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个混沌属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_XXZS_KZ_07</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

@@ -1,0 +1,575 @@
+<DanFormulas><List>
+	
+	<!-- ======================伏羲1分割线====================== -->
+	
+	<Dan Name="Dan_FX1_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_05">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_05</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_06">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_06</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_07">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_07</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX1_08">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX1_08</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================伏羲2分割线====================== -->
+	
+	<Dan Name="Dan_FX2_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_05">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_05</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_06">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_06</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_07">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_07</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_FX2_08">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FX2_08</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================神农1分割线====================== -->
+	
+	<Dan Name="Dan_SN1_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN1_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN1_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN1_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN1_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN1_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================神农2分割线====================== -->
+	
+	<Dan Name="Dan_SN2_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN2_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN2_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN2_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN2_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN2_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================神农3分割线====================== -->
+	
+	<Dan Name="Dan_SN3_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN3_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN3_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN3_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN3_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN3_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN3_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN3_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================神农4分割线====================== -->
+	
+	<Dan Name="Dan_SN4_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN4_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN4_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN4_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN4_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN4_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN4_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN4_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================女娲1分割线====================== -->
+	
+	<Dan Name="Dan_NW1_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW1_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW1_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW1_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW1_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW1_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW1_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW1_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW1_05">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW1_05</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================女娲2分割线====================== -->
+	
+	<Dan Name="Dan_NW2_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW2_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW2_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW2_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW2_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW2_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW2_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW2_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW2_05">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW2_05</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================女娲3分割线====================== -->
+	
+	<Dan Name="Dan_NW3_01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW3_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW3_02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW3_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW3_03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW3_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW3_04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW3_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW3_05">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW3_05</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_NW3_06">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_NW3_06</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================女娲4分割线====================== -->
+	
+	<Dan Name="JinEX">
+		<Normal>0</Normal>
+		<ItemName>Item_JinEX</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="MuEX">
+		<Normal>0</Normal>
+		<ItemName>Item_MuEX</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="ShuiEX">
+		<Normal>0</Normal>
+		<ItemName>Item_ShuiEX</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="HuoEX">
+		<Normal>0</Normal>
+		<ItemName>Item_HuoEX</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="TuEX">
+		<Normal>0</Normal>
+		<ItemName>Item_TuEX</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="WuEX">
+		<Normal>0</Normal>
+		<ItemName>Item_WuEX</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.05</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!-- ======================神农补充1分割线====================== -->
+	
+	<Dan Name="Dan_SN_A01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_A01</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_A02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_A02</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_A03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_A03</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_A04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_A04</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_B01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_B01</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_B02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_B02</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_B03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_B03</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_B04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_B04</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_C01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_C01</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_C02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_C02</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_C03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_C03</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_C04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_C04</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_D01">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_D01</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_D02">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_D02</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_D03">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_D03</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_SN_D04">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SN_D04</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	
+	
+	
+	
+	
+	
+</List></DanFormulas>

@@ -1,0 +1,199 @@
+<Gongs><List>
+	<Gong Name="XXZS_FXYGL">
+		<DisplayName>伏羲演卦论</DisplayName>
+		<Desc>据传是【南荒】上古丹宗【百草谷】一脉的镇派功法之一。祖师爷本是一名残疾人，靠摸骨算命勉强过活，后从伏羲推演八卦中获得启发，开创此功法，也是一门偏向于法术和丹术的奇特功法。</Desc>
+		<SelectDesc>此功法虽然修炼简单，但是修炼过程中极其消耗寿命，自古修士每每天道未至，而阳寿已尽，实属可惜。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>6,-1,-1,-1,9</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill><!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期1-->
+			<!--结丹期1-->
+			<Stage Name="Stage1" Level="6">
+				<DisplayName>先天八卦</DisplayName>
+				<Desc>先天八卦，伏羲所推演。</Desc>
+				<Value>80000</Value>
+				<Necks>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>坤卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="20"/>
+						</ResourceCost>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>艮卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="25"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>坎卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="30"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>巽卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="35"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>震卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="40"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>离卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="45"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>兑卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="50"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>乾卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<ResourceCost>
+							<Resource kind="Age" value="55"/>
+						</ResourceCost>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期1-->
+			<!--元神期1-->
+			<Stage Name="Stage2" Level="12">
+				<DisplayName>后天八卦</DisplayName>
+				<Desc>后天八卦，推演先天八卦而来。</Desc>
+				<Value>6400000</Value>
+				<Necks>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>坤卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="60"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>艮卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="65"/>
+						</ResourceCost>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>坎卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="70"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>巽卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="75"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>震卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="80"/>
+						</ResourceCost>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>离卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="85"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>兑卦</DisplayName>
+						<Desc>需要消耗寿命才能突破。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="90"/>
+						</ResourceCost>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>乾卦</DisplayName>
+						<Desc>可能天劫是唯一不需要消耗寿命的突破吧。</Desc>
+						<ThunderValue>80000</ThunderValue>
+						<NeckCountdown>42000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

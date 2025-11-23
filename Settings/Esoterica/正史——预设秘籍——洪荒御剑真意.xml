@@ -1,0 +1,400 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_1A">
+		<DisplayName>一剑出</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>一剑出鞘，万法皆破。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_1B">
+		<DisplayName>一剑出</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>一剑出鞘，万法皆破。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝速度\n加法宝灵活[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_1C">
+		<DisplayName>一剑出</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>一剑出鞘，万法皆破。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝充灵倍率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_2A">
+		<DisplayName>双剑并</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>双剑合并，山河破碎。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_2B">
+		<DisplayName>双剑并</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>双剑合并，山河破碎。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝冲击\n加法宝抵抗[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_2C">
+		<DisplayName>双剑并</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>双剑合并，山河破碎。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝充灵倍率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_3A">
+		<DisplayName>三剑诛</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>三剑齐飞，诛神灭佛。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_3B">
+		<DisplayName>三剑诛</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>三剑齐飞，诛神灭佛。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝攻速\n加法宝拖尾[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_3C">
+		<DisplayName>三剑诛</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>三剑齐飞，诛神灭佛。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝充灵倍率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_4A">
+		<DisplayName>四剑灭</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>四剑共舞，天地破灭。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_4B">
+		<DisplayName>四剑灭</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>四剑共舞，天地破灭。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加御剑等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_4C">
+		<DisplayName>四剑灭</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>四剑共舞，天地破灭。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝充灵倍率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_5A">
+		<DisplayName>剑悬梁</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>剑悬梁，百刃新，兵戈立榜待封棺。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_5B">
+		<DisplayName>剑悬梁</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑悬梁，百刃新，兵戈立榜待封棺。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_5B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_5C">
+		<DisplayName>剑悬梁</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑悬梁，百刃新，兵戈立榜待封棺。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加舒适温度限值\n加极限温度限值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_5C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_6A">
+		<DisplayName>剑封棺</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>剑封棺，刃归藏，寒光颤胆待入冢。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_6B">
+		<DisplayName>剑封棺</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑封棺，刃归藏，寒光颤胆待入冢。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_6B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_6C">
+		<DisplayName>剑封棺</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑封棺，刃归藏，寒光颤胆待入冢。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力\n加炉鼎[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_6C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_7A">
+		<DisplayName>剑入冢</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>剑入冢，盖锋芒，光影不复待归宗。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_7B">
+		<DisplayName>剑入冢</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑入冢，盖锋芒，光影不复待归宗。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_7B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_7C">
+		<DisplayName>剑入冢</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑入冢，盖锋芒，光影不复待归宗。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加修炼速度\n加学习效率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_7C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_8A">
+		<DisplayName>剑归宗</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>剑归宗，皆有榜，百万兵戈化天罡。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_8B">
+		<DisplayName>剑归宗</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑归宗，皆有榜，百万兵戈化天罡。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_8B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_8C">
+		<DisplayName>剑归宗</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>剑归宗，皆有榜，百万兵戈化天罡。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加个人灵气\n加寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_8C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_9A">
+		<DisplayName>剑灵</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>听剑音，得剑灵，得之一刃去无影。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_9A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_9B">
+		<DisplayName>剑灵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>听剑音，得剑灵，得之一刃去无影。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n加法宝数量[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_9B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_10A">
+		<DisplayName>剑魂</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>祭剑心，悟剑魂，再御一剑震乾坤。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_10A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_10B">
+		<DisplayName>剑魂</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>祭剑心，悟剑魂，再御一剑震乾坤。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n加法宝数量[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_10B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Esoterica Name="XXZS_HHYJZY_11A">
+		<DisplayName>剑意</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>感剑气，悟剑意，又横一兵踏天地。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_11A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_HHYJZY_11B">
+		<DisplayName>剑意</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>感剑气，悟剑意，又横一兵踏天地。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n加法宝数量[/color][/size]</EffectDesc>
+		<Modifier>XXZS_HHYJZY_11B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

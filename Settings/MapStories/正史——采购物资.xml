@@ -1,0 +1,1762 @@
+<Stories><List>
+	
+	<!-- ==========================================================================城市分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS"  Parent="BaseFillingStory">
+		<DisplayName>集市</DisplayName>
+		<Desc>[NAME]来到了[PLACE]，看见人头攒动，人声鼎沸，山民来往，车水马龙，络绎不绝，好不热闹，[IT]决定去集市上逛逛。</Desc>
+		<Kind>City</Kind>
+		<Selections>
+			<li>
+				<Display>往东走去东坊</Display>
+				<Tip>灵药阁，杂货铺，风水楼</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A");
+				world:PlayBGM("Spr/XXZS_JS_BGM_01.ogg",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>往西走去西市</Display>
+				<Tip>天机阁，法器坊，锻造坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B");
+				world:PlayBGM("Spr/XXZS_JS_BGM_01.ogg",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>往北走去贫民窟</Display>
+				<Tip>打探消息，施舍穷人</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C");
+				world:PlayBGM("Spr/XXZS_JS_BGM_01.ogg",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>往南走去中央大街</Display>
+				<Tip>酒馆，天香阁，赌坊，乐坊，断袖居</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D");
+				world:PlayBGM("Spr/XXZS_JS_BGM_01.ogg",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开集市去城市转转</Display>
+				<Tip>寻觅弟子、掳掠凡人、采购物资</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_E");
+				world:PlayBGM("Spr/XXZS_JS_BGM_01.ogg",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开集市</Display>
+				<OKResult>
+				me:AddMsg("[NAME]看了看集市上的物资，感觉并没有什么自己要买的，还是下次再来吧。");
+				world:PlayBGM("Spr/XXZS_JS_BGM_01.ogg",false);
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_A"  Parent="BaseFillingStory">
+		<DisplayName>东坊</DisplayName>
+		<Desc>[NAME]好不容易从人山人海中挤了出来，总算是到了东坊，只见这里商铺鳞次栉比，好不繁华。[NAME]想去哪个商铺看看？</Desc>
+		<Selections>
+			<li>
+				<Display>去风水楼</Display>
+				<Tip>购买风水镇物</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_01");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去杂货铺</Display>
+				<Tip>购买食物，皮毛，特殊物品等</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去灵药阁</Display>
+				<Tip>购买灵丹，聚灵物，天道本源等</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_03");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回集市</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B"  Parent="BaseFillingStory">
+		<DisplayName>西市</DisplayName>
+		<Desc>[NAME]好不容易从人山人海中挤了出来，总算是到了西市，只见这里商铺鳞次栉比，好不繁华。[NAME]想去哪个商铺看看？</Desc>
+		<Selections>
+			<li>
+				<Display>去天机阁</Display>
+				<Tip>购买各种秘籍</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去法器坊</Display>
+				<Tip>购买各种法器</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_02");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去锻造坊【体验版】</Display>
+				<Tip>选择强化法宝</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_03");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回集市</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_C"  Parent="BaseFillingStory">
+		<DisplayName>贫民窟</DisplayName>
+		<Desc>[NAME]好不容易从人山人海中挤了出来，总算是到了贫民窟，只见这里鱼龙混杂，散仙、侠士、白丁、布衣、皆混杂其中，恐怕这贫民窟也不简单，[IT]一时间也不敢太过招摇，以免出现不必要的麻烦。</Desc>
+		<Selections>
+			<li>
+				<Display>去打探消息</Display>
+				<Tip>打探各种秘闻</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C_01");
+				</OKResult>
+			</li>
+			<!-- <li>
+				<Display>去到处走走【暂无】</Display>
+				<Tip>获得各种奇遇</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C_02");
+				</OKResult>
+			</li> -->
+			<li>
+				<Display>去施舍穷人</Display>
+				<Tip>获得各种称号</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C_03");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回集市</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D"  Parent="BaseFillingStory">
+		<DisplayName>中央大街</DisplayName>
+		<Desc>[NAME]好不容易从人山人海中挤了出来，总算是到了中央大街，只见这里玩乐之处，因有尽有，反正[NAME]现在不着急回山门复命，何不去乐呵乐呵？</Desc>
+		<Selections>
+			<li>
+				<Display>去酒馆喝酒</Display>
+				<Tip>招募天下豪杰</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_01");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去天香阁享乐</Display>
+				<Tip>英雄难过美人关</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_02");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去赌坊玩玩</Display>
+				<Tip>输赢皆有定数，一切还看运气</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_03");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去乐坊坐坐</Display>
+				<Tip>修身养性，独善其身</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_04");
+				</OKResult>
+			</li>
+			<li>
+				<Display>去断袖居享受</Display>
+				<Tip>分桃断袖，龙阳之好</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_05");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回集市</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_E"  Parent="BaseFillingStory">
+		<DisplayName>城市</DisplayName>
+		<Desc>[NAME]感觉集市没有想要的东西，还是去附近的城市里面逛逛吧。[NAME]想去城市干嘛呢？</Desc>
+		<Selections>
+			<li>
+				<Display>采购物资</Display>
+				<OKResult>
+				me:TriggerStory("Business_Base");
+				</OKResult>
+			</li>
+			<li>
+				<Display>掳掠凡人</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_E_01");
+				</OKResult>
+			</li>
+			<li>
+				<Display>寻觅弟子</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_E_02");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回集市</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================贫民窟分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS_C_01"  Parent="BaseFillingStory">
+		<DisplayName>打探消息</DisplayName>
+		<Desc>[NAME]在贫民窟优哉游哉的瞎晃悠，发现几个路人引起了[IT]的注意。</Desc>
+		<Selections>
+			<li>
+				<Display>一身奇装异服的胡人</Display>
+				<Condition>
+				<![CDATA[	
+				me.npcObj.PropertyMgr.SkillData:GetSkillLove(CS.XiaWorld.g_emNpcSkillType.Farming) == 2
+				]]>
+				</Condition>
+				<Tip>处事</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(1, 35);
+				me:AddMsg("[NAME]看到前方有一位穿着奇装异服的胡人，感觉他应该知道点什么，便走上前去，随后与这位胡人热情的攀谈起来；在胡人的话语中，[NAME]得知了一个重大消息，[IT]感觉这个消息很重要，应当立即赶回宗门复命。。。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(A);
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]看到前方有一位穿着奇装异服的胡人，感觉他应该知道点什么，便走上前去，想与这位胡人交谈，顺便打探下附近的消息；谁知这位胡人的语言竟然属于外域，[NAME]一时间也无法与其沟通，只能讪讪而归。。。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>一身铠甲戎装的武士</Display>
+				<Condition>
+				<![CDATA[	
+				me.npcObj.PropertyMgr.SkillData:GetSkillLove(CS.XiaWorld.g_emNpcSkillType.Medicine) == 2
+				]]>
+				</Condition>
+				<Tip>岐黄</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(86,94);
+				me:AddMsg("[NAME]看到前方有一位穿着铠甲戎装的武士，感觉他应该知道点什么，便走上前去，随后与这位武士热情的攀谈起来；在武士的话语中，[NAME]得知了一个重大消息，[IT]感觉这个消息很重要，应当立即赶回宗门复命。。。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(A);
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]看到前方有一位穿着铠甲戎装的武士，感觉他应该知道点什么，便走上前去，想与这位武士交谈，顺便打探下附近的消息；谁知这位武士因受伤过重，[NAME]一时间对其进行有效的治疗，最终导致武士死不瞑目，[NAME]只好悄然离开。。。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>一身珠光宝气的商人</Display>
+				<Condition>
+				<![CDATA[	
+				me.npcObj.PropertyMgr.SkillData:GetSkillLove(CS.XiaWorld.g_emNpcSkillType.Art) == 2
+				]]>
+				</Condition>
+				<Tip>雅艺</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(25,28);
+				me:AddMsg("[NAME]看到前方有一位穿着珠光宝气的商人，感觉他应该知道点什么，便走上前去，随后与这位商人热情的攀谈起来；在商人的话语中，[NAME]得知了一个重大消息，[IT]感觉这个消息很重要，应当立即赶回宗门复命。。。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(A);
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]看到前方有一位穿着珠光宝气的商人，感觉他应该知道点什么，便走上前去，想与这位商人交谈，顺便打探下附近的消息；谁知这位商人看到[NAME]一身穷酸相，显然并不想与[IT]多费口舌，便随口编了个理由，转身离开了。。。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>一身粗布麻衣的路人</Display>
+				<Condition>
+				<![CDATA[	
+				me.npcObj.PropertyMgr.SkillData:GetSkillLove(CS.XiaWorld.g_emNpcSkillType.Farming) == 2
+				]]>
+				</Condition>
+				<Tip>农事</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(1,23);
+				me:AddMsg("[NAME]看到前方有一位穿着粗布麻衣的路人，感觉他应该知道点什么，便走上前去，随后与这位路人热情的攀谈起来；在路人的话语中，[NAME]得知了一个重大消息，[IT]感觉这个消息很重要，应当立即赶回宗门复命。。。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(A);
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]看到前方有一位穿着粗布麻衣的路人，感觉他应该知道点什么，便走上前去，想与这位路人交谈，顺便打探下附近的消息；谁知这位路人只说了句：“俺是耕田滴！俺还要回家耕田，要不你来俺家打个工？”[NAME]婉言谢绝后，一脸黑线的离开了。。。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>去别处逛逛</Display>
+				<Tip>返回贫民窟</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_C_02"  Parent="BaseFillingStory">
+		<DisplayName>到处走走</DisplayName>
+		<Desc>[NAME]在贫民窟优哉游哉的瞎晃悠，发现一个戴斗笠的神秘人突然消失在眼前，这引起了[IT]的注意。</Desc>
+		<Selections>
+			<li>
+				<Display>立马跟随</Display>
+				<Tip>御剑和法术</Tip>
+				<OKResult>
+				me:AddMsg("测试，暂无实装内容");
+				</OKResult>
+			</li>
+			<li>
+				<Display>问问边上的陌生人</Display>
+				<Tip>护体和境界</Tip>
+				<OKResult>
+				me:AddMsg("测试，暂无实装内容");
+				</OKResult>
+			</li>
+			<li>
+				<Display>关我屁事</Display>
+				<Tip>返回贫民窟</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_C_03"  Parent="BaseFillingStory">
+		<DisplayName>施舍穷人</DisplayName>
+		<Desc>[NAME]在贫民窟优哉游哉的瞎晃悠，发现角落里躺着一群流浪汉，这让[IT]一时间顿生怜悯之情，还是上去关怀关怀吧。</Desc>
+		<Selections>
+			<li>
+				<Display>关怀落魄流浪之人</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 4
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetSchoolScore(0);
+				if nR > 100000 then
+					me:AddMsg("[NAME]走上前去，给了乞丐几个面饼，乞丐抓过面饼，狼吞虎咽的吃了起来…………\n吃着吃着，乞丐突然激动的一把抓过[NAME]的手说道：帮主，我可算找到您了！说完，乞丐就俯身跪下并十分尊敬的磕了磕头：我奉丐帮十八代帮主临终所托，将来会有一个气宇不凡之人，前来送我几个面饼，我想一定就是您了！\n[NAME]一脸惊讶地看着跪在眼前的乞丐，一时之间竟然感觉自己是遇到了碰瓷的，要不是乞丐一直在絮絮叨叨的，向[NAME]述说着前后原由，[NAME]都想一走了之了…………\n原来丐帮传到第十八代帮主，竟然绝后了！但帮主不死心，在多方打听下，听信了一个风水老头的预言，说将来有一日，会有一个长老，帮他守候一名继承人，那个继承人有一天会带给长老几张面饼，并展露不同于凡人的仙家气质，巴拉巴拉巴…………后面[NAME]听不下去了，便也接受了这个事实，然后离开了此地…………");
+					me:AddTitle("丐帮帮主","第十九代丐帮帮主，不用信物，不用打狗棍，我说是，你就是！",4);
+				elseif nR > 50000 then
+					me:AddMsg("[NAME]走上前去，给了乞丐几个面饼，乞丐抓过面饼，狼吞虎咽的吃了起来…………\n吃着吃着，乞丐突然霸气的拍出两个铜板（看上去并不知道是哪个年代的东西），并摇头晃脑的说一些文绉绉的话：早些时日，在下曾欠【咸亨酒店】十九文钱，只是不慎跌断了腿，时至今日，无法亲手偿还，还望贵人能替鄙人还了这笔债务，若还能与贵人相见，鄙人定当涌泉相报！\n[NAME]接过十九个铜板，看了看这个乞丐，应该是整个贫民窟穿的最文雅的了，一身长衫，虽然破了点，但是不难看出曾经可能是个体面人。[IT]叹了口气，便转身离开……\n没走多远。还听着那乞丐再给别的乞丐说：茴字之书写，有四尔，汝等知之乎…………");
+					me:AddTitle("孔乙己","那叫窃，不算偷！读书人的事，怎么能算偷呢！",3);
+				elseif nR > 10000 then
+					me:AddMsg("[NAME]走上前去，给了乞丐几个面饼，乞丐抓过面饼，狼吞虎咽的吃了起来…………\n吃着吃着，乞丐突然深情地唱起了歌：only you can take me取西经，only you 能杀妖精鬼怪，only you 能保护我，唔使俾啲蚌精蟹精dap我…………\n啪！[NAME]一巴掌扇停了乞丐，打断了他深情的歌唱：on、on、on的，on你个头啊，你对着至尊宝唱啊，给我唱个锤子啊！[NAME]说完转身就准备走。\n乞丐情急之下，一把扯住[NAME]的衣服：亲，人生不止有深情的歌唱，还有那诗和远方…………\n[NAME]一脚踢开乞丐：吃都吃不饱了，还吟诗作赋，你哪凉快哪呆着去吧！说完便扬长而去…………");
+					me:AddTitle("吟游诗人","生活不仅有艰辛，还有诗和远方！",2);
+				elseif nR > 5000 then
+					me:AddMsg("[NAME]走上前去，给了乞丐几个面饼，乞丐抓过面饼，狼吞虎咽的吃了起来…………\n吃着吃着，乞丐突然哭了起来：自从我老婆跟别人跑了，还把我赶出了家门，直到现在我都没吃过一顿饱饭，实在太谢谢你了……呜呜呜……\n原来在早些年，乞丐在本地做了点小生意，存了有点小钱，后来因为为人老实，媒婆给他说了个亲事，也没想后来居然成了。\n而那女子本是隔壁村的，她从集市中央大街打工回来，正好也是到了婚配的年纪，便依了这门亲事。\n两人成婚后没半年，便有了孩子，日子过得还可以。\n后面因为他常年在外做生意，经常回来的很晚晚，她老婆有时候却比他还晚回来，还说是出去夜跑了，偶尔吃个宵夜之类的说辞。\n乞丐开始没觉得有什么奇怪，但是过了几年，他老婆居然要和他离婚，然后就被赶出了家门，一身家财尽数到了他老婆腰包里…………\n直到多年以后，乞丐才明白，那是绿色的爱啊…………他还能怎么样，只能选择原谅了…………");
+					me:AddTitle("绿色原谅","最爱的人，就算是去夜跑，在吃辣条，摔了跤，你也要选择原谅！",1);
+				elseif nR > 0 then
+					me:AddMsg("[NAME]走上前去，给了乞丐几个面饼，乞丐抓过面饼，狼吞虎咽的吃了起来…………\n吃着吃着，乞丐突然有点哽咽到：感谢好心人，我打娘胎出来，头一次感觉面饼这么好吃，如果您下次还能带点来就好了。\n[NAME]一脸诧异的看着乞丐，惊呼道：你丫一连吃了我三十斤面饼，还要给你带！！？？你有毛病…………\n[NAME]话还没说完，乞丐一把抱住[IT]的腿，一脸可怜巴巴地哀求着：您是个好人，您是个大好人，看在上天的份上，您不会不管我的，这也算一份功德了…………\n[NAME]没等他说完，一溜儿烟跑开了…………");
+					me:AddTitle("好人卡","感谢你的善良，你是个好人！",0);
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetGLevel();
+				me:AddMsg("[NAME]走上前去，给了乞丐几个面饼，乞丐瞄了一眼，阴阳怪气的说：看不起谁呢，不是我说，就你这等级，你这身板，还不配给我施舍呢！\n[NAME]一脸吃惊的看着乞丐，正准备反驳几句，结果又被乞丐打断了：还杵着不动呢，你挡着我的阳光了！我说哥几个儿，帮我请这位兄弟上一边去吧，费心的。说完，翻了个身，又眯眼晒起太阳了。边上几个衣衫褴褛的乞丐也噌的一下，全站了起来。\n[NAME]一看情势不对，立马念出一道真诀，瞬间放倒了全部乞丐，这才一脸鄙夷的转身哼道：哼，一群垃圾。");
+				me:AddTitle("都是垃圾","我不是针对谁，我是说，在座的各位，都是垃圾！",nR);
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>关怀信口雌黄之辈</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 7
+				]]>
+				</Condition>
+				<Tip>境界</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetGLevel() < 13 then;
+					me:AddMsg("[NAME]准备施舍穷人的时候，其中有一个人，正在碎碎念叨着什么，[IT]感到很好奇，便走近一听，他正说到：…………曾经有一份真诚的爱情放在我面前，我没有珍惜，等我失去的时候我才后悔莫及，人世间最痛苦的事莫过于此。如果上天能够给我一个再来一次的机会，我会对那个女孩子说三个字：我爱你。如果非要在这份爱上加上一个期限，我希望是……一万年！[NAME]听罢，一仰头，泪水湿润了眼眶…………");
+					me:AddTitle("至尊宝","如果要给这份爱加一个期限，我希望是一万年！",4);
+				elseif me:GetGLevel() < 10 then;
+					me:AddMsg("[NAME]正朝角落的一个流浪汉走去，还没走近呢，那汉子便开口说：听阁下脚步，想必是习武之人吧？\n[NAME]微微一怔：不知前辈从何得知？我该如何如何称呼前辈呢？\n那汉子缓缓转过身来，看了一眼[NAME]：小子，不错，是块练武的材料。汉子笑吟吟的夸了一句，接着说：小子，你遇到我，算是遇到天大的机缘了，我这里有一本【如来神掌】，今天就送给你了，守护世界的……嘿！别走啊！\n[NAME]一转身，头也不回的离开了此地…………");
+					me:AddTitle("如来神掌","我看你骨骼惊奇，一定是练武的奇才，我这里有一本秘籍，交到你手上，守护世界的任务就交给你了。",3);
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() < 7 then;
+					me:AddMsg("[NAME]看见边上有一个人，身着一身黄色道服，感觉应该是一名道士，便朝他走了过去…………只听他口中念念有词：一笔天下动；二笔祖师剑；三笔凶神恶煞去千里外。念完咒，便隔空画出一张符咒来，接着又设坛做法…………\n[NAME]看道士捣鼓了好一阵，总算是做法结束了，便开口问道：大师这手法，古朴纯正，敢问师承何处？\n道士淡淡的看了一眼[NAME]，道：施主与我本是同源，皆为老、庄之后，只是贫道自幼在茅山修行，并无师承。说完便转身收起法坛，香案。\n[NAME]深深鞠了一躬，并说道：恭送大师。就各自离去…………");
+					me:AddTitle("茅山道士","天圆地方，律令九章，吾今下笔，万鬼伏藏",2);
+				elseif me:GetGLevel() < 4 then;
+					me:AddMsg("[NAME]在给穷苦百姓舍粥之时，看见一个跳大仙的正在给一个生病的流浪汉做法，便走过去瞧瞧。\n只见这位大仙围着一个法坛，左三圈右三圈的跳着，口里依拉哇啦的不知念叨着啥，随后朝空处刺出一剑，大喝一声：去！便收了架势。\n[NAME]瞧着这是做法完了，便转身离开，不再观看，一边自言自语道：众生皆苦，若不自渡，何渡之？诚然怜之必有其恨处，实自作孽也。");
+					me:AddTitle("神棍","太上老君，急急如律令，麻弥麻弥吽！",1);
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>关怀习武弄剑之士</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() > 9
+				]]>
+				</Condition>
+				<Tip>道行</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetDaoHang() > 5000 then;
+					me:AddMsg("[NAME]发现有一个人，生得粗犷魁梧，想必不是善人，准备过去会一会他。\n没想到还没走进，那人便出手了！刹那间针线飞舞，杀气弥漫。[NAME]不慌反笑：你道行尚浅，与我为敌，你可知是何后果？话毕，此汉子针线尽断，内力散去，喷出一口鲜血。竟然被自己内力震荡所伤。不用想，必定是[NAME]用仙法所致，果然修道者比练武要高上几分，这一瞬间就分出了高下…………\n汉子开口：咳咳，日出东方，唯我不败！哈哈哈哈……我东方不败今天败在你手里！哈哈哈…………看来不败也有一败，阁下可否报下名号？\n[NAME]不理他，已然消失在汉子眼前…………");
+					me:AddTitle("东方不败","日出东方，唯我不败！",4);
+				elseif me:GetDaoHang() > 3000 then;
+					me:AddMsg("哈哈哈哈，你倒是开枪啊，我眼睛都不会眨一下，你信不信？角落上一个疯疯癫癫的老头颠笑道。\n[NAME]被这声音震惊到，回头一看，居然是个糟老头子，还穿着一双人字拖鞋，[NAME]好奇的问这老头：你确定你扛得住，这一枪下去，你可就没了，懂吗？没了！\n啪！老头抓住你的手瞬间扣动扳机，另一只手伸出两指竟然夹住了子弹！[NAME]也是一惊，楞在了原地。哈哈哈哈！天下武功，无坚不破，唯快不破！老头子子弹一甩，夹着人字拖就离开了，留下[NAME]一个人在原地发呆：这丫儿不是这个世界的人吧，这太强了…………");
+					me:AddTitle("火云邪神","天下武功，唯快不破！",3);
+				elseif me:GetDaoHang() > 1000 then;
+					me:AddMsg("小子，你的剑，有点意思，可是还是差点意思，你要是能和我意思意思，我保证你就能领悟那剑道上的一点意思，我这么说，你懂我意思吗？从后面走过来一个白胡子老头，对着[NAME]的剑慢悠悠说道。\n[NAME]拔出利剑就指向来人，全力刺去。\n说时迟，那时快，老头也不知从哪里捡来一根树枝，竟然如臂使指，格挡掉了这一剑！[NAME]一剑不成，又横劈一剑，所劈之处，正是老头中腹部。\n老头也不慌不忙，树枝朝下点住地面，整个人倒立竖起，竟然树枝不断，生生压弯，然后弹起，荡起大量罡气，硬是弹开了[NAME]这一招！\n[NAME]借力转身，然后定住，一拱手笑言：多谢前辈赐教————荡剑势！[NAME]说完，再一抬头，老头已然不见，想必是离开了。");
+					me:AddTitle("独孤九剑","天人合一，我既是剑！",2);
+				elseif me:GetDaoHang() > 500 then;
+					me:AddMsg("[NAME]看见人群中有一姑娘，长得眉清目秀，一席白衣，腰中配有一把紫青宝剑，甚是神秘。\n[NAME]朝她走去。你敢再过来一步，我就把你给杀了！姑娘见生人靠近，剑鞘都没拔，就指向了[NAME]。\n姑娘，鄙人没有恶意，不过，你若真要逼退我，也应该先把剑鞘去了吧。[NAME]不慌不忙，捏住剑鞘，缓慢移开。\n因为只有我的真命天子，才能拔出此剑！那少女一说到这，笑的很灿烂，像个天真无邪的少女。\n[NAME]不忍心打搅她，也许现在这少女的脑子里，全是她最爱的人的样子吧，[NAME]悄然离开，也想了想，自己最爱的是谁…………");
+					me:AddTitle("紫霞仙子","拔出此剑，唯我良人！",1);
+				elseif me:GetDaoHang() > 0 then;
+					me:AddMsg("小哥哥，我声音好听吗？我在这里呀，可是颜值最高的呢！可是这群人呐，就是不喜欢听我唱歌，就想看我抖肩………………这女子巴拉巴拉巴拉说一大堆，停不下来。\n[NAME]感到异常聒噪，本想转过头去大骂一顿，结果发现：卧槽！这什么鬼啊！坦克车啊？\n那女子貌似也没听见，你说我挂在门口的画像啊，那个很好弄啊，但是我现在不能拿下来，我要等这里有十万个游客了，我才能摘，不然怎么对得起我的颜值呀…………\n[NAME]已经忍不住了，一溜烟跑了，边跑边喊：现在这世界怎么了！五六十岁的太不要脸了！");
+					me:AddTitle("乔碧萝","萝莉音，坦克车！",0);
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+					me:AddMsg("[NAME]一边施粥，一边安慰穷苦百姓，不过就在这时，一群大汉推推嚷嚷的把[IT]围住：谁让你在这摆摊的？你不知道这是我的地盘？兄弟们给我上！砸了它！\n[NAME]怒从心中起，立马念咒驱法，就要惩戒这些流氓地痞，谁知，还没念咒，就被其中的头头给用灵咒压住，一时间你大惊失色：你什么人？竟会此等秘法？\n那个头头用刀面拍拍[NAME]的脸，嘲笑道：你们修仙之人，以为我没调查过是吗，老子好不容易弄到这么个秘法，让你们修行之人不能使用灵气，就是为了报仇，总是来这给我难堪，贫民窟是我的地盘，以后我说的算，这次就给你个教训，懂了吗！给我打！\n[NAME]咬着牙承受着拳打脚踢……最后被人丢出贫民窟，第二天才恢复，这才离开了此地…………\n江湖险恶，修仙之人又何尝不是呢？");
+					me:AddTitle("小菜鸡","就这点本事，还敢出来混江湖？",2);
+					me:AddDamageRandomPart(5,"Fabao_Tear",1,"来自强盗的围殴");
+					me:AddDamageRandomPart(5,"VisceralRupture",1,"来自强盗的羞辱");
+				]]>
+				</NOResult>
+			</li>
+			<!-- <li>
+				<Display>关怀采花贼</Display>
+				<Tip>性别</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("测试，天山童姥");
+				]]>
+				</OKResult>
+			</li> -->
+			<li>
+				<Display>关怀街边吃瓜的路人</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 1
+				]]>
+				</Condition>
+				<Tip>正邪</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolRank() >= 4 then;
+					me:AddMsg("[NAME]在施舍穷人时，一个穷人感激涕零的献上一块奇石，只见这朱红色的奇石上，铭有“墨鸩”的字样，[NAME]觉得颇为有趣，使用灵识探查，这灵石竟将[IT]的神魂吸了进去…………回过神来时，[NAME]发现自己竟然附在了一个装饰繁杂的巨型傀儡身上，手中拿着能喷射出危险火光的武器。在活动了一盏茶左右时间后，随着意识一阵模糊，[NAME]回到了自己的身体，那颗宝石也碎裂化为飞灰了…………");
+					me:AddTitle("开过高达","不是我军不努力，奈何敌方有高达！",3);
+				elseif me:GetSchoolRank() >= 2 then;
+					me:AddMsg("[NAME]看到前方聚集了白晃晃的一队人，连忙凑上前去，只听领头人说道：“丝绸是蚕的生命，布料是棉麻的生命。大自然赐予了他们这些，我们不应违逆自然规律。我们的躯骸也是大自然赐我们的礼物，我们不应羞涩于展示！只要我们回归最原始的状态，大自然就能感受到我们的呼唤，我们就能领悟到自然的真谛！”[NAME]一脸吃惊的看着他们，心想：这说的仿佛有几分道理。便不着寸缕的加入了他们游行的队伍中。日落西山，归途中[NAME]对风的变化感觉更加明显了。");
+					me:AddTitle("天体自由","追逐自由，追逐自然，追逐生命的和谐",1);
+				elseif me:GetSchoolRank() >= -1 then;
+					me:AddMsg("[NAME]在施舍穷人之时，听一个名叫【墨鸩】的路人说：起曾经有一日走在路上，突然一个重伤的修士落在了他的面前。\n重伤修士说：我已时日无多，这是我的全副身家，现在都交给你了，希望你能替我报仇，我的仇人是……\n这修士还未说完便兵解了，墨鸩便心想：送我的东西，我收下了，至于你的仇，等我知道了再报吧。");
+					me:AddTitle("灵剑快递","你好，快递到了，请查收",4);
+				elseif me:GetSchoolRank() >= -4 then;
+					me:AddMsg("[NAME]在施舍穷人之时，与街边一个名叫【坛】的路人聊起了天，她说曾经在天山附近，见过一个小姑娘，看起来虽然柔柔弱弱的，但是言行话语之间，透露出无上威严，竟是自己也不敢在这女娃娃面前，有半点忤逆触犯之意，只能屈服于这威严之下…………现在想来，那个女娃娃必定并非凡人！");
+					me:AddTitle("天山童姥","四海八荒，为我独尊！",3);
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>关我屁事</Display>
+				<Tip>返回贫民窟</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_C")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================中央大街分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS_D_01"  Parent="BaseFillingStory">
+		<DisplayName>酒馆</DisplayName>
+		<Desc>[NAME]在中央大街上走着，发现在前边不远处就有个酒馆，往来江湖人士络绎不绝，[IT]也是性情中人，正所谓：高山听流水，酒馆遇知音；说不定缘分就在这里呢？那要不就进去喝一杯吧。</Desc>
+		<Selections>
+			<li>
+				<Display>与侠士同醉</Display>
+				<Tip>招募系统轮回人物</Tip>
+				<OKResult>
+				<![CDATA[
+				local name = me.npcObj.Name
+				local npc = CS.XiaWorld.NpcRandomMechine.MakeReincarnateNpc(GameMain:GetMod("XXZS_CS_D_01"):GetID()); 
+				local npcname = npc.Name
+				CS.XiaWorld.NpcMgr.Instance:AddNpc(npc,400,Map,CS.XiaWorld.Fight.g_emFightCamp.Player);
+				npc:ChangeRank(CS.XiaWorld.g_emNpcRank.Worker);
+				me:AddMsg(""..name.."进入酒馆后，[IT]一眼过去就发现东边角落这个人似乎很特别，便邀请他一起喝酒，准备将其灌醉之后，再邀请到宗门去参观………………【"..npcname.."】感觉面前这个人很面善，便接受了"..name.."的热情邀请，两个人开心的喝起酒来，俗话说：酒逢知己千杯少，这两人把酒言欢，竟成了无话不说的好朋友，酒过三巡竟要拜把子做亲兄弟！一番山盟海誓之后，亲兄弟勾肩搭背回到客房，结果亲兄弟真的变成了亲兄弟，一夜欢愉之后……【"..npcname.."】最终是跟随[NAME]来到了你的宗门。");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>与散仙同醉【暂无】</Display>
+				<Tip>招募内门弟子</Tip>
+				<OKResult>
+				me:AddMsg("测试，暂无实装内容");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开酒馆</Display>
+				<Tip>返回中央大街</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_02"  Parent="BaseFillingStory">
+		<DisplayName>天香阁</DisplayName>
+		<Desc>[NAME]发现就在前边不远处有个天香阁，门口的老鸨引来送往，笑得那个花枝乱颤，看来里面的姑娘就算不是国色天香，至少也是倾国倾城了，[NAME]感觉自己修仙这么些时日了，很久没体验过凡人的快乐了，要不就进去堕落一回吧~~</Desc>
+		<Selections>
+			<li>
+				<Display>点柳如是</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>根骨</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetPhysique();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[柳如是]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【柳如是】：一代才女——如是：柳如是，名是，号“我闻居士”，嘉兴人。公元1664年，其夫钱谦益以八十二岁高龄撒手尘寰，年届半百且巳皈依佛门的柳如是居士，竟不能斩绝葛藤，为保钱氏一门不至倾家荡产，自缢于荣木楼，时隔钱谦益谢世仅34天。钱谦益本为晚明大臣，官至礼部尚书，惜不能以身殉难，又做了大清帝国的礼部侍郎。在朝的君臣称他“反复小人”，在野的遗老笑他“两朝领袖”，在后的士人评说他时不让不饶，还使得与他做了25年夫妻的柳如是身后也不清爽，戴了顶“风流名妓”的花冠。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetPhysique();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【柳如是】：一代才女——如是：柳如是，名是，号“我闻居士”，嘉兴人。公元1664年，其夫钱谦益以八十二岁高龄撒手尘寰，年届半百且巳皈依佛门的柳如是居士，竟不能斩绝葛藤，为保钱氏一门不至倾家荡产，自缢于荣木楼，时隔钱谦益谢世仅34天。钱谦益本为晚明大臣，官至礼部尚书，惜不能以身殉难，又做了大清帝国的礼部侍郎。在朝的君臣称他“反复小人”，在野的遗老笑他“两朝领袖”，在后的士人评说他时不让不饶，还使得与他做了25年夫妻的柳如是身后也不清爽，戴了顶“风流名妓”的花冠。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点董小宛</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>神识</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetPerception();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[董小宛]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【董小宛】：风尘奇葩——董小宛（公元1624年～1651年），名白，号青莲，金陵人(今江苏南京)，歌妓，“秦淮八艳”之一，名隶南京教坊司乐籍。1639年结识复社名士冒辟疆。明亡后小宛随冒家逃难，此后冒辟疆同甘共苦直至去世。另有认为董小宛与顺治皇帝的宠妃董鄂妃实为一人，并导致了顺治出家，不过，此系误传，顺治皇帝生于1638年，董小宛长他14岁，董小宛去世时顺治皇帝仅13岁，况且董小宛从未去过北方。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetPerception();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【董小宛】：风尘奇葩——董小宛（公元1624年～1651年），名白，号青莲，金陵人(今江苏南京)，歌妓，“秦淮八艳”之一，名隶南京教坊司乐籍。1639年结识复社名士冒辟疆。明亡后小宛随冒家逃难，此后冒辟疆同甘共苦直至去世。另有认为董小宛与顺治皇帝的宠妃董鄂妃实为一人，并导致了顺治出家，不过，此系误传，顺治皇帝生于1638年，董小宛长他14岁，董小宛去世时顺治皇帝仅13岁，况且董小宛从未去过北方。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点鱼玄机</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>魅力</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetCharisma();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[鱼玄机]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【鱼玄机】：鱼玄机，唐代长安（今西安市）人。鱼玄机自幼聪慧过人，才思敏捷，十六岁嫁与补阙(掌讽谏之官)李亿为妾，为李原配裴氏所不容，被安顿在长安咸宜观做道士。情场失意使她变得放荡起来。于是，在道观外贴出了一副“鱼玄机诗文候教”的红纸告示，如此一来，长安的文人雅士、风流公子，纷纷前往咸宜观，借谈诗论文之名，一亲芳泽。鱼玄机风流绝世，狐媚多情，后因妒杀侍婢绿翘，被京兆尹温璋处死，年仅26岁。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetCharisma();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【鱼玄机】：鱼玄机，唐代长安（今西安市）人。鱼玄机自幼聪慧过人，才思敏捷，十六岁嫁与补阙(掌讽谏之官)李亿为妾，为李原配裴氏所不容，被安顿在长安咸宜观做道士。情场失意使她变得放荡起来。于是，在道观外贴出了一副“鱼玄机诗文候教”的红纸告示，如此一来，长安的文人雅士、风流公子，纷纷前往咸宜观，借谈诗论文之名，一亲芳泽。鱼玄机风流绝世，狐媚多情，后因妒杀侍婢绿翘，被京兆尹温璋处死，年仅26岁。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点马湘兰</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>悟性</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetIntelligence();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[马湘兰]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【马湘兰】：马湘兰(1548—1604)可以称为明代的女诗人、女画家。据《秦淮广记》载，她名守真，字湘兰，小字玄儿，又字月娇，因在家中排行第四，人称“四娘”。她秉性灵秀，能诗善画，尤擅画兰竹，故有“湘兰”著称。她相貌虽不出众，“姿首如常人”，但“神情开涤，濯濯如春柳早莺，吐辞流盼，巧伺人意”。\n马氏在绘画上造诣很高，当年曹雪芹的祖父曹寅，曾接连三次为《马湘兰画兰长卷》题诗，共72句，记载在曹寅的《栋亭集》里。《历代画史汇传》中评价她的画技是“兰仿子固，竹法仲姬，俱能袭其韵”。在北京故宫的书画精品中也间杂着马氏的兰花册页，发着独异的光彩，她的绘画在国外一直被视为珍品。在文学上马氏亦颇具才华，曾撰有《湘兰子集》诗二卷和《三生传》剧本。马氏多才多艺，还通音律，擅歌舞，并能自编自导戏剧。在教坊中她所教的戏班，能演出“西厢记全本”，随其学技者，备得真传。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetIntelligence();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【马湘兰】：马湘兰(1548—1604)可以称为明代的女诗人、女画家。据《秦淮广记》载，她名守真，字湘兰，小字玄儿，又字月娇，因在家中排行第四，人称“四娘”。她秉性灵秀，能诗善画，尤擅画兰竹，故有“湘兰”著称。她相貌虽不出众，“姿首如常人”，但“神情开涤，濯濯如春柳早莺，吐辞流盼，巧伺人意”。\n马氏在绘画上造诣很高，当年曹雪芹的祖父曹寅，曾接连三次为《马湘兰画兰长卷》题诗，共72句，记载在曹寅的《栋亭集》里。《历代画史汇传》中评价她的画技是“兰仿子固，竹法仲姬，俱能袭其韵”。在北京故宫的书画精品中也间杂着马氏的兰花册页，发着独异的光彩，她的绘画在国外一直被视为珍品。在文学上马氏亦颇具才华，曾撰有《湘兰子集》诗二卷和《三生传》剧本。马氏多才多艺，还通音律，擅歌舞，并能自编自导戏剧。在教坊中她所教的戏班，能演出“西厢记全本”，随其学技者，备得真传。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点梁红玉</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetLuck();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[梁红玉]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【梁红玉】：梁红玉，宋代楚州（今淮安）北辰坊人，生于宋徽宗崇宁元年，父亲行伍出身，后征方腊战败获罪被杀，红玉由此沦为京口营伎。\n她精通翰墨，又生有神力，能挽强弓，在京口宴会上认识卓尔不群的名将韩世忠，两人惺惺相惜，随成眷属。北宋灭亡后，金军继续南下，在京口与韩世忠的部队遭遇。\n梁红玉英姿飒爽，红妆披挂，挥动金山战鼓，以少于敌军十倍的兵力大败金兀术，并围困金兵于黄天荡达四十八天之久，由此名震华夏，威扬夷狄。\n后来韩世忠、岳飞、刘俊三路北伐，梁红玉随率一女兵队伍，屡败金人、屡立奇功。而“巾帼不让须眉”这句话也由此而起。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetLuck();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【梁红玉】：梁红玉，宋代楚州（今淮安）北辰坊人，生于宋徽宗崇宁元年，父亲行伍出身，后征方腊战败获罪被杀，红玉由此沦为京口营伎。\n她精通翰墨，又生有神力，能挽强弓，在京口宴会上认识卓尔不群的名将韩世忠，两人惺惺相惜，随成眷属。北宋灭亡后，金军继续南下，在京口与韩世忠的部队遭遇。\n梁红玉英姿飒爽，红妆披挂，挥动金山战鼓，以少于敌军十倍的兵力大败金兀术，并围困金兵于黄天荡达四十八天之久，由此名震华夏，威扬夷狄。\n后来韩世忠、岳飞、刘俊三路北伐，梁红玉随率一女兵队伍，屡败金人、屡立奇功。而“巾帼不让须眉”这句话也由此而起。");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点薛涛</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>炼丹</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[薛涛]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【薛涛】：薛涛（约768～832年），字洪度，唐代女诗人，与刘采春、鱼玄机、李冶并称唐朝四大女诗人，与卓文君、花蕊夫人、黄娥并称蜀中四大才女。薛涛字无女子气，笔力峻激，其行书妙处，颇得王羲之法；作诗500多首，仅存90余首，与韦皋，元稹有过恋情。832年，薛涛逝世，曾任宰相的段文昌为她亲手题写了墓志铭。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【薛涛】：薛涛（约768～832年），字洪度，唐代女诗人，与刘采春、鱼玄机、李冶并称唐朝四大女诗人，与卓文君、花蕊夫人、黄娥并称蜀中四大才女。薛涛字无女子气，笔力峻激，其行书妙处，颇得王羲之法；作诗500多首，仅存90余首，与韦皋，元稹有过恋情。832年，薛涛逝世，曾任宰相的段文昌为她亲手题写了墓志铭。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点苏小小</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>炼器</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Manual");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[苏小小]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【苏小小】：傲骨持洁——苏小小（479年－约502年）,是中国南北朝的南齐时期，生活在钱塘的著名歌妓，常坐油壁车，历代文人多有传颂。有的文学家认为苏小小是中国版的茶花女。苏小小写过一首《同心歌》，表达少女敢爱的情感。历史上一些地方史志和传奇、戏曲将苏小小进一步演绎成个性丰满的形象。其中《西湖拾遗》中的小说描写得尤为精彩。在该故事中，苏小小为了追求自由，宁愿做一个天香阁女子，尽情欣赏湖光山色。途经钱塘的观察使孟浪对她非常痴迷，但却遭到了苏小小的拒绝。而后苏小小又慧眼识才，资助穷书生鲍仁进京赶考。苏小小的结局颇为哀艳凄绝。她因偶得风寒，年纪轻轻就香消玉损。死后，鲍仁将其隆重下葬，埋于杭州西湖西泠桥侧。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【苏小小】：傲骨持洁——苏小小（479年－约502年）,是中国南北朝的南齐时期，生活在钱塘的著名歌妓，常坐油壁车，历代文人多有传颂。有的文学家认为苏小小是中国版的茶花女。苏小小写过一首《同心歌》，表达少女敢爱的情感。历史上一些地方史志和传奇、戏曲将苏小小进一步演绎成个性丰满的形象。其中《西湖拾遗》中的小说描写得尤为精彩。在该故事中，苏小小为了追求自由，宁愿做一个天香阁女子，尽情欣赏湖光山色。途经钱塘的观察使孟浪对她非常痴迷，但却遭到了苏小小的拒绝。而后苏小小又慧眼识才，资助穷书生鲍仁进京赶考。苏小小的结局颇为哀艳凄绝。她因偶得风寒，年纪轻轻就香消玉损。死后，鲍仁将其隆重下葬，埋于杭州西湖西泠桥侧。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点李师师</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>御剑</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Fabao");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[李师师]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【李师师】：绝代名妓——李师师：北宋汴京（今中国河南省开封市）人，名妓，小说《水浒传》人物。洗染工王寅之女。母亲早逝，父亲煮浆代乳，抚养成人，四岁时亡父，因而落入娼籍李家，改名李师师。与著名文人周邦彦、晁冲之有来往，有诗词互赠，又与宋徽宗有过交往，有许多风流韵事。靖康二年（1127年），金人破汴，师师下落不明，有人说她捐家产助宋军抗金，后在慈云观出家；一说吞金簪自杀，另说嫁给商人为妾。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【李师师】：绝代名妓——李师师：北宋汴京（今中国河南省开封市）人，名妓，小说《水浒传》人物。洗染工王寅之女。母亲早逝，父亲煮浆代乳，抚养成人，四岁时亡父，因而落入娼籍李家，改名李师师。与著名文人周邦彦、晁冲之有来往，有诗词互赠，又与宋徽宗有过交往，有许多风流韵事。靖康二年（1127年），金人破汴，师师下落不明，有人说她捐家产助宋军抗金，后在慈云观出家；一说吞金簪自杀，另说嫁给商人为妾。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点陈圆圆</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>法术</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[陈圆圆]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【陈圆圆】：红颜祸水——陈圆圆（1624年－1681年），字畹芬，原姓邢名沅，本姑苏名妓。圆圆能歌善舞，色艺冠时，时为称“江南八艳”之一。崇祯时，外戚周奎欲给皇帝寻求美女，遂派遣田妃的哥哥田畹下江南选美。将名妓陈圆圆、杨宛、顾秦等献给崇祯皇帝。其时战乱频仍，崇祯无心逸乐。陈圆圆又回到田府，田畹占为私有。一日，吴三桂在田府遇见陈圆圆一见倾心，纳圆圆为妾。李自成攻破北京，手下刘宗敏掳走陈圆圆。吴三桂“冲冠一怒为红颜”，遂引清军入关，在一片石攻破李自成。陈圆圆复归吴三桂。后吴三桂为滇王，圆圆随往，以女道士卒于云南。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【陈圆圆】：红颜祸水——陈圆圆（1624年－1681年），字畹芬，原姓邢名沅，本姑苏名妓。圆圆能歌善舞，色艺冠时，时为称“江南八艳”之一。崇祯时，外戚周奎欲给皇帝寻求美女，遂派遣田妃的哥哥田畹下江南选美。将名妓陈圆圆、杨宛、顾秦等献给崇祯皇帝。其时战乱频仍，崇祯无心逸乐。陈圆圆又回到田府，田畹占为私有。一日，吴三桂在田府遇见陈圆圆一见倾心，纳圆圆为妾。李自成攻破北京，手下刘宗敏掳走陈圆圆。吴三桂“冲冠一怒为红颜”，遂引清军入关，在一片石攻破李自成。陈圆圆复归吴三桂。后吴三桂为滇王，圆圆随往，以女道士卒于云南。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点杜秋娘</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>护体</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己在天香阁风流一晚之后，因为没啥技术含量，被那里的姑娘们所笑话…………"));
+					me:AddMsg("一晚风流快活之后，一大清早的[NAME]赶紧穿起衣裤，离开了天香阁，没想到因为常年没怎么锻炼，竟然只坚持了一小会儿…………一想到这里，御剑飞行都有点不稳了…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("若得红颜一知己，宁为鸳鸯不做仙！[name]突然想起那个叫[杜秋娘]的奇女子，她若不是流落红尘，自己若不是修仙之人，何不一起双宿双飞，远离这红尘乱世，黄土白骨，生死相依…………"));
+					me:AddMsg("一番云雨之后，[NAME]轻抚着少女的额头，却见其眉眼带泪，忍不住心疼的问道：是我弄疼你了吧？\n少女缓缓抬起头来：让官人担忧了，是奴家的错，不是官人弄疼奴家了，是奴家想起了一些往事…………");
+					me:AddMsg("解锁故事——【杜秋娘】：杜秋娘，唐代间州(镇江)人。美慧无双，能歌善舞，写诗填词作曲，样样俱佳，风靡江南。十五岁时，被镇海节度使李锜以重金买入府中充任歌舞姬。遂自写自谱了一曲“金缕衣”，唱给李听：劝君莫惜金缕衣，劝君惜取少年时；花开堪折直须折，莫待无花空折枝。李听后，立即欲火中烧，把她收为侍妾。后李举兵反叛，在战乱中被杀，杜秋娘入宫为奴，在宪宗面前故伎重演“金缕衣”，宪宗被深深地感染，两人马上陷入爱河，杜秋娘被封为秋妃。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("生亦何哀，死亦何苦？既有佳人作伴，何来感时伤怀？[name]不由得想起了烟雨江南的那个她，要是能再去一亲芳泽，那该有多美好~~~"));
+					me:AddMsg("少女气喘吁吁的对着[NAME]求饶道：你就饶了奴家吧，奴家真的坚持不住了~~[NAME]不等少女说完，又准备提枪上马，但是突然一阵眩晕袭来，倒在了床上…………醒来后[NAME]想起要回山门复命，便匆匆离开…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("人在花下死，做鬼也风流。[name]想起了那晚在天香阁的一些风流韵事，好不快哉！"));
+					me:AddMsg("少女躺在[NAME]怀里，娇嗔的说道：一次可喂不饱我哦~~~[NAME]二话没说，抱起衣裤就跑出了天香阁，御剑飞向了宗门所在，心里不由得发怵：下次来之前，一定要先吃点丹药补补！");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetSkillLevel("Medicine");
+				if nR < 18 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[name]想起自己曾经去江南烟花柳巷寻欢时，竟然被人发现并非男儿身，差点让别人吃了豆腐…………"));
+					me:AddMsg("[NAME]刚点了个姑娘，却被这个姑娘夸赞长得太过清秀，竟然被隔壁桌的公子摸了一把手，[IT]感觉事情不妙，匆忙离开了天香阁…………");
+				end
+				if nR >= 20 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("相逢是命，相知是命，相恋是命，唯独不该，朱砂同印也是命！[name]深深感觉造物弄人，偏偏想起了那个和自己一样，也是女儿身的她…………"));
+					me:AddMsg("[NAME]看着少女为自己穿上衣裳，忍不住问道：出了这门便是天香阁，入了这门便是你我，若你我互换，我兴许不如你。少女笑吟吟的骂道：小姑娘家家的，劳什子和奴家换身份，奴家便同你说一说我这身世，你便不想换了…………");
+					me:AddMsg("解锁故事——【杜秋娘】：杜秋娘，唐代间州(镇江)人。美慧无双，能歌善舞，写诗填词作曲，样样俱佳，风靡江南。十五岁时，被镇海节度使李锜以重金买入府中充任歌舞姬。遂自写自谱了一曲“金缕衣”，唱给李听：劝君莫惜金缕衣，劝君惜取少年时；花开堪折直须折，莫待无花空折枝。李听后，立即欲火中烧，把她收为侍妾。后李举兵反叛，在战乱中被杀，杜秋娘入宫为奴，在宪宗面前故伎重演“金缕衣”，宪宗被深深地感染，两人马上陷入爱河，杜秋娘被封为秋妃。");
+				elseif nR >= 19 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("世间安得双全法，不负如来不负卿？[name]想起那天和自己一起共度良宵的佳人，要不是被世俗所牵绊，又何必流连于烟花柳巷之地…………"));
+					me:AddMsg("姑娘，你说你要是个男儿身，你会娶了奴家吗？少女躺在[NAME]背上轻轻叹息道。[NAME]翻过身，用食指点上少女的双唇，竟是用一夜云雨来回答这无法述说的答案了…………");
+				elseif nR >= 18 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("初见如甘饴，再忆如拂晓，若非同此身，何来憾如云。[name]突然想起自己居然和烟花女子有过一段风流往事，只是同为女儿身，不过逢场作戏罢了…………"));
+					me:AddMsg("[NAME]悄悄吹熄烛火，一把揽佳人入怀：小娘子，今晚你就从了我吧！少女不气反笑：不知姑娘如何宠幸奴家呢？话毕反把[NAME]压在身下，只留下一脸惊慌失措的你任人摆布…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开天香阁</Display>
+				<Tip>返回中央大街</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]在中央大街上走着，发现在前边不远处就有个赌坊，并且隔着很远就能听到里面嘈杂的声音，[IT]一时间经受不起诱惑，径直朝赌坊走去。</Desc>
+		<Selections>
+			<li>
+				<Display>一楼骰子区【100起步】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 100
+				]]>
+				</Condition>
+				<Tip>赌大小</Tip>
+				<OKResult>
+				<![CDATA[
+				me:TriggerStory("XXZS_CS_D_03_A");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一掌拍在门板上，怒斥道：“你也不去打听打听，还敢在我这撒野，没啥子声望，也敢来赌！！兄弟们上，给我揍他丫的！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>一楼玉牌区【100起步】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 100
+				]]>
+				</Condition>
+				<Tip>玩19点</Tip>
+				<OKResult>
+				<![CDATA[
+				me:TriggerStory("XXZS_CS_D_03_B");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一掌拍在门板上，怒斥道：“你也不去打听打听，还敢在我这撒野，没啥子声望，也敢来赌！！揍他丫的！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>一楼天命区【1000起步】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 1000
+				]]>
+				</Condition>
+				<Tip>玩俄罗斯转盘</Tip>
+				<OKResult>
+				<![CDATA[
+				me:TriggerStory("XXZS_CS_D_03_C");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一掌拍在门板上，怒斥道：“你也不去打听打听，还敢在我这撒野，没啥子声望，也敢来赌！！揍他丫的！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开赌坊</Display>
+				<Tip>返回中央大街</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_04"  Parent="BaseFillingStory">
+		<DisplayName>乐坊</DisplayName>
+		<Desc>[NAME]在中央大街上走着，发现在前边不远处就有个乐坊，走进一看，里面放置着不少乐器墨宝，想来应该是文人雅士交流学习之所，[IT]感觉人生就应该携琴奏乐，执棋对弈，吟诗作画，快意恩仇，修仙之人也不例外，那何不书生意气一回，到这乐坊去抒怀天下吧！</Desc>
+		<Selections>
+			<li>
+				<Display>进入乐坊大院</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(3) < 1000
+				]]>
+				</Condition>
+				<Tip>内有【知音巷】【诸子坛】【赋诗台】【五谷坪】四苑</Tip>
+				<OKResult>
+				<![CDATA[
+				me:TriggerStory("XXZS_CS_D_04_A");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("乐坊老板笑吟吟的走出来，一把拦住：“抱歉！！今日本店不对外营业，主要是被某些邪魔歪道影响了本人的心情！！”\n说完，老板便将[NAME]向门外狠狠一推，又说道：“来人，把门口打扫干净，别辱了这斯文之地！！”\n接着老板转身走进大院内，还对其手下打了个手势。。。\n之后，[NAME]被其手下一顿‘打扫’，然后灰溜溜的离开了此地。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"乐坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开乐坊</Display>
+				<Tip>返回中央大街</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_05"  Parent="BaseFillingStory">
+		<DisplayName>断袖居</DisplayName>
+		<Desc>[NAME]在中央大街上走着，发现在前边不远处就有个断袖居，断袖，断袖，[IT]忍不住联想到，难不成是分桃断袖？哇哇哇哇哇~！这有点意思呀。[IT]一想到这，便一边迈着步子，一边哼着曲子，不紧不慢的朝断袖居走去。</Desc>
+		<Selections>
+			<li>
+				<Display>点潘安</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>根骨</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetPhysique();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[NAME]偶然发呆之时，竟然想起那天在[断袖居]居然被一个男人霸王硬上弓了！每每想到这里，[IT]便脸红起来…………"));
+					me:AddMsg("稍候片刻，一位俊美少年走入厢房，引得[NAME]发了好一会儿呆，竟是浑然不知少年已为[IT]更衣完毕，还不等[NAME]回神，又抱起[IT]走向床帏…………一夜无话，第二天一早，[NAME]便匆匆离开，御剑飞行之时，还在思考：我是被霸王硬上弓了？…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("山盟海誓无相忘，从此江湖各一人。[NAME]想起了那个心中深处的少年[潘安]，如今想来，恍若隔世，不知何时才能再次相见…………"));
+					me:AddMsg("[NAME]不自禁的用手抚摸着少年的脸颊，轻轻的吻上额头，动作如此轻柔，想必是怕打搅了少年的美梦。然而此时少年突然痛苦的喊了起来：不要过来！不要过来！[NAME]直觉是少年的梦魇，便担心的呼喊着少年，直至少年醒来…………");
+					me:AddMsg("解锁故事——【潘安】【人物创意来自群友：叽喱道人】：潘安本是一位京城潘家少爷，年仅9岁就将京城上至50，下至12的少女迷得团团转。奈何12岁那年，他外出游历，竟被一位公主瞧见。那公主垂涎潘安的美貌，竟悄悄的下蒙汗药，强行拖其于自己的马车，实施可怕的行为。当潘安眯着眼看到一旁像猪一样的公主时，瞬间惊醒。“我昨日竟与如此丑陋之女干如此龌蹉之事，我有何颜面存留于世？”想罢，他便跳入河中寻死。奈何此人命不该绝，在河的下流，被一陌生女子救起。此女见潘安如此貌美，又失去了记忆，便将潘安带入断袖阁，从此沉沦为一名男妓…………");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("鸳鸯被里成双夜，一树梨花压海棠。[NAME]每每思念起那个俊俏娇柔的少年，便想起这句诗来，压海棠，压海棠…………嘿嘿嘿[NAME]莫名其妙的傻笑起来…………"));
+					me:AddMsg("[NAME]看着怀中楚楚可怜的少年，不禁心疼起来，柔声问道：小家伙，下回再来这里消遣，爷还点你，瞧你这可怜兮兮的样子。说完[NAME]还刮了刮少年的鼻子，似乎把怀中少年抱得更紧了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[NAME]时不时想去挠挠菊花，每次要挠时，便想起那个少年，然后竟然是菊花一紧，便没了挠菊花的兴致…………"));
+					me:AddMsg("[NAME]看俏公子缓缓走入房内，瞬间心痒难耐，三步做两步，逼近这少年，一把抱起，便想先办事再说，说来也奇怪，少年也不反抗，竟娇嗔的随[NAME]摆布…………直至半夜，[NAME]居然悄悄离开了断袖居，匆忙奔向山门，一边跑还一边骂：这厮居然可攻可受，哎哟喂，我的腚哦！…………");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetPhysique();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("烟风飘摇夜归客，浮萍随波各生欢。[NAME]每每被思绪所扰之时，竟是想起了那夜的少年，身经百战的[IT]尽然撑不过…………"));
+					me:AddMsg("[NAME]看见一排少年并列而立，其中一个面庞俊秀的貌美少年，十分合[IT]的意，便领了这少年入了厢房…………一番云翻雨覆之后，只见少年缓缓退出厢房，而[NAME]则在里面气喘吁吁的自言自语道：果然这嫩草不好啃啊，腿软的走不动路了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("想佳人，妆楼颙望，误几回、天际识归舟。[NAME]每每思念起那个叫[潘安]的少年，便不由得伤感起来，红尘所迫，身不由己，只愿各自安好…………"));
+					me:AddMsg("[NAME]把玩着少年的青丝，幽幽的说道：公子生得如此俊俏，若不是在这断袖居，应该也能得佳人青睐，何必委身于此呢？少年听罢，眼神慢慢暗淡下来，又似乎眼角泛红，[NAME]轻轻擦拭着少年的眼眶，温柔地说道：想必是有段不能言说的往事了，公子放心，本姑娘会好好待你的…………深夜，帷帐缓缓落下…………");
+					me:AddMsg("解锁故事——【潘安】【人物创意来自群友：叽喱道人】：潘安本是一位京城潘家少爷，年仅9岁就将京城上至50，下至12的少女迷得团团转。奈何12岁那年，他外出游历，竟被一位公主瞧见。那公主垂涎潘安的美貌，竟悄悄的下蒙汗药，强行拖其于自己的马车，实施可怕的行为。当潘安眯着眼看到一旁像猪一样的公主时，瞬间惊醒。“我昨日竟与如此丑陋之女干如此龌蹉之事，我有什么可以活的？”想罢，他便跳入河中寻死。奈何此人命不该绝，在河的下流，被一陌生女子救起。此女见潘安如此貌美，又失去了记忆，便将潘安带入断袖居，从此沉沦为一名男妓…………");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("绛绡缕薄冰肌莹，雪腻酥香。笑语檀郎，今夜纱厨枕簟凉。[NAME]想起宗门内有大补的方子，想来那个少年应该用的上，一想到此处，[IT]又舔了舔嘴唇，似乎还在回味那夜的不平静…………"));
+					me:AddMsg("少年强撑起虚弱的身子，偷偷从[NAME]身边爬起，脚还没沾地板，便被一双纤纤玉手缠在了腰间，轻轻的说道：公子，这是要去哪里啊，小女子又不是那虎狼，还怕我吃了你不成？只见少年一边用颤巍巍的手又拉上了帷帐，一边有气无力的说道：岂敢岂敢，能得姑娘宠爱，小的自当惶恐，惶恐……看来这一夜又不太平了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("绕指柔情似妾意，百转千回得君惜。[NAME]想起那天落荒而逃的少年，不禁偷笑起来，突然想起自己貌似还有一个叫快乐钉的玩意儿，下次再带过去给那少年玩玩…………"));
+					me:AddMsg("[NAME]躺在少年的怀中，笑吟吟的对少年说：今天出来走的急，没带什么礼物给你，我这里有个快乐球，给你玩玩！说完便不等少年应允，就玩起了快乐球…………不过半刻，只听到少年大叫着从厢房里面跑出来，脸色狰狞的捂着下体夺路而逃…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>点夏生</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<Tip>神识</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetPerception();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[NAME]偶然发呆之时，竟然想起那天在[断袖居]居然被一个男人霸王硬上弓了！每每想到这里，[IT]便脸红起来…………"));
+					me:AddMsg("稍候片刻，一位俊美少年走入厢房，引得[NAME]发了好一会儿呆，竟是浑然不知少年已为[IT]更衣完毕，还不等[NAME]回神，又抱起[IT]走向床帏…………一夜无话，第二天一早，[NAME]便匆匆离开，御剑飞行之时，还在思考：我是被霸王硬上弓了？…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("山盟海誓无相忘，从此江湖各一人。[NAME]想起了那个心中深处的少年[夏生]，如今想来，恍若隔世，不知何时才能再次相见…………"));
+					me:AddMsg("[NAME]不自禁的用手抚摸着少年的脸颊，轻轻的吻上额头，动作如此轻柔，想必是怕打搅了少年的美梦。然而此时少年突然痛苦的喊了起来：不要过来！不要过来！[NAME]直觉是少年的梦魇，便担心的呼喊着少年，直至少年醒来…………");
+					me:AddMsg("解锁故事——【夏生】【人物创意来自群友：墨鸩】：幼年丧母的少年夏生，暗恋着自己的老师鞠阳菜。无法实现的思念涌入心中，突然被邀请参加联谊的夏生，与在那里遇到的鞠琉依一起进行了首次体验。这时父亲打算再婚，作为父亲再婚对象的女儿出现在夏生面前的，正是阳菜和琉依。凭借着独立的人格，和温柔暖男的形象，阳菜和琉依都迷恋上了夏生。由于夏生的优柔寡断，同时接受了阳菜和琉依两人的爱意，在同一屋檐下形成了禁断三角关系。在心理和伦理上双重折磨下，夏生最终崩溃离开，选择在断袖居，了此余生…………");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("鸳鸯被里成双夜，一树梨花压海棠。[NAME]每每思念起那个俊俏娇柔的少年，便想起这句诗来，压海棠，压海棠…………嘿嘿嘿[NAME]莫名其妙的傻笑起来…………"));
+					me:AddMsg("[NAME]看着怀中楚楚可怜的少年，不禁心疼起来，柔声问道：小家伙，下回再来这里消遣，爷还点你，瞧你这可怜兮兮的样子。说完[NAME]还刮了刮少年的鼻子，似乎把怀中少年抱得更紧了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("[NAME]时不时想去挠挠菊花，每次要挠时，便想起那个少年，然后竟然是菊花一紧，便没了挠菊花的兴致…………"));
+					me:AddMsg("[NAME]看俏公子缓缓走入房内，瞬间心痒难耐，三步做两步，逼近这少年，一把抱起，便想先办事再说，说来也奇怪，少年也不反抗，竟娇嗔的随[NAME]摆布…………直至半夜，[NAME]居然悄悄离开了断袖居，匆忙奔向山门，一边跑还一边骂：这厮居然可攻可受，哎哟喂，我的腚哦！…………");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				local nR = me:GetPerception();
+				if nR < 7 then
+					me:AddPracticeResource("Stage", -1000);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("烟风飘摇夜归客，浮萍随波各生欢。[NAME]每每被思绪所扰之时，竟是想起了那夜的少年，身经百战的[IT]尽然撑不过…………"));
+					me:AddMsg("[NAME]看见一排少年并列而立，其中一个面庞俊秀的貌美少年，十分合[IT]的意，便领了这少年入了厢房…………一番云翻雨覆之后，只见少年缓缓退出厢房，而[NAME]则在里面气喘吁吁的自言自语道：果然这嫩草不好啃啊，腿软的走不动路了…………");
+				end
+				if nR >= 9 then
+					me:AddPracticeResource("Stage", 2500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(250);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("想佳人，妆楼颙望，误几回、天际识归舟。[NAME]每每思念起那个叫[夏生]的少年，便不由得伤感起来，红尘所迫，身不由己，只愿各自安好…………"));
+					me:AddMsg("[NAME]把玩着少年的青丝，幽幽的说道：公子生得如此俊俏，若不是在这断袖居，应该也能得佳人青睐，何必委身于此呢？少年听罢，眼神慢慢暗淡下来，又似乎眼角泛红，[NAME]轻轻擦拭着少年的眼眶，温柔地说道：想必是有段不能言说的往事了，公子放心，本姑娘会好好待你的…………深夜，帷帐缓缓落下…………");
+					me:AddMsg("解锁故事——【夏生】【人物创意来自群友：墨鸩】：幼年丧母的少年夏生，暗恋着自己的老师鞠阳菜。无法实现的思念涌入心中，突然被邀请参加联谊的夏生，与在那里遇到的鞠琉依一起进行了首次体验。这时父亲打算再婚，作为父亲再婚对象的女儿出现在夏生面前的，正是阳菜和琉依。凭借着独立的人格，和温柔暖男的形象，阳菜和琉依都迷恋上了夏生。由于夏生的优柔寡断，同时接受了阳菜和琉依两人的爱意，在同一屋檐下形成了禁断三角关系。在心理和伦理上双重折磨下，夏生最终崩溃离开，选择在断袖居，了此余生…………");
+				elseif nR >= 8 then
+					me:AddPracticeResource("Stage", 500);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(50);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("绛绡缕薄冰肌莹，雪腻酥香。笑语檀郎，今夜纱厨枕簟凉。[NAME]想起宗门内有大补的方子，想来那个少年应该用的上，一想到此处，[IT]又舔了舔嘴唇，似乎还在回味那夜的不平静…………"));
+					me:AddMsg("少年强撑起虚弱的身子，偷偷从[NAME]身边爬起，脚还没沾地板，便被一双纤纤玉手缠在了腰间，轻轻的说道：公子，这是要去哪里啊，小女子又不是那虎狼，还怕我吃了你不成？只见少年一边用颤巍巍的手又拉上了帷帐，一边有气无力的说道：岂敢岂敢，能得姑娘宠爱，小的自当惶恐，惶恐……看来这一夜又不太平了…………");
+				elseif nR >= 7 then
+					me:AddPracticeResource("Stage", 100);
+					me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"));
+					me:AddTreeExp(10);
+					me:AddSchoolScore(1,-50);
+					me:AddMemery(me:ParseNpcStory("绕指柔情似妾意，百转千回得君惜。[NAME]想起那天落荒而逃的少年，不禁偷笑起来，突然想起自己貌似还有一个叫快乐钉的玩意儿，下次再带过去给那少年玩玩…………"));
+					me:AddMsg("[NAME]躺在少年的怀中，笑吟吟的对少年说：今天出来走的急，没带什么礼物给你，我这里有个快乐球，给你玩玩！说完便不等少年应允，就玩起了快乐球…………不过半刻，只听到少年大叫着从厢房里面跑出来，脸色狰狞的捂着下体夺路而逃…………");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开断袖居</Display>
+				<Tip>返回中央大街</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================伪城市分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS_E_01"  Parent="BaseFillingStory">
+		<DisplayName>掳掠凡人</DisplayName>
+		<Desc>[NAME]来到了附近的城市，见到有几个凡人正走在僻静的胡同里，[NAME]便施展神通，掳走了这几个凡人。</Desc>
+		<GlobleOKResult>
+		<![CDATA[	
+			if me:GetLuck() >= me:RandomInt(4,15) then
+				me:AddMsg(XT("[NAME]掳走了几个凡人。幸运的是，此事滴水不漏，无人察觉。"));
+			elseif me:GetLuck() >= me:RandomInt(2,9) then
+				me:AddMsg(XT("[NAME]掳走了几个凡人。不幸的是，此事走漏了风声，宣扬开来。"));
+				me:AddSchoolScore(1,-100);
+				me:AddSchoolScore(3,100);
+			else
+				me:AddMsg(XT("[NAME]掳走了几个凡人。不幸的是，此事走漏了风声，竟然被一伙正派人士知晓，竟然一路追索，找上门来。"));
+				me:AddEnemy(world:RandomInt(2,5),world:RandomFloat(0,1));
+				me:AddSchoolScore(1,-100);
+				me:AddSchoolScore(3,100);
+			end
+			local nQ = me:RandomFloat(1, 3)
+			local nN = me:RandomInt(1,6)
+			local nR = me:RandomInt(1,4)
+			if me:GetPhysique() >= 7 then
+				me:GrabJoiners(nN,nR,nQ,0,0,0,0);
+			elseif me:GetPerception() >= 7 then
+				me:GrabJoiners(nN,nR,0,nQ,0,0,0);
+			elseif me:GetCharisma() >= 7 then
+				me:GrabJoiners(nN,nR,0,0,nQ,0,0);
+			elseif me:GetIntelligence() >= 7 then
+				me:GrabJoiners(nN,nR,0,0,0,nQ,0);
+			elseif me:GetLuck() >= 7 then
+				me:GrabJoiners(nN,nR,0,0,0,0,nQ);
+			else
+				me:GrabJoiners(nN,nR,0,0,0,0,0,0);
+			end
+		]]>
+		</GlobleOKResult>
+	</Story>
+	
+	<Story Name="XXZS_CS_E_02"  Parent="BaseFillingStory">
+		<DisplayName>寻觅弟子</DisplayName>
+		<Desc>[NAME]在城市中搜寻弟子时，发现一名天资绝佳的苗子，于是在梦中显化神通，赐了这名凡人一场仙缘。如果这名弟子有心求仙道长生，大概在未来一两天内就会抵达宗门所在。</Desc>
+		<GlobleOKResult>
+		<![CDATA[	
+			local nQ = me:RandomFloat(0, 3)
+			local nN = me:RandomInt(0,2)
+			local nR = me:RandomInt(8,11)
+			local nD = me:RandomFloat(0.5,2)
+			if me:GetPhysique() >= 7 then
+				me:AddJoiners(nN,nR,nD,nQ,0,0,0,0);
+			elseif me:GetPerception() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,nQ,0,0,0);
+			elseif me:GetCharisma() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,nQ,0,0);
+			elseif me:GetIntelligence() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,0,nQ,0);
+			elseif me:GetLuck() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,0,0,nQ);
+			else
+				me:AddJoiners(nN,nR,nD,0,0,0,0,0);
+			end
+		]]>
+		</GlobleOKResult>
+	</Story>
+	
+	<Story Name="XXZS_CS_E_02A"  Parent="XXZS_CS_E_02">
+		<DisplayName>寻觅弟子</DisplayName>
+		<Desc>[NAME]在城市中搜寻弟子时，偶遇一场仇杀，他看被追杀之人似乎与本门有缘，就随手施了个法术救了那人一命，并指点他来山门报道。</Desc>
+		<GlobleOKResult>
+		<![CDATA[	
+			local nQ = me:RandomFloat(1, 3)
+			local nN = 1
+			local nR = me:RandomInt(4,8)
+			local nD = me:RandomFloat(0.1,0.5)
+			if me:GetPhysique() >= 7 then
+				me:AddJoiners(nN,nR,nD,nQ,0,0,0,0);
+			elseif me:GetPerception() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,nQ,0,0,0);
+			elseif me:GetCharisma() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,nQ,0,0);
+			elseif me:GetIntelligence() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,0,nQ,0);
+			elseif me:GetLuck() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,0,0,nQ);
+			else
+				me:AddJoiners(nN,nR,nD,0,0,0,0,0);
+			end
+		]]>
+		</GlobleOKResult>
+	</Story>
+	
+	<Story Name="XXZS_CS_E_02B"  Parent="XXZS_CS_E_02">
+		<DisplayName>寻觅弟子</DisplayName>
+		<Desc>[NAME]在城市中搜寻弟子时，发现了几个有心向道的凡人，于是指点了他们宗门位置，算算时间差不多到了。</Desc>
+		<GlobleOKResult>
+		<![CDATA[	
+			local nQ = me:RandomFloat(1, 3)
+			local nN = me:RandomInt(1,3)
+			local nR = me:RandomInt(1,4)
+			local nD = me:RandomFloat(0.2,1)
+			if me:GetPhysique() >= 7 then
+				me:AddJoiners(nN,nR,nD,nQ,0,0,0,0);
+			elseif me:GetPerception() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,nQ,0,0,0);
+			elseif me:GetCharisma() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,nQ,0,0);
+			elseif me:GetIntelligence() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,0,nQ,0);
+			elseif me:GetLuck() >= 7 then
+				me:AddJoiners(nN,nR,nD,0,0,0,0,nQ);
+			else
+				me:AddJoiners(nN,nR,nD,0,0,0,0,0);
+			end
+		]]>
+		</GlobleOKResult>
+	</Story>
+	
+	<!-- ==========================================================================分割线========================================================================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Stories>

@@ -1,0 +1,233 @@
+<Gongs><List>
+	<Gong Name="XXZS_NWCSL">
+		<DisplayName>女娲采石论</DisplayName>
+		<Desc>据传是【南荒】上古丹宗【百草谷】一脉的镇派功法之一。祖师爷本是一名残疾人，靠摸骨算命勉强过活，后从女娲炼石补天中获得启发，开创此功法，也是一门丹器皆修的上乘功法。</Desc>
+		<SelectDesc>此功法专注于炼器之道，虽然功法境界较少，但也需要大量金石辅以修炼，否则难已精进。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>-1,6,-1,-1,9</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Mu</ElementKind>
+		<Skill><!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期1-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>泥沙之体</DisplayName>
+				<Desc>女娲造人，取之泥沙，若要修道，先去其糟粕</Desc>
+				<Value>5000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>熔融</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Cinnabar"/>
+							<Item name="Item_LingStone"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					<Neck Location="0.66" Kind="Chance">
+						<DisplayName>凝炼</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.9</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_CopperGrit"/>
+							<Item name="Item_LingStone"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Mu_Corrosion" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Mu_Parasitic" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>升华</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.8</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_SilverGrit"/>
+							<Item name="Item_LingStone"/>
+							<Item name="Item_LingCrystal"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Shui_ColdBlood" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Shui_ColdPoison" Rate="0.4"/>
+						</Damages>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期1-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>岩石之体</DisplayName>
+				<Desc>女娲补天，采之岩石，若要精进，先去其杂质</Desc>
+				<Value>5000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>熔融</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.7</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_BrownRock"/>
+							<Item name="Item_SkyStone"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Huo_VisceralBurn" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Huo_BurnOfPain" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					<Neck Location="0.66" Kind="Chance">
+						<DisplayName>凝炼</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.6</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_GrayRock"/>
+							<Item name="Item_SkyStone"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Tu_Petrifaction1" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Tu_Petrifaction2" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>升华</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<ItemCost>
+							<Item name="Item_Marble"/>
+							<Item name="Item_SkyStone"/>
+							<Item name="Item_LingCrystal"/>
+						</ItemCost>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期1-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>珏玉之体</DisplayName>
+				<Desc>女娲化灵，用之珏玉，若要大乘，先去其瑕疵</Desc>
+				<Value>5000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>熔融</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.5</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Jade"/>
+							<Item name="Item_ExtremeJade"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="LingSpillsInjury_Sp" Rate="0.4"/>
+							<li PartKind="Meridian" Name="LingSpillsInjury" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					<Neck Location="0.66" Kind="Chance">
+						<DisplayName>凝炼</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.4</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_StoneEssence"/>
+							<Item name="Item_ExtremeJade"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="SwordBallDamage" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Dan_Soul3_Damage" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>升华</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.3</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_JadeEssence"/>
+							<Item name="Item_ExtremeJade"/>
+							<Item name="Item_LingCrystal"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="SoulOutOfBrain" Rate="0.4"/>
+							<li PartKind="Meridian" Name="LostSoul" Rate="0.4"/>
+						</Damages>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期3-->
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>烁金之体</DisplayName>
+				<Desc>女娲赐福，源之精金，若要飞升，以天雷淬之</Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>熔融</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>400</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.2</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_StarEssence"/>
+							<Item name="Item_CopperBlock1"/>
+							<Item name="Item_SilverBlock1"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Damage_GongXinYin_Damage" Rate="0.4"/>
+							<li PartKind="Meridian" Name="Damage_TianDaoBenYuan1" Rate="0.4"/>
+						</Damages>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.66" Kind="Chance">
+						<DisplayName>凝炼</DisplayName>
+						<Desc>需要天材地宝加以辅助，若是失败，会被金石之气所伤</Desc>
+						<CostTime>400</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_StarEssence"/>
+							<Item name="Item_ExtremeJade"/>
+							<Item name="Item_StarEssenceBlock"/>
+							<Item name="Item_LingCrystal"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="DiffEnergyInvade" Rate="0.3"/>
+							<li PartKind="Meridian" Name="ElixirFieldShock" Rate="0.3"/>
+							<li PartKind="Meridian" Name="Damage_Boss_LingBoom" Rate="0.3"/>
+						</Damages>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>升华</DisplayName>
+						<Desc>雷劫洗礼得升华，金玉石沙永不沾</Desc>
+						<ThunderValue>480000</ThunderValue>
+						<NeckCountdown>60000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

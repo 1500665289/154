@@ -1,0 +1,103 @@
+<MoodDefs><List>
+	
+	<Mood Name="MJ_01">
+		<DisplayName>畅饮美酒</DisplayName>
+		<Desc>对酒当歌，人生几何！</Desc>
+		<StoryDesc>正沉醉在美酒的微醺中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>7</Duration>
+	</Mood>
+	
+	<Mood Name="MS_01">
+		<DisplayName>享受美食</DisplayName>
+		<Desc>口齿留香，回味无穷！</Desc>
+		<StoryDesc>正沉浸在美食的余味中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="YY_01">
+		<DisplayName>余音绕梁</DisplayName>
+		<Desc>高山流水余音绕，天籁之音不曾闻！</Desc>
+		<StoryDesc>正沉浸在美妙音乐的旋律中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="YY_02">
+		<DisplayName>掌声环绕</DisplayName>
+		<Desc>千歌万曲信手捏，接词对曲无人敌！</Desc>
+		<StoryDesc>正沉浸在掌声雷动的簇拥中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="YY_03">
+		<DisplayName>嘘声一片</DisplayName>
+		<Desc>区区戏耳，来日再战！</Desc>
+		<StoryDesc>正沉浸在尴尬的嘘声中。</StoryDesc>
+		<MaxStack>3</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>-35</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="SS_01">
+		<DisplayName>闲情逸致</DisplayName>
+		<Desc>街头巷尾事事知，评书论道声声闻！</Desc>
+		<StoryDesc>正沉浸在奇闻轶事的品评中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="YS_01">
+		<DisplayName>吟诗作赋</DisplayName>
+		<Desc>常吟诗词三百首，不会作诗也会吟！</Desc>
+		<StoryDesc>正沉浸在吟诗作赋的高雅乐趣中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="YS_02">
+		<DisplayName>废物三连</DisplayName>
+		<Desc>别问我！我不会啊！我应该已经废了！</Desc>
+		<StoryDesc>正沉浸在废物的自闭中。</StoryDesc>
+		<MaxStack>3</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>-35</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="DL_01">
+		<DisplayName>江南才子</DisplayName>
+		<Desc>叫声将军，提防提防！</Desc>
+		<StoryDesc>正沉浸在对对联的高雅乐趣中。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+	<Mood Name="DL_02">
+		<DisplayName>对王之王</DisplayName>
+		<Desc>小小书僮，可笑可笑！</Desc>
+		<StoryDesc>正沉浸在对对联的口吐鲜血中。</StoryDesc>
+		<MaxStack>3</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>-35</Value>
+		<Duration>15</Duration>
+	</Mood>
+	
+</List></MoodDefs>

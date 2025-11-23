@@ -1,0 +1,251 @@
+<FightSkills><List>
+	<!-- ====================法宝增强==================== -->
+	
+	<Skill Name="XXZS_MXG_A_1"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>九天长生道</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>6</Value>
+		<Value2>20</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<!-- ====================术法增强==================== -->
+	
+	<Skill Name="XXZS_MXG_B_1"><!--术法增强基础模板 --> 
+		<DisplayName>九地轮回道</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>6</Value>
+		<Value2>20</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<!-- ====================护体增强==================== -->
+	
+	<Skill Name="XXZS_MXG_C_1"><!--护体增强基础模板 --> 
+		<DisplayName>九地驱邪法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>2</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200006</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_MXG_C_2"><!--护体增强基础模板 --> 
+		<DisplayName>九天御仙道</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>6</Value>
+		<Value2>20</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200006</HitEffect>
+	</Skill>
+	
+	<!-- ====================灵气恢复==================== -->
+	
+	<Skill Name="XXZS_MXG_D_1"><!--恢复技能基础模板 --> 
+		<DisplayName>九地诸子法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>60</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_MXG_D_2"><!--恢复技能基础模板 --> 
+		<DisplayName>九天封神道</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>660</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	
+	<!-- ====================法术伤害1==================== -->
+	
+	<Skill Name="XXZS_MXG_E_1"><!--伤害技能基础模板 --> 
+		<DisplayName>太虚红尘决</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>660</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_MXG_E_1A" Parent="XXZS_MXG_E_1">
+		<DisplayName>群</DisplayName>
+		<SelectCount>999</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_MXG_E_2"><!--伤害技能基础模板 --> 
+		<DisplayName>太虚万象决</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>660</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_MXG_E_2A" Parent="XXZS_MXG_E_2">
+		<DisplayName>群</DisplayName>
+		<SelectCount>999</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_MXG_E_3"><!--伤害技能基础模板 --> 
+		<DisplayName>混元破邪法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>660</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_MXG_E_3A" Parent="XXZS_MXG_E_3">
+		<DisplayName>群</DisplayName>
+		<SelectCount>999</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_MXG_E_4"><!--伤害技能基础模板 --> 
+		<DisplayName>混元诛煞法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>30</CD>
+		<LingCost>120</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>660</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_MXG_E_4A" Parent="XXZS_MXG_E_4">
+		<DisplayName>群</DisplayName>
+		<SelectCount>999</SelectCount>
+	</Skill>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></FightSkills>

@@ -1,0 +1,19 @@
+<Magics><List>
+	<Magic Name="XXZZ_SNBCL_ST_01" Type="Class">
+		<DisplayName>移花接木</DisplayName>
+		<Desc>消耗大量灵力，将他山灵木灵草移植到一定区域。</Desc>
+		<CMD>dasda</CMD>
+		<Icon>Spr\Object\JN\XXZZ_ST\ST_yi.png</Icon>
+		<SelectMode>Ellipse</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<sParam1>Soil</sParam1>
+		<Param1>30</Param1>
+		<SelectTarget>NoBuilding|InLight|Walkable</SelectTarget>
+		<ClassName>XXZZ_SNBCL_ST_01</ClassName>
+		<TargetDesc>请选择一块空地</TargetDesc>
+		<MaxArea>49</MaxArea>
+		<CostLing>50000</CostLing>
+	</Magic>
+	
+	
+</List></Magics>

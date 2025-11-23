@@ -1,0 +1,616 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_B_01"  Parent="BaseFillingStory">
+		<DisplayName>天机阁</DisplayName>
+		<Desc>[NAME]抬头一看，只见【天机阁】三字赫然在目，仔细想想感觉勉强和秘籍扯得上关系，[IT]正好想起自己要买本秘籍演练演练，要不就进去挑挑看吧。</Desc>
+		<Selections>
+			<li>
+				<Display>购买稀有丹方【6000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 6000
+				]]>
+				</Condition>
+				<Tip>游戏自带丹方</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01A");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("天机阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被天机阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"天机阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买真法秘录【50000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 50000
+				]]>
+				</Condition>
+				<Tip>游戏本源、逆源秘籍</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01B");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("天机阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被天机阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"天机阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买四方游记【5000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 5000
+				]]>
+				</Condition>
+				<Tip>游戏自带游记</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01C");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("天机阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被天机阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"天机阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买符篆图册【6000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 6000
+				]]>
+				</Condition>
+				<Tip>游戏自带符图</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01D");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("天机阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被天机阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"天机阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买二手秘籍【10000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 10000
+				]]>
+				</Condition>
+				<Tip>游戏随机秘籍</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01E");
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("天机阁老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被天机阁老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"天机阁老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开天机阁</Display>
+				<Tip>返回西市</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Story Name="XXZS_CS_B_01A"  Parent="BaseFillingStory">
+		<DisplayName>天机阁</DisplayName>
+		<Desc>【天机阁】的【丹方】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>真丹药略【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>俗世仙方【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_2");
+				</OKResult>
+			</li>
+			<li>
+				<Display>五帝药典【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>太上丹经（残篇）【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_4");
+				</OKResult>
+			</li>
+			<li>
+				<Display>造化灵感方【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_5");
+				</OKResult>
+			</li>
+			<li>
+				<Display>古今命集注【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_6");
+				</OKResult>
+			</li>
+			<li>
+				<Display>避劫仙方【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_7");
+				</OKResult>
+			</li>
+			<li>
+				<Display>夺天书【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_8");
+				</OKResult>
+			</li>
+			<li>
+				<Display>通幽秘传【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]丹方[/color]，便匆匆离开了。");
+				me:DropEsoteric("DanFang_9");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回天机阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B_01B"  Parent="BaseFillingStory">
+		<DisplayName>天机阁</DisplayName>
+		<Desc>【天机阁】的【真法】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>本源真法-琅琊典【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Ling_Jin");
+				</OKResult>
+			</li>
+			<li>
+				<Display>本源真法-枯荣经【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Ling_Mu");
+				</OKResult>
+			</li>
+			<li>
+				<Display>本源真法-青莲书【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Ling_Shui");
+				</OKResult>
+			</li>
+			<li>
+				<Display>本源真法-明夷录【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Ling_Huo");
+				</OKResult>
+			</li>
+			<li>
+				<Display>本源真法-蕴龙诀【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Ling_Tu");
+				</OKResult>
+			</li>
+			<li>
+				<Display>逆源真法-无妄心魔咒【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Sha_Jin");
+				</OKResult>
+			</li>
+			<li>
+				<Display>逆源真法-大过经【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Sha_Mu");
+				</OKResult>
+			</li>
+			<li>
+				<Display>逆源真法-未济七绝体【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Sha_Shui");
+				</OKResult>
+			</li>
+			<li>
+				<Display>逆源真法-革天录【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Sha_Huo");
+				</OKResult>
+			</li>
+			<li>
+				<Display>逆源真法-否极无咎书【50000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50000[/color]点门派声望，购买了一本[color=#BC1717]真法秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Esoterica_LingZhi_MiFa_Sha_Tu");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回天机阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B_01C"  Parent="BaseFillingStory">
+		<DisplayName>天机阁</DisplayName>
+		<Desc>【天机阁】的【游记】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>神州志：中原篇【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_1_2");
+				</OKResult>
+			</li>
+			<li>
+				<Display>神州志：江岸篇【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_1_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷一【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷二【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_2");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷三【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷四【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_4");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷五【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_5");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷六【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_6");
+				</OKResult>
+			</li>
+			<li>
+				<Display>御风子游记：卷七【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_2_7");
+				</OKResult>
+			</li>
+			<li>
+				<Display>山图海志【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>拾遗录：上册【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_4_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>拾遗录：中册【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_4_2");
+				</OKResult>
+			</li>
+			<li>
+				<Display>拾遗录：下册【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_4_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>游仙录【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_5");
+				</OKResult>
+			</li>
+			<li>
+				<Display>云笈秘录：边荒篇【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_6_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>云笈秘录：雪原篇【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_6_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>云笈秘录：大漠篇【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("YouJi_6_4");
+				</OKResult>
+			</li>
+			<li>
+				<Display>群仙录：卷一【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("NanGongYiCe");
+				</OKResult>
+			</li>
+			<li>
+				<Display>群仙录：卷二【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("QunXianLu_2");
+				</OKResult>
+			</li>
+			<li>
+				<Display>群仙录：卷三【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("QunXianLu_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>上古秘闻：卷一【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("ShangGuYiWen_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>上古秘闻：卷二【5000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]5000[/color]点门派声望，购买了一本[color=#BC1717]游记[/color]，便匆匆离开了。");
+				me:DropEsoteric("ShangGuYiWen_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回天机阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B_01D"  Parent="BaseFillingStory">
+		<DisplayName>天机阁</DisplayName>
+		<Desc>【天机阁】的【符图】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>三洞玉函【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]符册[/color]，便匆匆离开了。");
+				me:DropEsoteric("SpellEsoterica_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>五炁神符经【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]符册[/color]，便匆匆离开了。");
+				me:DropEsoteric("SpellEsoterica_2");
+				</OKResult>
+			</li>
+			<li>
+				<Display>六敕五方神符金书【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]符册[/color]，便匆匆离开了。");
+				me:DropEsoteric("SpellEsoterica_3");
+				</OKResult>
+			</li>
+			<li>
+				<Display>与帝符文书【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]符册[/color]，便匆匆离开了。");
+				me:DropEsoteric("SpellEsoterica_4");
+				</OKResult>
+			</li>
+			<li>
+				<Display>太平符箓要册【6000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]6000[/color]点门派声望，购买了一本[color=#BC1717]符册[/color]，便匆匆离开了。");
+				me:DropEsoteric("SpellEsoterica_5");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回天机阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_B_01E"  Parent="BaseFillingStory">
+		<DisplayName>天机阁</DisplayName>
+		<Desc>【天机阁】的【二手秘籍】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>随机秘籍（无）</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsotericCustomize("无量",0,0,2,10,4,"从天机阁淘来的二手秘籍，能学一本是一本。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>随机秘籍（金）【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsotericCustomize("白虎",1,0,2,10,4,"从天机阁淘来的二手秘籍，能学一本是一本。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>随机秘籍（木）【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsotericCustomize("青龙",2,0,2,10,4,"从天机阁淘来的二手秘籍，能学一本是一本。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>随机秘籍（水）【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsotericCustomize("玄武",3,0,2,10,4,"从天机阁淘来的二手秘籍，能学一本是一本。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>随机秘籍（火）【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsotericCustomize("朱雀",4,0,2,10,4,"从天机阁淘来的二手秘籍，能学一本是一本。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>随机秘籍（土）【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsotericCustomize("麒麟",5,0,2,10,4,"从天机阁淘来的二手秘籍，能学一本是一本。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>山河诀【10000】</Display>
+				<OKResult>
+			SchoolMgr.BaseScore = SchoolMgr.BaseScore - 10000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]10000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Other_Esoterica_ShanHeJue");
+				</OKResult>
+			</li>
+			<li>
+				<Display>迎春图册【10000】</Display>
+				<OKResult>
+			SchoolMgr.BaseScore = SchoolMgr.BaseScore - 10000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]10000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("SpellEsoterica_6");
+				</OKResult>
+			</li>
+			<li>
+				<Display>炎黄通史【10000】</Display>
+				<OKResult>
+			SchoolMgr.BaseScore = SchoolMgr.BaseScore - 10000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]10000[/color]点门派声望，购买了一本[color=#BC1717]二手秘籍[/color]，便匆匆离开了。");
+				me:DropEsoteric("Other_Esoterica_YanHuangTongShi");
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回天机阁</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B_01");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+</List></Stories>

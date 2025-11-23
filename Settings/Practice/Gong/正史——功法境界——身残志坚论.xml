@@ -1,0 +1,118 @@
+<Gongs><List>
+	<Gong Name="XXZS_SCZJL">
+		<DisplayName>身残志坚论</DisplayName>
+		<Desc>据传是【南荒】上古丹宗【百草谷】遗脉自创的功法之一。其遗脉弟子本因传承几大镇派功法，而世道变迁，传至后人时，几大功法仅剩几章残页，而就是这几章残页，再度经由弟子开创之后，方才成就此功法。此功法极其适合身残志坚之人修习。</Desc>
+		<SelectDesc>此功法需要身残志坚之士方能学习，是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>1,1,1,1,1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期-->
+			<Stage Name="Stage1" Level="2">
+				<DisplayName>破身境</DisplayName>
+				<Desc>入此门，先破身</Desc>
+				<Value>1000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>蛰伏</DisplayName>
+						<Desc>欲练此功，必先蛰伏</Desc>
+						<ExploreValue>1</ExploreValue>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期-->
+			<Stage Name="Stage2" Level="4">
+				<DisplayName>宏志境</DisplayName>
+				<Desc>欲修仙，必立志</Desc>
+				<Value>3500</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>结茧</DisplayName>
+						<Desc>若求上品，结茧自缚</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage3" Level="7">
+				<DisplayName>惊世境</DisplayName>
+				<Desc>金丹成，方惊世</Desc>
+				<Value>40000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>惊起</DisplayName>
+						<Desc>一丹成，惊世尘</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_BasePracticeDrug"/>
+							<Item name="Item_Dan_JingYuan"/>
+							<Item name="Item_Dan_Ling"/>
+							<Item name="Item_Dan_CalmDown"/>
+						</ItemCost>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage4" Level="9">
+				<DisplayName>奋飞境</DisplayName>
+				<Desc>迎难上，追大罗</Desc>
+				<Value>90000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>羽化</DisplayName>
+						<Desc>苦修行，羽化轻</Desc>
+						<ExploreValue>4</ExploreValue>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期-->
+			<Stage Name="Stage5" Level="10">
+				<DisplayName>壮志境</DisplayName>
+				<Desc>元神成，更壮志</Desc>
+				<Value>550000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>腾升</DisplayName>
+						<Desc>莫忘心，得升腾</Desc>
+						<ThunderValue>100000</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--渡劫期-->
+			<Stage Name="Stage6" Level="12">
+				<DisplayName>齐天境</DisplayName>
+				<Desc>天劫达，与天齐</Desc>
+				<Value>820000</Value>
+				<Necks>
+					<Neck Location="1" Kind="God">
+						<DisplayName>耀世</DisplayName>
+						<Desc>一朝劫，世间仙</Desc>
+						<ThunderValue>600000</ThunderValue>
+						<NeckCountdown>60000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>	
+		</Stages>
+	</Gong>
+</List></Gongs>

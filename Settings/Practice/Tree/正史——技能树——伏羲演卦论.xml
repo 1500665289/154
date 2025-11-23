@@ -1,0 +1,401 @@
+<SkillTree><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Node Name="XXZS_FXYGL_Qi_6A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_1A</Esoterica>
+		<DisplayName>先天八卦</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_Qi_6B</li>
+			<li>XXZS_FXYGL_Qi_6C</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_Qi_6B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_1B</Esoterica>
+		<DisplayName>先天八卦</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_FXYGL_Qi_6C" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_1C</Esoterica>
+		<DisplayName>先天八卦</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Node Name="XXZS_FXYGL_Dan1_6A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_2A</Esoterica>
+		<DisplayName>中天八卦</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_Dan1_6B</li>
+			<li>XXZS_FXYGL_Dan1_6C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_Qi_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_Dan1_6B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_2B</Esoterica>
+		<DisplayName>中天八卦</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_FXYGL_Dan1_6C" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_2C</Esoterica>
+		<DisplayName>中天八卦</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Node Name="XXZS_FXYGL_Dan2_6A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_3A</Esoterica>
+		<DisplayName>后天八卦</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_Dan2_6B</li>
+			<li>XXZS_FXYGL_Dan2_6C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_Dan1_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_Dan2_6B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_3B</Esoterica>
+		<DisplayName>后天八卦</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_FXYGL_Dan2_6C" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_3C</Esoterica>
+		<DisplayName>后天八卦</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Node Name="XXZS_FXYGL_God_6A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_4A</Esoterica>
+		<DisplayName>六十四象</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_God_6B</li>
+			<li>XXZS_FXYGL_God_6C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_God_6B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_4B</Esoterica>
+		<DisplayName>六十四象</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_FXYGL_God_6C" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_4C</Esoterica>
+		<DisplayName>六十四象</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Node Name="XXZS_FXYGL_Dan2_4A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_5A</Esoterica>
+		<DisplayName>伏羲丹经</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_Dan2_4B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_Dan2_4B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_5B</Esoterica>
+		<DisplayName>伏羲丹经</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Node Name="XXZS_FXYGL_Dan2_8A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_6A</Esoterica>
+		<DisplayName>伏羲丹典</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_Dan2_8B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_Dan2_8B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_6B</Esoterica>
+		<DisplayName>伏羲丹典</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Node Name="XXZS_FXYGL_God_4A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_7A</Esoterica>
+		<DisplayName>九宫法</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_God_4B</li>
+			<li>XXZS_FXYGL_God_4C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_God_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_God_4B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_7B</Esoterica>
+		<DisplayName>五圣诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_FXYGL_God_4C" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_7C</Esoterica>
+		<DisplayName>九九归一咒</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Node Name="XXZS_FXYGL_God_8A" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_8A</Esoterica>
+		<DisplayName>河洛法</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_FXYGL_God_8B</li>
+			<li>XXZS_FXYGL_God_8C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_FXYGL_God_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_FXYGL_God_8B" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_8B</Esoterica>
+		<DisplayName>四象诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_FXYGL_God_8C" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_FXYGL_8C</Esoterica>
+		<DisplayName>二八星宿咒</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================空技能========================== -->
+	
+	<Node Name="XXZS_FXYGL_Dan2_5" Gong="XXZS_FXYGL">
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_FXYGL_Dan2_7" Gong="XXZS_FXYGL">
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_FXYGL_God_5" Gong="XXZS_FXYGL">
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_FXYGL_God_7" Gong="XXZS_FXYGL">
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<!-- ==========================真仙技========================== -->
+	
+	<Node Name="XXZS_FXYGL_e4" Gong="XXZS_FXYGL">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_FXYGL_e8" Gong="XXZS_FXYGL">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_FXYGL_e0" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_God2_Zhen</Esoterica>
+		<DisplayName>天道阵法</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Zhen" Level="20"/>
+		</Skills>
+		<LingMax>5000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>5</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_FXYGL_e1" Gong="XXZS_FXYGL">
+		<Esoterica>XXZS_God2_Shen</Esoterica>
+		<DisplayName>天道分神</DisplayName>
+		<Level>God2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Barrier" Level="20"/>
+		</Skills>
+		<LingMax>10000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+</List></SkillTree> 

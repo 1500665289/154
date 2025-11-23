@@ -1,0 +1,1147 @@
+<SkillTree><List>
+	
+	<!-- ==========================第一排========================== -->
+	
+	<Node Name="XXZS_WMYS_Qi_1A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_1A</Esoterica>
+		<DisplayName>左右互搏</DisplayName>
+		<Level>Qi</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>1,1,1,1,1</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>100</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_2A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_2A</Esoterica>
+		<DisplayName>太极拳</DisplayName>
+		<Level>Qi</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>2,2,2,2,2</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>500</LingMax>
+		<GoldLevel>9</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_3A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_3A</Esoterica>
+		<DisplayName>一阳指</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>3,3,3,3,3</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+			<li Name="Manual" Level="1"/>
+			<li Name="FightSkill" Level="1"/>
+			<li Name="Fabao" Level="1"/>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+		<LingMax>2500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_4A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_4A</Esoterica>
+		<DisplayName>天山折梅手</DisplayName>
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>4,4,4,4,4</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="3"/>
+			<li Name="Manual" Level="3"/>
+			<li Name="FightSkill" Level="3"/>
+			<li Name="Fabao" Level="3"/>
+			<li Name="Barrier" Level="3"/>
+		</Skills>
+		<LingMax>12500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_5A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_5A</Esoterica>
+		<DisplayName>天山六阳掌</DisplayName>
+		<Level>Qi</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>5,5,5,5,5</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="6"/>
+			<li Name="Manual" Level="6"/>
+			<li Name="FightSkill" Level="6"/>
+			<li Name="Fabao" Level="6"/>
+			<li Name="Barrier" Level="6"/>
+		</Skills>
+		<LingMax>62500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_6A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_6A</Esoterica>
+		<DisplayName>降龙十八掌</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>6,6,6,6,6</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="10"/>
+			<li Name="Manual" Level="10"/>
+			<li Name="FightSkill" Level="10"/>
+			<li Name="Fabao" Level="10"/>
+			<li Name="Barrier" Level="10"/>
+		</Skills>
+		<LingMax>312500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_7A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_7A</Esoterica>
+		<DisplayName>六脉神剑</DisplayName>
+		<Level>Qi</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>7,7,7,7,7</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="15"/>
+			<li Name="Manual" Level="15"/>
+			<li Name="FightSkill" Level="15"/>
+			<li Name="Fabao" Level="15"/>
+			<li Name="Barrier" Level="15"/>
+		</Skills>
+		<LingMax>1562500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_8A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_8A</Esoterica>
+		<DisplayName>黯然销魂掌</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>8,8,8,8,8</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="21"/>
+			<li Name="Manual" Level="21"/>
+			<li Name="FightSkill" Level="21"/>
+			<li Name="Fabao" Level="21"/>
+			<li Name="Barrier" Level="21"/>
+		</Skills>
+		<LingMax>7812500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_9A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_9A</Esoterica>
+		<DisplayName>少林七十二绝技</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>9,9,9,9,9</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="28"/>
+			<li Name="Manual" Level="28"/>
+			<li Name="FightSkill" Level="28"/>
+			<li Name="Fabao" Level="28"/>
+			<li Name="Barrier" Level="28"/>
+		</Skills>
+		<LingMax>39062500</LingMax>
+		<GoldLevel>1</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Qi_10A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_10A</Esoterica>
+		<DisplayName>武穆遗册 * 卷一</DisplayName>
+		<Level>Qi</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<li>XXZS_WMYS_Qi_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<!-- ==========================第二排========================== -->
+	
+	<Node Name="XXZS_WMYS_Dan1_1A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_1B</Esoterica>
+		<DisplayName>胡家刀法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>1,1,1,1,1</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>100</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_2A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_2B</Esoterica>
+		<DisplayName>太极剑</DisplayName>
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>2,2,2,2,2</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>500</LingMax>
+		<GoldLevel>9</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_3A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_3B</Esoterica>
+		<DisplayName>打狗棒法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>3,3,3,3,3</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+			<li Name="Manual" Level="1"/>
+			<li Name="FightSkill" Level="1"/>
+			<li Name="Fabao" Level="1"/>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+		<LingMax>2500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_4A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_4B</Esoterica>
+		<DisplayName>辟邪剑法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>4,4,4,4,4</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="3"/>
+			<li Name="Manual" Level="3"/>
+			<li Name="FightSkill" Level="3"/>
+			<li Name="Fabao" Level="3"/>
+			<li Name="Barrier" Level="3"/>
+		</Skills>
+		<LingMax>12500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_5A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_5B</Esoterica>
+		<DisplayName>玄铁剑法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>5,5,5,5,5</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="6"/>
+			<li Name="Manual" Level="6"/>
+			<li Name="FightSkill" Level="6"/>
+			<li Name="Fabao" Level="6"/>
+			<li Name="Barrier" Level="6"/>
+		</Skills>
+		<LingMax>62500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_6A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_6B</Esoterica>
+		<DisplayName>生死符</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>6,6,6,6,6</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="10"/>
+			<li Name="Manual" Level="10"/>
+			<li Name="FightSkill" Level="10"/>
+			<li Name="Fabao" Level="10"/>
+			<li Name="Barrier" Level="10"/>
+		</Skills>
+		<LingMax>312500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_7A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_7B</Esoterica>
+		<DisplayName>火焰刀</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>7,7,7,7,7</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="15"/>
+			<li Name="Manual" Level="15"/>
+			<li Name="FightSkill" Level="15"/>
+			<li Name="Fabao" Level="15"/>
+			<li Name="Barrier" Level="15"/>
+		</Skills>
+		<LingMax>1562500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_8A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_8B</Esoterica>
+		<DisplayName>独孤九剑</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>8,8,8,8,8</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="21"/>
+			<li Name="Manual" Level="21"/>
+			<li Name="FightSkill" Level="21"/>
+			<li Name="Fabao" Level="21"/>
+			<li Name="Barrier" Level="21"/>
+		</Skills>
+		<LingMax>7812500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_9A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_9B</Esoterica>
+		<DisplayName>越女剑法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>9,9,9,9,9</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="28"/>
+			<li Name="Manual" Level="28"/>
+			<li Name="FightSkill" Level="28"/>
+			<li Name="Fabao" Level="28"/>
+			<li Name="Barrier" Level="28"/>
+		</Skills>
+		<LingMax>39062500</LingMax>
+		<GoldLevel>1</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_10A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_10B</Esoterica>
+		<DisplayName>武穆遗册 * 卷二</DisplayName>
+		<Level>Dan1</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<li>XXZS_WMYS_Dan1_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<!-- ==========================第三排========================== -->
+	
+	<Node Name="XXZS_WMYS_Dan2_1A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_1C</Esoterica>
+		<DisplayName>小无相功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>1,1,1,1,1</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>100</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_2A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_2C</Esoterica>
+		<DisplayName>龙象般若功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>2,2,2,2,2</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>500</LingMax>
+		<GoldLevel>9</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_3A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_3C</Esoterica>
+		<DisplayName>斗转星移</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>3,3,3,3,3</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+			<li Name="Manual" Level="1"/>
+			<li Name="FightSkill" Level="1"/>
+			<li Name="Fabao" Level="1"/>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+		<LingMax>2500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_4A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_4C</Esoterica>
+		<DisplayName>玉女心经</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>4,4,4,4,4</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="3"/>
+			<li Name="Manual" Level="3"/>
+			<li Name="FightSkill" Level="3"/>
+			<li Name="Fabao" Level="3"/>
+			<li Name="Barrier" Level="3"/>
+		</Skills>
+		<LingMax>12500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_5A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_5C</Esoterica>
+		<DisplayName>八荒六合唯我独尊神功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>5,5,5,5,5</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="6"/>
+			<li Name="Manual" Level="6"/>
+			<li Name="FightSkill" Level="6"/>
+			<li Name="Fabao" Level="6"/>
+			<li Name="Barrier" Level="6"/>
+		</Skills>
+		<LingMax>62500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_6A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_6C</Esoterica>
+		<DisplayName>蛤蟆功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>6,6,6,6,6</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="10"/>
+			<li Name="Manual" Level="10"/>
+			<li Name="FightSkill" Level="10"/>
+			<li Name="Fabao" Level="10"/>
+			<li Name="Barrier" Level="10"/>
+		</Skills>
+		<LingMax>312500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_7A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_7C</Esoterica>
+		<DisplayName>罗汉伏魔神功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>7,7,7,7,7</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="15"/>
+			<li Name="Manual" Level="15"/>
+			<li Name="FightSkill" Level="15"/>
+			<li Name="Fabao" Level="15"/>
+			<li Name="Barrier" Level="15"/>
+		</Skills>
+		<LingMax>1562500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_8A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_8C</Esoterica>
+		<DisplayName>乾坤大挪移</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>8,8,8,8,8</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="21"/>
+			<li Name="Manual" Level="21"/>
+			<li Name="FightSkill" Level="21"/>
+			<li Name="Fabao" Level="21"/>
+			<li Name="Barrier" Level="21"/>
+		</Skills>
+		<LingMax>7812500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_9A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_9C</Esoterica>
+		<DisplayName>纯阳无极功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>9,9,9,9,9</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="28"/>
+			<li Name="Manual" Level="28"/>
+			<li Name="FightSkill" Level="28"/>
+			<li Name="Fabao" Level="28"/>
+			<li Name="Barrier" Level="28"/>
+		</Skills>
+		<LingMax>39062500</LingMax>
+		<GoldLevel>1</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_10A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_10C</Esoterica>
+		<DisplayName>武穆遗册 * 卷三</DisplayName>
+		<Level>Dan2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<li>XXZS_WMYS_Dan2_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<!-- ==========================第四排========================== -->
+	
+	<Node Name="XXZS_WMYS_God_1A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_1D</Esoterica>
+		<DisplayName>洗髓经</DisplayName>
+		<Level>God</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>1,1,1,1,1</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>100</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_2A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_2D</Esoterica>
+		<DisplayName>易筋经</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>2,2,2,2,2</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="0"/>
+			<li Name="Manual" Level="0"/>
+			<li Name="FightSkill" Level="0"/>
+			<li Name="Fabao" Level="0"/>
+			<li Name="Barrier" Level="0"/>
+		</Skills>
+		<LingMax>500</LingMax>
+		<GoldLevel>9</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_3A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_3D</Esoterica>
+		<DisplayName>北冥神功</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>3,3,3,3,3</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+			<li Name="Manual" Level="1"/>
+			<li Name="FightSkill" Level="1"/>
+			<li Name="Fabao" Level="1"/>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+		<LingMax>2500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_4A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_4D</Esoterica>
+		<DisplayName>紫霞神功</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>4,4,4,4,4</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="3"/>
+			<li Name="Manual" Level="3"/>
+			<li Name="FightSkill" Level="3"/>
+			<li Name="Fabao" Level="3"/>
+			<li Name="Barrier" Level="3"/>
+		</Skills>
+		<LingMax>12500</LingMax>
+		<GoldLevel>6</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_5A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_5D</Esoterica>
+		<DisplayName>九阴真经</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>5,5,5,5,5</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="6"/>
+			<li Name="Manual" Level="6"/>
+			<li Name="FightSkill" Level="6"/>
+			<li Name="Fabao" Level="6"/>
+			<li Name="Barrier" Level="6"/>
+		</Skills>
+		<LingMax>62500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_6A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_6D</Esoterica>
+		<DisplayName>九阳真经</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>6,6,6,6,6</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="10"/>
+			<li Name="Manual" Level="10"/>
+			<li Name="FightSkill" Level="10"/>
+			<li Name="Fabao" Level="10"/>
+			<li Name="Barrier" Level="10"/>
+		</Skills>
+		<LingMax>312500</LingMax>
+		<GoldLevel>3</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_7A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_7D</Esoterica>
+		<DisplayName>神照经</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>7,7,7,7,7</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="15"/>
+			<li Name="Manual" Level="15"/>
+			<li Name="FightSkill" Level="15"/>
+			<li Name="Fabao" Level="15"/>
+			<li Name="Barrier" Level="15"/>
+		</Skills>
+		<LingMax>1562500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_8A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_8D</Esoterica>
+		<DisplayName>先天功</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>8,8,8,8,8</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="21"/>
+			<li Name="Manual" Level="21"/>
+			<li Name="FightSkill" Level="21"/>
+			<li Name="Fabao" Level="21"/>
+			<li Name="Barrier" Level="21"/>
+		</Skills>
+		<LingMax>7812500</LingMax>
+		<GoldLevel>2</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_9A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_9D</Esoterica>
+		<DisplayName>太玄经</DisplayName>
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>9,9,9,9,9</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="28"/>
+			<li Name="Manual" Level="28"/>
+			<li Name="FightSkill" Level="28"/>
+			<li Name="Fabao" Level="28"/>
+			<li Name="Barrier" Level="28"/>
+		</Skills>
+		<LingMax>39062500</LingMax>
+		<GoldLevel>1</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_WMYS_God_10A" Gong="XXZS_WMYS">
+		<Esoterica>XXZS_WMYS_10D</Esoterica>
+		<DisplayName>武穆遗册 * 卷四</DisplayName>
+		<Level>God</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<li>XXZS_WMYS_God_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<!-- ==========================空技能========================== -->
+	
+	<Node Name="XXZS_WMYS_Qi_11" Gong="XXZS_WMYS">
+		<Level>Qi</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan1_11" Gong="XXZS_WMYS">
+		<Level>Dan1</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+	<Node Name="XXZS_WMYS_Dan2_11" Gong="XXZS_WMYS">
+		<Level>Dan2</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+	<Node Name="XXZS_WMYS_God_11" Gong="XXZS_WMYS">
+		<Level>God</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+	
+	<!-- ==========================真仙技========================== -->
+	
+	<Node Name="XXZS_WMYS_e4" Gong="XXZS_WMYS">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_WMYS_e8" Gong="XXZS_WMYS">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+</List></SkillTree> 

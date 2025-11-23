@@ -1,0 +1,301 @@
+<Gongs><List>
+	<Gong Name="XXZS_JTJDDBJ">
+		<DisplayName>九天九地盗宝经</DisplayName>
+		<Desc>据传是【江岸沃野】上古法宗【墨仙谷】一脉的镇派功法之一。此功法上可铸九天神器，下能炼九地仙丹，是不可多得的丹器双休之道，但因其进阶较慢，古来修着甚少。</Desc>
+		<SelectDesc>此功法专注于炼丹炼器，因此并不善御器和法术，若想飞升，定是天劫难渡，自身难保。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>9,-1,-1,-1,6</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Shui</ElementKind>
+		<Skill><!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期-->
+			<Stage Name="Stage1" Level="2">
+				<DisplayName>是非地</DisplayName>
+				<Desc>人间是非，争财权名，此为下品，皆可盗去</Desc>
+				<Value>10000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>财地</DisplayName>
+						<Desc>是非三地，一曰财</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_RedGinseng"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>权地</DisplayName>
+						<Desc>是非三地，二曰权</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_PurpleGanodermaLucidum"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>名地</DisplayName>
+						<Desc>是非三地，三曰名</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="5000"/>
+						</ResourceCost>
+						<ItemCost>
+							<Item name="Item_MonsterBlood"/>
+						</ItemCost>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期1-->
+			<Stage Name="Stage2" Level="4">
+				<DisplayName>喜乐地</DisplayName>
+				<Desc>世间喜乐，寻侣福法，此为中品，得之既乐</Desc>
+				<Value>30000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>侣地</DisplayName>
+						<Desc>世中三宝，志同为侣</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_LifeStream"/>
+							<Item name="Item_Dan_Ling"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>福地</DisplayName>
+						<Desc>世中三宝，地善为福</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_LifeStream"/>
+							<Item name="Item_Dan_NoHunger"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>法地</DisplayName>
+						<Desc>世中三宝，道合为法</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="15000"/>
+						</ResourceCost>
+						<ItemCost>
+							<Item name="Item_BasePracticeDrug"/>
+							<Item name="Item_MonsterBlood"/>
+						</ItemCost>
+					</Neck>
+				</Necks>
+			</Stage>	
+			
+			<!--结丹期2-->
+			<Stage Name="Stage3" Level="6">
+				<DisplayName>虚实地</DisplayName>
+				<Desc>虚实相生，福祸相依，唯福缘者，得之，此乃上品</Desc>
+				<Value>60000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>秘地</DisplayName>
+						<Desc>九地至宝，其一秘境</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_EarthEssence"/>
+							<Item name="Item_Dan_CalmDown"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>隐地</DisplayName>
+						<Desc>九地至宝，其二隐匿</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_EarthEssence"/>
+							<Item name="Item_Dan_DredgeQi"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>奇地</DisplayName>
+						<Desc>九地至宝，其三奇妙</Desc>
+						<ItemCost>
+							<Item name="Item_JinEssence"/>
+							<Item name="Item_MuEssence"/>
+							<Item name="Item_ShuiEssence"/>
+							<Item name="Item_HuoEssence"/>
+							<Item name="Item_TuEssence"/>
+						</ItemCost>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage4" Level="8">
+				<DisplayName>轮回天</DisplayName>
+				<Desc>九天之首，是为轮回，众生平等，皆在此列</Desc>
+				<Value>360000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>情常</DisplayName>
+						<Desc>七情六欲，众生皆苦，此乃情常</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_StarEssence"/>
+							<Item name="Item_CopperBlock1"/>
+							<Item name="Item_SilverBlock1"/>
+							<Item name="Item_WeaponSword"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>伦常</DisplayName>
+						<Desc>君臣父子，众生皆是，此乃伦常</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_StarEssence"/>
+							<Item name="Item_CopperBlock1"/>
+							<Item name="Item_SilverBlock1"/>
+							<Item name="Item_WeaponKnife"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>法常</DisplayName>
+						<Desc>生老病死，众生皆守，此乃法常</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="180000"/>
+						</ResourceCost>
+						<ItemCost>
+							<Item name="Item_ExtremeJade"/>
+							<Item name="Item_StarEssence"/>
+							<Item name="Item_WeaponHalbert"/>
+							<Item name="Item_WeaponLance"/>
+						</ItemCost>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期1-->
+			<Stage Name="Stage5" Level="10">
+				<DisplayName>自在天</DisplayName>
+				<Desc>九天之中，其名自在，超脱众生，寻求仙道</Desc>
+				<Value>720000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>得慧</DisplayName>
+						<Desc>仙途遥遥，悟得道法，证其得慧</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>0.02</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_ExtremeJade"/>
+							<Item name="Item_CopperBlock1"/>
+							<Item name="Item_SilverBlock1"/>
+							<Item name="Item_WeaponBow"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>得渡</DisplayName>
+						<Desc>仙路漫漫，品得道艰，引其得渡</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>0.02</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_ExtremeJade"/>
+							<Item name="Item_CopperBlock1"/>
+							<Item name="Item_SilverBlock1"/>
+							<Item name="Item_WeaponAxeRing"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>得果</DisplayName>
+						<Desc>仙路迢迢，修得道明，争其得果</Desc>
+						<ThunderValue>180000</ThunderValue>
+						<NeckCountdown>2400</NeckCountdown>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期2-->
+			<Stage Name="Stage6" Level="12">
+				<DisplayName>寂静天</DisplayName>
+				<Desc>九天之上，甚是寂静，混沌虚无，一切皆空</Desc>
+				<Value>1440000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>无欲</DisplayName>
+						<Desc>寂静一界，先寡其欲，无欲则刚</Desc>
+						<CostTime>900</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_FeiLeather"/>
+							<Item name="Item_LuShuLeather"/>
+							<Item name="Item_YaoLeather"/>
+							<Item name="Item_YaoLeather1"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.66" Kind="Chance">
+						<DisplayName>无为</DisplayName>
+						<Desc>寂静二界，亦淡其为，无为则达</Desc>
+						<CostTime>900</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_BossFeng_GangYu"/>
+							<Item name="Item_BossFeng_HuoYu"/>
+							<Item name="Item_BossFeng_WeiYu"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.99" Kind="Chance">
+						<DisplayName>无法</DisplayName>
+						<Desc>寂静三界，漠视其法，无法则化</Desc>
+						<CostTime>900</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_BossLong_Zhua"/>
+							<Item name="Item_BossLong_Jing"/>
+							<Item name="Item_BossZhuLong_BaiLin"/>
+							<Item name="Item_BossZhuLong_HeiLin"/>
+							<Item name="Item_ThunderAir"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>飞升</DisplayName>
+						<Desc>越九天九地，集天材地宝于一身，定可渡劫飞升</Desc>
+						<ThunderValue>500000</ThunderValue>
+						<NeckCountdown>390000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

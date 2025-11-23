@@ -1,0 +1,393 @@
+<ModifierDefs><List>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_A" Type="Normal">
+		<DisplayName>女装上衣</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/zhulong/Fx_zhulong_zanian01"/>
+			<li Path="Effect/gsq/Prefab/zhulong/Fx_zhulong_zuinie01"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_A" Type="Normal">
+		<DisplayName>女装下装</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/long/fx_long002_shuilei_01"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_B" Type="Normal">
+		<DisplayName>基佬上衣</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/zhulong/fx_zhulong_zuiyetuxi01"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_B" Type="Normal">
+		<DisplayName>基佬下装</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/long/fx_long002_shuilei_01"/>
+			<li Path="Effect/gsq/Prefab/ZaiShiXianRen_03"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_C" Type="Normal">
+		<DisplayName>百合上衣</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/zhulong/fx_zhulong_xinmotuxi01"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_C" Type="Normal">
+		<DisplayName>百合下装</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/long/fx_long002_shuilei_01"/>
+			<li Path="Effect/gsq/Prefab/JieDan_ing_Lv2"/>
+		</EffectBind>
+	</Modifier>
+	
+	
+	
+	
+	
+	
+	<!--================================================ 特效分割线 ================================================-->
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_02" Type="Normal">
+		<DisplayName>特效衣——金</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-55"/>
+			<li Name="ComfyTMax" AddV="55"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_jin"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_02" Type="Normal">
+		<DisplayName>特效裤——金</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-70"/>
+			<li Name="ToleranceTMax" AddV="70"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/B/Prefabs/Firefly"/>
+			<li Path="Effect/System/Shield/JinShield"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_03" Type="Normal">
+		<DisplayName>特效衣——木</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-55"/>
+			<li Name="ComfyTMax" AddV="55"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_mu"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_03" Type="Normal">
+		<DisplayName>特效裤——木</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-70"/>
+			<li Name="ToleranceTMax" AddV="70"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/B/Prefabs/Firefly"/>
+			<li Path="Effect/System/Shield/MuShield"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_04" Type="Normal">
+		<DisplayName>特效衣——水</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-55"/>
+			<li Name="ComfyTMax" AddV="55"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_shui"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_04" Type="Normal">
+		<DisplayName>特效裤——水</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-70"/>
+			<li Name="ToleranceTMax" AddV="70"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/B/Prefabs/Firefly"/>
+			<li Path="Effect/System/Shield/ShuiShield"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_05" Type="Normal">
+		<DisplayName>特效衣——火</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-55"/>
+			<li Name="ComfyTMax" AddV="55"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_huo"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_05" Type="Normal">
+		<DisplayName>特效裤——火</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-70"/>
+			<li Name="ToleranceTMax" AddV="70"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/B/Prefabs/Firefly"/>
+			<li Path="Effect/System/Shield/HuoShield"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_06" Type="Normal">
+		<DisplayName>特效衣——土</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-55"/>
+			<li Name="ComfyTMax" AddV="55"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_tu"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_06" Type="Normal">
+		<DisplayName>特效裤——土</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-70"/>
+			<li Name="ToleranceTMax" AddV="70"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/B/Prefabs/Firefly"/>
+			<li Path="Effect/System/Shield/TuShield"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_YF_07" Type="Normal">
+		<DisplayName>特效衣——混</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-55"/>
+			<li Name="ComfyTMax" AddV="55"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/System/Shield/SmoothShield2"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_XXZS_KZ_07" Type="Normal">
+		<DisplayName>特效裤——混</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-70"/>
+			<li Name="ToleranceTMax" AddV="70"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/B/Prefabs/Firefly"/>
+			<li Path="Effect/System/Shield/ChaosShield"/>
+		</EffectBind>
+	</Modifier>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

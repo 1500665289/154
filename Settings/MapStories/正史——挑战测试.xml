@@ -1,0 +1,964 @@
+<Stories><List>
+	
+	<Story Name="XXZS_SK_TZ">
+		<DisplayName>挑战神坑</DisplayName>
+		<Desc>上天有好生之德，望众生能好好珍惜生命，不要妄想逆天改命，不然得不偿失。\n（神坑只想说：“老子专治各种不服，有本事你过来打我啊，我这里各种打手，觉得太弱，你们就去找作者加强！！！”）\n（神坑居然如此嘲讽玩家！作者能忍，玩家都不能忍啊！！直接上，上去就是干，干服这个神坑！！）</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>挑战蛟龙</Display>
+				<Tip>神坑认为这个很弱</Tip>
+				<OKResult>
+				<![CDATA[
+				local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_JiaolongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战凶风</Display>
+				<Tip>神坑认为这个很弱</Tip>
+				<OKResult>
+				<![CDATA[
+				local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_XiongfengFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战烛龙</Display>
+				<Tip>神坑认为这个很弱</Tip>
+				<OKResult>
+				<![CDATA[
+				local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_ZhulongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战大能</Display>
+				<Tip>神坑认为这个也不强</Tip>
+				<OKResult>
+				<![CDATA[
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战围殴</Display>
+				<Tip>神坑认为这个比较一般</Tip>
+				<OKResult>
+				<![CDATA[
+				local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_JiaolongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_XiongfengFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_ZhulongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战群架</Display>
+				<Tip>神坑认为这个比较嗨皮</Tip>
+				<OKResult>
+				<![CDATA[
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打手';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 99999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战混战</Display>
+				<Tip>神坑认为这个比较有意思</Tip>
+				<OKResult>
+				<![CDATA[
+				local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_JiaolongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_XiongfengFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_ZhulongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_JiaolongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_XiongfengFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_ZhulongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_JiaolongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_XiongfengFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
+				long:AddModifier("Boss_ZhulongFight", 9999);
+				long:AddLing(long.MaxLing - long.LingV);
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战终极大能</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>挑战终极群架</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
+				a.Nick = '神坑打架王';
+				a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
+				a:Draw();
+				a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
+				while(a.PropertyMgr.Practice.StageValue ~= a.PropertyMgr.Practice.CurStage.Value) do;
+				a.PropertyMgr.Practice:AddPractice(999999999);
+				a.PropertyMgr.Practice:BrokenNeck();
+				end;
+				a.PropertyMgr.Practice:MakeGold(99999999);
+				a.PropertyMgr.Practice:RandomTree();
+				a.PropertyMgr:SetPropertyOverwrite('NpcFight_FabaoNum',6);
+				a:AddLing(99999999);
+				a:AddModifier("Modifier_SpNpc_XXZS", 9999999999);
+				a.LuaHelper:LearnEsoteric("Tianshu_6");
+				a.LuaHelper:LearnEsoteric("Tianshu_7");
+				local list = a.Equip:FindFabao();
+				for k,v in pairs(list) do;
+				a.Equip:UnEquipItem(v);
+				ThingMgr:RemoveThing(v);
+				end;
+				local count = 0;
+				while(count < 6) do
+				local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10);
+				fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1],3) * 3;
+				fabao.Fabao:AddGodCount(0)
+				a:EquipItem(fabao);
+				fabao:AddLing(fabao.MaxLing);
+				count = count + 1;
+				end;
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>认怂</Display>
+				<OKResult>
+				<![CDATA[
+				local nQ = me:RandomInt(1, 6)
+				if nQ >= 5 then
+					me:AddMsg("神坑无情的嘲讽道：“[NAME]如同一个沙雕，打开了挑战，又选择了关闭！”");
+					me:ModifierProperty("NpcLingMaxValue",-999999);
+					world:ShowMsgBox("我神坑不是针对谁，我是说你的门下所有弟子都是垃圾！");
+				elseif nQ >= 4 then
+					me:AddMsg("神坑无情的嘲讽道：“啧啧啧，弱得和菜鸡一样，还想挑战我！！哼！！[NAME]你配吗？你不配！”");
+					me:ModifierProperty("NpcLingMaxValue",-99999);
+					world:ShowMsgBox("我神坑不是针对谁，我是说你的门下所有弟子都是垃圾！");
+				elseif nQ >= 3 then
+					me:AddMsg("神坑无情的嘲讽道：“大家快来看啊，[NAME]打都没打，就认怂了！！！别修仙了，回家睡觉去吧！！！”");
+					me:ModifierProperty("NpcLingMaxValue",-9999);
+					world:ShowMsgBox("我神坑不是针对谁，我是说你的门下所有弟子都是垃圾！");
+				else
+					me:AddMsg("神坑无情的嘲讽道：“哈哈哈哈哈~~~你个逗比~~~除了认怂，还会点别的吗~~~~笑死我了~~~~~”");
+					me:ModifierProperty("NpcLingMaxValue",-999);
+					world:ShowMsgBox("我神坑不是针对谁，我是说你的门下所有弟子都是垃圾！");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+</List></Stories>

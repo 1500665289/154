@@ -1,0 +1,301 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_1A">
+		<DisplayName>塑泥篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏采砂捏泥，塑天下万物。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_1B">
+		<DisplayName>塑泥化形</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采砂捏泥，化其人形。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼器速度\n加炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_1C">
+		<DisplayName>塑泥赋灵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采砂捏泥，赋其灵性。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加寿命\n加心境\n加心境稳定度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_2A">
+		<DisplayName>炼石篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏采岩炼石，塑五彩之器。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_2B">
+		<DisplayName>炼石补天</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采岩炼石，补天之窟。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼器速度\n加炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_2C">
+		<DisplayName>炼石化灵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采岩炼石，集天地灵。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加外伤恢复\n加内伤恢复\n加个人灵气\n个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_3A">
+		<DisplayName>雕玉篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏采玦雕玉，编玉撰名。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_3B">
+		<DisplayName>雕玉成册</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采玦雕玉，编玉成册。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼器速度\n加炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_3C">
+		<DisplayName>雕玉赐缘</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采玦雕玉，撰名赐缘。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加炼器成功率\n加炼器品质\n加炼器品阶[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_4A">
+		<DisplayName>淬金篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏采金淬炼，炼器造物。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_4B">
+		<DisplayName>淬金铸器</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采金淬炼，铸圣灵器。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼器速度\n加炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_4C">
+		<DisplayName>淬金聆音</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏采金淬炼，器成听音。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加神器几率\n加炼器等级\n加炼丹等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_5A">
+		<DisplayName>女娲石方</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_5B">
+		<DisplayName>五音篇</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——五音篇：\n宫音\n商音\n角音\n徵音\n羽音[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_NW1_01</li>
+			<li>Dan_NW1_02</li>
+			<li>Dan_NW1_03</li>
+			<li>Dan_NW1_04</li>
+			<li>Dan_NW1_05</li>
+		</Dans>
+		<Modifier>XXZS_NWCSL_5B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_6A">
+		<DisplayName>女娲石方</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_6B">
+		<DisplayName>五乐篇</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——五乐篇：\n合琴\n鸣瑟\n鼓笙\n吹埙\n击磐[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_NW2_01</li>
+			<li>Dan_NW2_02</li>
+			<li>Dan_NW2_03</li>
+			<li>Dan_NW2_04</li>
+			<li>Dan_NW2_05</li>
+		</Dans>
+		<Modifier>XXZS_NWCSL_6B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_7A">
+		<DisplayName>女娲石方</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_7B">
+		<DisplayName>五行之材章</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——五行之材章：\n锋芒之珠\n芷兰之珠\n涟漪之珠\n烈阳之珠\n苍峦之珠\n灵虚之珠[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_NW3_01</li>
+			<li>Dan_NW3_02</li>
+			<li>Dan_NW3_03</li>
+			<li>Dan_NW3_04</li>
+			<li>Dan_NW3_05</li>
+			<li>Dan_NW3_06</li>
+		</Dans>
+		<Modifier>XXZS_NWCSL_7B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_NWCSL_8A">
+		<DisplayName>女娲石方</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_NWCSL_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_NWCSL_8B">
+		<DisplayName>五行之阵章</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>女娲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方：五行之阵章：\n锋芒阵\n芷兰阵\n涟漪阵\n烈阳阵\n苍峦阵\n灵虚阵[/color][/size]</EffectDesc>
+		<Dans>
+			<li>JinEX</li>
+			<li>MuEX</li>
+			<li>ShuiEX</li>
+			<li>HuoEX</li>
+			<li>TuEX</li>
+			<li>WuEX</li>
+		</Dans>
+		<Modifier>XXZS_NWCSL_8B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

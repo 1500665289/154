@@ -1,0 +1,401 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_1A">
+		<DisplayName>太虚淬体</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以太虚秘法，淬炼身体，是以承载强大法术的基础。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力\n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_1B">
+		<DisplayName>太虚锻体</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以太虚秘法，锻炼身体，是以承载强大法术的基础。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加外伤恢复速度\n加极限温度限值\n加潜力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_1C">
+		<DisplayName>太虚罡体</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以太虚秘法，重铸身体，是以承载强大法术的基础。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_2A">
+		<DisplayName>混元淬神</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以混元秘法，淬炼心神，是以承载强大法术的基础。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力\n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_2B">
+		<DisplayName>太虚炼心</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以混元秘法，锻炼心神，是以承载强大法术的基础。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加内伤恢复速度\n加舒适温度限值\n加炉鼎限值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_2C">
+		<DisplayName>太虚真意</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以混元秘法，重铸心神，是以承载强大法术的基础。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_3A">
+		<DisplayName>太虚道</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>太虚混元本属一道，先悟太虚道意，再领混元道法。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力\n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_3B">
+		<DisplayName>太虚极道</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太虚之极，乃无尽虚空，悟得真意，方得真法。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加心境值\n加心境稳定度\n加历练突破速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_3C">
+		<DisplayName>太虚法道</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太虚之法，乃无上法则，悟得真法，方能驾驭。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n减法术冷却时间\n减法术消耗\n减法术吟唱时间[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_4A">
+		<DisplayName>混元道</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>太虚混元本属一道，先悟太虚道意，再领混元道法。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力\n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_4B">
+		<DisplayName>混元无极</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>混元之上，乃无极混沌，悟得真意，方得真法。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加寿命\n减食物消耗\n减饮水消耗\n减精力消耗\n减娱乐消耗\n加饮气效率\n加精元转换率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_4C">
+		<DisplayName>混元无法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>混元之法，乃无法混沌，悟得真法，方能驾驭。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n加法术极限等级\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_5A">
+		<DisplayName>太虚法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的太虚法术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_5B">
+		<DisplayName>太虚遁影符</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太虚法秘术，如影随形，影消命陨。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：\n太虚遁影符[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_5B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_6A">
+		<DisplayName>太虚法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的太虚法术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_6B">
+		<DisplayName>太虚遁音符</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太虚法秘术，闻音即颤，听之即毙。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：\n太虚遁音符[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_6B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_7A">
+		<DisplayName>太虚法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的太虚法术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_7B">
+		<DisplayName>太虚遁风符</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太虚法秘术，飘渺无形，夺人性命。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：\n太虚遁风符[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_7B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_3</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_8A">
+		<DisplayName>太虚法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的太虚法术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_8B">
+		<DisplayName>太虚遁空符</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太虚法秘术，无形无息，肃杀时空。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：\n太虚遁空符[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_8B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_9A">
+		<DisplayName>混元法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的混元法术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_9A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_9B">
+		<DisplayName>混元流沙诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>混元法秘术，如陷流沙，渐渐蚕食。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：\n混元流沙诀[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_9B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_5</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_10A">
+		<DisplayName>混元法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的混元法术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_10A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_10B">
+		<DisplayName>混元焚葬诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>混元法秘术，如焚似灼，葬送万物。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：\n混元焚葬诀[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_10B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_6</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_11A">
+		<DisplayName>混元法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的混元法术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_11A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_11B">
+		<DisplayName>混元奔雷诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>混元法秘术，万千奔雷，似末日现。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：\n混元奔雷诀[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_11B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_7</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能12========================== -->
+	
+	<Esoterica Name="XXZS_TXHYD_12A">
+		<DisplayName>混元法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>基本的混元法术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_12A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TXHYD_12B">
+		<DisplayName>混元坠星诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>混元法秘术，坠星落陨，毁天灭地。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：\n混元坠星诀[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TXHYD_12B</Modifier>
+		<Skills>
+			<li>XXZS_TXHYD_8</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+</List></Esotericas>

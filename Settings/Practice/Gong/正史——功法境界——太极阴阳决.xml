@@ -1,0 +1,108 @@
+<Gongs><List>
+	<Gong Name="XXZS_TJYYJ">
+		<DisplayName>太极阴阳诀</DisplayName>
+		<Desc>据传是东方【江岸沃野】上古【墨仙谷】一脉镇派功法之一。此功法修炼入门低，进阶快，但阴阳相生相克，每重境界都需遭受雷劫洗礼，因此修者多，成者少。</Desc>
+		<SelectDesc>此功法专注于御敌之术，却多劫难，突破十分艰难，稍有不慎便会身陨道消。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>9,6,-1,-1,-1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>逆阴破虚</DisplayName>
+				<Desc>通过雷劫洗礼并强化自身，直至突破境界。</Desc>
+				<Value>6000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>凝炼阴阳</DisplayName>
+						<Desc>经雷劫洗礼，从而凝炼阴阳两气。</Desc>
+						<ThunderValue>5000</ThunderValue>
+						<NeckCountdown>1200</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>逆阴之雷劫</DisplayName>
+						<Desc>经雷劫考验，从而突破自身。</Desc>
+						<ThunderValue>7000</ThunderValue>
+						<NeckCountdown>1200</NeckCountdown>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>逆阳凝实</DisplayName>
+				<Desc>通过雷劫洗礼并强化自身，直至突破境界。</Desc>
+				<Value>8000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>淬炼阴阳</DisplayName>
+						<Desc>经雷劫洗礼，从而淬炼阴阳两气。</Desc>
+						<ThunderValue>9000</ThunderValue>
+						<NeckCountdown>1200</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>逆阳之凝丹</DisplayName>
+						<Desc>通过汇聚阴阳两气，融会贯通之后结成金丹。</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>阴阳成道</DisplayName>
+				<Desc>通过雷劫洗礼并强化自身，直至突破境界。</Desc>
+				<Value>320000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>两仪相生</DisplayName>
+						<Desc>经雷劫洗礼，从而升华阴阳两气。</Desc>
+						<ThunderValue>40000</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>阴阳之道果</DisplayName>
+						<Desc>经雷劫考验，从而突破自身。</Desc>
+						<ThunderValue>80000</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期-->
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>太极大道</DisplayName>
+				<Desc>通过雷劫洗礼并强化自身，直至突破境界。</Desc>
+				<Value>1240000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>四气相交</DisplayName>
+						<Desc>经雷劫洗礼，从而交融四气入阴阳两仪。</Desc>
+						<ThunderValue>160000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>阴阳之登仙</DisplayName>
+						<Desc>通过运转阴阳两仪，打通太极之道，最终得道登仙。</Desc>
+						<ThunderValue>320000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

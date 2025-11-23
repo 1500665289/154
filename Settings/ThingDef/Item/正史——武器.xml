@@ -1,0 +1,1112 @@
+<ThingDefs><List>
+	
+	<!-- ========================================================弓箭分割线========================================================== -->
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_G01" Parent="Item_WeaponBow">
+	<ThingName>通用弓</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的常用弓箭。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_01" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>0.3</AttackSpeed>
+			<AttackRange>20</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.35"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.35"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.35"/>
+			</AtkDamage>
+			<AttackSkill>NormalAttackMissile</AttackSkill>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="13" Bip="Bip001 L Hand"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_G02" Parent="Item_WeaponBow">
+	<ThingName>初阶弓</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的初阶弓箭。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_01" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>0.3</AttackSpeed>
+			<AttackRange>20</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.35"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.35"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.35"/>
+			</AtkDamage>
+			<AttackSkill>NormalAttackMissile</AttackSkill>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="13" Bip="Bip001 L Hand"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_G03" Parent="Item_WeaponBow">
+	<ThingName>中阶弓</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的中阶弓箭。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_01" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>50</Damage>
+			<AttackSpeed>0.3</AttackSpeed>
+			<AttackRange>20</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.35"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.35"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.35"/>
+			</AtkDamage>
+			<AttackSkill>NormalAttackMissile</AttackSkill>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="13" Bip="Bip001 L Hand"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_G04" Parent="Item_WeaponBow">
+	<ThingName>高阶弓</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的高阶弓箭。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_01" count = "40"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>60</Damage>
+			<AttackSpeed>0.3</AttackSpeed>
+			<AttackRange>20</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.35"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.35"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.35"/>
+			</AtkDamage>
+			<AttackSkill>NormalAttackMissile</AttackSkill>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="13" Bip="Bip001 L Hand"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<!-- ========================================================刀分割线========================================================== -->
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_D01" Parent="Item_WeaponKnife">
+	<ThingName>通用刀</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的常用刀。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_02" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_dao1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_D02" Parent="Item_WeaponKnife">
+	<ThingName>初阶刀</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的初阶刀。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_02" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_dao1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_D03" Parent="Item_WeaponKnife">
+	<ThingName>中阶刀</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的中阶刀。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_02" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>50</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_dao1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_D04" Parent="Item_WeaponKnife">
+	<ThingName>高阶刀</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的高阶刀。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_02" count = "40"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>60</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_dao1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<!-- ========================================================长枪分割线========================================================== -->
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_Q01" Parent="Item_WeaponLance">
+	<ThingName>通用长枪</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的常用长枪。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_03" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>0.4</AttackSpeed>
+			<AttackRange>3.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.15"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.45"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SSpgong1" HitPoint="11"/>
+				<li Name="SSpgong2" HitPoint="14"/>
+				<li Name="SSpgong3" HitPoint="14"/>
+				<li Name="SSpgong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Spear</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_chang3</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_Q02" Parent="Item_WeaponLance">
+	<ThingName>初阶长枪</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的初阶长枪。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_03" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>0.4</AttackSpeed>
+			<AttackRange>3.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.15"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.45"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SSpgong1" HitPoint="11"/>
+				<li Name="SSpgong2" HitPoint="14"/>
+				<li Name="SSpgong3" HitPoint="14"/>
+				<li Name="SSpgong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Spear</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_chang3</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_Q03" Parent="Item_WeaponLance">
+	<ThingName>中阶长枪</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的中阶长枪。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_03" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>50</Damage>
+			<AttackSpeed>0.4</AttackSpeed>
+			<AttackRange>3.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.15"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.45"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SSpgong1" HitPoint="11"/>
+				<li Name="SSpgong2" HitPoint="14"/>
+				<li Name="SSpgong3" HitPoint="14"/>
+				<li Name="SSpgong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Spear</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_chang3</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_Q04" Parent="Item_WeaponLance">
+	<ThingName>高阶长枪</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的高阶长枪。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_03" count = "40"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>60</Damage>
+			<AttackSpeed>0.4</AttackSpeed>
+			<AttackRange>3.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.15"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.45"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SSpgong1" HitPoint="11"/>
+				<li Name="SSpgong2" HitPoint="14"/>
+				<li Name="SSpgong3" HitPoint="14"/>
+				<li Name="SSpgong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Spear</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_chang3</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<!-- ========================================================剑分割线========================================================== -->
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_J01" Parent="Item_WeaponSword">
+	<ThingName>通用剑</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的常用剑。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_04" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.4"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_J02" Parent="Item_WeaponSword">
+	<ThingName>初阶剑</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的初阶剑。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_04" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.4"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_J03" Parent="Item_WeaponSword">
+	<ThingName>中阶剑</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的中阶剑。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_04" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>50</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.4"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_J04" Parent="Item_WeaponSword">
+	<ThingName>高阶剑</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的高阶剑。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_04" count = "40"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>60</Damage>
+			<AttackSpeed>0.2</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.4"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<!-- ========================================================大锤分割线========================================================== -->
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_C01" Parent="Item_WeaponHalbert">
+	<ThingName>通用大锤</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的常用大锤。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_05" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>0.5</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Bruise2" Rate="0.3"/>
+				<li PartKind="Flesh" Name="Bruise3" Rate="0.2"/>
+				<li PartKind="Organ" Name="VisceralRupture" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture3" Rate="0.4"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SDpugong1" HitPoint="9"/>
+				<li Name="SDpugong2" HitPoint="8"/>
+				<li Name="SDpugong3" HitPoint="13"/>
+				<li Name="SDpugong4" HitPoint="12"/>
+			</AtkAnis>
+			<WeaponKind>Double</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_shuangshou1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_C02" Parent="Item_WeaponHalbert">
+	<ThingName>初阶大锤</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的初阶大锤。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_05" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>0.5</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Bruise2" Rate="0.3"/>
+				<li PartKind="Flesh" Name="Bruise3" Rate="0.2"/>
+				<li PartKind="Organ" Name="VisceralRupture" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture3" Rate="0.4"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SDpugong1" HitPoint="9"/>
+				<li Name="SDpugong2" HitPoint="8"/>
+				<li Name="SDpugong3" HitPoint="13"/>
+				<li Name="SDpugong4" HitPoint="12"/>
+			</AtkAnis>
+			<WeaponKind>Double</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_shuangshou1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_C03" Parent="Item_WeaponHalbert">
+	<ThingName>中阶大锤</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的中阶大锤。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_05" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>50</Damage>
+			<AttackSpeed>0.5</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Bruise2" Rate="0.3"/>
+				<li PartKind="Flesh" Name="Bruise3" Rate="0.2"/>
+				<li PartKind="Organ" Name="VisceralRupture" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture3" Rate="0.4"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SDpugong1" HitPoint="9"/>
+				<li Name="SDpugong2" HitPoint="8"/>
+				<li Name="SDpugong3" HitPoint="13"/>
+				<li Name="SDpugong4" HitPoint="12"/>
+			</AtkAnis>
+			<WeaponKind>Double</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_shuangshou1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_C04" Parent="Item_WeaponHalbert">
+	<ThingName>高阶大锤</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的高阶大锤。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_05" count = "40"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>60</Damage>
+			<AttackSpeed>0.5</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Bruise2" Rate="0.3"/>
+				<li PartKind="Flesh" Name="Bruise3" Rate="0.2"/>
+				<li PartKind="Organ" Name="VisceralRupture" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture3" Rate="0.4"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SDpugong1" HitPoint="9"/>
+				<li Name="SDpugong2" HitPoint="8"/>
+				<li Name="SDpugong3" HitPoint="13"/>
+				<li Name="SDpugong4" HitPoint="12"/>
+			</AtkAnis>
+			<WeaponKind>Double</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_shuangshou1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<!-- ========================================================环刃分割线========================================================== -->
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_H01" Parent="Item_WeaponAxeRing">
+	<ThingName>通用环刃</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的常用环刃。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_06" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>0.1</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.1"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="kszdpugong1" HitPoint="13"/>
+				<li Name="kszdpugong2" HitPoint="11"/>
+				<li Name="kszdpugong3" HitPoint="25"/>
+				<li Name="kszdpugong4" HitPoint="15"/>
+			</AtkAnis>
+			<WeaponKind>Glove</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_huan1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_H02" Parent="Item_WeaponAxeRing">
+	<ThingName>初阶环刃</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的初阶环刃。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_06" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>0.1</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.1"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="kszdpugong1" HitPoint="13"/>
+				<li Name="kszdpugong2" HitPoint="11"/>
+				<li Name="kszdpugong3" HitPoint="25"/>
+				<li Name="kszdpugong4" HitPoint="15"/>
+			</AtkAnis>
+			<WeaponKind>Glove</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_huan1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_H03" Parent="Item_WeaponAxeRing">
+	<ThingName>中阶环刃</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的中阶环刃。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_06" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>50</Damage>
+			<AttackSpeed>0.1</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.1"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="kszdpugong1" HitPoint="13"/>
+				<li Name="kszdpugong2" HitPoint="11"/>
+				<li Name="kszdpugong3" HitPoint="25"/>
+				<li Name="kszdpugong4" HitPoint="15"/>
+			</AtkAnis>
+			<WeaponKind>Glove</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_huan1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item"  Name="XXZS_WQ_H04" Parent="Item_WeaponAxeRing">
+	<ThingName>高阶环刃</ThingName>
+	<Desc>御剑山庄弟子日常练习炼器之法的高阶环刃。</Desc>
+	<Rate>12</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc>100</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_JC_06" count = "40"/>
+			</CostItems>
+		</BeMade>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<Damage>60</Damage>
+			<AttackSpeed>0.1</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.1"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.1"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.1"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="kszdpugong1" HitPoint="13"/>
+				<li Name="kszdpugong2" HitPoint="11"/>
+				<li Name="kszdpugong3" HitPoint="25"/>
+				<li Name="kszdpugong4" HitPoint="15"/>
+			</AtkAnis>
+			<WeaponKind>Glove</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_huan1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

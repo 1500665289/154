@@ -1,0 +1,662 @@
+<ModifierDefs><List>
+	
+	<!-- ========================================================伏羲2分割线========================================================== -->
+	
+	<Modifier Name="Dan_FX2_01" Type="Normal">
+		<DisplayName>地丹</DisplayName>
+		<Desc>提升十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_02" Type="Normal">
+		<DisplayName>山丹</DisplayName>
+		<Desc>提升三十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="30"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_03" Type="Normal">
+		<DisplayName>水丹</DisplayName>
+		<Desc>提升五十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="50"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_04" Type="Normal">
+		<DisplayName>风丹</DisplayName>
+		<Desc>提升七十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="70"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_05" Type="Normal">
+		<DisplayName>雷丹</DisplayName>
+		<Desc>提升九十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="90"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_06" Type="Normal">
+		<DisplayName>火丹</DisplayName>
+		<Desc>提升一百八十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="180"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_07" Type="Normal">
+		<DisplayName>泽丹</DisplayName>
+		<Desc>提升三百六十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="360"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FX2_08" Type="Normal">
+		<DisplayName>天丹</DisplayName>
+		<Desc>提升七百二十倍灵气恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="720"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================================================神农1分割线========================================================== -->
+	
+	<Modifier Name="Dan_SN1_01" Type="Normal">
+		<DisplayName>丹砂</DisplayName>
+		<Desc>提升一点五维。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN1_02" Type="Normal">
+		<DisplayName>云母</DisplayName>
+		<Desc>提升两点五维。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN1_03" Type="Normal">
+		<DisplayName>石英</DisplayName>
+		<Desc>提升三点五维。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<BaseFive>3,3,3,3,3</BaseFive>
+	</Modifier>
+	
+	<!-- ========================================================神农2分割线========================================================== -->
+	
+	<Modifier Name="Dan_SN2_01" Type="Normal">
+		<DisplayName>车前子</DisplayName>
+		<Desc>60年寿命。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="MaxAge" AddV="60"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN2_02" Type="Normal">
+		<DisplayName>五味子</DisplayName>
+		<Desc>180年寿命。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="MaxAge" AddV="180"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN2_03" Type="Normal">
+		<DisplayName>决明子</DisplayName>
+		<Desc>300年寿命。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="MaxAge" AddV="300"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================================================神农3分割线========================================================== -->
+	
+	<Modifier Name="Dan_SN3_01" Type="Normal">
+		<DisplayName>龙骨</DisplayName>
+		<Desc>内门技能等级。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+		<Skills>
+			<li Name="DouFa" Level="1"/>
+			<li Name="DanQi" Level="1"/>
+			<li Name="Fight" Level="1"/>
+			<li Name="Qi" Level="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN3_02" Type="Normal">
+		<DisplayName>龙胆</DisplayName>
+		<Desc>外门技能等级。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+		<Skills>
+			<li Name="SocialContact" Level="5"/>
+			<li Name="Medicine" Level="5"/>
+			<li Name="Cooking" Level="5"/>
+			<li Name="Building" Level="5"/>
+			<li Name="Farming" Level="5"/>
+			<li Name="Mining" Level="5"/>
+			<li Name="Art" Level="5"/>
+			<li Name="Manual" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN3_03" Type="Normal">
+		<DisplayName>麝香</DisplayName>
+		<Desc>极限技能等级。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN3_04" Type="Normal">
+		<DisplayName>犀角</DisplayName>
+		<Desc>御剑数量。</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================================================神农4分割线========================================================== -->
+	
+	<Modifier Name="Dan_SN4_01" Type="Normal">
+		<DisplayName>丹参</DisplayName>
+		<Desc>灵气上限提升。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN4_02" Type="Normal">
+		<DisplayName>沙参</DisplayName>
+		<Desc>心境基础提升。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN4_03" Type="Normal">
+		<DisplayName>泽兰</DisplayName>
+		<Desc>炉鼎上限提升。</Desc>
+		<MaxStack>50</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="50"/>
+			<li Name="AbilityLvAddV" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN4_04" Type="Normal">
+		<DisplayName>白芷</DisplayName>
+		<Desc>潜力提升。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="1"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================================================女娲1分割线========================================================== -->
+	
+	<Modifier Name="Dan_NW1_01" Type="Normal">
+		<DisplayName>宫音</DisplayName>
+		<Desc>提升法宝伤害。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="2"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW1_02" Type="Normal">
+		<DisplayName>商音</DisplayName>
+		<Desc>提升法术伤害。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="2"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW1_03" Type="Normal">
+		<DisplayName>角音</DisplayName>
+		<Desc>提升灵气护盾强度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW1_04" Type="Normal">
+		<DisplayName>徵音</DisplayName>
+		<Desc>提升五行护盾强度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW1_05" Type="Normal">
+		<DisplayName>羽音</DisplayName>
+		<Desc>提升内外门伤势恢复速度。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="RecoveryPower" AddP="1"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================================================女娲2分割线========================================================== -->
+	
+	<Modifier Name="Dan_NW2_01" Type="Normal">
+		<DisplayName>合琴</DisplayName>
+		<Desc>减少大量道行。</Desc>
+		<MaxStack>100</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-200"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW2_02" Type="Normal">
+		<DisplayName>鸣瑟</DisplayName>
+		<Desc>减少大量天谴。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-100"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW2_03" Type="Normal">
+		<DisplayName>鼓笙</DisplayName>
+		<Desc>推迟天劫到来的时间。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NeckCountdownAddV" AddV="6000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW2_04" Type="Normal">
+		<DisplayName>吹埙</DisplayName>
+		<Desc>提升突破概率。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_NW2_05" Type="Normal">
+		<DisplayName>击磐</DisplayName>
+		<Desc>修炼速度提升。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================================================分割线========================================================== -->
+	
+	<Modifier Name="Dan_SN_A01" Type="Normal">
+		<DisplayName>冬灰</DisplayName>
+		<Desc>提升劝说成功率。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="SocialContactBaseSuccess" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_A02" Type="Normal">
+		<DisplayName>玉泉</DisplayName>
+		<Desc>提升全局工作效率。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_A03" Type="Normal">
+		<DisplayName>雄黄</DisplayName>
+		<Desc>提升美梦几率。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NiceDreamHappenPercent" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_A04" Type="Normal">
+		<DisplayName>雌黄</DisplayName>
+		<Desc>提升噩梦几率。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NightmareHappenPercent" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_B01" Type="Normal">
+		<DisplayName>蛇床子</DisplayName>
+		<Desc>可使其不再进食。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_B02" Type="Normal">
+		<DisplayName>石龙子</DisplayName>
+		<Desc>可使其不再饮水。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="WaterConsumeConstant" AddP="-1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_B03" Type="Normal">
+		<DisplayName>冬葵子</DisplayName>
+		<Desc>可使其不再休眠。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddP="-1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_B04" Type="Normal">
+		<DisplayName>青葙子</DisplayName>
+		<Desc>可使其不再消极。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="HappyConsumeConstant" AddP="-1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_C01" Type="Normal">
+		<DisplayName>熊脂</DisplayName>
+		<Desc>提升阵法极限技能等级。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_C02" Type="Normal">
+		<DisplayName>鸢尾</DisplayName>
+		<Desc>增加两道分神。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_C03" Type="Normal">
+		<DisplayName>猬皮</DisplayName>
+		<Desc>增加四道分神。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_C04" Type="Normal">
+		<DisplayName>鹿茸</DisplayName>
+		<Desc>增加六道分神。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="30"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_D01" Type="Normal">
+		<DisplayName>木香</DisplayName>
+		<Desc>提升阵法负荷能力。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="5"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_D02" Type="Normal">
+		<DisplayName>赤箭</DisplayName>
+		<Desc>提升阵法稳定度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="10"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_D03" Type="Normal">
+		<DisplayName>蒲黄</DisplayName>
+		<Desc>提升潜行值。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="NpcFight_SneakValue" AddV="20"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SN_D04" Type="Normal">
+		<DisplayName>紫菀</DisplayName>
+		<Desc>提升心境稳定度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="SpeedOfMindStateCoefficient" AddP="0.5"/>
+			<li Name="AbilityLvAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

@@ -1,0 +1,425 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_1A" Type="Normal">
+		<DisplayName>九地志</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="-1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_1B" Type="Normal">
+		<DisplayName>九地志：上册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1.5"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="1.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_1C" Type="Normal">
+		<DisplayName>九地志：下册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="25"/>
+			<li Name="MaxAge" AddV="100"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_2A" Type="Normal">
+		<DisplayName>九地见闻录</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="-1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_2B" Type="Normal">
+		<DisplayName>九地见闻录：上卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1.5"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="1.25"/>
+			<li Name="MindStateBaseValue" AddV="100"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_2C" Type="Normal">
+		<DisplayName>九地见闻录：下卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="WorldMapFlySpeedAddP" AddP="3"/>
+			<li Name="ExperiencePrestigeAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_3A" Type="Normal">
+		<DisplayName>九地丹典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="-1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_3B" Type="Normal">
+		<DisplayName>九地丹典：上集</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1.5"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="1.25"/>
+			<li Name="ComfyTMax" AddV="45"/>
+			<li Name="ComfyTMin" AddV="-45"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_3C" Type="Normal">
+		<DisplayName>九地丹典：下集</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_4A" Type="Normal">
+		<DisplayName>九地灵丹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_YieldAddP" AddV="-10"/>
+			<li Name="InspirationCoefficient" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_4B" Type="Normal">
+		<DisplayName>九地奇丹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_YieldAddP" AddV="10"/>
+			<li Name="RecoveryPower" AddP="5"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_4C" Type="Normal">
+		<DisplayName>九地圣丹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_YieldAddP" AddV="0.5"/>
+			<li Name="NpcLingMaxValue" AddV="50000"/>
+			<li Name="AbilityLvAddV" AddV="-100"/>
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_5A" Type="Normal">
+		<DisplayName>九地法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_5B" Type="Normal">
+		<DisplayName>九地圣手</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_6A" Type="Normal">
+		<DisplayName>九地法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_6B" Type="Normal">
+		<DisplayName>九地妙手符</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_7A" Type="Normal">
+		<DisplayName>九天志</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="-1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_7B" Type="Normal">
+		<DisplayName>九天志：上册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1.1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="1.5"/>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_7C" Type="Normal">
+		<DisplayName>九天志：下册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="25"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_8A" Type="Normal">
+		<DisplayName>九天天工录</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="-1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_8B" Type="Normal">
+		<DisplayName>九天天工录：上卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1.1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="1.5"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_8C" Type="Normal">
+		<DisplayName>九天天工录：下卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="WorldMapFlySpeedAddP" AddV="3"/>
+			<li Name="ExperiencePrestigeAddP" AddV="1"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_9A" Type="Normal">
+		<DisplayName>九天器典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="-1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_9B" Type="Normal">
+		<DisplayName>九天天工录：上集</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1.1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="1.5"/>
+			<li Name="ToleranceTMax" AddV="45"/>
+			<li Name="ToleranceTMin" AddV="-45"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_9C" Type="Normal">
+		<DisplayName>九天天工录：下集</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="25"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_10A" Type="Normal">
+		<DisplayName>九天法器</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_QualityAddV" AddV="-10"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_10B" Type="Normal">
+		<DisplayName>九天宝器</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_QualityAddV" AddV="11"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="11"/>
+			<li Name="MaxAge" AddV="200"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_10C" Type="Normal">
+		<DisplayName>九天圣器</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="NpcLingMaxValue" AddV="50000"/>
+			<li Name="GodPenaltyAddV" AddV="-100"/>
+		</Properties>
+		<Skills>
+			<li Name="Manual" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_11A" Type="Normal">
+		<DisplayName>九天法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_11B" Type="Normal">
+		<DisplayName>九天圣言</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能12========================== -->
+	
+	<Modifier Name="XXZS_JTJDDBJ_12A" Type="Normal">
+		<DisplayName>九天法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_JTJDDBJ_12B" Type="Normal">
+		<DisplayName>九天妙言</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

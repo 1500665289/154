@@ -1,0 +1,409 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_1A">
+		<DisplayName>星陨炼器法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以天坠星陨之金石为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_1B">
+		<DisplayName>星陨炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星陨之金石为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_1C">
+		<DisplayName>星陨炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星陨之金石为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加个人灵气\n加潜力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_2A">
+		<DisplayName>星辉炼器法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以天坠星辉之气息为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_2B">
+		<DisplayName>星辉炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星辉之气息为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_2C">
+		<DisplayName>星辉炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星辉之气息为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加寿命\n加心境[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_3A">
+		<DisplayName>星光炼器法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以天坠星光之元素为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_3B">
+		<DisplayName>星光炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星光之元素为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_3C">
+		<DisplayName>星光炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星光之元素为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加舒适温度限值\n加精元转换效率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_4A">
+		<DisplayName>星芒炼器法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以天坠星芒之圣体为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_4B">
+		<DisplayName>星芒炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星芒之圣体为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器等级\n加个人灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_4C">
+		<DisplayName>星芒炼器法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>以天坠星芒之圣体为基，并熔入法器加以淬炼的特殊秘法。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加神器几率\n加炼器品质[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_5A">
+		<DisplayName>武曲星位图</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>参照天穹武曲之星位，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_5B">
+		<DisplayName>武曲星位图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹武曲之星位，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_5B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_5C">
+		<DisplayName>武曲星位图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹武曲之星位，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加个人回灵\n加炉鼎[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_5C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_6A">
+		<DisplayName>文曲星耀图</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>参照天穹文曲之星耀，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_6B">
+		<DisplayName>文曲星耀图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹文曲之星耀，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_6B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_6C">
+		<DisplayName>文曲星耀图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹文曲之星耀，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加心境稳定度\n减娱乐消耗[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_6C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_7A">
+		<DisplayName>太白星域图</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>参照天穹太白之星域，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_7B">
+		<DisplayName>太白星域图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹太白之星域，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_7B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_7C">
+		<DisplayName>太白星域图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹太白之星域，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加极限温度限值\n加饮气效率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_7C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_8A">
+		<DisplayName>紫薇星宫图</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>参照天穹紫薇之星宫，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_8B">
+		<DisplayName>紫薇星宫图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹紫薇之星宫，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器等级\n加个人灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_8B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_8C">
+		<DisplayName>紫薇星宫图</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>参照天穹紫薇之星宫，以特殊工艺熔入炼器之道的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加神器几率\n加炼器品阶[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_8C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_9A">
+		<DisplayName>剑台</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>御剑山庄独特建筑。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_9A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_9B">
+		<DisplayName>剑台</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>御剑山庄独特建筑。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n解锁  建筑：剑台[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_9B</Modifier>
+		<Buildings>
+			<li>XXZS_JT</li>
+		</Buildings>
+	</Esoterica>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_10A">
+		<DisplayName>剑陵</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>御剑山庄独特建筑。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_10A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_10B">
+		<DisplayName>剑陵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>御剑山庄独特建筑。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n解锁  建筑：剑陵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_10B</Modifier>
+		<Buildings>
+			<li>XXZS_JL</li>
+		</Buildings>
+	</Esoterica>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Esoterica Name="XXZS_XMBQZJ_11A">
+		<DisplayName>剑塚</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>御剑山庄独特建筑。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_11A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_XMBQZJ_11B">
+		<DisplayName>剑塚</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>御剑山庄独特建筑。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n解锁  建筑：剑塚[/color][/size]</EffectDesc>
+		<Modifier>XXZS_XMBQZJ_11B</Modifier>
+		<Buildings>
+			<li>XXZS_JZ</li>
+		</Buildings>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

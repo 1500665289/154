@@ -1,0 +1,523 @@
+<SkillTree><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Qi_4A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_1A</Esoterica>
+		<DisplayName>星陨炼器法</DisplayName>
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Qi_4B</li>
+			<li>XXZS_XMBQZJ_Qi_4C</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Qi_4B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_1B</Esoterica>
+		<DisplayName>星陨炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Qi_4C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_1C</Esoterica>
+		<DisplayName>星陨炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Dan1_4A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_2A</Esoterica>
+		<DisplayName>星辉炼器法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Dan1_4B</li>
+			<li>XXZS_XMBQZJ_Dan1_4C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Qi_4A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan1_4B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_2B</Esoterica>
+		<DisplayName>星辉炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan1_4C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_2C</Esoterica>
+		<DisplayName>星辉炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Dan2_4A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_3A</Esoterica>
+		<DisplayName>星光炼器法</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Dan2_4B</li>
+			<li>XXZS_XMBQZJ_Dan2_4C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Dan1_4A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan2_4B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_3B</Esoterica>
+		<DisplayName>星光炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan2_4C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_3C</Esoterica>
+		<DisplayName>星光炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_God_4A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_4A</Esoterica>
+		<DisplayName>星芒炼器法</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_God_4B</li>
+			<li>XXZS_XMBQZJ_God_4C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Dan2_4A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_God_4B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_4B</Esoterica>
+		<DisplayName>星芒炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_God_4C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_4C</Esoterica>
+		<DisplayName>星芒炼器法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Qi_8A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_5A</Esoterica>
+		<DisplayName>武曲星位图</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Qi_8B</li>
+			<li>XXZS_XMBQZJ_Qi_8C</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Qi_8B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_5B</Esoterica>
+		<DisplayName>武曲星位图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Qi_8C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_5C</Esoterica>
+		<DisplayName>武曲星位图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Dan1_8A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_6A</Esoterica>
+		<DisplayName>文曲星耀图</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Dan1_8B</li>
+			<li>XXZS_XMBQZJ_Dan1_8C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Qi_8A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan1_8B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_6B</Esoterica>
+		<DisplayName>文曲星耀图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan1_8C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_6C</Esoterica>
+		<DisplayName>文曲星耀图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Dan2_8A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_7A</Esoterica>
+		<DisplayName>太白星域图</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Dan2_8B</li>
+			<li>XXZS_XMBQZJ_Dan2_8C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Dan1_8A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan2_8B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_7B</Esoterica>
+		<DisplayName>太白星域图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan2_8C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_7C</Esoterica>
+		<DisplayName>太白星域图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_God_8A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_8A</Esoterica>
+		<DisplayName>紫薇星宫图</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_God_8B</li>
+			<li>XXZS_XMBQZJ_God_8C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Dan2_8A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_God_8B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_8B</Esoterica>
+		<DisplayName>紫薇星宫图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_God_8C" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_8C</Esoterica>
+		<DisplayName>紫薇星宫图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Dan1_6A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_9A</Esoterica>
+		<DisplayName>剑台</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Dan1_6B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Dan1_4A</li>
+			<li>XXZS_XMBQZJ_Dan1_8A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan1_6B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_9B</Esoterica>
+		<DisplayName>剑台</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_Dan2_6A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_10A</Esoterica>
+		<DisplayName>剑陵</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_Dan2_6B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_Dan2_4A</li>
+			<li>XXZS_XMBQZJ_Dan2_8A</li>
+			<li>XXZS_XMBQZJ_Dan1_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_Dan2_6B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_10B</Esoterica>
+		<DisplayName>剑陵</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_God_6A" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_11A</Esoterica>
+		<DisplayName>剑塚</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_XMBQZJ_God_6B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_XMBQZJ_God_4A</li>
+			<li>XXZS_XMBQZJ_God_8A</li>
+			<li>XXZS_XMBQZJ_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_XMBQZJ_God_6B" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_XMBQZJ_11B</Esoterica>
+		<DisplayName>剑塚</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================空技能========================== -->
+	
+	
+	<Node Name="XXZS_XMBQZJ_Dan1_5" Gong="XXZS_XMBQZJ">
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_Dan1_7" Gong="XXZS_XMBQZJ">
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_Dan2_5" Gong="XXZS_XMBQZJ">
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_Dan2_7" Gong="XXZS_XMBQZJ">
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_God_5" Gong="XXZS_XMBQZJ">
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_God_7" Gong="XXZS_XMBQZJ">
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<!-- ==========================真仙技========================== -->
+	
+	<Node Name="XXZS_XMBQZJ_e4" Gong="XXZS_XMBQZJ">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_e8" Gong="XXZS_XMBQZJ">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_e0" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_God2_Zhen</Esoterica>
+		<DisplayName>天道阵法</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Zhen" Level="20"/>
+		</Skills>
+		<LingMax>5000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>5</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_XMBQZJ_e1" Gong="XXZS_XMBQZJ">
+		<Esoterica>XXZS_God2_Shen</Esoterica>
+		<DisplayName>天道分神</DisplayName>
+		<Level>God2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Barrier" Level="20"/>
+		</Skills>
+		<LingMax>10000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+</List></SkillTree> 

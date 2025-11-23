@@ -1,0 +1,197 @@
+<FabaoFormulas><List>
+	
+	<Fabao Name="XXZS_YJSZ_01">
+		<Normal>0</Normal>
+		<ItemName>XXZS_YJSZ_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="XXZS_YJSZ_02">
+		<Normal>0</Normal>
+		<ItemName>XXZS_YJSZ_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="XXZS_YJSZ_03">
+		<Normal>0</Normal>
+		<ItemName>XXZS_YJSZ_03</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="XXZS_YJSZ_04">
+		<Normal>0</Normal>
+		<ItemName>XXZS_YJSZ_04</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="XXZS_LJ_01">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_01</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_02">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_02</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_03">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_03</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_04">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_04</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_05">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_05</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_06">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_06</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_07">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_07</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_08">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_08</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_09">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_09</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_10">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_10</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_11">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_11</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_12">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_12</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_13">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_13</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_14">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_14</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_15">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_15</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_16">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_16</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_17">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_17</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="XXZS_LJ_18">
+		<Normal>0</Normal>
+		<ItemName>XXZS_LJ_18</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	
+	
+	<Fabao Name="XXZS_MXG_01">
+		<Normal>0</Normal>
+		<ItemName>XXZS_MXG_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="XXZS_MXG_02">
+		<Normal>0</Normal>
+		<ItemName>XXZS_MXG_02</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	
+	
+	
+	<Fabao Name="XXZS_BCG_01">
+		<Normal>0</Normal>
+		<ItemName>XXZS_BCG_01</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-2</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	
+	
+	
+	
+	
+	
+</List></FabaoFormulas>

@@ -1,0 +1,33 @@
+<ZhenSlotDefs><List>
+	
+	<Def Name="XXZS_5_A" DisplayName="经">
+		<Lv>4</Lv>
+		<SlotType>XXZS_5_A</SlotType> 
+		<Effect>
+			<li Type="SkillCooldownBasev" Value="5" />
+			<li Type="ReduceCostBasev" Value="5" />
+			<li Type="StabilityBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+			<li Type="SkillCooldownAddp" Value="0.5" />
+			<li Type="ReduceCostAddp" Value="0.5" />
+			<li Type="StabilityAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+	
+	<Def Name="XXZS_5_B" DisplayName="脉">
+		<Lv>4</Lv>
+		<SlotType>XXZS_5_B</SlotType> 
+		<Effect>
+			<li Type="FabaoAtkPowerBasev" Value="5" />
+			<li Type="MagicPowerBasev" Value="5" />
+			<li Type="SheildBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+			<li Type="FabaoAtkPowerAddp" Value="0.5" />
+			<li Type="MagicPowerAddp" Value="0.5" />
+			<li Type="SheildAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+	
+</List></ZhenSlotDefs>

@@ -1,0 +1,409 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_1A">
+		<DisplayName>精炼法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_1B">
+		<DisplayName>精炼法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_1C">
+		<DisplayName>精炼法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加炼器品阶[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_2A">
+		<DisplayName>灵粹法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_2B">
+		<DisplayName>灵粹法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_2C">
+		<DisplayName>灵粹法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加炼器品质[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_3A">
+		<DisplayName>造物法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘诀。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_3B">
+		<DisplayName>造物法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘诀。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_3C">
+		<DisplayName>造物法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传秘诀。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加神器几率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_4A">
+		<DisplayName>创圣法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>融合了天下炼器之道的不传奥义。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_4B">
+		<DisplayName>创圣法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传奥义。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器速度\n加炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_4C">
+		<DisplayName>创圣法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>融合了天下炼器之道的不传奥义。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n炼器等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_5A">
+		<DisplayName>凌空法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>因悟灵器而得其法，凌空而上。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_5B">
+		<DisplayName>凌空法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟灵器而得其法，凌空而上。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炉鼎\n加潜力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_5B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_5C">
+		<DisplayName>凌空法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟灵器而得其法，凌空而上。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝数量[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_5C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_6A">
+		<DisplayName>凌烟法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>因悟宝器而得其法，凌烟而遁。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_6B">
+		<DisplayName>凌烟法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟宝器而得其法，凌烟而遁。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加心境\n加寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_6B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_6C">
+		<DisplayName>凌烟法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟宝器而得其法，凌烟而遁。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加修炼速度\n加学习效率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_6C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_7A">
+		<DisplayName>凌云法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>因悟圣器而得其法，凌云而升。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_7B">
+		<DisplayName>凌云法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟圣器而得其法，凌云而升。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加精元转换效率\n加饮气效率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_7B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_7C">
+		<DisplayName>凌云法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟圣器而得其法，凌云而升。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n减法术冷却\n减法术消耗\n减法术吟唱[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_7C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_8A">
+		<DisplayName>凌霄法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>因悟神器而得其法，凌霄而尊。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_8B">
+		<DisplayName>凌霄法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟神器而得其法，凌霄而尊。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_8B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_8C">
+		<DisplayName>凌霄法</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>因悟神器而得其法，凌霄而尊。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_8C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_9A">
+		<DisplayName>凌天剑罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>凌天而立，以剑为罡，御敌在外。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_9A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_9B">
+		<DisplayName>凌天剑罡</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>凌天而立，以剑为罡，御敌在外。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n习得  秘术：\n凌天剑罡[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_9B</Modifier>
+		<Skills>
+			<li>XXZS_LXQZZF_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_10A">
+		<DisplayName>弥天剑雨</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>弥天布法，散剑为雨，沐雨而生。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_10A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_10B">
+		<DisplayName>弥天剑雨</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>弥天布法，散剑为雨，沐雨而生。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n习得  秘术：\n弥天剑雨[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_10B</Modifier>
+		<Skills>
+			<li>XXZS_LXQZZF_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Esoterica Name="XXZS_LXQZZF_11A">
+		<DisplayName>封天剑界</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>封天画阵，树剑为界，囚魂而诛。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_11A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_LXQZZF_11B">
+		<DisplayName>封天剑界</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>封天画阵，树剑为界，囚魂而诛。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维\n习得  秘术：\n封天剑界[/color][/size]</EffectDesc>
+		<Modifier>XXZS_LXQZZF_11B</Modifier>
+		<Skills>
+			<li>XXZS_LXQZZF_3</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

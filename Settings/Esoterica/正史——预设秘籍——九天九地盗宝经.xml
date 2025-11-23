@@ -1,0 +1,438 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_1A">
+		<DisplayName>九地志</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此册。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率\n减炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_1B">
+		<DisplayName>九地志：上册</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此册。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼丹成功率\n加炼丹速度\n加五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_1C">
+		<DisplayName>九地志：下册</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此册。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加个人灵气\n加个人回灵\n加寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_2A">
+		<DisplayName>九地见闻录</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此卷。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率\n减炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_2B">
+		<DisplayName>九地见闻录：上卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此卷。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼丹成功率\n加炼丹速度\n加心境[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_2C">
+		<DisplayName>九地见闻录：下卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此卷。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加历练速度\n加历练声望获取\n加五行护盾[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_3A">
+		<DisplayName>九地丹典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此典。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹成功率\n减炼丹速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_3B">
+		<DisplayName>九地丹典：上集</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此典。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼丹成功率\n加炼丹速度\n加舒适温度限值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_3C">
+		<DisplayName>九地丹典：下集</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此典。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n减法术冷却时间\n减法术消耗\n减法术吟唱时间[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_4A">
+		<DisplayName>九地灵丹</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼丹产量\n减领悟几率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_4B">
+		<DisplayName>九地奇丹</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼丹产量\n加内伤恢复速度\n加外伤恢复速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_4C">
+		<DisplayName>九地圣丹</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九地之中的炼丹术记录于此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加炼丹产量\n加炼丹极限等级\n加个人灵气值\n减道行值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_5A">
+		<DisplayName>九地法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>九地之中不乏上乘的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_5B">
+		<DisplayName>九地圣手</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>九地秘术，圣洁无比，得神庇佑。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：：\n九地圣手[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_5B</Modifier>
+		<Skills>
+			<li>XXZS_JTJDDBJ_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_6A">
+		<DisplayName>九地法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>九地之中不乏上乘的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_6B">
+		<DisplayName>九地妙手</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>九地秘术，奇妙无比，得神洗礼。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：：\n九地妙手[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_6B</Modifier>
+		<Skills>
+			<li>XXZS_JTJDDBJ_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_7A">
+		<DisplayName>九天志</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九天之中的炼器术记录于此册。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼器成功率\n减炼器速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_7B">
+		<DisplayName>九天志：上册</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此册。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器成功率\n加炼器速度\n加潜力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_7B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_7C">
+		<DisplayName>九天志：下册</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此册。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加个人灵气\n加个人灵气恢复\n加炉鼎限值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_7C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_8A">
+		<DisplayName>九天天工录</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九天之中的炼器术记录于此卷。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼器成功率\n减炼器速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_8B">
+		<DisplayName>九天天工录：上卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此卷。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器成功率\n加炼器速度\n加心境稳定度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_8B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_8C">
+		<DisplayName>九天天工录：下卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此卷。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加历练速度\n加历练声望获取\n加灵气护盾[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_8C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_9A">
+		<DisplayName>九天器典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九天之中的炼器术记录于此典。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼器成功率\n减炼器速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_9A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_9B">
+		<DisplayName>九天天工录：上集</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此典。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器成功率\n加炼器速度\n加极限温度限值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_9B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_9C">
+		<DisplayName>九天天工录：下集</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此典。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n减法术冷却时间\n减法术消耗\n减法术吟唱时间[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_9C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_10A">
+		<DisplayName>九天法器</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>将九天之中的炼器术记录于此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减炼器品质\n减炼器品阶[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_10A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_10B">
+		<DisplayName>九天宝器</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加炼器品质\n加炼器品阶\n加寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_10B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_10C">
+		<DisplayName>九天圣器</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将九天之中的炼器术记录于此书。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加神器几率\n加炼器极限等级\n加灵气值\n减天谴值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_10C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_11A">
+		<DisplayName>九天法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>九天之中不乏上乘的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_11A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_11B">
+		<DisplayName>九天圣言</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>九天秘术，圣言之威，如得神助。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：：\n九天圣言[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_11B</Modifier>
+		<Skills>
+			<li>XXZS_JTJDDBJ_3</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能12========================== -->
+	
+	<Esoterica Name="XXZS_JTJDDBJ_12A">
+		<DisplayName>九天法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>九天之中不乏上乘的秘术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_12A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_JTJDDBJ_12B">
+		<DisplayName>九天妙言</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>九天秘术，圣言之妙，如得神护。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：：\n九天妙言[/color][/size]</EffectDesc>
+		<Modifier>XXZS_JTJDDBJ_12B</Modifier>
+		<Skills>
+			<li>XXZS_JTJDDBJ_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+</List></Esotericas>

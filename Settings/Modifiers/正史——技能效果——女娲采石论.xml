@@ -1,0 +1,221 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_1A" Type="Normal">
+		<DisplayName>塑泥篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_1B" Type="Normal">
+		<DisplayName>塑泥化形</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.5"/>
+			<li Name="DanMake_SpeedAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_1C" Type="Normal">
+		<DisplayName>塑泥赋灵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_2A" Type="Normal">
+		<DisplayName>炼石篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_2B" Type="Normal">
+		<DisplayName>炼石补天</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.5"/>
+			<li Name="DanMake_SpeedAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_2C" Type="Normal">
+		<DisplayName>炼石化灵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="RecoveryPower" AddP="5"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="5"/>
+			<li Name="NpcLingMaxValue" AddV="2000"/>
+			<li Name="LingAbsorbSpeed" AddP="25"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_3A" Type="Normal">
+		<DisplayName>雕玉篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_3B" Type="Normal">
+		<DisplayName>雕玉成册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.5"/>
+			<li Name="DanMake_SpeedAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_3C" Type="Normal">
+		<DisplayName>雕玉赐缘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="1"/>
+			<li Name="FabaoMake_QualityAddV" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_4A" Type="Normal">
+		<DisplayName>淬金篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_4B" Type="Normal">
+		<DisplayName>淬金铸器</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.5"/>
+			<li Name="DanMake_SpeedAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_4C" Type="Normal">
+		<DisplayName>淬金聆音</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.3"/>
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="5"/>
+			<li Name="Manual" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_5A" Type="Normal">
+		<DisplayName>女娲石方</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_5B" Type="Normal">
+		<DisplayName>五音篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_6A" Type="Normal">
+		<DisplayName>女娲石方</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_6B" Type="Normal">
+		<DisplayName>五乐篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_7A" Type="Normal">
+		<DisplayName>女娲石方</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_7B" Type="Normal">
+		<DisplayName>五行之材章</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_NWCSL_8A" Type="Normal">
+		<DisplayName>女娲石方</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_NWCSL_8B" Type="Normal">
+		<DisplayName>五行之阵章</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

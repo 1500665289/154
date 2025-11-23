@@ -1,0 +1,223 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_1A">
+		<DisplayName>阴阳分化</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>太极之气分化为二，一曰太阴，一曰太阳，乃为阴阳。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气\n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_1B">
+		<DisplayName>太阴之气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰太阴，乃至阴至柔，善钝刚之锋锐，故以柔而克刚。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝回灵\n加五维属性\n加潜力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_1C">
+		<DisplayName>太阳之气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰太阳，乃至阳至刚，善破柔之绵软，故以刚而克柔。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝冲击力\n加法宝冲击抵抗[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_2A">
+		<DisplayName>阴阳相生</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>阴阳两气相伴而存，阴中有阳，阳中有阴，故再生二气。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气\n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_2B">
+		<DisplayName>少阴之气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰少阴，伴太阴而生，是以柔中带刚。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝回灵\n加五维属性\n加个人灵气[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_2C">
+		<DisplayName>少阳之气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰少阳，伴太阳而生，是以刚中带柔。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝攻速\n加法宝拖尾长度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_3A">
+		<DisplayName>阴阳调和</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>阴阳两气相生相克，首尾相逐，故动者攻而静者守，遂生二阙。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气\n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_3B">
+		<DisplayName>阴阙之气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰阴阙，蚀阳则生阴，是以阳而济阴。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝回灵\n加五维属性\n加寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_3C">
+		<DisplayName>阳阙之气</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰阳阙，蚀阴则生阳，是以阴而济阳。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法宝移速\n加法宝灵活[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_4A">
+		<DisplayName>孕育大道</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>阴阳已成，轮转不止，生生不息，故成两仪而生太极。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝灵气\n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_4B">
+		<DisplayName>两仪相合</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰阴阙，蚀阳则生阴，是以阳而济阴。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝回灵\n加五维属性\n减技能冷却\n减技能消耗\n减技能吟唱[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_4C">
+		<DisplayName>太极大道</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>其一曰阳阙，蚀阴则生阳，是以阴而济阳。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法宝威力\n加法术威力\n加御器极限等级\n加法术极限等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_5A">
+		<DisplayName>太极法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>太极之神力，可化罡为气，能移山平海，破碎虚空。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法宝威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_5B">
+		<DisplayName>太极印</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>太极之神力，可化罡为气，能移山平海，破碎虚空。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力\n习得  秘术：\n太极印[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_5B</Modifier>
+		<Skills>
+			<li>XXZS_TJYYJ_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_6A">
+		<DisplayName>阴阳法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>阴阳两仪之神力，可化罡为气，能开山裂海，破碎时空。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_TJYYJ_6B">
+		<DisplayName>阴阳印</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_YJ\YJ_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>阴阳两仪之神力，可化罡为气，能开山裂海，破碎时空。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法术威力\n习得  秘术：\n阴阳印[/color][/size]</EffectDesc>
+		<Modifier>XXZS_TJYYJ_6B</Modifier>
+		<Skills>
+			<li>XXZS_TJYYJ_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

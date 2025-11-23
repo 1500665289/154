@@ -1,0 +1,912 @@
+<ThingDefs><List>
+	<!-- ========================================================垃圾分割线========================================================== -->
+	
+	<ThingDef Type="Item" Name="XXZS_LJ_01" Parent="MiBaoBase">
+		<ThingName>黛罗剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G01" count = "1"/>
+					<Item name = "XXZS_WQ_G02" count = "1"/>
+					<Item name = "XXZS_WQ_G03" count = "1"/>
+					<Item name = "XXZS_WQ_G04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.05" nParam1="0" nParam2="1" sParam1="None" Desc="对无属性功法目标造成伤害时，100%的几率对目标造成当前灵气5%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_02" Parent="MiBaoBase">
+		<ThingName>月白剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_Q01" count = "1"/>
+					<Item name = "XXZS_WQ_Q02" count = "1"/>
+					<Item name = "XXZS_WQ_Q03" count = "1"/>
+					<Item name = "XXZS_WQ_Q04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.05" nParam1="0" nParam2="1" sParam1="Jin" Desc="对金属性功法目标造成伤害时，100%的几率对目标造成当前灵气5%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_03" Parent="MiBaoBase">
+		<ThingName>碧青剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_D01" count = "1"/>
+					<Item name = "XXZS_WQ_D02" count = "1"/>
+					<Item name = "XXZS_WQ_D03" count = "1"/>
+					<Item name = "XXZS_WQ_D04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.05" nParam1="0" nParam2="1" sParam1="Mu" Desc="对木属性功法目标造成伤害时，100%的几率对目标造成当前灵气5%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_04" Parent="MiBaoBase">
+		<ThingName>乌墨剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_J01" count = "1"/>
+					<Item name = "XXZS_WQ_J02" count = "1"/>
+					<Item name = "XXZS_WQ_J03" count = "1"/>
+					<Item name = "XXZS_WQ_J04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.05" nParam1="0" nParam2="1" sParam1="Shui" Desc="对水属性功法目标造成伤害时，100%的几率对目标造成当前灵气5%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_05" Parent="MiBaoBase">
+		<ThingName>绯红剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_C01" count = "1"/>
+					<Item name = "XXZS_WQ_C02" count = "1"/>
+					<Item name = "XXZS_WQ_C03" count = "1"/>
+					<Item name = "XXZS_WQ_C04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.05" nParam1="0" nParam2="1" sParam1="Huo" Desc="对火属性功法目标造成伤害时，100%的几率对目标造成当前灵气5%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_06" Parent="MiBaoBase">
+		<ThingName>杏黄剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_H01" count = "1"/>
+					<Item name = "XXZS_WQ_H02" count = "1"/>
+					<Item name = "XXZS_WQ_H03" count = "1"/>
+					<Item name = "XXZS_WQ_H04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.05" nParam1="0" nParam2="1" sParam1="Tu" Desc="对土属性功法目标造成伤害时，100%的几率对目标造成当前灵气5%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_07" Parent="MiBaoBase">
+		<ThingName>清溪剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G01" count = "1"/>
+					<Item name = "XXZS_WQ_G02" count = "1"/>
+					<Item name = "XXZS_WQ_G03" count = "1"/>
+					<Item name = "XXZS_WQ_Q04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="LastLingCostPowerUp" nParam1="250" fParam1="0.001" fParam2="10"  Desc="每消耗250灵气，提升0.1%的法宝威力，最大提升100%，返回充灵时重置该效果。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_08" Parent="MiBaoBase">
+		<ThingName>千屠剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_Q01" count = "1"/>
+					<Item name = "XXZS_WQ_Q02" count = "1"/>
+					<Item name = "XXZS_WQ_Q03" count = "1"/>
+					<Item name = "XXZS_WQ_D04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="MultiKillAddPowerUp" nParam1="1000" fParam1="0.1" Desc="每击杀1个单位，提升0.1%的法宝威力，最多叠加1000层，一天内若无击杀时重置该效果。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_09" Parent="MiBaoBase">
+		<ThingName>瞬影剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_D01" count = "1"/>
+					<Item name = "XXZS_WQ_D02" count = "1"/>
+					<Item name = "XXZS_WQ_D03" count = "1"/>
+					<Item name = "XXZS_WQ_J04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountCostSkill" nParam1="1"  sParam1="XXZS_LJMB_1" Desc="每攻击1次，都将对目标敌人释放一次法术【万剑归宗】。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_10" Parent="MiBaoBase">
+		<ThingName>嗜灵剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_J01" count = "1"/>
+					<Item name = "XXZS_WQ_J02" count = "1"/>
+					<Item name = "XXZS_WQ_J03" count = "1"/>
+					<Item name = "XXZS_WQ_C04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitAddRecovery" fParam1="0.01"  Desc="每次攻击造成的伤害，回复自身法宝1%的灵气值。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_11" Parent="MiBaoBase">
+		<ThingName>回光剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_C01" count = "1"/>
+					<Item name = "XXZS_WQ_C02" count = "1"/>
+					<Item name = "XXZS_WQ_C03" count = "1"/>
+					<Item name = "XXZS_WQ_H04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddSubColdDown" nParam1="1" fParam1="0.01" Desc="每1次攻击，减少0.01秒技能冷却时间。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_12" Parent="MiBaoBase">
+		<ThingName>断根剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_H01" count = "1"/>
+					<Item name = "XXZS_WQ_H02" count = "1"/>
+					<Item name = "XXZS_WQ_H03" count = "1"/>
+					<Item name = "XXZS_WQ_G04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Genitals" sParam2="XXZS_SH_04" Desc="每7次攻击敌方本体，会对【阳根】造成一次【折断】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_13" Parent="MiBaoBase">
+		<ThingName>鼓掌剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G01" count = "1"/>
+					<Item name = "XXZS_WQ_G02" count = "1"/>
+					<Item name = "XXZS_WQ_Q03" count = "1"/>
+					<Item name = "XXZS_WQ_Q04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Hips" sParam2="XXZS_SH_05" Desc="每7次攻击敌方本体，会对【臀部】造成一次【撞击】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_14" Parent="MiBaoBase">
+		<ThingName>悬河剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_Q01" count = "1"/>
+					<Item name = "XXZS_WQ_Q02" count = "1"/>
+					<Item name = "XXZS_WQ_J03" count = "1"/>
+					<Item name = "XXZS_WQ_J04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Mouth" sParam2="XXZS_SH_06" Desc="每7次攻击敌方本体，会对【口腔】造成一次【扩张】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_15" Parent="MiBaoBase">
+		<ThingName>深吞剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_J01" count = "1"/>
+					<Item name = "XXZS_WQ_J02" count = "1"/>
+					<Item name = "XXZS_WQ_D03" count = "1"/>
+					<Item name = "XXZS_WQ_D04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Throat" sParam2="XXZS_SH_07" Desc="每7次攻击敌方本体，会对【喉咙】造成一次【摩擦】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_16" Parent="MiBaoBase">
+		<ThingName>怀胎剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_D01" count = "1"/>
+					<Item name = "XXZS_WQ_D02" count = "1"/>
+					<Item name = "XXZS_WQ_C03" count = "1"/>
+					<Item name = "XXZS_WQ_C04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Pelvis" sParam2="XXZS_SH_08" Desc="每7次攻击敌方本体，会对【骨盆】造成一次【顺产】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_17" Parent="MiBaoBase">
+		<ThingName>大放厥词剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_C01" count = "1"/>
+					<Item name = "XXZS_WQ_C02" count = "1"/>
+					<Item name = "XXZS_WQ_H03" count = "1"/>
+					<Item name = "XXZS_WQ_H04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Face" sParam2="XXZS_SH_09" Desc="每7次攻击敌方本体，会对【脸颊】造成一次【打脸】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="XXZS_LJ_18" Parent="MiBaoBase">
+		<ThingName>通畅剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄兜售的众多秘宝中的一种，曾大量流传于天下，风靡一时。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_H01" count = "1"/>
+					<Item name = "XXZS_WQ_H02" count = "1"/>
+					<Item name = "XXZS_WQ_G03" count = "1"/>
+					<Item name = "XXZS_WQ_G04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "Trance" des = "携带秘宝入定33年" needcount = "33"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddDamage" nParam1="7" sParam1="Intestines" sParam2="XXZS_SH_10" Desc="每7次攻击敌方本体，会对【肠道】造成一次【润滑】伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	
+	<!-- ========================================================御剑分割线========================================================== -->
+	
+	<ThingDef Type="Item" Name="XXZS_YJSZ_01" Parent="MiBaoBase">
+		<ThingName>破天剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄的镇派秘宝之一。</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G04" count = "20"/>
+					<Item name = "XXZS_WQ_Q04" count = "20"/>
+					<Item name = "XXZS_WQ_D04" count = "20"/>
+					<Item name = "XXZS_WQ_J04" count = "20"/>
+					<Item name = "XXZS_WQ_C04" count = "20"/>
+					<Item name = "XXZS_WQ_H04" count = "20"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过无属性的天劫" needcount = "1" lParam = "God2" eParam = "None"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过金属性的天劫" needcount = "1" lParam = "God2" eParam = "Jin"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过木属性的天劫" needcount = "1" lParam = "God2" eParam = "Mu"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过水属性的天劫" needcount = "1" lParam = "God2" eParam = "Shui"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过火属性的天劫" needcount = "1" lParam = "God2" eParam = "Huo"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过土属性的天劫" needcount = "1" lParam = "God2" eParam = "Tu"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="FristHitPowerUp" fParam1="3" Desc="第一剑威力增加300%，法宝补充灵气重置。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_LQ" Desc="炼器技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="XXZS_YJSZ_02" Parent="MiBaoBase">
+		<ThingName>绝天剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄的镇派秘宝之一。</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G04" count = "20"/>
+					<Item name = "XXZS_WQ_Q04" count = "20"/>
+					<Item name = "XXZS_WQ_D04" count = "20"/>
+					<Item name = "XXZS_WQ_J04" count = "20"/>
+					<Item name = "XXZS_WQ_C04" count = "20"/>
+					<Item name = "XXZS_WQ_H04" count = "20"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过无属性的天劫" needcount = "1" lParam = "God2" eParam = "None"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过金属性的天劫" needcount = "1" lParam = "God2" eParam = "Jin"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过木属性的天劫" needcount = "1" lParam = "God2" eParam = "Mu"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过水属性的天劫" needcount = "1" lParam = "God2" eParam = "Shui"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过火属性的天劫" needcount = "1" lParam = "God2" eParam = "Huo"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过土属性的天劫" needcount = "1" lParam = "God2" eParam = "Tu"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddMirror" nParam1="4" nParam2="8" fParam1="12" Desc="每攻击4次，产生8道蚊须分形，持续12秒。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_LQ" Desc="炼器技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="XXZS_YJSZ_03" Parent="MiBaoBase">
+		<ThingName>斩天剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄的镇派秘宝之一。</Desc>
+		<ElementKind>Huo</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G04" count = "20"/>
+					<Item name = "XXZS_WQ_Q04" count = "20"/>
+					<Item name = "XXZS_WQ_D04" count = "20"/>
+					<Item name = "XXZS_WQ_J04" count = "20"/>
+					<Item name = "XXZS_WQ_C04" count = "20"/>
+					<Item name = "XXZS_WQ_H04" count = "20"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过无属性的天劫" needcount = "1" lParam = "God2" eParam = "None"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过金属性的天劫" needcount = "1" lParam = "God2" eParam = "Jin"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过木属性的天劫" needcount = "1" lParam = "God2" eParam = "Mu"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过水属性的天劫" needcount = "1" lParam = "God2" eParam = "Shui"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过火属性的天劫" needcount = "1" lParam = "God2" eParam = "Huo"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过土属性的天劫" needcount = "1" lParam = "God2" eParam = "Tu"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="0.01" fParam2="19" nParam1="0" Desc="造成伤害时，有10%的几率造成20倍伤害。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_LQ" Desc="炼器技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="XXZS_YJSZ_04" Parent="MiBaoBase">
+		<ThingName>玄天剑</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+		<Desc>御剑山庄的镇派秘宝之一。</Desc>
+		<ElementKind>Huo</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "XXZS_WQ_G04" count = "20"/>
+					<Item name = "XXZS_WQ_Q04" count = "20"/>
+					<Item name = "XXZS_WQ_D04" count = "20"/>
+					<Item name = "XXZS_WQ_J04" count = "20"/>
+					<Item name = "XXZS_WQ_C04" count = "20"/>
+					<Item name = "XXZS_WQ_H04" count = "20"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过无属性的天劫" needcount = "1" lParam = "God2" eParam = "None"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过金属性的天劫" needcount = "1" lParam = "God2" eParam = "Jin"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过木属性的天劫" needcount = "1" lParam = "God2" eParam = "Mu"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过水属性的天劫" needcount = "1" lParam = "God2" eParam = "Shui"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过火属性的天劫" needcount = "1" lParam = "God2" eParam = "Huo"/>
+					<Condition eventid = "BrokenNeck" des = "携带此物度过土属性的天劫" needcount = "1" lParam = "God2" eParam = "Tu"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="5" fParam2="0.05" nParam1="1" nParam2="1" Desc="攻击敌方本体时有50%几率额外造成目标当前灵气5%的附加伤害。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_LQ" Desc="炼器技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+		</Element>
+	</ThingDef>
+	
+	<!-- ========================================================墨仙谷分割线========================================================== -->
+	
+	<ThingDef Type="Item" Name="XXZS_MXG_01" Parent="MiBaoBase">
+		<ThingName>太虚混元台</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTliantai01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHliantai01</FabaoTexPath>
+		<Desc>墨仙谷的镇派秘宝之一。</Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_ThunderAir" count = "10"/>
+					<Item name = "Item_XianBone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "KillCount" des = "携带此物并且击杀三次蛟龙" needcount = "3" oParam = "Boss_Long"/>
+					<Condition eventid = "KillCount" des = "携带此物并且击杀三次凶风" needcount = "3" oParam = "Boss_Feng"/>
+					<Condition eventid = "KillCount" des = "携带此物并且击杀三次烛龙" needcount = "3" oParam = "Boss_Zhulong"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountAddSubColdDown" nParam1="3" fParam1="5" Desc="每3次攻击会减少5秒技能CD。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_SF" Desc="术法技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="XXZS_MXG_02" Parent="MiBaoBase">
+		<ThingName>太极阴阳羽</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PHyumao01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHyumao01</FabaoTexPath>
+		<Desc>墨仙谷的镇派秘宝之一。</Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>GreatThing_Fly</li>
+				<li>GreatThing_Fly</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_ThunderAir" count = "10"/>
+					<Item name = "Item_XianBone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "KillCount" des = "携带此物并且击杀三次蛟龙" needcount = "3" oParam = "Boss_Long"/>
+					<Condition eventid = "KillCount" des = "携带此物并且击杀三次凶风" needcount = "3" oParam = "Boss_Feng"/>
+					<Condition eventid = "KillCount" des = "携带此物并且击杀三次烛龙" needcount = "3" oParam = "Boss_Zhulong"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="HitCountCostSkill" nParam1="5"  sParam1="XXZS_TJYYJ_1" Desc="每5次攻击会对目标敌人发动一次法术——太极印"/>
+					<Ability Kind="HitCountCostSkill" nParam1="7"  sParam1="XXZS_TJYYJ_2" Desc="每7次攻击会对目标敌人发动一次法术——阴阳印"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_SF" Desc="术法技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+	
+	
+	<!-- ========================================================百草谷分割线========================================================== -->
+	
+	<ThingDef Type="Item" Name="XXZS_BCG_01" Parent="MiBaoBase">
+		<ThingName>三皇五帝鼎</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTding01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHding01</FabaoTexPath>
+		<Desc>百草谷的镇派秘宝。</Desc>
+		<ElementKind>Mu</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_JinEX" count = "9"/>
+					<Item name = "Item_MuEX" count = "9"/>
+					<Item name = "Item_ShuiEX" count = "9"/>
+					<Item name = "Item_HuoEX" count = "9"/>
+					<Item name = "Item_TuEX" count = "9"/>
+					<Item name = "Item_WuEX" count = "9"/>
+				</CostItems>
+			</BeMade> 
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid = "UseNpcJing" des = "携带此物并且消耗99999的精元" needcount = "99999"/>
+					<Condition eventid = "UseNpcLing" des = "携带此物并且消耗9999999的灵气" needcount = "9999999"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="DanCountAddPowerUp" fParam1="0.1" Desc="每服用过一种丹药，威力提高10%。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="XXZS_MiBao_LD" Desc="炼丹技能提高20"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+		</Element>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

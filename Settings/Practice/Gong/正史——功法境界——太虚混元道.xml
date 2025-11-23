@@ -1,0 +1,163 @@
+<Gongs><List>
+	<Gong Name="XXZS_TXHYD">
+		<DisplayName>太虚混元道</DisplayName>
+		<Desc>据传是【江岸沃野】上古法宗【墨仙谷】一脉的镇派功法之一。此功法本是参悟天道法规，却无形中记录下无数骇人法则，而得其一便可横行天下。</Desc>
+		<SelectDesc>此功法专注于法术，不善于御剑对敌，并且境界较为繁杂，几乎需要涵盖所有突破方式，其繁琐程度不是普通修士能够承受。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>9,-1,-1,6,-1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Shui</ElementKind>
+		<Skill><!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期1-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>凡胎</DisplayName>
+				<Desc>通过在凡间感悟，从而凝结胎心，突破自我。</Desc>
+				<Value>8000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Work">
+						<DisplayName>结胎</DisplayName>
+						<Desc>通过在凡间感悟，凝结胎心。</Desc>
+					</Neck>
+					<Neck Location="0.5" Kind="Work">
+						<DisplayName>胎实</DisplayName>
+						<Desc>通过在凡间感悟，凝实胎心。</Desc>
+					</Neck>
+					<Neck Location="0.75" Kind="Work">
+						<DisplayName>胎动</DisplayName>
+						<Desc>通过在凡间感悟，胎心初动。</Desc>
+					</Neck>
+					<Neck Location="1" Kind="Work">
+						<DisplayName>出胎</DisplayName>
+						<Desc>通过在凡间感悟，胎心已成，可脱凡出尘。</Desc>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期1-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>尘心</DisplayName>
+				<Desc>通过用天材地宝辅以修炼，从而升华胎心变尘心，结成金丹。</Desc>
+				<Value>16000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>浊尘</DisplayName>
+						<Desc>[color=#D06508]此境根骨越高，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Physique_1_1_3</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_FiveBase2"/>
+							<Item name="Item_Dan_SwordBall"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>污尘</DisplayName>
+						<Desc>[color=#D06508]此境魅力越高，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_3</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_FiveBase3"/>
+							<Item name="Item_Dan_SwordBall"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>薄尘</DisplayName>
+						<Desc>[color=#D06508]此境机缘越高，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Luck_1_1_3</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_FiveBase5"/>
+							<Item name="Item_Dan_SwordBall"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>涤尘</DisplayName>
+						<Desc>通过凝炼尘心，去其糟粕，取其精华，乃得金丹。</Desc>
+						<ItemCost>
+							<Item name="Item_Dan_FiveBaseFromLife"/>
+							<Item name="Item_Dan_SwordBall"/>
+						</ItemCost>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期1-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>脱俗</DisplayName>
+				<Desc>通过去天下历练，从而脱离凡尘，突破自我。</Desc>
+				<Value>400000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Explore">
+						<DisplayName>出世</DisplayName>
+						<Desc>通过去天下历练，突破自我。</Desc>
+						<ExploreValue>1</ExploreValue>
+					</Neck>
+					<Neck Location="0.5" Kind="Explore">
+						<DisplayName>悟世</DisplayName>
+						<Desc>通过去天下历练，突破自我。</Desc>
+						<ExploreValue>3</ExploreValue>
+					</Neck>
+					<Neck Location="0.75" Kind="Explore">
+						<DisplayName>济世</DisplayName>
+						<Desc>通过去天下历练，突破自我。</Desc>
+						<ExploreValue>5</ExploreValue>
+					</Neck>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>惊世</DisplayName>
+						<Desc>通过去天下历练，突破自我。</Desc>
+						<ExploreValue>7</ExploreValue>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期1-->
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>入虚</DisplayName>
+				<Desc>通过抗击天雷之劫，逆天而上，步入虚空，斩获道果。</Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Thunder">
+						<DisplayName>初劫</DisplayName>
+						<Desc>通过初劫的考验，才能更加接近天道。</Desc>
+						<ThunderValue>10000</ThunderValue>
+						<NeckCountdown>1800</NeckCountdown>
+					</Neck>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>雷劫</DisplayName>
+						<Desc>通过雷劫的考验，距离天道又近了一步。</Desc>
+						<ThunderValue>50000</ThunderValue>
+						<NeckCountdown>1800</NeckCountdown>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Thunder">
+						<DisplayName>渡劫</DisplayName>
+						<Desc>通过此劫的考验，离天道只有一步之遥。</Desc>
+						<ThunderValue>100000</ThunderValue>
+						<NeckCountdown>1800</NeckCountdown>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>天劫</DisplayName>
+						<Desc>通过天劫的考验，天道唾手可得，是去是留全在手中。</Desc>
+						<ThunderValue>200000</ThunderValue>
+						<NeckCountdown>48000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

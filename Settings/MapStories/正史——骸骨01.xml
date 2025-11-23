@@ -1,0 +1,3516 @@
+<Stories><List>
+	
+	<!-- ================ 骸骨故事分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>这具骸骨阴森的可怕，一直散发着恐怖的气息，似乎随时可以把[NAME]全部吞噬进去，这让[IT]更加小心翼翼地探索这具骸骨，是福是祸犹未可知。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>这骸骨太恐怖了，为了生命还是放弃吧</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01A");
+				
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>修仙之人，有神功护体，继续探索</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01B");
+				
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>还是再等等吧，等没危险了在上</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01C");
+				
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 怕死选项分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01A">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感觉这骸骨太过于恐怖，正打算要放弃探索时，居然灵魂被吸入到一个奇怪的空间中，这个奇异的空间里，有一些穿着奇装异服的人类，不停的往不同颜色的桶子里面丢着什么东西，[NAME]感到很新奇，一时间竟然完全忘记了自己现在的处境。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>查看蓝色的奇怪桶子</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01AA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>查看黑色的奇怪筒子</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01AB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>查看绿色的奇怪桶子</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01AC");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>查看红色的奇怪桶子</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01AD");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 不怕死选项分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01B">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感觉这骸骨虽然看起来很恐怖，但是[IT]依仗自身强劲的真气护体，强行深入探查骸骨的内部，终于是在骸骨内部，发现了一个未知的神识结界，然而还没等[NAME]多想，便被这强悍的神识结界吸入到了内部。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>结界里面有灵水流动</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>结界里面有荒火四溢</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>结界里面有阴阳流转</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BC");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>结界里面有无尽虚空</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BD");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 谨慎选项分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01C">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感觉这骸骨诡异莫测，来历不明，不应该冒太大风险去探索，[IT]决定再观察一会儿，等到没危险了再探索也不迟，然而就在[NAME]观察等待之时，竟然意外的睡着了，但是[IT]能清楚的感觉到自己正处于梦境中，只是不知道如何出去。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>梦中仿佛听到了不同于【修仙正史】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("【修仙正史】是来自Wegame玩家【小七骚得死】制作的一个MOD作品。");
+				me:TriggerStory("XXZS_HG_01CA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>梦中仿佛听到了不同于【小七】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("【小七】是制作【修仙正史】MOD的作者，QQ名为【Seven】。");
+				me:TriggerStory("XXZS_HG_01CB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>梦中仿佛听到了不同于【了不起的修仙模拟器】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("【了不起的修仙模拟器】是来自【GSQ games】工作室开发的一款修仙类题材的单机游戏。");
+				me:TriggerStory("XXZS_HG_01CC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 垃圾分类分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01AA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]发现这个蓝色的奇怪桶子里面全是。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>全是一些不知名的垃圾</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是一些不知名的垃圾】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01AAA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没见过的小玩意儿</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没见过的小玩意儿】\n提示：垃圾桶里面偶尔也会有一些不做分类而乱丢的小玩意儿。");
+				me:TriggerStory("XXZS_HG_01AAB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没人要的东西</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没人要的东西】\n提示：垃圾桶里面的东西大部分都是没人要的，当然还是需要做好分类处理，从而减少垃圾污染。");
+				me:TriggerStory("XXZS_HG_01AAC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01AB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]发现这个黑色的奇怪桶子里面全是。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>全是一些不知名的垃圾</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是一些不知名的垃圾】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ABA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没见过的小玩意儿</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没见过的小玩意儿】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ABB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没人要的东西</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没人要的东西】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ABC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01AC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]发现这个绿色的奇怪桶子里面全是。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>全是一些不知名的垃圾</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是一些不知名的垃圾】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ACA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没见过的小玩意儿</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没见过的小玩意儿】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ACB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没人要的东西</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没人要的东西】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ACC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01AD">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]发现这个红色的奇怪桶子里面。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>全是一些不知名的垃圾</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是一些不知名的垃圾】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ADA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没见过的小玩意儿</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没见过的小玩意儿】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ADB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>全是没人要的东西</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]选择了【全是没人要的东西】\n提示：垃圾桶里面还能有什么，当然是一些垃圾了。");
+				me:TriggerStory("XXZS_HG_01ADC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 蓝色分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01AAA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些不知名的垃圾都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从蓝色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_JC_01</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_02</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_03</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_04</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_05</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JC_06</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<ItemCache2>
+			<li>
+				<ThingDef>Item_SpellPaper</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SpellPaperLv2</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SpellPaperLv3</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache2>
+		<ItemCache3>
+			<li>
+				<ThingDef>Item_CottonCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_DeepBlueCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_PurpleCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_YellowCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_BlueCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_RedCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_WhiteCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_BlackCloth</ThingDef>
+				<Count>60</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache3>
+		<Selections>
+			<li>
+				<Display>奇怪的金属</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，会有一些奇奇怪怪的金属。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的纸张</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，会有一些奇奇怪怪的纸张。");
+				me:DropAwardItemFromCache(story.ItemCache2, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的布料</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，会有一些奇奇怪怪的布料。");
+				me:DropAwardItemFromCache(story.ItemCache3, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01AAB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没见过的小玩意儿都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从蓝色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_FunChess</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_FunMusic</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_FunPoem</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_FunPainting</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<Selections>
+			<li>
+				<Display>一柄生锈的武器</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，会有一些奇奇怪怪的金属物品。");
+				me:DropRandomItem("Weapon", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一本残破的书籍</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，会有一些奇奇怪怪的纸质物品。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一套暴露的衣物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，会有一些奇奇怪怪的纺织品。");
+				me:DropRandomItem("Trousers", 1, 12, false);
+				me:DropRandomItem("Clothes", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01AAC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没人要的东西都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从蓝色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>一坨新鲜的屎</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，不应该出现排泄物，应该是谁乱丢的，大家记得及时举报，罚他的款。");
+				me:DropAwardItem("Item_Shit", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一堆腐烂的垃圾</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，不应该出现易腐垃圾，应该是谁乱丢的，大家记得及时举报，罚他的款。");
+				me:DropAwardItem("Item_Garbage", 5);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一壶肮脏的水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：可回收物主要包括废纸、塑料、玻璃、金属和布料五大类，因此可回收垃圾里面，不应该出现液体垃圾，应该是谁乱丢的，大家记得及时举报，罚他的款。");
+				me:DropAwardItem("Item_DirtyWater", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 黑色分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01ABA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些不知名的垃圾都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从黑色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_Yao_RabbitLuck</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yao_WolfAtk</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yao_SnakeHanLin</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yao_BearPiMao</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yao_TurtleKe</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<Selections>
+			<li>
+				<Display>奇怪的边角料</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，会有一些奇奇怪怪的角料。");
+				me:DropRandomItem("LeftoverMaterial", 1, 12, false);
+				me:DropRandomItem("LeftoverMaterial", 1, 12, false);
+				me:DropRandomItem("LeftoverMaterial", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的骨骼</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，会有一些奇奇怪怪的骨骼。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的石块</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，会有一些奇奇怪怪的石块。");
+				me:DropRandomItem("Rock", 1, 12, false);
+				me:DropRandomItem("Rock", 1, 12, false);
+				me:DropRandomItem("Rock", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01ABB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没见过的小玩意儿都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从黑色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_SysAxe</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SysPickaxe</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SysSickle</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SysAcupuncture</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<ItemCache2>
+			<li>
+				<ThingDef>Item_Dice</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SmallBell</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Bracelet</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Handkerchief</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_PerfumeBag</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache2>
+		<Selections>
+			<li>
+				<Display>一柄生锈的工具</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，会有一些不可回收的工具。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一柄残破的雨伞</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，会有一些不可回收的雨伞。");
+				me:DropAwardItem("Item_Umbrella", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一件丑陋的首饰</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，会有一些不可回收的首饰。");
+				me:DropAwardItemFromCache(story.ItemCache2, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01ABC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没人要的东西都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从黑色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_XiangHuo1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XiangHuo2</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XiangHuo3</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<Selections>
+			<li>
+				<Display>一根奇怪的棒状物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，不应该出现棒状物，应该是谁乱丢的，大家记得及时举报，罚他的款。");
+				me:DropAwardItem("Item_Baobeier", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一件诡异的祭品</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，不应该出现祭品，应该是谁乱丢的，大家记得及时举报，罚他的款。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一捧湿黏的泥土</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：干垃圾主要包括砖瓦陶瓷、渣土、卫生间废纸、纸巾等难以回收的废弃物及尘土、食品袋（盒）等等，因此干垃圾里面，不应该出现观音土，应该是谁乱丢的，大家记得及时举报，罚他的款。");
+				me:DropAwardItem("Item_GuanyinMud", 20);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 绿色分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01ACA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些不知名的垃圾都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从绿色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>奇怪的肉类</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，会有一些奇奇怪怪的肉类。");
+				me:DropRandomItem("Meat", 1, 12, false);
+				me:DropRandomItem("Meat", 1, 12, false);
+				me:DropRandomItem("Meat", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的药物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，会有一些奇奇怪怪的药物。");
+				me:DropRandomItem("Drug", 1, 12, false);
+				me:DropRandomItem("Drug", 1, 12, false);
+				me:DropRandomItem("Drug", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的食物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，会有一些奇奇怪怪的食物。");
+				me:DropRandomItem("Ingredient", 1, 12, false);
+				me:DropRandomItem("Ingredient", 1, 12, false);
+				me:DropRandomItem("Ingredient", 1, 12, false);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01ACB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没见过的小玩意儿都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从绿色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_HomeFood</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_DeliciousFood</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_DelicacyFood</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<ItemCache2>
+			<li>
+				<ThingDef>Item_Dan_Fail1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_Fail2</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_Fail3</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_Fail4</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_Fail5</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache2>
+		<Selections>
+			<li>
+				<Display>一份剩下的菜肴</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，会有一些剩下的饭菜。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一颗用过的丹药</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，会有一些残次的丹药。");
+				me:DropAwardItemFromCache(story.ItemCache2, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一捆杂乱的干草</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，会有一些畜牧用的干草。");
+				me:DropAwardItem("Item_Grass", 5);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01ACC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没人要的东西都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从绿色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>一碗糟糕的料理</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，因此湿垃圾里面，出现一碗没人要的饭菜，貌似也算合理。");
+				me:DropAwardItem("Item_HorribleMeal", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一颗炼毁的丹药</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，因此湿垃圾里面，出现一颗炼毁的丹药，貌似也算合理。");
+				me:DropAwardItem("Item_Dan_Fail1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一团软软的絮状物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：湿垃圾主要包括剩菜剩饭、骨头、菜根菜叶、果皮等食品类废物，因此湿垃圾里面，因此湿垃圾里面，出现一团没加工的棉花，貌似也算合理。");
+				me:DropAwardItem("Item_Cotton", 10);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 红色分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01ADA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些不知名的垃圾都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从红色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_ThunderAir</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XianDaoShenNian</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XianDaoXieNian</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<ItemCache2>
+			<li>
+				<ThingDef>Item_Other_JinJing</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_MuJing</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_ShuiJing</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_HuoJing</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_TuJing</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Other_NoneJing</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache2>
+		<Selections>
+			<li>
+				<Display>奇怪的气体</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的气体。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的液体</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的液体。");
+				me:DropAwardItem("Item_LingWater", 5);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>奇怪的固体</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的气体。提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的固体。");
+				me:DropAwardItemFromCache(story.ItemCache2, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01ADB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没见过的小玩意儿都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从红色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>一些不知名的生物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的生物生活在里面。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(21);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(22);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一些不知名的怪物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的怪物生活在里面。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(10047);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一些不知名的动物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些奇奇怪怪的动物生活在里面。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(49);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(50);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(51);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(52);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01ADC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]也不知道这些没人要的东西都是干嘛的，但是感觉里面应该有好宝贝，于是[IT]整个人跳进去，不停的翻找起来。。。\n一段时间过后，[NAME]的奇怪行为，引起了周围人的注意，于是乎[NAME]在一群人的不断拉扯下，终于是从红色的桶子中被拉了出来。。。\n只见[NAME]手里拿着一些奇怪的东西。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>一种莫名的感觉袭来</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些污染物能改变环境。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(16);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99901);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一种诡异的感觉袭来</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些污染物能改变环境。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(17);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99901);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一种恐怖的感觉袭来</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：有害垃圾含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物，因此有害垃圾里面，会有一些污染物能改变环境。");
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(18);
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99901);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 挑战分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01BA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感受到这灵水不停的环绕在自身周围，顿时有种说不出来的酸爽，似乎一下子全身经脉都被打通，无比舒畅，一时间忘我的运功吸纳这些灵水。。。\n只是[NAME]不知道这灵水会不会和五行有所关联呢。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>五行相生</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BAA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>五行相克</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BAB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>五行归源</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BAC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感受到这荒火不停的在自身周围跃动，顿时发现世上竟有如此美妙的奇观，似乎一下子神识豁然开拓，无比舒畅，一时间忘我的运功吸纳这些荒火。。。\n只是[NAME]不知道这荒火会不会和风水有所关联呢。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>房间风水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BBA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>建筑风水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BBB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>镇物风水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BBC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感受到这阴阳两气不停的在自身周围交替出现，顿时领悟到阴阳两者的关系，似乎一下子感悟到了那无上道法，无比向往，一时间忘我的运功吸纳这些阴阳之气。。。\n只是[NAME]不知道这阴阳之气会不会和时节有所关联呢。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>时辰之分</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BCA");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>四季之分</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BCB");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>节气之分</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01BCC");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BD">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]感受到这虚空之中似乎什么都没有，难道是自己的错觉？\n正当[NAME]思索之时，竟然不知不觉中退出了这个诡异的神识结界，而那具阴森的骸骨也不知所踪。。。</Desc>
+		<Kind>None</Kind>
+		<ItemCache>
+			<li>
+				<ThingDef>Item_Dan_NW3_01</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_NW3_02</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_NW3_03</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_NW3_04</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_NW3_05</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Dan_NW3_06</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</ItemCache>
+		<Selections>
+			<li>
+				<Display>可能这就是命吧</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]虽然不相信命运，但事已至此，也无可奈何，只能等下次了。。。\n但是作者还是忍不住给了[IT]一件物品作为补偿。");
+				me:DropAwardItemFromCache(story.ItemCache, 1, 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>说好的宝贝呢</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]一心只想要宝贝，却偏偏被贪念所迷惑，最终一无所获。。。\n但是作者还是忍不住给了[IT]一个宝贝作为安慰。");
+				me:DropAwardItem("Item_Baobeier", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>你猜我给不给你东西</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]心存侥幸心理，认为这里会有好东西，最终选择赌一把，给不给就看天意了。。。");
+				local nR = me:RandomInt(1, 4)
+				if nR == 1 then
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:AddMsg("本来天意是不准备给的，但是作者还是忍不住给了[NAME]一个奖励。");
+				elseif nR == 3 then
+					me:DropAwardItem("Item_GuanyinMud", 20);
+					me:AddMsg("本来天意是不准备给的，但是作者还是忍不住给了[NAME]一个奖励。");
+				else
+				me:AddMsg("天意已经死了，[NAME]选的嘛，偶像！\n奖励作者吃定了！耶稣也留不住它！作者说的！");
+				end
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 蛟龙分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01BAA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道五行相生自然是五行属性的相生关系，这是[IT]进入内门之后，修炼功法的一大要点，[NAME]自然是了然于胸的，若是不相生之五行，定然是会遭到天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>金生火</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相生出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>木生水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相生出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>水生木</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着五行相生的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossLong_Jiao", 1);
+				me:DropAwardItem("Item_BossLong_NiLin", 1);
+				me:DropAwardItem("Item_BossLong_Meat", 1);
+				me:DropAwardItem("Item_Dan_LongDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>火生木</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相生出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>土生水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相生出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BAB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道五行相克自然是五行属性的克制关系，这是[IT]进入内门之后，修炼功法的一大要点，[NAME]自然是了然于胸的，若是不知相克之五行，定然是会遭到天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>金克火</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相克出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>木克水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相克出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>水克木</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相克出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>火克木</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行相克出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>土克水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着五行相克的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossLong_Jiao", 1);
+				me:DropAwardItem("Item_BossLong_NiLin", 1);
+				me:DropAwardItem("Item_BossLong_Meat", 1);
+				me:DropAwardItem("Item_Dan_LongDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BAC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道五行归源自然是五行属性最初的原始属性，这是[IT]进入内门之后，修炼功法的一大要点，[NAME]自然是了然于胸的，若是不知五行之来源，定然是会遭到天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>无属性功法在修炼时只能使用无属性聚灵阵</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行归源出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>无属性功法准备结丹时只能是仙家洞天的风水等级</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行归源出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>无属性功法在炼丹时只能炼制无属性丹药</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是五行归源出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只蛟龙。");
+				Map:CallBoss("Boss_Long", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>无属性功法在学技能时只能获得固定道行</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着五行归源的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossLong_Jiao", 1);
+				me:DropAwardItem("Item_BossLong_NiLin", 1);
+				me:DropAwardItem("Item_BossLong_Meat", 1);
+				me:DropAwardItem("Item_Dan_LongDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 凶风分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01BBA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道房间风水，很多时候决定了房间的格局，这是[IT]进入宗门以来，接触的最多的东西之一，[NAME]自然是了然于胸的，若是房间风水出了问题，必然是要遭天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>厨房里面可以放磨坊</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是房间风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>工坊里面放手工台和水井不冲突</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着房间风水的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossFeng_TouYu", 1);
+				me:DropAwardItem("Item_BossFeng_HongYu", 1);
+				me:DropAwardItem("Item_BossFeng_Meat", 1);
+				me:DropAwardItem("Item_Dan_FengDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>祖师殿一定要放祖师牌位和制符桌</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是房间风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>炼宝房和炼丹房只能是一间房</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是房间风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>无法座聚灵阵一定会有风水</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是房间风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>内门弟子的卧室一定要放法座</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是房间风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>两个卧房可以房门对着开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是房间风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BBB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道建筑风水，很多时候取决于周围的五行影响，这是[IT]进入宗门以来，接触的最多的东西之一，[NAME]自然是了然于胸的，若是建筑风水出了问题，必然是要遭天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>铁床周围需要寒晶装饰物才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是建筑风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>火铜法座周围需要灵晶置物台才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是建筑风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵木围棋桌周围需要火精装饰物才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是建筑风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>寒精祖师牌位周围需要玉石装饰物才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是建筑风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>天柱石山门周围需要火铜盆栽才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是建筑风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>棕石熔炉周围需要火精墙才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着建筑风水的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossFeng_TouYu", 1);
+				me:DropAwardItem("Item_BossFeng_HongYu", 1);
+				me:DropAwardItem("Item_BossFeng_Meat", 1);
+				me:DropAwardItem("Item_Dan_FengDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>星髓元始天尊像周围需要大理石太极旗才能大吉</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是建筑风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BBC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道镇物风水，很多时候取决于镇物的灵韵需求，这是[IT]进入宗门以来，接触的最多的东西之一，[NAME]自然是了然于胸的，若是镇物风水出了问题，必然是要遭天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>任意物品都能变成风水镇物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是镇物风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>风水镇物的灵韵效果都很强</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是镇物风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一个房间只能放一个风水镇物</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是镇物风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放在金环境里面的镇物只能是有利于火的灵韵</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是镇物风水出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只凶风。");
+				Map:CallBoss("Boss_Feng", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放在宽大房间的镇物只能是50到99面积的房间内</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着镇物风水的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossFeng_TouYu", 1);
+				me:DropAwardItem("Item_BossFeng_HongYu", 1);
+				me:DropAwardItem("Item_BossFeng_Meat", 1);
+				me:DropAwardItem("Item_Dan_FengDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 烛龙分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01BCA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道一天之时辰，很多时候决定了突破的时机，这是[IT]进入宗门以来，接触的最多的东西之一，[NAME]自然是了然于胸的，若是突破时选错了时辰，必然是要遭天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>辰时有利于水属性突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>戌时可以突破火功法</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>卯时土系功法有最高加成</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着十二时辰的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossZhuLong_TianLin", 1);
+				me:DropAwardItem("Item_BossZhuLong_LongYu", 1);
+				me:DropAwardItem("Item_BossZhuLong_Meat", 1);
+				me:DropAwardItem("Item_Dan_ZhuLongDan1", 1);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>午时绝对不能让木功法突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>无属性功法最适合子时突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>一天有二十四个时辰</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>一个时辰代表一个小时</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>古时用天干作为时辰的划分</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是时辰辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BCB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道一年之四季，很多时候决定了突破的时机，这是[IT]进入宗门以来，接触的最多的东西之一，[NAME]自然是了然于胸的，若是突破时选错了季节，必然是要遭天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>春末夏初适合水功法突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是季节辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>盛夏时最适合火功法突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是季节辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>秋初或者秋末可以尝试突破土功法</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着四个季节的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossZhuLong_TianLin", 1);
+				me:DropAwardItem("Item_BossZhuLong_LongYu", 1);
+				me:DropAwardItem("Item_BossZhuLong_Meat", 1);
+				me:DropAwardItem("Item_Dan_ZhuLongDan1", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>冬天第14天最合适让木功法突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是季节辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>无属性功法最适宜冬末夏初突破</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是季节辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01BCC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]知道一年之天气，很多时候决定了突破的时机，这是[IT]进入宗门以来，接触的最多的东西之一，[NAME]自然是了然于胸的，若是突破时选错天气了，必然是要遭天谴的。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>永夜会让金功法突破几率为零</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是天气辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>尘暴会让土功法突破几率加满</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是天气辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>阴天会让火功法突破几率加满</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是天气辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>暧昧的空气会让无属性功法突破几率不变</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]感觉有一股危险的气息从背后传来，但是这种感觉很快就消失了，[NAME]怀疑是自己产生了错觉，便也没多想，然后结界随着一年天气的正常流转，竟然出现了一丝裂缝，[NAME]也来不及多想，一边利用真气护住身形，一边冲出了结界。。。");
+				me:DropAwardItem("Item_BossZhuLong_TianLin", 1);
+				me:DropAwardItem("Item_BossZhuLong_LongYu", 1);
+				me:DropAwardItem("Item_BossZhuLong_Meat", 1);
+				me:DropAwardItem("Item_Dan_ZhuLongDan1", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵气爆发会让所有功法突破几率加满</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是天气辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>干旱会让金属性功法突破几率为零</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是天气辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>凉风会让木属性功法突破几率为零</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("突然一股危险的气息传来，[NAME]感觉是天气辨别出了问题，导致天谴提前降临，但是现在逃走已经来不及了。。。\n[NAME]的宗门领地上出现了一只烛龙。");
+				Map:CallBoss("Boss_Zhulong", me.npcObj.Key);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 游戏常识分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01CA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]虽然知道自己正处于梦境中，但是又无法完全控制自己，当听到这个不同于【修仙正史】的声音之后，[IT]便不由自主的朝这个声音的来源方向走去。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>听到了【太古鸿蒙诀】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAA");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【修仙聊天群】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAB");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【修仙传】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAC");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【妖兽】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAD");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【剑仙墓】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAE");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【诛仙人物篇】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAF");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【藏经阁】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAG");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【灵石交易处】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CAH");
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]虽然知道自己正处于梦境中，但是又无法完全控制自己，当听到这个不同于【小七】的声音之后，[IT]便不由自主的朝这个声音的来源方向走去。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>听到了【幻殇】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBA");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【我是院长】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBB");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【执笔】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBC");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【汚喵王】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBD");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【墨鸩】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBE");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【游少】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBF");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【巨弩级灵压】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBG");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【青花鱼】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CBH");
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]虽然知道自己正处于梦境中，但是又无法完全控制自己，当听到这个不同于【了不起的修仙模拟器】的声音之后，[IT]便不由自主的朝这个声音的来源方向走去。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>听到了【黑皇】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CCA");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【太一门】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CCB");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【神秘修行者】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CCC");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>听到了【成就】的名字</Display>
+				<OKResult>
+				<![CDATA[	
+				me:TriggerStory("XXZS_HG_01CCD");
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 作品分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01CAA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【太古鸿蒙诀】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【七转凤凰宝录】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	Item_Dan_FiveBaseFromLife
+				me:AddMsg("提示：【七转凤凰宝录】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【夺天经】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【夺天经】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【混元百炼天鉴】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【混元百炼天鉴】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【无极魔典】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【无极魔典】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【神奇的坑】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【神奇的坑】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【百分百可用系列】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【百分百可用系列】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【同福客栈】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【同福客栈】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【喜结良缘】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【喜结良缘】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【修仙发廊】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【修仙发廊】是【太古鸿蒙诀】系列MOD的作品之一，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【修仙聊天群】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【画地为牢】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【画地为牢】与【修仙聊天群】MOD是同一个作者，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【超级符师】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【超级符师】与【修仙聊天群】MOD是同一个作者，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【修仙交易中心】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【休闲交易中心】是【修仙聊天群】MOD的内容之一，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【集市】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【集市】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【修仙币】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【修仙币】是【修仙聊天群】MOD的内容之一，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【修仙传】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【灵石祭炼台】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【灵石祭炼台】是【修仙传】MOD的内容之一，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【材料祭炼台】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【材料祭炼台】是【修仙传】MOD的内容之一，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【荒古神矿】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【荒古神矿】是【修仙传】MOD的内容之一，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【玄光鉴】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【玄光鉴】是【修仙传】MOD的内容之一，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【伏羲演卦论】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【伏羲演卦论】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【先天—八卦】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【先天—八卦】是【修仙传】MOD的内容之一，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAD">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【妖兽】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【镇物手办】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【镇物手办】与【妖兽】MOD是同一个作者，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【留声机】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【留声机】与【妖兽】MOD是同一个作者，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【风水楼】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【风水楼】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【神兽雏凤】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【神兽雏凤】是【妖兽】MOD的内容之一，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【肥宅快乐水】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【肥宅快乐水】MOD物品与【妖兽】MOD是同一个作者，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【烤青花鱼】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【烤青花鱼】MOD物品与【妖兽】MOD是同一个作者，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAE">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【剑仙墓】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【仙剑三轮回人物】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【仙剑三轮回人物】与【剑仙墓】MOD是同一个作者，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【镇宗神兽】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【镇宗神兽】与【剑仙墓】MOD是同一个作者，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【合欢妖花】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【合欢妖花】与【剑仙墓】MOD是同一个作者，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【尼尔】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【尼尔】人物MOD与【剑仙墓】MOD是同一个作者，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【墨妃】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【墨妃】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAF">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【诛仙人物篇】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【修仙传】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【修仙传】中的诛仙人物MOD与【诛仙人物篇】MOD是同一个作者，作者为【游少】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【吕布人物模型】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【吕布】人物MOD与【诛仙人物篇】MOD是同一个作者，作者为【游少】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【李白人物模型】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【李白】人物MOD与【诛仙人物篇】MOD是同一个作者，作者为【游少】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【断袖居】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【断袖居】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【孙悟空人物模型】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【孙悟空】人物MOD与【诛仙人物篇】MOD是同一个作者，作者为【游少】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAG">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【藏经阁】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【神通现世】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【神通现世】与【藏经阁】MOD是同一个作者，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【了不起的制药桌】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【了不起的制药桌】与【藏经阁】MOD是同一个作者，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【了不起的工业化】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【了不起的工业化】与【藏经阁】MOD是同一个作者，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【男上加男套装】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【男上加男套装】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CAH">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【灵石交易处】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【太一道袍】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【太一道袍】与【灵石交易处】MOD是同一个作者，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【太一门丹药】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【太一门丹药】与【灵石交易处】MOD是同一个作者，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【三个符篆】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【三个符篆】与【灵石交易处】MOD是同一个作者，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【玉清传承经历】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【玉清传承经历】出自于【小七】的【修仙正史】MOD。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【新的经历】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【新的经历】与【灵石交易处】MOD是同一个作者，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【兽潮】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【兽潮】与【灵石交易处】MOD是同一个作者，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【太一门遗址】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【太一门遗址】是【灵石交易处】MOD的内容之一，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【魔道丹药】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【魔道丹药】与【灵石交易处】MOD是同一个作者，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 作者分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01CBA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【幻殇】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【QQ群592233798】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群592233798】是【太古鸿蒙诀】系列MOD的QQ群，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【Tefeink】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【Tefeink】是【太古鸿蒙诀】系列MOD的作者Wegame平台的ID，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【①】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【①】是【太古鸿蒙诀】系列MOD的作者的网名，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【Seven这就尴尬了】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【Seven这就尴尬了】是【修仙正史】MOD作者的斗鱼ID。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【幻殇游人】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【幻殇游人】是【太古鸿蒙诀】系列MOD的作者早期的网名，作者为【幻殇】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【我是院长】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【QQ群780475084】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群780475084】是【修仙聊天群】MOD的QQ群，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【监狱】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【监狱】与【修仙聊天群】MOD是同一个作者，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【超级符师】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【超级符师】与【修仙聊天群】MOD是同一个作者，作者为【我是院长】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【QQ群893278402】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群893278402】是【修仙正史】的MOD群。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【符修】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【符修】MOD由【修仙聊天群】MOD的作者参与并制作，参与作者为【我是院长】【清风】【小七】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【执笔】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【QQ群290453901】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群290453901】是【修仙传】MOD的QQ群，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【修仙传】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【修仙传】MOD是作者【执笔】肝了无数心血所成，希望大家好好体验，少点吐槽哦。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【游少】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【游少】是参与【修仙传】MOD的人物模型作者，与作者【执笔】一同制作了【修仙传】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【天香阁】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【天香阁】是【修仙正史】的MOD内容之一。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【修仙比赛专用MOD】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【修仙比赛专用MOD】是来自于【修仙传】MOD的内容之一，作者为【执笔】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBD">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【汚喵王】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【明日方舟手办】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【明日方舟手办】是【镇物手办】MOD的内容之一，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【尸血树】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【尸血树】是【基本框架】MOD的内容之一，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【尸傀儡】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【尸傀儡】是【基本框架】MOD的内容之一，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【法器坊老板】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【法器坊老板】是【修仙正史】的MOD内容之一。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【世界BOSS】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【世界BOSS】是【基本框架】MOD的内容之一，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【高级炉灶】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【高级炉灶】是【基本框架】MOD的内容之一，作者为【汚喵王】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBE">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【墨鸩】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【钻石剑模型】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【钻石剑模型】是【剑仙墓】MOD的内容之一，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【小白模型】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【小白】人物模型是【剑仙墓】MOD活动的订制模型之一，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【天龙八部H书册】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【天龙八部H书册】与【剑仙墓】MOD是同一个作者，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【订制模型活动】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【订制模型活动】是【剑仙墓】MOD的第一个推广活动，作者为【墨鸩】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【特殊称号订制】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【特殊称号订制】是【修仙正史】的MOD活动之一。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBF">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【游少】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【QQ群290453901】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群290453901】是MOD作者【游少】常驻的一个QQ群之一，并且也是【修仙传】的QQ群。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【修仙传】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【游少】是参与【修仙传】MOD的人物模型作者，与作者【执笔】一同制作了【修仙传】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【龙潇飒】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【龙潇飒】是【修仙正史】的MOD人物之一。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【道玄】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【道玄】人物MOD是【诛仙人物篇】MOD的内容之一，作者为【游少】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【万剑一】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【万剑一】人物MOD是【诛仙人物篇】MOD的内容之一，作者为【游少】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBG">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【巨弩级灵压】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【QQ群54031418】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群54031418】是【藏经阁】MOD的QQ群，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【大保健床】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【大保健床】是【了不起的工业化】MOD内容之一，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【空调鼎】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【空调鼎】是【了不起的工业化】MOD内容之一，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【白帝墙】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【白帝墙】是【修仙正史】的MOD内容之一。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【化肥机】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【化肥机】是【了不起的工业化】MOD内容之一，作者为【巨弩级灵压】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CBH">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【青花鱼】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【QQ群168709842】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【QQ群168709842】是【灵石交易处】MOD的QQ群，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【造化通天丸】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【造化通天丸】是【太一门丹药】MOD的内容之一，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【白虎诛魔令】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【白虎诛魔令】是【修仙正史】的MOD内容之一。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【逆天改命符】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【逆天改命符】是【三个符篆】MOD的内容之一，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【三秒真男人】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【三秒真男人】是【魔道丹药】MOD的内容之一，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【求你做个人】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【求你做个人】是【魔道丹药】MOD的内容之一，作者为【青花鱼】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 游戏分割线 ================ -->
+	
+	<Story Name="XXZS_HG_01CCA">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【黑皇】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【兰斯】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【兰斯】是【了不起的修仙模拟器】工作人员之一，【黑皇】是老板。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【Seven】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【Seven】是【修仙正史】MOD的作者网名，而并非游戏工作人员。\n对于[NAME]的选择，作者感觉是[IT]太过喜爱【修仙正史】MOD，因此决定好好的宠爱一下[IT]，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【无鬼】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【无鬼】是【了不起的修仙模拟器】工作人员之一，【黑皇】是老板。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【单八】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【单八】是【了不起的修仙模拟器】工作人员之一，【黑皇】是老板。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【泡泡沙子】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：【泡泡沙子】是【了不起的修仙模拟器】工作人员之一，【黑皇】是老板。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CCB">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【太一门】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【掌门芮鸿畅】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中太一门现任掌门为【芮鸿畅】，玩家们可在基础教学中看到掌门的名字。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【掌门指派杨大做事】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中太一门的掌门曾指派【杨大】工作，玩家们可在基础教学中看到他的名字。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【掌门释放太虚神剑一招制敌】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中太一门的掌门出关后，使用【太虚神剑】一招秒杀来犯之敌，玩家们可在基础教学中看到这个技能。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【太一门存活外门弟子只有两人】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中太一门遭遇敌人袭击，最后存活的外门弟子只有【秋梦琪】【杨大】两人，玩家们可在基础教学中的工作列表里看到。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【掌门出关前用的寒精鼎辅助结丹】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：掌门出关前用的是【寒晶鼎】辅助结丹，并最终结成金丹，一招退敌。\n作者吐槽[NAME]是不是玩了个假的修仙模拟器，连这个都不知道，于是作者决定好好的摧残[NAME]一番。。。\n稍后，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【逃出弟子有长孙山、秋思、闻人玉、隋文烟这几人】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中太一门惨遭覆灭，最后逃出的弟子有【长孙山】【秋思】【闻人玉】【隋文烟】四人，玩家们可在新人模式中看到这几人。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【太一门有八个卧室】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中太一门门派布局中只有【八个卧室】，玩家们可在基础教学中看到整个门派布局。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CCC">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【神秘修行者】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【曾经死于中暑】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中【神秘修行者】曾被玩家们困于【高温房】，最后【中暑】过度导致离世。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【曾经死于冻伤】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中【神秘修行者】曾被玩家们困于【低温房】，最后【冻伤】过度导致离世。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【曾经被制作成傀儡】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中【神秘修行者】曾死于各种情况，而后被玩家们制作成【傀儡】，故长存于玩家们的门派。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【曾经被留在了玩家门派】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中【神秘修行者】曾被玩家们利用各种方式，最后错过了离开时间，故常驻于玩家们的门派。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【曾经正常守护玩家到14天才离开】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：神秘修行者正常情况下会守护玩家到【第13天】才离开，希望玩家们善待柔弱的神秘修行者吧。\n作者吐槽[NAME]是不是玩了个假的修仙模拟器，连这个都不知道，于是作者决定好好的摧残[NAME]一番。。。\n稍后，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【曾经被玩家拉去打妖兽】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中【神秘修行者】曾被玩家们拉去打妖兽，最后就算不死，也基本残废昏迷。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【曾经被玩家喂极乐丹、通泄丹等等】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：游戏中【神秘修行者】曾被玩家们喂食各种丹药，而其中缘由却各不相同，正所谓：一千个【神秘修行者】就有一千种死法。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_HG_01CCD">
+		<DisplayName>神秘的骸骨</DisplayName>
+		<Desc>[NAME]慢慢走向声音的来源，原来听到的是【成就】的名字，[NAME]一时想不起来，在哪里听过，只是觉得很耳熟，但是[IT]想这应该就是出去的线索之一，或许能够在这附近找到想要的答案。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>【警署有规定】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏的真仙模式中，第一次吃屎时解锁的成就为【警署有规定】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【我命由我】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏的真仙模式中，第一次结成金丹时解锁的成就为【我命由我】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【僵尸警告】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏的真仙模式中，第一次大脑被破坏时解锁的成就为【僵尸警告】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【别修仙了！】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏的真仙模式中，持续开启客户端超过四个小时，且在0点到5点之间时解锁的成就为【别修仙了！】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【真香警告】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏真仙模式中，第一次吃土时解锁成就为【真香】，穷到一定程度，也只能吃土了。。。\n作者吐槽[NAME]是不是玩了个假的修仙模拟器，连这个都不知道，于是作者决定好好的摧残[NAME]一番。。。\n稍后，[NAME]感觉自己似乎非常劳累。。。");
+				me:TriggerStory("XXZS_HG_01C");
+				me:AddDamageRandomPart(5,"SysTooTired",1,"MOD作者的摧残");
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【超级聚灵器】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏的真仙模式中，维持凤凰蛋在不孵化也不死亡的状态36天以上时解锁的成就为【超级聚灵器】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+			<li>
+				<Display>【您老安息】貌似也和它有关</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("提示：玩家们在游戏的真仙模式中，第一次击杀古代大能时解锁的成就为【您老安息】。\n作者感觉[NAME]似乎无所不知，还是放[IT]离开吧。。。");
+				me:DropAwardItem("Item_Dan_FiveBaseFromLife", 1);
+				me:DropAwardItem("Item_Dan_HundredRefine", 1);
+				story:RemoveBindItem();
+				]]> 
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================ 分割线 ================ -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Stories>

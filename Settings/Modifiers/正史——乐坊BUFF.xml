@@ -1,0 +1,279 @@
+<ModifierDefs><List>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Modifier Name="XXZS_MJ_01" Type="Normal">
+		<DisplayName>美酒</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美酒所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>4800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="1"/>
+		</Properties>
+		<Moods>
+			<li>MJ_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MJ_02" Type="Normal">
+		<DisplayName>醉酒</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美酒所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.05"/>
+			<li Name="MoveSpeed" AddP="-0.1"/>
+		</Properties>
+		<Moods>
+			<li>MJ_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MJ_03" Type="Normal">
+		<DisplayName>酗酒</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美酒所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MaxAge" AddV="-20"/>
+		</Properties>
+		<Damages>
+			<li Part="Liver" Damage="XXZS_SH_03"/>
+		</Damages>
+		<Moods>
+			<li>MJ_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MJ_04" Type="Normal">
+		<DisplayName>酗酒</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美酒所致。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>-1</Display>
+		<Sync>1</Sync>
+		<Moods>
+			<li>MJ_01</li>
+		</Moods>
+	</Modifier>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Modifier Name="XXZS_MS_01" Type="Normal">
+		<DisplayName>美食</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美食所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>9000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.05"/>
+			<li Name="NutritionToJingYuanK" AddP="5"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+		</Properties>
+		<Moods>
+			<li>MS_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MS_02" Type="Normal">
+		<DisplayName>贪食</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美食所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="WorldMapFlySpeedAddP" AddP="-0.1"/>
+			<li Name="ExperiencePrestigeAddP" AddP="-0.1"/>
+		</Properties>
+		<Moods>
+			<li>MS_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MS_03" Type="Normal">
+		<DisplayName>暴食</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美食所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-10"/>
+		</Properties>
+		<Damages>
+			<li Part="Stomach" Damage="XXZS_SH_03"/>
+		</Damages>
+		<Elixir>
+			<BodyType>1</BodyType>
+		</Elixir>
+		<Moods>
+			<li>MS_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MS_04" Type="Normal">
+		<DisplayName>暴食</DisplayName>
+		<Desc>来自乐坊【五谷坪】的美食所致。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>-1</Display>
+		<Sync>1</Sync>
+		<Moods>
+			<li>MS_01</li>
+		</Moods>
+	</Modifier>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Modifier Name="XXZS_YY_01" Type="Normal">
+		<DisplayName>余音绕梁</DisplayName>
+		<Desc>来自乐坊【知音巷】的乐曲所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>4800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+			<li Name="Manual" LevelOver="1"/>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+			<li Name="Zhen" LevelOver="1"/>
+		</Skills>
+		<Moods>
+			<li>YY_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_YY_02" Type="Normal">
+		<DisplayName>音乐达人</DisplayName>
+		<Desc>来自乐坊【知音巷】的游戏所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="5"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="5"/>
+		</Properties>
+		<Moods>
+			<li>YY_02</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_YY_03" Type="Normal">
+		<DisplayName>东郭先生</DisplayName>
+		<Desc>来自乐坊【知音巷】的游戏所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="-1"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="-1"/>
+		</Properties>
+		<Moods>
+			<li>YY_03</li>
+		</Moods>
+	</Modifier>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Modifier Name="XXZS_SS_01" Type="Normal">
+		<DisplayName>闲情雅致</DisplayName>
+		<Desc>来自乐坊【诸子坛】的评书所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>4800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="DouFa" Level="1"/>
+			<li Name="DanQi" Level="1"/>
+			<li Name="Fabao" Level="1"/>
+			<li Name="FightSkill" Level="1"/>
+			<li Name="Barrier" Level="1"/>
+			<li Name="Fight" Level="1"/>
+			<li Name="Qi" Level="1"/>
+		</Skills>
+		<Moods>
+			<li>SS_01</li>
+		</Moods>
+	</Modifier>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Modifier Name="XXZS_YS_01" Type="Normal">
+		<DisplayName>诗仙临世</DisplayName>
+		<Desc>来自乐坊【赋诗台】的游戏所致。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Moods>
+			<li>YS_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_YS_02" Type="Normal">
+		<DisplayName>白痴在世</DisplayName>
+		<Desc>来自乐坊【赋诗台】的游戏所致。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>-0.2,-0.2,-0.2,-0.2,-0.2</BaseFive>
+		<Moods>
+			<li>YS_02</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_DL_01" Type="Normal">
+		<DisplayName>华府小书僮</DisplayName>
+		<Desc>来自乐坊【赋诗台】的游戏所致。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+			<li Name="AbilityLvAddV" AddV="-20"/>
+		</Properties>
+		<Moods>
+			<li>DL_01</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="XXZS_DL_02" Type="Normal">
+		<DisplayName>王府对穿肠</DisplayName>
+		<Desc>来自乐坊【赋诗台】的游戏所致。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="20"/>
+			<li Name="AbilityLvAddV" AddV="20"/>
+		</Properties>
+		<Moods>
+			<li>DL_02</li>
+		</Moods>
+	</Modifier>
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

@@ -1,0 +1,440 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_B_03"  Parent="BaseFillingStory">
+		<DisplayName>锻造坊</DisplayName>
+		<Desc>[NAME]抬头一看，只见【锻造坊】三字赫然在目，仔细想想难不成还能强化法宝不成？[IT]正在思考之际，被一阵阵锤打淬炼之声给打断了思路，要不就进去试试看吧。</Desc>
+		<Selections>
+			<li>
+				<Display>强化法宝说明</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("1、强化需要一定声望，但每种强化需要的声望并不同。\n2、强化有概率失败，失败不返还声望。\n3、低级强化作用于高属性法宝时，会导致异常，并失败，同时也不会返还声望。\n4、只会强化当前弟子的第一个法宝。\n5、强化等级有三种，每种强化上限并不一样，高级强化，获得的属性更多。\n6、几率表：\n失败几率：5%\n低级强化：25%\n中级强化：65%\n高级强化：5%");
+				me:TriggerStory("XXZS_CS_B_03");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>强化法器战斗强度</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 988
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.AttackPower;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]5%[/color]\n最高能提升至[color=#BC1717]9999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,9999,0,0.05);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]100[/color]\n最高能提升至[color=#BC1717]999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,999,100,0);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%+15[/color]\n最高能提升至[color=#BC1717]199[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,199,15,0.1);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]988[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 988;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<!-- <li>
+				<Display>强化法器攻击间隔</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 588
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.AttackRate;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]-0.1[/color]\n最高能提升至[color=#BC1717]2[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,0.1,2,-0.1,0);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]-0.05[/color]\n最高能提升至[color=#BC1717]2[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,0.1,2,-0.05,0);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.01[/color]\n最高能提升至[color=#BC1717]2[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,0.1,2,-0.01,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]588[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 588;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li> -->
+			<li>
+				<Display>强化法器灵气容量</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 888
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.MaxLing;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%-175[/color]\n最高能提升至[color=#BC1717]9999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,9999,-175,0.1);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.05%+25[/color]\n最高能提升至[color=#BC1717]4999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,4999,25,0.05);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]100[/color]\n最高能提升至[color=#BC1717]1999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,1999,100,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]888[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 888;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器回灵速度</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 788
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.LingRecover;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%-175[/color]\n最高能提升至[color=#BC1717]9999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,9999,-175,0.1);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.05%+25[/color]\n最高能提升至[color=#BC1717]4999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,4999,25,0.05);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]100[/color]\n最高能提升至[color=#BC1717]1999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,1999,100,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]788[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 788;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器转弯速度</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 588
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.RotSpeed;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%[/color]\n最高能提升至[color=#BC1717]999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,999,0,0.1);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.05%+10[/color]\n最高能提升至[color=#BC1717]499[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,499,10,0.05);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10[/color]\n最高能提升至[color=#BC1717]99[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,99,10,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]588[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 588;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器飞行速度</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 588
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.FlySpeed;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%[/color]\n最高能提升至[color=#BC1717]999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,999,0,0.1);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.05%+10[/color]\n最高能提升至[color=#BC1717]499[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,499,10,0.05);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10[/color]\n最高能提升至[color=#BC1717]99[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,99,10,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]588[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 588;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器击退强度</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 688
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.KnockBackAddition;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%[/color]\n最高能提升至[color=#BC1717]999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,999,0,0.1);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.05%+10[/color]\n最高能提升至[color=#BC1717]499[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,499,10,0.05);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10[/color]\n最高能提升至[color=#BC1717]99[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,99,10,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]688[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 688;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器击退抗性</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 688
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.KnockBackResistance;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%[/color]\n最高能提升至[color=#BC1717]999[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,999,0,0.1);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]0.05%+10[/color]\n最高能提升至[color=#BC1717]499[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,499,10,0.05);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10[/color]\n最高能提升至[color=#BC1717]99[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,99,10,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]688[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 688;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器拖尾长度</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 488
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.TailLenght;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]15%[/color]\n最高能提升至[color=#BC1717]99[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,99,0,0.15);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]5[/color]\n最高能提升至[color=#BC1717]49[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,49,5,0);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]1[/color]\n最高能提升至[color=#BC1717]19[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,19,1,0);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]488[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 488;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>强化法器体积大小</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 488
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]将自己的法宝慎重的交给锻造坊老板，老板立即拿进锻造间进去加工，随后只听到里面叮叮梆梆的声响，起此彼伏，[NAME]只能心里默念千万别失败就行。。。");
+				local attrCS = CS.XiaWorld.Fight.g_emFaBaoP.Scale;
+				local A = me:RandomInt(0, 100)
+				if A >= 95 then 
+					me:AddMsg("[color=#238E23][NAME][/color]附体！！！强化失败！！！");
+				elseif A >= 90 then 
+					me:AddMsg("[color=#238E23]御剑山庄庄主[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]15%[/color]\n最高能提升至[color=#BC1717]99[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,99,0,0.15);
+				elseif A >= 25 then 
+					me:AddMsg("[color=#238E23]锻造坊老板[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]10%[/color]\n最高能提升至[color=#BC1717]29[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,29,0,0.1);
+				elseif A >= 0 then 
+					me:AddMsg("[color=#238E23][NAME]宗门祖师爷[/color]附体！！！强化成功！！！\n当前法宝威力提升了[color=#BC1717]5%[/color]\n最高能提升至[color=#BC1717]9[/color]");
+					GameMain:GetMod("XXZS_QH"):QH(attrCS,1,9,0,0.05);
+				end
+				me:AddMsg("消耗声望[color=#007FFF]488[/color]点");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 488;
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("锻造坊老板提着锤子就压到[NAME]的脸上，大声喝道：“你问我这锻造坊的兄弟们，那件法器它不包热？？我一个打铁的，我能卖你不热的法器？你给我记住了！下次来我这没个千八百，就别来！！”\n锻造坊老板一把将[NAME]推出锻造坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"锻造坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<!-- <li>
+				<Display>强化法器天劫次数</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("无运行测试");
+				GameMain:GetMod("XXZS_QH10");
+				]]>
+				</OKResult>
+			</li> -->
+			<li>
+				<Display>离开锻造坊</Display>
+				<Tip>返回西市</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_B")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================分割线========================================================================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Stories>

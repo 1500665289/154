@@ -1,0 +1,579 @@
+<Esotericas><List>
+	
+	<!-- ==========================第一排========================== -->
+	
+	<Esoterica Name="XXZS_WMYS_1A">
+		<DisplayName>左右互搏</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>周伯通绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n左右互搏[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_2A">
+		<DisplayName>太极拳</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_mu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>张三丰绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n太极拳[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_A_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_3A">
+		<DisplayName>一阳指</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>一灯大师绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n一阳指[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_5</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_4A">
+		<DisplayName>天山折梅手</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_huo.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>逍遥子绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n天山折梅手[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_B_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_5A">
+		<DisplayName>天山六阳掌</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_tu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>逍遥子绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n天山六阳掌[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_9</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_6A">
+		<DisplayName>降龙十八掌</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>乔峰绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n降龙十八掌[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_C_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_7A">
+		<DisplayName>六脉神剑</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_01.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>段誉绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n六脉神剑[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_13</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_8A">
+		<DisplayName>黯然销魂掌</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_02.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>杨过绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n黯然销魂掌[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_D_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_9A">
+		<DisplayName>少林七十二绝技</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_03.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>少林绝学。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n少林七十二绝技[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_17</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_10A">
+		<DisplayName>武穆遗册 * 卷一</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>相传记录着什么神秘的内容。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]解锁  秘闻：\n武穆遗册之踪迹[/color][/size]</EffectDesc>
+		<Secrets>
+			<li>922</li>
+		</Secrets>
+	</Esoterica>
+	
+	<!-- ==========================第二排========================== -->
+	
+	<Esoterica Name="XXZS_WMYS_1B">
+		<DisplayName>胡家刀法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>胡一刀绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n胡家刀法[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_2</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_2B">
+		<DisplayName>太极剑</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_mu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>张三丰绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n太极剑[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_A_2</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_3B">
+		<DisplayName>打狗棒法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>黄蓉绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n打狗棒法[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_6</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_4B">
+		<DisplayName>辟邪剑法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_huo.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>林平之绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n辟邪剑法[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_B_2</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_5B">
+		<DisplayName>玄铁剑法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_tu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>杨过绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n玄铁剑法[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_10</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_6B">
+		<DisplayName>生死符</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>天山童姥绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n生死符[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_C_2</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_7B">
+		<DisplayName>火焰刀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_01.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>金轮法王绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n火焰刀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_14</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_8B">
+		<DisplayName>独孤九剑</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_02.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>风清扬绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n独孤九剑[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_D_2</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_9B">
+		<DisplayName>越女剑法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_03.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>青青绝学。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n越女剑法[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_18</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_10B">
+		<DisplayName>武穆遗册 * 卷二</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>相传记录着什么神秘的内容。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]解锁  秘闻：\n武穆遗册之踪迹[/color][/size]</EffectDesc>
+		<Secrets>
+			<li>923</li>
+		</Secrets>
+	</Esoterica>
+	
+	<!-- ==========================第三排========================== -->
+	
+	<Esoterica Name="XXZS_WMYS_1C">
+		<DisplayName>小无相功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>逍遥子绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n小无相功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_2C">
+		<DisplayName>龙象般若功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_mu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>金轮法王绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n龙象般若功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_A_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_3C">
+		<DisplayName>斗转心移</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>姑苏慕容氏绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n斗转心移[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_7</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_4C">
+		<DisplayName>玉女心经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_huo.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>林朝英绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n玉女心经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_B_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_5C">
+		<DisplayName>八荒六合唯我独尊神功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_tu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>天山童姥绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n八荒六合唯我独尊神功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_11</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_6C">
+		<DisplayName>蛤蟆功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>欧阳锋绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n蛤蟆功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_C_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_7C">
+		<DisplayName>罗汉伏魔神功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_01.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>石破天绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n罗汉伏魔神功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_15</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_8C">
+		<DisplayName>乾坤大挪移</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_02.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>张无忌绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n乾坤大挪移[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_D_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_9C">
+		<DisplayName>纯阳无极功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_03.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>张三丰绝学。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n纯阳无极功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_19</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_10C">
+		<DisplayName>武穆遗册 * 卷三</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>相传记录着什么神秘的内容。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]解锁  秘闻：\n武穆遗册之踪迹[/color][/size]</EffectDesc>
+		<Secrets>
+			<li>924</li>
+		</Secrets>
+	</Esoterica>
+	
+	<!-- ==========================第四排========================== -->
+	
+	<Esoterica Name="XXZS_WMYS_1D">
+		<DisplayName>洗髓经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>少林绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n洗髓经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_4</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_2D">
+		<DisplayName>易筋经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_mu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>少林绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n易筋经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_A_4</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_3D">
+		<DisplayName>北冥神功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>段誉绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n北冥神功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_8</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_4D">
+		<DisplayName>紫霞神功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_huo.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>岳不群绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n紫霞神功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_B_4</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_5D">
+		<DisplayName>九阴真经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_tu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>黄裳绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n九阴真经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_12</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_6D">
+		<DisplayName>九阳真经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>张无忌绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n九阳真经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_C_4</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_7D">
+		<DisplayName>神照经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_01.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>丁典绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n神照经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_16</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_8D">
+		<DisplayName>先天功</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_02.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>王重阳绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n先天功[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_D_4</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_9D">
+		<DisplayName>太玄经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_03.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>石破天绝学。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  武学：\n太玄经[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_WMYS_E_20</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_WMYS_10D">
+		<DisplayName>武穆遗册 * 卷四</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>相传记录着什么神秘的内容。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]解锁  秘闻：\n武穆遗册之踪迹[/color][/size]</EffectDesc>
+		<Secrets>
+			<li>925</li>
+		</Secrets>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

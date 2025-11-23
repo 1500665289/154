@@ -1,0 +1,1826 @@
+<Stories><List>
+		
+		<!-- <Desc> -->
+			<!-- [NAME]在游历中路过[PLACE]时，发现这里山美水清，烟波缭绕，柳绿花红，阡陌相叠，若非来此，绝不信世间有此等绝美之景；偶尔一两声鸟鸣，清脆;三四缕炊烟，飘渺;五六株果树，香甜;七八瓣落红，芬芳……得幸是天公不作美，小小的雨雾方才把[NAME]匆匆催赶，这才挪步进了城内；城内却又另是一番风土人情，扰人思绪，却又令人万分好奇； -->
+			<!-- 叫卖声、吆喝声、谈笑声、丝竹声，声声入耳交织不断； -->
+			<!-- 飞禽肉、走兽骨、手织画、面捏人，件件新奇把玩不停； -->
+			<!-- 艺妓舞、俪人歌、胡人技、夷族术，场场热闹赞叹不绝； -->
+			<!-- [NAME]已深深的被这里的风土人情所吸引，一时半会儿竟是忘记了历练的任务，居然还找了个茶馆坐下，看来是要停留一段时间了； -->
+			<!-- [NAME]从小二对当地的介绍中得出，这附近还是有很多有意思的地方，乘着喝茶的功夫，[IT]得好好思量思量接下来要做点什么了…… -->
+		<!-- </Desc> -->
+		
+		<!-- <Desc> -->
+			<!-- [NAME]根据之前听到的江湖传闻，前往[PLACE]一探虚实；不料，连续多日的查探，并未发现此地有何特殊异样，[NAME]因此感到无比失望，正准备起身离开时； -->
+			<!-- [IT]一脚踏空，尽然跌入一个异度空间之内，随着短暂的晕眩感消失之后，尽然是一个上古结界空间，里面灵气充沛，灵草药草遍地，而前方的几方石桌，石凳，木屋，石碑却很是打眼，看来是有高人曾经在此修行； -->
+			<!-- [NAME]走上前去，石碑之上赫然写着【墨仙谷】三个大字，这不是正是上古法宗之名吗！？[NAME]此时激动无比，快步跑进石屋之内，从厨房到卧室，从客厅到卫生间，一个不落的搜刮着…… -->
+			<!-- 然而现实又让[NAME]失望了，里面除了一本书册以外，竟在无他物，[IT]打开书册，上面竟是【墨仙谷】一门来历………… -->
+			<!-- …………天苍历元年，乃末世已远，而新世之初，天下诸子百家，皆发源建教，江岸沃野，物产丰富，民风淳朴，实属宝地，选址此谷，开山立派，名曰墨仙，祖师墨梓，立派三绝，太虚混元，太极阴阳，九天九地，皆为上乘，同志者闻之，拜山者无数，凡天资之佳，方入门内………… -->
+			<!-- …………天苍历两百年许，祖师飞升而去，设下此处结界，庇后世弟子，于此清心修炼，如此方能早登真仙大道………… -->
+			<!-- [NAME]看完此书，感觉只是简单的一本门派纪要，并没有参透其中有什么秘密，只能先带回门派，以后再说。 -->
+		<!-- </Desc> -->
+		
+	<!-- ================================道统分割线================================ -->
+	
+	<Story Name="MoXianGu_1"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《太极阴阳诀》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_TJYYJ");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_TJYYJ") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_TJYYJ");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="MoXianGu_2"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《九天九地盗宝经》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_JTJDDBJ");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_JTJDDBJ") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_JTJDDBJ");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="MoXianGu_3"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《太虚混元道》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_TXHYD");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_TXHYD") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_TXHYD");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BaiCaoGu_1"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《身残志坚论》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_SCZJL");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_SCZJL") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_SCZJL");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BaiCaoGu_2"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《女娲采石论》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_NWCSL");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_NWCSL") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_NWCSL");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BaiCaoGu_3"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《神农百草论》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_SNBCL");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_SNBCL") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_SNBCL");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BaiCaoGu_4"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《伏羲演卦论》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_FXYGL");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_FXYGL") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_FXYGL");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YuJianShanZhuang_1"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《洪荒御剑真意》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_HHYJZY");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_HHYJZY") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_HHYJZY");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YuJianShanZhuang_2"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《星芒补器真解》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_XMBQZJ");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_XMBQZJ") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_XMBQZJ");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YuJianShanZhuang_3"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《凌霄器宗真法》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_LXQZZF");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_LXQZZF") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_LXQZZF");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YiYu_1"  Parent="BaseFillingStory">
+		<DisplayName>上古道统</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现此处竟然是《武穆遗书》的道统传承，传承被一座前古仙阵围绕，似乎是古代仙人为挑选适合道统的传承者而设置的封印。阵法之中电光流转，似乎蕴含莫大的神通法力。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>强行夺取</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 10 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>元神期及机缘</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，获取了其中的道统传承。");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				me:DropAwardItem("Item_Dan_TreeEXP", 1);
+				me:UnLockGong("XXZS_WMYS");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 10 then
+					me:AddMsg("[NAME]运转元神，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddSchoolScore(1,100);
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]试图暴力破解阵法，但是却太过不自量力，被阵法反击身负重伤，沦为修行界的笑柄。");
+					me:AddSchoolScore(1,-300);
+					me:AddDamgeFromCache(story.DamageCache,4);
+					story:FinishSecret();
+				end;
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>接受传承</Display> 
+				<OKResult>
+				<![CDATA[	
+				if me:GetMatchingWithGong("XXZS_WMYS") >= 1 then
+					me:AddMsg("[NAME]上前接受阵法的检测，竟然非常适合这门道统，顺利接受了道统的传承。");
+					me:DropAwardItem("Item_Dan_TreeEXP", 1);
+					me:UnLockGong("XXZS_WMYS");
+					story:FinishSecret();
+				else
+					me:AddMsg("[NAME]上前接受阵法的检测，但可惜最终并没有通过阵法的检测，只能无奈离去");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	<!-- ================================洞府1分割线================================ -->
+	
+	<Story Name="MoXianGu_YiJi_1"  Parent="BaseFillingStory">
+		<DisplayName>墨仙谷洞府</DisplayName>
+		<Desc>[NAME]在[PLACE]发现上古法宗【墨仙谷】的遗迹重新现世，其中肯定收藏有不少珍贵的宝物。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("FightSkill") >= 20 
+				]]>
+				</Condition>
+				<Tip>术法技能等级</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，探索了无数个房间之后，最终在一个中央立着巨大人像的房间里有所发现，[IT]走上前去发现雕像前的一桌香案上摆着一个精致的宝匣，[NAME]赶紧收了起来，快速离开了洞府。");
+				local nR = me:GetSkillLevel("FightSkill");
+				if nR >= 35 then 
+					me:DropAwardItem("Item_ShenMiBox1", 1);
+				elseif nR >= 27 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，但是最后还是一无所获，只能暗叹与仙府无缘，就此离去。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]不想惹这些闲事，扭头就走。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BaiCaoGu_YiJi_1"  Parent="BaseFillingStory">
+		<DisplayName>百草谷福邸</DisplayName>
+		<Desc>[NAME]在[PLACE]发现上古丹宗【百草谷】的遗迹重新现世，其中肯定收藏有不少珍贵的宝物。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("Medicine") >= 20 
+				]]>
+				</Condition>
+				<Tip>炼丹技能等级</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，探索了无数个房间之后，最终在一个中央立着巨大人像的房间里有所发现，[IT]走上前去发现雕像前的一桌香案上摆着一个精致的宝匣，[NAME]赶紧收了起来，快速离开了洞府。");
+				local nR = me:GetSkillLevel("Medicine");
+				if nR >= 35 then 
+					me:DropAwardItem("Item_ShenMiBox2", 1);
+				elseif nR >= 28 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，但是最后还是一无所获，只能暗叹与仙府无缘，就此离去。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]不想惹这些闲事，扭头就走。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YuJianShanZhuang_YiJi_1"  Parent="BaseFillingStory">
+		<DisplayName>御剑山庄遗址</DisplayName>
+		<Desc>[NAME]在[PLACE]发现上古器宗【御剑山庄】的遗迹重新现世，其中肯定收藏有不少珍贵的宝物。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("Manual") >= 20 
+				]]>
+				</Condition>
+				<Tip>炼器技能等级</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，探索了无数个房间之后，最终在一个中央立着巨大人像的房间里有所发现，[IT]走上前去发现雕像前的一桌香案上摆着一个精致的宝匣，[NAME]赶紧收了起来，快速离开了洞府。");
+				local nR = me:GetSkillLevel("Manual");
+				if nR >= 35 then 
+					me:DropAwardItem("Item_ShenMiBox3", 1);
+				elseif nR >= 28 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，但是最后还是一无所获，只能暗叹与仙府无缘，就此离去。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]不想惹这些闲事，扭头就走。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XiaoYaoFeng_YiJi_1"  Parent="BaseFillingStory">
+		<DisplayName>逍遥峰仙迹</DisplayName>
+		<Desc>[NAME]在[PLACE]发现上古符宗【逍遥峰】的遗迹重新现世，其中肯定收藏有不少珍贵的宝物。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("Barrier") >= 20 
+				]]>
+				</Condition>
+				<Tip>护体技能等级</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，探索了无数个房间之后，最终在一个中央立着巨大人像的房间里有所发现，[IT]走上前去发现雕像前的一桌香案上摆着一个精致的宝匣，[NAME]赶紧收了起来，快速离开了洞府。");
+				local nR = me:GetSkillLevel("Barrier");
+				if nR >= 35 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				elseif nR >= 28 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，但是最后还是一无所获，只能暗叹与仙府无缘，就此离去。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]不想惹这些闲事，扭头就走。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YouMingDian_YiJi_1"  Parent="BaseFillingStory">
+		<DisplayName>幽冥殿遗宗</DisplayName>
+		<Desc>[NAME]在[PLACE]发现上古邪宗【幽冥殿】的遗迹重新现世，其中肯定收藏有不少珍贵的宝物。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("Fabao") >= 20 
+				]]>
+				</Condition>
+				<Tip>御器技能等级</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，探索了无数个房间之后，最终在一个中央立着巨大人像的房间里有所发现，[IT]走上前去发现雕像前的一桌香案上摆着一个精致的宝匣，[NAME]赶紧收了起来，快速离开了洞府。");
+				local nR = me:GetSkillLevel("Fabao");
+				if nR >= 35 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				elseif nR >= 28 then 
+					me:DropAwardItem("Item_DanYao_1", 1);
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_CaiLiao_1", 1);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]进入洞府中寻找仙缘，但是最后还是一无所获，只能暗叹与仙府无缘，就此离去。");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]不想惹这些闲事，扭头就走。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	
+	<!-- ================================洞府2分割线================================ -->
+	
+	<Story Name="MoXianGu_YiJi_2"  Parent="BaseFillingStory">
+		<DisplayName>残破洞府</DisplayName>
+		<Desc>[NAME]在[PLACE]附近探查时，无意间发现一个残破洞府，而此地四周也并无修行者，应该是已经荒废很久了。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>进去看看</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGoldValue() >= 5000000 
+				]]>
+				</Condition>
+				<Tip>金丹灵气五百万以上</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜索了此处，发现了一些被遗留下的宝物，或许能[ITS]修行有所帮助。");
+				local nR = me:GetSkillLevel("FightSkill");
+				local nQ = me:RandomInt(1, 4)
+				if nR >= 30 then 
+					if nQ >= 3 then 
+						me:DropEsoteric("XXZS_MXG_MB01");
+					elseif nQ >= 2 then 
+						me:DropEsoteric("XXZS_MXG_MB02");
+					elseif nQ >= 1 then 
+						me:DropAwardItem("XXZS_HG_01", 1);
+					end;
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_ExtremeJade", 3);
+					me:DropAwardItem("Item_StarEssence", 5);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜寻了一番，什么都没有发现，看来这洞府的主人离开此地前，并没有留下什么宝贝呢。");
+				]]>
+				</NOResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BaiCaoGu_YiJi_2"  Parent="BaseFillingStory">
+		<DisplayName>残破洞府</DisplayName>
+		<Desc>[NAME]在[PLACE]附近探查时，无意间发现一个残破洞府，而此地四周也并无修行者，应该是已经荒废很久了。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>进去看看</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGoldValue() >= 5000000 
+				]]>
+				</Condition>
+				<Tip>金丹灵气五百万以上</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜索了此处，发现了一些被遗留下的宝物，或许能[ITS]修行有所帮助。");
+				local nR = me:GetSkillLevel("Medicine");
+				local nQ = me:RandomInt(1, 3)
+				if nR >= 30 then 
+					if nQ >= 2 then 
+						me:DropEsoteric("XXZS_BCG_MB01");
+					elseif nQ >= 1 then 
+						me:DropAwardItem("XXZS_HG_01", 1);
+					end;
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_ExtremeJade", 3);
+					me:DropAwardItem("Item_StarEssence", 5);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜寻了一番，什么都没有发现，看来这洞府的主人离开此地前，并没有留下什么宝贝呢。");
+				]]>
+				</NOResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YuJianShanZhuang_YiJi_2"  Parent="BaseFillingStory">
+		<DisplayName>残破洞府</DisplayName>
+		<Desc>[NAME]在[PLACE]附近探查时，无意间发现一个残破洞府，而此地四周也并无修行者，应该是已经荒废很久了。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>进去看看</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGoldValue() >= 5000000 
+				]]>
+				</Condition>
+				<Tip>金丹灵气五百万以上</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜索了此处，发现了一些被遗留下的宝物，或许能[ITS]修行有所帮助。");
+				local nR = me:GetSkillLevel("Manual");
+				local nQ = me:RandomInt(1, 6)
+				if nR >= 30 then 
+					if nQ >= 5 then 
+						me:DropEsoteric("XXZS_YJSZ_MB01");
+					elseif nQ >= 4 then 
+						me:DropEsoteric("XXZS_YJSZ_MB02");
+					elseif nQ >= 3 then 
+						me:DropEsoteric("XXZS_YJSZ_MB03");
+					elseif nQ >= 2 then 
+						me:DropEsoteric("XXZS_YJSZ_MB04");
+					elseif nQ >= 1 then 
+						me:DropAwardItem("XXZS_HG_01", 1);
+					end;
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_ExtremeJade", 3);
+					me:DropAwardItem("Item_StarEssence", 5);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜寻了一番，什么都没有发现，看来这洞府的主人离开此地前，并没有留下什么宝贝呢。");
+				]]>
+				</NOResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XiaoYaoFeng_YiJi_2"  Parent="BaseFillingStory">
+		<DisplayName>残破洞府</DisplayName>
+		<Desc>[NAME]在[PLACE]附近探查时，无意间发现一个残破洞府，而此地四周也并无修行者，应该是已经荒废很久了。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>进去看看</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGoldValue() >= 5000000 
+				]]>
+				</Condition>
+				<Tip>金丹灵气五百万以上</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜索了此处，发现了一些被遗留下的宝物，或许能[ITS]修行有所帮助。");
+				local nR = me:GetSkillLevel("Barrier");
+				local nQ = me:RandomInt(1, 3)
+				if nR >= 30 then 
+					if nQ >= 2 then 
+						me:DropAwardItem("XXZS_HG_01", 3);
+					elseif nQ >= 1 then 
+						me:DropAwardItem("XXZS_HG_01", 1);
+					end;
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_ExtremeJade", 3);
+					me:DropAwardItem("Item_StarEssence", 5);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜寻了一番，什么都没有发现，看来这洞府的主人离开此地前，并没有留下什么宝贝呢。");
+				]]>
+				</NOResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="YouMingDian_YiJi_2"  Parent="BaseFillingStory">
+		<DisplayName>残破洞府</DisplayName>
+		<Desc>[NAME]在[PLACE]附近探查时，无意间发现一个残破洞府，而此地四周也并无修行者，应该是已经荒废很久了。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>进去看看</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGoldValue() >= 5000000 
+				]]>
+				</Condition>
+				<Tip>金丹灵气五百万以上</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜索了此处，发现了一些被遗留下的宝物，或许能[ITS]修行有所帮助。");
+				local nR = me:GetSkillLevel("Fabao");
+				local nQ = me:RandomInt(1, 3)
+				if nR >= 30 then 
+					if nQ >= 2 then 
+						me:DropAwardItem("XXZS_HG_01", 3);
+					elseif nQ >= 1 then 
+						me:DropAwardItem("XXZS_HG_01", 1);
+					end;
+				elseif nR >= 20 then 
+					me:DropAwardItem("Item_ExtremeJade", 3);
+					me:DropAwardItem("Item_StarEssence", 5);
+				end;
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]搜寻了一番，什么都没有发现，看来这洞府的主人离开此地前，并没有留下什么宝贝呢。");
+				]]>
+				</NOResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	<!-- ================================解锁地点分割线================================ -->
+	
+	<Story Name="JSDD_01"  Parent="BaseFillingStory">
+		<DisplayName>发现集市</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个特别的地方，突然起了游兴。[IT]也不作进一步打听，只是寻幽访道，随缘而行。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>寻幽访道</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过七弯八绕，总算是赶在天黑之前，找到了这个特别的地点，看来以后又多了个好玩的去处。");
+				me:UnLockPlace("Place_CunLuo_01");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_02"  Parent="BaseFillingStory">
+		<DisplayName>发现集市</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个特别的地方，突然起了游兴。[IT]也不作进一步打听，只是寻幽访道，随缘而行。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>寻幽访道</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过七弯八绕，总算是赶在天黑之前，找到了这个特别的地点，看来以后又多了个好玩的去处。");
+				me:UnLockPlace("Place_CunLuo_02");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_03"  Parent="BaseFillingStory">
+		<DisplayName>发现集市</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个特别的地方，突然起了游兴。[IT]也不作进一步打听，只是寻幽访道，随缘而行。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>寻幽访道</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过七弯八绕，总算是赶在天黑之前，找到了这个特别的地点，看来以后又多了个好玩的去处。");
+				me:UnLockPlace("Place_CunLuo_03");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_04"  Parent="BaseFillingStory">
+		<DisplayName>发现集市</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个特别的地方，突然起了游兴。[IT]也不作进一步打听，只是寻幽访道，随缘而行。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>寻幽访道</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]经过七弯八绕，总算是赶在天黑之前，找到了这个特别的地点，看来以后又多了个好玩的去处。");
+				me:UnLockPlace("Place_CunLuo_04");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_A"  Parent="BaseFillingStory">
+		<DisplayName>发现上古遗址</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个神秘的地方，可能和上古宗门有关。[IT]感觉应该会有所收货，想去前去打探打探。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>发现遗址</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现了上古法宗【墨仙谷】。");
+				me:UnLockPlace("Place_MoXianGu_1");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_B"  Parent="BaseFillingStory">
+		<DisplayName>发现上古遗址</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个神秘的地方，可能和上古宗门有关。[IT]感觉应该会有所收货，想去前去打探打探。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>发现遗址</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现了上古丹宗【百草谷】。");
+				me:UnLockPlace("Place_BaiCaoGu_1");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_C"  Parent="BaseFillingStory">
+		<DisplayName>发现上古遗址</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个神秘的地方，可能和上古宗门有关。[IT]感觉应该会有所收货，想去前去打探打探。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>发现遗址</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现了上古器宗【御剑山庄】。");
+				me:UnLockPlace("Place_YuJianShanZhuang_1");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_D"  Parent="BaseFillingStory">
+		<DisplayName>发现上古遗址</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个神秘的地方，可能和上古宗门有关。[IT]感觉应该会有所收货，想去前去打探打探。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>发现遗址</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现了上古符宗【逍遥峰】。");
+				me:UnLockPlace("Place_XiaoYaoFeng_1");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JSDD_E"  Parent="BaseFillingStory">
+		<DisplayName>发现上古遗址</DisplayName>
+		<Desc>[NAME]在[PLACE]听说附近有个神秘的地方，可能和上古宗门有关。[IT]感觉应该会有所收货，想去前去打探打探。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>发现遗址</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现了上古邪宗【幽冥殿】。");
+				me:UnLockPlace("Place_YouMingDian_1");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_JS"  Parent="BaseFillingStory">
+		<DisplayName>解锁全部正史地点</DisplayName>
+		<Desc>神坑考虑到部分非酋玩家的难处，决定在游戏进行到第一年后，便可开启全部正史地点，以便玩家探索。</Desc>
+		<Kind>Secret</Kind>
+		<Selections>
+			<li>
+				<Display>解锁宗门</Display>
+				<Condition>
+				<![CDATA[
+				World.DayCount > 105 
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("发现了所有宗门遗址所在！");
+				me:UnLockPlace("Place_MoXianGu_1");
+				me:UnLockPlace("Place_BaiCaoGu_1");
+				me:UnLockPlace("Place_YuJianShanZhuang_1");
+				me:UnLockPlace("Place_XiaoYaoFeng_1");
+				me:UnLockPlace("Place_YouMingDian_1");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("时间未到，无法解锁！");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>解锁集市</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("发现了所有集市所在！");
+				me:UnLockPlace("Place_CunLuo_01");
+				me:UnLockPlace("Place_CunLuo_02");
+				me:UnLockPlace("Place_CunLuo_03");
+				me:UnLockPlace("Place_CunLuo_04");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================================武穆遗书分割线================================ -->
+	
+	<Story Name="WMYS_1"  Parent="BaseFillingStory">
+		<DisplayName>武穆遗册之踪迹</DisplayName>
+		<Desc>[NAME]根据【武穆遗册 * 卷一】的提示，[IT]再次来到[PLACE]；如果说【武穆遗书】真的能引得江湖动荡不安的话，那这里面一定藏有什么秘密，只是现在还没被人们所发掘而已。。。\n只是此番探索，不知对[NAME]来说，是福还是祸。。。</Desc>
+		<Selections>
+			<li>
+				<Display>发现可疑的结界</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此处偏东方的位置，似乎隐藏着一处结界，结界光壁符文流转，似乎异常神秘，[NAME]忍不住好奇，便走进结界仔细研究起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这结界就是异界中本来就存在的东西。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击结界，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，结界瞬间破裂开来，一股强力的冲击波迎面而来，反倒是把[NAME]推出了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nW) - (nE + nR)
+				
+				local MB = me:RandomInt(1, 12);
+				local ZF = me:RandomInt(1, 12);
+				if nY > 0 then 
+				me:DropEsoteric("Esoterica_MiBao_"..MB.."");
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888771,1);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				me:DropEsoteric("Esoterica_ZhenFa_Suit"..ZF.."");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>发现可疑的山洞</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此地偏南方的位置，正巧有一处悬崖，悬崖下面有一处洞穴，[NAME]忍不住好奇心，只身飞入洞穴中仔细探索起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这洞穴就是个普通的溶洞。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击洞穴，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，洞穴内部开始不断的震荡起来，[NAME]一时间没站住脚，从悬崖边跌落下去，竟然意外的离开了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nE) - (nW + nR)
+				
+				local AA = me:RandomInt(86, 94);
+				if nY > 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99801);
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888771,1);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(AA);
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>没有发现任何异常</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]逛了半日，发现此地并没有什么不寻常的，一瞬间[IT]兴致全无，慢悠悠的起身离开，看来是打道回府了。。。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="WMYS_2"  Parent="BaseFillingStory">
+		<DisplayName>武穆遗册之踪迹</DisplayName>
+		<Desc>[NAME]根据【武穆遗册 * 卷二】的提示，[IT]再次来到[PLACE]；如果说【武穆遗书】真的能引得江湖动荡不安的话，那这里面一定藏有什么秘密，只是现在还没被人们所发掘而已。。。\n只是此番探索，不知对[NAME]来说，是福还是祸。。。</Desc>
+		<Selections>
+			<li>
+				<Display>发现可疑的结界</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此处偏东方的位置，似乎隐藏着一处结界，结界光壁符文流转，似乎异常神秘，[NAME]忍不住好奇，便走进结界仔细研究起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这结界就是异界中本来就存在的东西。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击结界，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，结界瞬间破裂开来，一股强力的冲击波迎面而来，反倒是把[NAME]推出了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nW) - (nE + nR)
+				
+				local MB = me:RandomInt(1, 12);
+				local ZF = me:RandomInt(1, 12);
+				if nY > 0 then 
+				me:DropEsoteric("Esoterica_MiBao_"..MB.."");
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888772,2);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				me:DropEsoteric("Esoterica_ZhenFa_Suit"..ZF.."");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>发现可疑的山洞</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此地偏南方的位置，正巧有一处悬崖，悬崖下面有一处洞穴，[NAME]忍不住好奇心，只身飞入洞穴中仔细探索起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这洞穴就是个普通的溶洞。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击洞穴，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，洞穴内部开始不断的震荡起来，[NAME]一时间没站住脚，从悬崖边跌落下去，竟然意外的离开了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nE) - (nW + nR)
+				
+				local AA = me:RandomInt(86, 94);
+				if nY > 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99801);
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888772,2);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(AA);
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>没有发现任何异常</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]逛了半日，发现此地并没有什么不寻常的，一瞬间[IT]兴致全无，慢悠悠的起身离开，看来是打道回府了。。。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="WMYS_3"  Parent="BaseFillingStory">
+		<DisplayName>武穆遗册之踪迹</DisplayName>
+		<Desc>[NAME]根据【武穆遗册 * 卷三】的提示，[IT]再次来到[PLACE]；如果说【武穆遗书】真的能引得江湖动荡不安的话，那这里面一定藏有什么秘密，只是现在还没被人们所发掘而已。。。\n只是此番探索，不知对[NAME]来说，是福还是祸。。。</Desc>
+		<Selections>
+			<li>
+				<Display>发现可疑的结界</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此处偏东方的位置，似乎隐藏着一处结界，结界光壁符文流转，似乎异常神秘，[NAME]忍不住好奇，便走进结界仔细研究起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这结界就是异界中本来就存在的东西。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击结界，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，结界瞬间破裂开来，一股强力的冲击波迎面而来，反倒是把[NAME]推出了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nW) - (nE + nR)
+				
+				local MB = me:RandomInt(1, 12);
+				local ZF = me:RandomInt(1, 12);
+				if nY > 0 then 
+				me:DropEsoteric("Esoterica_MiBao_"..MB.."");
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888773,3);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				me:DropEsoteric("Esoterica_ZhenFa_Suit"..ZF.."");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>发现可疑的山洞</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此地偏南方的位置，正巧有一处悬崖，悬崖下面有一处洞穴，[NAME]忍不住好奇心，只身飞入洞穴中仔细探索起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这洞穴就是个普通的溶洞。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击洞穴，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，洞穴内部开始不断的震荡起来，[NAME]一时间没站住脚，从悬崖边跌落下去，竟然意外的离开了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nE) - (nW + nR)
+				
+				local AA = me:RandomInt(86, 94);
+				if nY > 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99801);
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888773,3);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(AA);
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>没有发现任何异常</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]逛了半日，发现此地并没有什么不寻常的，一瞬间[IT]兴致全无，慢悠悠的起身离开，看来是打道回府了。。。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="WMYS_4"  Parent="BaseFillingStory">
+		<DisplayName>武穆遗册之踪迹</DisplayName>
+		<Desc>[NAME]根据【武穆遗册 * 卷四】的提示，[IT]再次来到[PLACE]；如果说【武穆遗书】真的能引得江湖动荡不安的话，那这里面一定藏有什么秘密，只是现在还没被人们所发掘而已。。。\n只是此番探索，不知对[NAME]来说，是福还是祸。。。</Desc>
+		<Selections>
+			<li>
+				<Display>发现可疑的结界</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此处偏东方的位置，似乎隐藏着一处结界，结界光壁符文流转，似乎异常神秘，[NAME]忍不住好奇，便走进结界仔细研究起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这结界就是异界中本来就存在的东西。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击结界，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，结界瞬间破裂开来，一股强力的冲击波迎面而来，反倒是把[NAME]推出了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nW) - (nE + nR)
+				
+				local MB = me:RandomInt(1, 12);
+				local ZF = me:RandomInt(1, 12);
+				if nY > 0 then 
+				me:DropEsoteric("Esoterica_MiBao_"..MB.."");
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888774,4);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				me:DropEsoteric("Esoterica_ZhenFa_Suit"..ZF.."");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>发现可疑的山洞</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]发现此地偏南方的位置，正巧有一处悬崖，悬崖下面有一处洞穴，[NAME]忍不住好奇心，只身飞入洞穴中仔细探索起来。。。\n半柱香的时间过去了，[NAME]仍然一无所获，[IT]甚至一度怀疑这洞穴就是个普通的溶洞。。。\n最终[NAME]把心一横，管他三七二十一，直接运气直击洞穴，竟想要大力出奇迹将此打破！\n“轰！！”的一声响起，洞穴内部开始不断的震荡起来，[NAME]一时间没站住脚，从悬崖边跌落下去，竟然意外的离开了异界裂缝。。。");
+				local nQ = me:RandomInt(1, 11);
+				local nW = me:RandomInt(1, 11);
+				local nE = me:RandomInt(1, 11);
+				local nR = me:RandomInt(1, 11);
+				local nY = (nQ+ nE) - (nW + nR)
+				
+				local AA = me:RandomInt(86, 94);
+				if nY > 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(99801);
+				elseif nY == 0 then 
+				world:ShowMsgBox("似乎获得了什么特殊的记忆。。。\n记忆中隐隐约约重复着一句话：\n飞雪连天射白鹿，笑书神侠倚碧鸳");
+				world:SetWorldFlag(8888774,4);
+				story:FinishSecret();
+				elseif nY < 0 then 
+				CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(AA);
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>没有发现任何异常</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]逛了半日，发现此地并没有什么不寻常的，一瞬间[IT]兴致全无，慢悠悠的起身离开，看来是打道回府了。。。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="WMYS_A"  Parent="BaseFillingStory">
+		<DisplayName>武穆遗册之踪迹</DisplayName>
+		<Desc>[NAME]听闻江湖人士的传言，再次来到[PLACE]，只见烟雾环绕之处，隐隐约约有一幢矮矮的茅屋，[IT]走近一看，只见门上写着两行楷书：\n    飞雪连天射白鹿\n    笑书神侠倚碧鸳\n[NAME]大惊！[IT]明白，这便是那【武穆遗书】的终极秘密隐藏之所，只是如何才能入得这茅屋里面呢？\n看似简单的一幢茅屋，[NAME]的神识却丝毫探查不到里面的情况，看来是需要花上一些功夫了。。。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<Condition>
+				<![CDATA[	
+				world:GetWorldFlag(8888771) == 1 and world:GetWorldFlag(8888772) == 1 and world:GetWorldFlag(8888773) == 1 and world:GetWorldFlag(8888774) == 1 ;
+				]]>
+				</Condition>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetGongName() == "XXZS_WMYS" then 
+				me:AddMsg("[NAME]缓缓回忆起之前四本【武穆遗册】上的内容，似乎感觉到他们之间似乎有什么关联，[IT]不断的在脑海中演练，最终领悟到了【武穆遗书】中隐藏的最深处的奥秘。。。\n[NAME]双目紧闭，缓缓运转起【武穆遗书】功法，心中默念刚刚参悟的心法，行使真气游走全身，反复运行。。。\n一个大周天，一个小周天，一个大周天，一个小周天。。。\n良久。。。[NAME]从定中醒来，抬手轻轻一推，竟是毫无阻碍的打开了这幢矮矮的茅屋。。。\n[IT]只见茅屋正厅中央的桌子上，一本小小的秘籍静静的躺在上面。。。想必这就是[NAME]苦苦寻找的答案了。。。");
+				me:DropEsoteric("XXZS_ZF");
+				else
+				me:AddMsg("[NAME]虽然偶然获得了四块来自武穆遗册的记忆碎片残留，但是[IT]并未真正传承祖师爷【金庸】老爷子的衣钵，因此依然无法进入此地。。。\n[NAME]叹了一口气，只能黯然伤神地离开了此地。。。");
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]缓缓回忆起之前四本【武穆遗册】上的内容，似乎感觉到他们之间似乎有什么关联，[IT]不断的在脑海中演练，最终[NAME]感到丹田之中气海翻腾，隐隐作痛，只得放弃。。。\n从演练过程来看，[NAME]明白，自己的神识中还是缺少点什么东西，才会导致功亏一篑，看来只能放弃这次的探索，空手而归了。。。");
+				story:FinishSecret();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]对此毫无兴趣，扭头就走。。。");
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================================御剑山庄秘宝分割线================================ -->
+	
+	<Story Name="YJSZ_1"  Parent="BaseFillingStory">
+		<DisplayName>残卷踪迹</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现已经有很多修行者正在此处苦苦寻觅那上古器宗【御剑山庄】的残卷踪迹。</Desc>
+		<Selections>
+			<li>
+				<Display>四处搜寻</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetMatchingWithGong("XXZS_HHYJZY") > 1 or me:GetMatchingWithGong("XXZS_LXQZZF") > 1 or me:GetMatchingWithGong("XXZS_XMBQZJ") > 1 
+				]]>
+				</Condition>
+				<Tip>功法契合度</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(0, 11)
+				local B = me:GetPhysique()
+				local C = A + B
+				if C >= 15 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_YJSZ_MB05");
+				elseif C >= 9 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_YJSZ_MB06");
+				elseif C >= 3 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_YJSZ_MB07");
+				elseif C >= 0 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，而就在[NAME]以为快要成功时，竟然被另一名修行者抢先一步找到了残卷，[NAME]只能暗探与残卷无缘。");
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索古书下落。这无异于大海捞针，[NAME]费劲心思还是没能找到线索。只能暗叹与残卷无缘。");
+				story:FinishSecret();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================================墨仙谷秘法分割线================================ -->
+	
+	<Story Name="MXG_1"  Parent="BaseFillingStory">
+		<DisplayName>残卷踪迹</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现已经有很多修行者正在此处苦苦寻觅那上古法宗【墨仙谷】的残卷踪迹。</Desc>
+		<Selections>
+			<li>
+				<Display>四处搜寻</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetMatchingWithGong("XXZS_JTJDDBJ") > 1 or me:GetMatchingWithGong("XXZS_TJYYJ") > 1 or me:GetMatchingWithGong("XXZS_TXHYD") > 1 
+				]]>
+				</Condition>
+				<Tip>功法契合度</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(0, 11)
+				local B = me:GetPerception()
+				local C = A + B
+				if C >= 12 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_MXG_A");
+				elseif C >= 3 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_MXG_B");
+				elseif C >= 0 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，而就在[NAME]以为快要成功时，竟然被另一名修行者抢先一步找到了残卷，[NAME]只能暗探与残卷无缘。");
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索古书下落。这无异于大海捞针，[NAME]费劲心思还是没能找到线索。只能暗叹与残卷无缘。");
+				story:FinishSecret();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ================================百草谷丹方分割线================================ -->
+	
+	<Story Name="BCG_1"  Parent="BaseFillingStory">
+		<DisplayName>残卷踪迹</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现已经有很多修行者正在此处苦苦寻觅那上古丹宗【百草谷】的残卷踪迹。</Desc>
+		<Selections>
+			<li>
+				<Display>四处搜寻</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetMatchingWithGong("XXZS_FXYGL") > 1 or me:GetMatchingWithGong("XXZS_NWCSL") > 1 or me:GetMatchingWithGong("XXZS_SNBCL") > 1 or me:GetMatchingWithGong("XXZS_SCZJL") > 1 
+				]]>
+				</Condition>
+				<Tip>功法契合度</Tip>
+				<OKResult>
+				<![CDATA[	
+				local A = me:RandomInt(0, 11)
+				local B = me:GetLuck()
+				local C = A + B
+				if C >= 17 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_SN_DAN_A");
+				elseif C >= 13 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_SN_DAN_B");
+				elseif C >= 9 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_SN_DAN_C");
+				elseif C >= 5 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，最终抢先一步找到了残卷。");
+				me:DropEsoteric("XXZS_SN_DAN_D");
+				elseif C >= 0 then 
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索着残卷的下落。碰巧的是[NAME]的自身属性似乎非常契合此宗门的功法，竟然与残卷引发了共鸣，，居然主动指引[NAME]前往藏宝之处，而就在[NAME]以为快要成功时，竟然被另一名修行者抢先一步找到了残卷，[NAME]只能暗探与残卷无缘。");
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]随便找了个方向，放出神念以地毯式的搜索古书下落。这无异于大海捞针，[NAME]费劲心思还是没能找到线索。只能暗叹与残卷无缘。");
+				story:FinishSecret();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]想了想，决定还是不冒险，转身离去。");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Stories>

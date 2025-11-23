@@ -1,0 +1,190 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Building" Name="TUDIBase">
+			<TileID>223</TileID>
+			<Desc>RoofBase</Desc>
+			<SelectAble>1</SelectAble>
+			<CastShadow>0</CastShadow>
+			<Beauty>2</Beauty>
+			<BlockMissile>0</BlockMissile>
+			<VisionRadius>0</VisionRadius>
+			<ColliderKind>None</ColliderKind>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[2]
+				</Data>
+			</Collider>
+			<Building>
+				<NoFengshui>1</NoFengshui>
+				<FillTarrain>Mud</FillTarrain>
+				<BuildMode>Rect</BuildMode>
+				<CanMakeRoom>0</CanMakeRoom>
+				<LeaveResourcesWhenKilled>0</LeaveResourcesWhenKilled>
+				<RemovePriceFactor>0.5</RemovePriceFactor>
+				<BePackage>0</BePackage>
+				<BlockLight>0</BlockLight>
+				<RestEffectiveness>1</RestEffectiveness>
+				<IsVirtualBuilding>1</IsVirtualBuilding>
+				<BeMade>
+					<WorkToMake>5</WorkToMake>
+					<Quality>0</Quality>
+				</BeMade>
+			</Building>
+		</ThingDef>
+	<ThingDef Type="Building" Name="TUDIGAIGE_01" Parent="TUDIBase">
+			<Color>EEEE00FF</Color>
+			<ThingName>红尘凡土</ThingName>
+			<Desc>将一块区域改造成土地，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>Soil</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_02" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>福泽沃土</ThingName>
+			<Desc>将一块区域改造成沃土，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>FertileSoil</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_03" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>仙境灵土</ThingName>
+			<Desc>将一块区域改造成灵土，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>LingSoil</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_04" Parent="TUDIBase">
+			<Color>98F5FFFF</Color>
+			<ThingName>涟漪之源</ThingName>
+			<Desc>将一块区域改造成浅水，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>ShallowWater</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_05" Parent="TUDIBase">
+			<Color>98F5FFFF</Color>
+			<ThingName>波澜之渊</ThingName>
+			<Desc>将一块区域改造成深水，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>DepthDepthWater</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_06" Parent="TUDIBase">
+			<Color>98F5FFFF</Color>
+			<ThingName>洁净之泽</ThingName>
+			<Desc>将一块区域改造成灵水，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>LingWater</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_07" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>异域岩地</ThingName>
+			<Desc>将一块区域改造成岩地，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>StoneLand</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_08" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>异域泥地</ThingName>
+			<Desc>将一块区域改造成泥地，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>Mud</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_09" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>异域湿地</ThingName>
+			<Desc>将一块区域改造成湿地，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>WetLand</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_10" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>异域沙地</ThingName>
+			<Desc>将一块区域改造成沙地，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>SandLand</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		<ThingDef Type="Building" Name="TUDIGAIGE_11" Parent="TUDIBase">
+			<Color>C1FFC1FF</Color>
+			<ThingName>异域血池</ThingName>
+			<Desc>将一块区域改造成血水，只需要花费一点点时间。</Desc>
+			<Building>
+				<FillTarrain>BloodWater</FillTarrain>
+				<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>10</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+</List></ThingDefs>

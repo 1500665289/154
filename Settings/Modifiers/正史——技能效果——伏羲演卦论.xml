@@ -1,0 +1,238 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_1A" Type="Normal">
+		<DisplayName>先天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_1B" Type="Normal">
+		<DisplayName>先天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>3,3,3,3,3</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="35"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_1C" Type="Normal">
+		<DisplayName>先天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+			<li Name="MindStateBaseValue" AddV="100"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_2A" Type="Normal">
+		<DisplayName>中天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_2B" Type="Normal">
+		<DisplayName>中天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>3,3,3,3,3</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="35"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="70"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_2C" Type="Normal">
+		<DisplayName>中天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.5"/>
+			<li Name="ComfyTMax" AddV="45"/>
+			<li Name="ComfyTMin" AddV="-45"/>
+			<li Name="ToleranceTMax" AddV="45"/>
+			<li Name="ToleranceTMin" AddV="-45"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_3A" Type="Normal">
+		<DisplayName>后天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_3B" Type="Normal">
+		<DisplayName>后天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>3,3,3,3,3</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="3"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_3C" Type="Normal">
+		<DisplayName>后天八卦</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="InspirationCoefficient" AddP="0.5"/>
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="15"/>
+			<li Name="FightSkill" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_4A" Type="Normal">
+		<DisplayName>六十四象</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_4B" Type="Normal">
+		<DisplayName>六十四象</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+			<li Name="DanMake_YieldAddP" AddV="1"/>
+			<li Name="MaxAge" AddV="900"/>
+			<li Name="PracticeRateAddPFromDan" AddP="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_4C" Type="Normal">
+		<DisplayName>六十四象</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="80"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.15"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.15"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.15"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_5A" Type="Normal">
+		<DisplayName>伏羲丹经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_5B" Type="Normal">
+		<DisplayName>伏羲丹经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_6A" Type="Normal">
+		<DisplayName>伏羲丹典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_6B" Type="Normal">
+		<DisplayName>伏羲丹典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_7A" Type="Normal">
+		<DisplayName>九宫法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_7B" Type="Normal">
+		<DisplayName>五帝诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_7C" Type="Normal">
+		<DisplayName>九九归一咒</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_FXYGL_8A" Type="Normal">
+		<DisplayName>河洛法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-2,-2,-2,-2,-2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_8B" Type="Normal">
+		<DisplayName>四象诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_FXYGL_8C" Type="Normal">
+		<DisplayName>二八星宿咒</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

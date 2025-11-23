@@ -1,0 +1,793 @@
+<FightSkills><List>
+	<!-- ====================法宝增强==================== -->
+	
+	<Skill Name="XXZS_WMYS_A_1"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>太极拳</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>1</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_A_2"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>太极剑</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>2</Value>
+		<Value2>50</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_A_3"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>龙象般若功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>3</Value>
+		<Value2>40</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_A_4"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>易筋经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>4</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<!-- ====================术法增强==================== -->
+	
+	<Skill Name="XXZS_WMYS_B_1"><!--术法增强基础模板 --> 
+		<DisplayName>天山折梅手</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>1</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_B_2"><!--术法增强基础模板 --> 
+		<DisplayName>辟邪剑法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>2</Value>
+		<Value2>50</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_B_3"><!--术法增强基础模板 --> 
+		<DisplayName>玉女心经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>3</Value>
+		<Value2>40</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_B_4"><!--术法增强基础模板 --> 
+		<DisplayName>紫霞神功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>4</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<!-- ====================护体增强==================== -->
+	
+	<Skill Name="XXZS_WMYS_C_1"><!--护体增强基础模板 --> 
+		<DisplayName>降龙十八掌</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>1</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200006</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_C_2"><!--护体增强基础模板 --> 
+		<DisplayName>生死符</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>2</Value>
+		<Value2>50</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200006</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_C_3"><!--护体增强基础模板 --> 
+		<DisplayName>蛤蟆功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>3</Value>
+		<Value2>40</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200006</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_C_4"><!--护体增强基础模板 --> 
+		<DisplayName>九阳真经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>4</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200006</HitEffect>
+	</Skill>
+	
+	<!-- ====================灵气恢复==================== -->
+	
+	<Skill Name="XXZS_WMYS_D_1"><!--恢复技能基础模板 --> 
+		<DisplayName>黯然销魂掌</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>50</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_D_2"><!--恢复技能基础模板 --> 
+		<DisplayName>独孤九剑</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>100</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_D_3"><!--恢复技能基础模板 --> 
+		<DisplayName>乾坤大挪移</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>200</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	<Skill Name="XXZS_WMYS_D_4"><!--恢复技能基础模板 --> 
+		<DisplayName>先天功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	
+	<!-- ====================法术伤害1==================== -->
+	
+	<Skill Name="XXZS_WMYS_E_1"><!--伤害技能基础模板 --> 
+		<DisplayName>左右互搏</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>50</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_2"><!--伤害技能基础模板 --> 
+		<DisplayName>胡家刀法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>100</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_3"><!--伤害技能基础模板 --> 
+		<DisplayName>小无相功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_4"><!--伤害技能基础模板 --> 
+		<DisplayName>洗髓经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<!-- ====================法术伤害2==================== -->
+	
+	<Skill Name="XXZS_WMYS_E_5"><!--伤害技能基础模板 --> 
+		<DisplayName>一阳指</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>125</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_6"><!--伤害技能基础模板 --> 
+		<DisplayName>打狗棒法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>175</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_7"><!--伤害技能基础模板 --> 
+		<DisplayName>斗转星移</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>275</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_8"><!--伤害技能基础模板 --> 
+		<DisplayName>北冥神功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>425</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<!-- ====================法术伤害3==================== -->
+	
+	<Skill Name="XXZS_WMYS_E_9"><!--伤害技能基础模板 --> 
+		<DisplayName>天山六阳掌</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_10"><!--伤害技能基础模板 --> 
+		<DisplayName>玄铁剑法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>250</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_11"><!--伤害技能基础模板 --> 
+		<DisplayName>八荒六合唯我独尊神功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_12"><!--伤害技能基础模板 --> 
+		<DisplayName>九阴真经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<!-- ====================法术伤害4==================== -->
+	
+	<Skill Name="XXZS_WMYS_E_13"><!--伤害技能基础模板 --> 
+		<DisplayName>六脉神剑</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>275</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_14"><!--伤害技能基础模板 --> 
+		<DisplayName>火焰刀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>325</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_15"><!--伤害技能基础模板 --> 
+		<DisplayName>罗汉伏魔神功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>425</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_16"><!--伤害技能基础模板 --> 
+		<DisplayName>神照经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>575</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<!-- ====================法术伤害5==================== -->
+	
+	<Skill Name="XXZS_WMYS_E_17"><!--伤害技能基础模板 --> 
+		<DisplayName>少林七十二绝技</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_18"><!--伤害技能基础模板 --> 
+		<DisplayName>越女剑法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>20</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>400</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_19"><!--伤害技能基础模板 --> 
+		<DisplayName>纯阳无极功</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>30</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_WMYS_E_20"><!--伤害技能基础模板 --> 
+		<DisplayName>太玄经</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>40</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>650</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+</List></FightSkills>

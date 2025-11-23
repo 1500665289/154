@@ -1,0 +1,59 @@
+<FightSkills><List>
+	<Skill Name="XXZS_JTJDDBJ_1"><!--术法增强基础模板 --> 
+		<DisplayName>九地圣手</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>5</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_5"><!--术法增强基础模板 --> 
+		<DisplayName>混元流沙诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>2</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_FXYGL_1"><!--术法增强基础模板 --> 
+		<DisplayName>五帝诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>15</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>1</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+</List></FightSkills>

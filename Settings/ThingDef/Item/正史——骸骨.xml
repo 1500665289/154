@@ -1,0 +1,39 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="XXZS_HG_01" Parent="MaterialBase">
+		<ThingName>神秘的骸骨</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res/Sprs/object/object_canhai01</TexPath>
+		<Desc>从天而降的一具白骨，不知从何而来，而那空洞的眼眶中，似乎还透露着幽幽的绿光，令人不寒而栗，阴森的可怕。。。</Desc>
+		<Beauty>100</Beauty>
+		<Rate>12</Rate>
+		<ElementKind>Tu</ElementKind>
+		<Item  Lable="Bone">
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>骨</FabaoSuffix>
+			<Equip>
+				<AttackRange>20</AttackRange>
+				<Damage>10</Damage>
+				<AtkDamage>
+					<li PartKind="Bone" Name="TEST_FULL" Rate="1" DescTags="震伤"/>
+				</AtkDamage>
+			</Equip>
+		</Item>
+		<StoryBnts>
+			<li Name="探索" Desc="探索这个骸骨" Story="XXZS_HG_01" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

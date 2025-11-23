@@ -1,0 +1,547 @@
+<ThingDefs><List>
+	
+	<!-- ========================================================分割线========================================================== -->
+	
+	<ThingDef Type="Item" Name="Item_JC_01" Parent="MetalBlockBase">
+		<ThingName>白帝之石</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanjin01</TexPath>
+		<Desc>一种特殊的金属性建材，可以用来建造各种建筑。</Desc>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Quality>12</Quality>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="MetalBlock">
+			<FabaoSuffix>印</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			
+			<BeMaterial>
+				<NamePrefix>白帝</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				<StuffColorWeight>-1.35</StuffColorWeight>
+			
+				<RateWhenBeMain>12</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+				<AttackSpeedWhenBeMain>0</AttackSpeedWhenBeMain>
+			
+				<ColorWhenBeMain>EEEE00FF</ColorWhenBeMain>
+			
+				<MaxHitPointsPerNum>5000</MaxHitPointsPerNum>
+				<LingNumberRate>2</LingNumberRate>
+			
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+				<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			</BeMaterial>
+		
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_StarEssenceBlock" count = "3"/>
+					<Item name = "Item_DarksteelBlock" count = "3"/>
+					<Item name = "Item_IronBlock" count = "3"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>12</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>EEEE00FF</Color>
+		</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JC_02" Parent="MetalBlockBase">
+		<ThingName>青帝之岩</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanmu01</TexPath>
+		<Desc>一种特殊的木属性建材，可以用来建造各种建筑。</Desc>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="MetalBlock">
+			<FabaoSuffix>印</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			
+			<BeMaterial>
+				<NamePrefix>青帝</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				<StuffColorWeight>-1.35</StuffColorWeight>
+			
+				<RateWhenBeMain>12</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+				<AttackSpeedWhenBeMain>0</AttackSpeedWhenBeMain>
+			
+				<ColorWhenBeMain>32CD32FF</ColorWhenBeMain>
+			
+				<MaxHitPointsPerNum>5000</MaxHitPointsPerNum>
+				<LingNumberRate>2</LingNumberRate>
+			
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+				<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			</BeMaterial>
+		
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_HardWoodBlock" count = "3"/>
+					<Item name = "Item_ParasolWoodBlock" count = "3"/>
+					<Item name = "Item_LingWoodBlock" count = "3"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>12</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>32CD32FF</Color>
+		</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JC_03" Parent="MetalBlockBase">
+		<ThingName>黑帝之砂</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanshui01</TexPath>
+		<Desc>一种特殊的水属性建材，可以用来建造各种建筑。</Desc>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="MetalBlock">
+			<FabaoSuffix>印</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			
+			<BeMaterial>
+				<NamePrefix>黑帝</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				<StuffColorWeight>-1.35</StuffColorWeight>
+			
+				<RateWhenBeMain>12</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+				<AttackSpeedWhenBeMain>0</AttackSpeedWhenBeMain>
+			
+				<ColorWhenBeMain>00BFFFFF</ColorWhenBeMain>
+			
+				<MaxHitPointsPerNum>5000</MaxHitPointsPerNum>
+				<LingNumberRate>2</LingNumberRate>
+			
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+				<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			</BeMaterial>
+		
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_SilverBlock" count = "3"/>
+					<Item name = "Item_SilverBlock1" count = "3"/>
+					<Item name = "Item_SilverRock" count = "3"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>12</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>00BFFFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JC_04" Parent="MetalBlockBase">
+		<ThingName>赤帝之晶</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanhuo01</TexPath>
+		<Desc>一种特殊的火属性建材，可以用来建造各种建筑。</Desc>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="MetalBlock">
+			<FabaoSuffix>印</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			
+			<BeMaterial>
+				<NamePrefix>赤帝</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				<StuffColorWeight>-1.35</StuffColorWeight>
+			
+				<RateWhenBeMain>12</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+				<AttackSpeedWhenBeMain>0</AttackSpeedWhenBeMain>
+			
+				<ColorWhenBeMain>990000FF</ColorWhenBeMain>
+			
+				<MaxHitPointsPerNum>5000</MaxHitPointsPerNum>
+				<LingNumberRate>2</LingNumberRate>
+			
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+				<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			</BeMaterial>
+		
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_CopperBlock" count = "3"/>
+					<Item name = "Item_CopperBlock1" count = "3"/>
+					<Item name = "Item_CopperRock" count = "3"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>12</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>EE5C42FF</Color>
+		</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JC_05" Parent="MetalBlockBase">
+		<ThingName>黄帝之土</ThingName>
+		<TexPath>res\Sprs\object\object_benyuantu01</TexPath>
+		<Desc>一种特殊的土属性建材，可以用来建造各种建筑。</Desc>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="MetalBlock">
+			<FabaoSuffix>印</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			
+			<BeMaterial>
+				<NamePrefix>黄帝</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				<StuffColorWeight>0</StuffColorWeight>
+			
+				<RateWhenBeMain>12</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+				<AttackSpeedWhenBeMain>0</AttackSpeedWhenBeMain>
+			
+				<ColorWhenBeMain>CC6600FF</ColorWhenBeMain>
+			
+				<MaxHitPointsPerNum>5000</MaxHitPointsPerNum>
+				<LingNumberRate>2</LingNumberRate>
+			
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+				<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			</BeMaterial>
+		
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_MarbleBlock" count = "3"/>
+					<Item name = "Item_JadeBlock" count = "3"/>
+					<Item name = "Item_SkyStoneBlock" count = "3"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>12</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>B8860BFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JC_06" Parent="MetalBlockBase">
+		<ThingName>玄帝之尘</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanwu01</TexPath>
+		<Desc>一种特殊的无属性建材，可以用来建造各种建筑。</Desc>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Item Lable="MetalBlock">
+			<FabaoSuffix>印</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			
+			<BeMaterial>
+				<NamePrefix>玄帝</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				<StuffColorWeight>0</StuffColorWeight>
+			
+				<RateWhenBeMain>12</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+				<AttackSpeedWhenBeMain>0</AttackSpeedWhenBeMain>
+			
+				<ColorWhenBeMain>C5C1AAFF</ColorWhenBeMain>
+			
+				<MaxHitPointsPerNum>5000</MaxHitPointsPerNum>
+				<LingNumberRate>2</LingNumberRate>
+			
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+				<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			</BeMaterial>
+		
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "3"/>
+					<Item name = "Item_LingCrystal" count = "3"/>
+					<Item name = "Item_LingCrystalBlock" count = "3"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>C1CDC1FF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!-- ========================================================分割线========================================================== -->
+	
+	<ThingDef Type="Item" Name="Item_JL_01" Parent="LeftoverMaterialBase">
+		<ThingName>白帝角料</ThingName>
+		<ElementKind>Jin</ElementKind>
+		<Desc>混杂了白帝之石的建筑余料，可以用来铺地板或砌屋檐。</Desc>
+		<Color>FF9900FF</Color>
+		
+		<Item>
+			<FuelMultiplier>1</FuelMultiplier>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_JC_01" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<BeMaterial>
+				<NamePrefix>白帝</NamePrefix>
+				<RateWhenBeMain>1</RateWhenBeMain>
+			
+				<StuffTexPath>res/mattex/mtl_wood</StuffTexPath>
+				<ColorWhenBeFloor>FF9900FF</ColorWhenBeFloor>
+				<ColorWhenBeRoof>FF9900FF</ColorWhenBeRoof>
+			
+				<BurningPointWhenBeMain>140</BurningPointWhenBeMain>
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+			</BeMaterial>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JL_02" Parent="LeftoverMaterialBase">
+		<ThingName>青帝角料</ThingName>
+		<ElementKind>Mu</ElementKind>
+		<Desc>混杂了青帝之石的建筑余料，可以用来铺地板或砌屋檐。</Desc>
+		<Color>009900FF</Color>
+		
+		<Item>
+			<FuelMultiplier>1</FuelMultiplier>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_JC_02" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<BeMaterial>
+				<NamePrefix>青帝</NamePrefix>
+				<RateWhenBeMain>1</RateWhenBeMain>
+			
+				<StuffTexPath>res/mattex/mtl_wood</StuffTexPath>
+				<ColorWhenBeFloor>009900FF</ColorWhenBeFloor>
+				<ColorWhenBeRoof>009900FF</ColorWhenBeRoof>
+			
+				<BurningPointWhenBeMain>140</BurningPointWhenBeMain>
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+			</BeMaterial>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JL_03" Parent="LeftoverMaterialBase">
+		<ThingName>黑帝角料</ThingName>
+		<ElementKind>Shui</ElementKind>
+		<Desc>混杂了黑帝之石的建筑余料，可以用来铺地板或砌屋檐。</Desc>
+		<Color>00BFFFFF</Color>
+		
+		<Item>
+			<FuelMultiplier>1</FuelMultiplier>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_JC_03" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<BeMaterial>
+				<NamePrefix>黑帝</NamePrefix>
+				<RateWhenBeMain>1</RateWhenBeMain>
+			
+				<StuffTexPath>res/mattex/mtl_wood</StuffTexPath>
+				<ColorWhenBeFloor>00BFFFFF</ColorWhenBeFloor>
+				<ColorWhenBeRoof>00BFFFFF</ColorWhenBeRoof>
+			
+				<BurningPointWhenBeMain>140</BurningPointWhenBeMain>
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+			</BeMaterial>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JL_04" Parent="LeftoverMaterialBase">
+		<ThingName>赤帝角料</ThingName>
+		<ElementKind>Huo</ElementKind>
+		<Desc>混杂了赤帝之石的建筑余料，可以用来铺地板或砌屋檐。</Desc>
+		<Color>990000FF</Color>
+		
+		<Item>
+			<FuelMultiplier>1</FuelMultiplier>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_JC_04" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<BeMaterial>
+				<NamePrefix>赤帝</NamePrefix>
+				<RateWhenBeMain>1</RateWhenBeMain>
+			
+				<StuffTexPath>res/mattex/mtl_wood</StuffTexPath>
+				<ColorWhenBeFloor>990000FF</ColorWhenBeFloor>
+				<ColorWhenBeRoof>990000FF</ColorWhenBeRoof>
+			
+				<BurningPointWhenBeMain>140</BurningPointWhenBeMain>
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+			</BeMaterial>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JL_05" Parent="LeftoverMaterialBase">
+		<ThingName>黄帝角料</ThingName>
+		<ElementKind>Tu</ElementKind>
+		<Desc>混杂了黄帝之石的建筑余料，可以用来铺地板或砌屋檐。</Desc>
+		<Color>B8860BFF</Color>
+		
+		<Item>
+			<FuelMultiplier>1</FuelMultiplier>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_JC_05" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<BeMaterial>
+				<NamePrefix>黄帝</NamePrefix>
+				<RateWhenBeMain>1</RateWhenBeMain>
+			
+				<StuffTexPath>res/mattex/mtl_wood</StuffTexPath>
+				<ColorWhenBeFloor>B8860BFF</ColorWhenBeFloor>
+				<ColorWhenBeRoof>B8860BFF</ColorWhenBeRoof>
+			
+				<BurningPointWhenBeMain>140</BurningPointWhenBeMain>
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+			</BeMaterial>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JL_06" Parent="LeftoverMaterialBase">
+		<ThingName>玄帝角料</ThingName>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Desc>混杂了玄帝之石的建筑余料，可以用来铺地板或砌屋檐。</Desc>
+		<Color>999999FF</Color>
+		
+		<Item>
+			<FuelMultiplier>1</FuelMultiplier>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_JC_06" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<BeMaterial>
+				<NamePrefix>玄帝</NamePrefix>
+				<RateWhenBeMain>1</RateWhenBeMain>
+			
+				<StuffTexPath>res/mattex/mtl_wood</StuffTexPath>
+				<ColorWhenBeFloor>999999FF</ColorWhenBeFloor>
+				<ColorWhenBeRoof>999999FF</ColorWhenBeRoof>
+			
+				<BurningPointWhenBeMain>140</BurningPointWhenBeMain>
+				<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+				<BeautyWhenBeMain>100</BeautyWhenBeMain>
+			</BeMaterial>
+		</Item>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

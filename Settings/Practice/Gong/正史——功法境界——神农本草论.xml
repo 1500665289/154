@@ -1,0 +1,166 @@
+<Gongs><List>
+	<Gong Name="XXZS_SNBCL">
+		<DisplayName>神农本草论</DisplayName>
+		<Desc>据传是【南荒】上古丹宗【百草谷】一脉的镇派功法之一。祖师爷本是一名残疾人，靠摸骨算命勉强过活，后从【神农本草】获得启发，开创此功法，专精炼丹之道，据说其【神农鼎】是不传秘法。</Desc>
+		<SelectDesc>此功法专注于炼丹，并不善于御器，因此多受累于天劫，古往今来多止步于元神境，甚是可惜。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>-1,-1,6,-1,9</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Mu</ElementKind>
+		<Skill><!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期1-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>气血蕴</DisplayName>
+				<Desc>辅以灵丹妙药，养气活血，方能进入下一境界</Desc>
+				<Value>100</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>养气</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>20</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_DredgeQi"/>
+							<Item name="Item_Dan_NoHunger"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>活血</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>40</CostTime>
+						<SuccessChange>0.9</SuccessChange>
+						<FailedChangeAdd>1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_JingYuan3"/>
+							<Item name="Item_MonsterBlood"/>
+						</ItemCost>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期1-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>经脉通</DisplayName>
+				<Desc>打通经脉，方能真气流转，视为周天通达</Desc>
+				<Value>1000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>开奇经八脉</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>80</CostTime>
+						<SuccessChange>0.7</SuccessChange>
+						<FailedChangeAdd>0.9</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_DredgeQi1"/>
+							<Item name="Item_Dan_PracticeSpeed"/>
+							<Item name="Item_Dan_PracticeRate"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>固十二正经</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>160</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_DredgeQi1"/>
+							<Item name="Item_Dan_CureJinDamage"/>
+							<Item name="Item_Dan_CureFiveElementDamage"/>
+						</ItemCost>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>	
+			
+			<!--金丹期1-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>阴阳生</DisplayName>
+				<Desc>阴阳调和，生生不息，视为医道</Desc>
+				<Value>10000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>采阴补阳</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>320</CostTime>
+						<SuccessChange>0.5</SuccessChange>
+						<FailedChangeAdd>0.7</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Baobeier"/>
+							<Item name="Item_Dan_IncreaseLife2"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>纳阳生阴</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>640</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<FailedChangeAdd>0.5</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Baobeier"/>
+							<Item name="Item_Dan_ReBorn"/>
+						</ItemCost>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期1-->
+			<Stage Name="Stage4" Level="11">
+				<DisplayName>五行和</DisplayName>
+				<Desc>五行相生相克，唯有融会贯通，方得大道</Desc>
+				<Value>100000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>五行运转</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>1280</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.3</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_FiveBaseFromLife"/>
+							<Item name="Item_Dan_ExtremeLofty"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>五行贯通</DisplayName>
+						<Desc>需要灵药辅助方能突破</Desc>
+						<CostTime>2560</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_FiveBaseFromLife"/>
+							<Item name="Item_Dan_HundredRefine"/>
+						</ItemCost>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期2-->
+			<Stage Name="Stage12" Level="12">
+				<DisplayName>天人合一</DisplayName>
+				<Desc>天人合一，得无上道果，世人称在世医仙</Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="God">
+						<DisplayName>在世医仙</DisplayName>
+						<Desc>活死人，肉白骨，医仙之责</Desc>
+						<ThunderValue>7200000</ThunderValue>
+						<NeckCountdown>67200</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

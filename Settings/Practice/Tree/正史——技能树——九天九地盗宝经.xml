@@ -1,0 +1,536 @@
+<SkillTree><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_Qi_2A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_1A</Esoterica>
+		<DisplayName>九地志</DisplayName>
+		<Level>Qi</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_Qi_2B</li>
+			<li>XXZS_JTJDDBJ_Qi_2C</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Qi_2B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_1B</Esoterica>
+		<DisplayName>九地志：上册</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Qi_2C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_1C</Esoterica>
+		<DisplayName>九地志：下册</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_Dan1_2A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_2A</Esoterica>
+		<DisplayName>九地见闻录</DisplayName>
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_Dan1_2B</li>
+			<li>XXZS_JTJDDBJ_Dan1_2C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_Qi_2A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan1_2B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_2B</Esoterica>
+		<DisplayName>九地见闻录：上卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan1_2C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_2C</Esoterica>
+		<DisplayName>九地见闻录：下卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_Dan2_2A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_3A</Esoterica>
+		<DisplayName>九地丹典</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_Dan2_2B</li>
+			<li>XXZS_JTJDDBJ_Dan2_2C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_Dan1_2A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan2_2B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_3B</Esoterica>
+		<DisplayName>九地丹典：上集</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan2_2C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_3C</Esoterica>
+		<DisplayName>九地丹典：下集</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_2A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_4A</Esoterica>
+		<DisplayName>九地灵丹</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_God_2B</li>
+			<li>XXZS_JTJDDBJ_God_2C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_Dan2_2A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_2B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_4B</Esoterica>
+		<DisplayName>九地奇丹</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_2C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_4C</Esoterica>
+		<DisplayName>九地圣丹</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_0A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_5A</Esoterica>
+		<DisplayName>九地法</DisplayName>
+		<Level>God</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_God_0B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_God_2A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_0B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_5B</Esoterica>
+		<DisplayName>九地圣手</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_4A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_6A</Esoterica>
+		<DisplayName>九地法</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_God_4B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_God_2A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_4B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_6B</Esoterica>
+		<DisplayName>九地妙手</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_Qi_9A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_7A</Esoterica>
+		<DisplayName>九天志</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_Qi_9B</li>
+			<li>XXZS_JTJDDBJ_Qi_9C</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Qi_9B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_7B</Esoterica>
+		<DisplayName>九地志：上册</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Qi_9C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_7C</Esoterica>
+		<DisplayName>九地志：下册</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_Dan1_9A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_8A</Esoterica>
+		<DisplayName>九天天工录</DisplayName>
+		<Level>Dan1</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_Dan1_9B</li>
+			<li>XXZS_JTJDDBJ_Dan1_9C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_Qi_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan1_9B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_8B</Esoterica>
+		<DisplayName>九天天工录：上卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan1_9C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_8C</Esoterica>
+		<DisplayName>九天天工录：下卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_Dan2_9A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_9A</Esoterica>
+		<DisplayName>九天器典</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_Dan2_9B</li>
+			<li>XXZS_JTJDDBJ_Dan2_9C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_Dan1_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan2_9B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_9B</Esoterica>
+		<DisplayName>九天器典：上集</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_Dan2_9C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_9C</Esoterica>
+		<DisplayName>九天器典：下集</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_9A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_10A</Esoterica>
+		<DisplayName>九天法器</DisplayName>
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_God_9B</li>
+			<li>XXZS_JTJDDBJ_God_9C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_Dan2_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_9B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_10B</Esoterica>
+		<DisplayName>九天宝器</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_9C" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_10C</Esoterica>
+		<DisplayName>九天圣器</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_7A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_11A</Esoterica>
+		<DisplayName>九天法</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_God_7B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_God_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_7B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_11B</Esoterica>
+		<DisplayName>九天圣言</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能12========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_11A" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_12A</Esoterica>
+		<DisplayName>九天法</DisplayName>
+		<Level>God</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_JTJDDBJ_God_11B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_JTJDDBJ_God_9A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_JTJDDBJ_God_11B" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_JTJDDBJ_12B</Esoterica>
+		<DisplayName>九天妙语</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================空技能========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_God_1" Gong="XXZS_JTJDDBJ">
+		<Level>God</Level>
+		<Index>1</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_JTJDDBJ_God_3" Gong="XXZS_JTJDDBJ">
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_JTJDDBJ_God_8" Gong="XXZS_JTJDDBJ">
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_JTJDDBJ_God_10" Gong="XXZS_JTJDDBJ">
+		<Level>God</Level>
+		<Index>10</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<!-- ==========================真仙技========================== -->
+	
+	<Node Name="XXZS_JTJDDBJ_e4" Gong="XXZS_JTJDDBJ">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_JTJDDBJ_e8" Gong="XXZS_JTJDDBJ">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_JTJDDBJ_e0" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_God2_Zhen</Esoterica>
+		<DisplayName>天道阵法</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Zhen" Level="20"/>
+		</Skills>
+		<LingMax>5000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>5</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_JTJDDBJ_e1" Gong="XXZS_JTJDDBJ">
+		<Esoterica>XXZS_God2_Shen</Esoterica>
+		<DisplayName>天道分神</DisplayName>
+		<Level>God2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Barrier" Level="20"/>
+		</Skills>
+		<LingMax>10000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+</List></SkillTree> 

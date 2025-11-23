@@ -1,0 +1,72 @@
+<ModifierDefs><List>
+	
+	<Modifier Name="XXZS_MiBao_JY" Type="Normal">
+		<DisplayName>御剑</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MiBao_SF" Type="Normal">
+		<DisplayName>术法</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MiBao_HT" Type="Normal">
+		<DisplayName>护体</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Barrier" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MiBao_LD" Type="Normal">
+		<DisplayName>炼丹</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Medicine" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MiBao_LQ" Type="Normal">
+		<DisplayName>炼器</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Manual" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="XXZS_MiBao_ZF" Type="Normal">
+		<DisplayName>阵法</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Zhen" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	
+	
+	
+</List></ModifierDefs>

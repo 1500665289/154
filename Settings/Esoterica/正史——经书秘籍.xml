@@ -1,0 +1,493 @@
+﻿<Esotericas><List>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="XXZS_FX_DAN_1">
+		<DisplayName>伏羲丹经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是伏羲氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n坤之丹\n艮之丹\n坎之丹\n巽之丹\n震之丹\n离之丹\n兑之丹\n乾之丹</EffectDesc>
+		<Dans>
+			<li>Dan_FX1_01</li>
+			<li>Dan_FX1_02</li>
+			<li>Dan_FX1_03</li>
+			<li>Dan_FX1_04</li>
+			<li>Dan_FX1_05</li>
+			<li>Dan_FX1_06</li>
+			<li>Dan_FX1_07</li>
+			<li>Dan_FX1_08</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_FX_DAN_2">
+		<DisplayName>伏羲丹典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是伏羲氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n地丹\n山丹\n水丹\n风丹\n雷丹\n火丹\n泽丹\n天丹</EffectDesc>
+		<Dans>
+			<li>Dan_FX2_01</li>
+			<li>Dan_FX2_02</li>
+			<li>Dan_FX2_03</li>
+			<li>Dan_FX2_04</li>
+			<li>Dan_FX2_05</li>
+			<li>Dan_FX2_06</li>
+			<li>Dan_FX2_07</li>
+			<li>Dan_FX2_08</li>
+		</Dans>
+	</Esoterica>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="XXZS_SN_DAN_1">
+		<DisplayName>神农丹典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是神农氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n丹砂\n云母\n石英</EffectDesc>
+		<Dans>
+			<li>Dan_SN1_01</li>
+			<li>Dan_SN1_02</li>
+			<li>Dan_SN1_03</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SN_DAN_2">
+		<DisplayName>神农丹经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是神农氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n车前子\n五味子\n决明子</EffectDesc>
+		<Dans>
+			<li>Dan_SN2_01</li>
+			<li>Dan_SN2_02</li>
+			<li>Dan_SN2_03</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SN_DAN_3">
+		<DisplayName>神农丹集</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是神农氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n龙骨\n龙胆\n麝香\n犀角</EffectDesc>
+		<Dans>
+			<li>Dan_SN3_01</li>
+			<li>Dan_SN3_02</li>
+			<li>Dan_SN3_03</li>
+			<li>Dan_SN3_04</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SN_DAN_4">
+		<DisplayName>神农丹册</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是神农氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n丹参\n沙参\n泽兰\n白芷</EffectDesc>
+		<Dans>
+			<li>Dan_SN4_01</li>
+			<li>Dan_SN4_02</li>
+			<li>Dan_SN4_03</li>
+			<li>Dan_SN4_04</li>
+		</Dans>
+	</Esoterica>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="XXZS_NW_DAN_1">
+		<DisplayName>女娲石方：五音篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是女娲氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方——五音篇：\n宫音\n商音\n角音\n徵音\n羽音</EffectDesc>
+		<Dans>
+			<li>Dan_NW1_01</li>
+			<li>Dan_NW1_02</li>
+			<li>Dan_NW1_03</li>
+			<li>Dan_NW1_04</li>
+			<li>Dan_NW1_05</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_NW_DAN_2">
+		<DisplayName>女娲石方：五乐篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是女娲氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方——五乐篇：\n合琴\n鸣瑟\n鼓笙\n吹埙\n击磬</EffectDesc>
+		<Dans>
+			<li>Dan_NW2_01</li>
+			<li>Dan_NW2_02</li>
+			<li>Dan_NW2_03</li>
+			<li>Dan_NW2_04</li>
+			<li>Dan_NW2_05</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_NW_DAN_3">
+		<DisplayName>女娲石方：五行之材章</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是女娲氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方——五行之材章：\n锋芒之珠\n芷兰之珠\n涟漪之珠\n烈阳之珠\n苍峦之珠\n灵虚之珠</EffectDesc>
+		<Dans>
+			<li>Dan_NW3_01</li>
+			<li>Dan_NW3_02</li>
+			<li>Dan_NW3_03</li>
+			<li>Dan_NW3_04</li>
+			<li>Dan_NW3_05</li>
+			<li>Dan_NW3_06</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_NW_DAN_4">
+		<DisplayName>女娲石方：五行之阵章</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>传说是女娲氏根据平日所学之丹术而撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方——五行之阵章：\n锋芒阵\n芷兰阵\n涟漪阵\n烈阳阵\n苍峦阵\n灵虚阵</EffectDesc>
+		<Dans>
+			<li>JinEX</li>
+			<li>MuEX</li>
+			<li>ShuiEX</li>
+			<li>HuoEX</li>
+			<li>TuEX</li>
+			<li>WuEX</li>
+		</Dans>
+	</Esoterica>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="ST_1">
+		<DisplayName>移花接木</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ST\ST_yi.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>传说是神农百草论中记载的一种神通。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<Type>None</Type>
+		<EffectDesc>习得  神通：\n移花接木</EffectDesc>
+		<Magics>
+			<li>XXZZ_SNBCL_ST_01</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="XXZS_JZ_01">
+		<DisplayName>剑台</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>传说是御剑山庄中某种建筑的结构图。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>解锁  特殊建筑：\n剑台</EffectDesc>
+		<Buildings>
+			<li>XXZS_JT</li>
+		</Buildings>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_JZ_02">
+		<DisplayName>剑陵</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>传说是御剑山庄中某种建筑的结构图。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>解锁  特殊建筑：\n剑陵</EffectDesc>
+		<Buildings>
+			<li>XXZS_JL</li>
+		</Buildings>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_JZ_03">
+		<DisplayName>剑塚</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>传说是御剑山庄中某种建筑的结构图。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>解锁  特殊建筑：\n剑塚</EffectDesc>
+		<Buildings>
+			<li>XXZS_JZ</li>
+		</Buildings>
+	</Esoterica>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="XXZS_ZF">
+		<DisplayName>武穆遗书残卷</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LQ\LQ_zhen.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>传说是武穆遗书中残缺的一页。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>解锁  阵枢：\n武穆遗阵  武穆残阵  武穆缺阵\n解锁  阵眼：\n九阴九阳  纯阳  纯阳\n至阳  至阴  太阳  太阴\n等等若干阵眼</EffectDesc>
+		<PreNeed>
+			<li>XXZS_WMYS_9A</li>
+			<li>XXZS_WMYS_9B</li>
+			<li>XXZS_WMYS_9C</li>
+			<li>XXZS_WMYS_9D</li>
+		</PreNeed>
+		<ZhenNodes>
+			<li>XXZS_WM_A1</li>
+			<li>XXZS_WM_A2</li>
+			<li>XXZS_WM_A3</li>
+			<li>XXZS_WM_A4</li>
+			<li>XXZS_WM_A5</li>
+			<li>XXZS_WM_B1</li>
+			<li>XXZS_WM_B2</li>
+			<li>XXZS_WM_B3</li>
+			<li>XXZS_WM_B4</li>
+			<li>XXZS_WM_B5</li>
+			<li>XXZS_WM_C1</li>
+			<li>XXZS_WM_C2</li>
+			<li>XXZS_WM_C3</li>
+			<li>XXZS_WM_C4</li>
+			<li>XXZS_WM_C5</li>
+			<li>WM_AAABBB_01</li>
+			<li>WM_AAABBB_02</li>
+			<li>WM_AAABBB_03</li>
+			<li>WM_AAABBB_04</li>
+			<li>XXZS_WM_AAAAAA_01</li>
+			<li>XXZS_WM_AAAAAB_01</li>
+			<li>XXZS_WM_AAAABB_01</li>
+			<li>XXZS_WM_AAAABB_02</li>
+			<li>XXZS_WM_AAAABB_03</li>
+			<li>XXZS_WM_BBBBBB_01</li>
+			<li>XXZS_WM_BBBBBA_01</li>
+			<li>XXZS_WM_BBBBAA_01</li>
+			<li>XXZS_WM_BBBBAA_02</li>
+			<li>XXZS_WM_BBBBAA_03</li>
+			<li>XXZS_WM_AAAAA_01</li>
+			<li>XXZS_WM_AAAAB_01</li>
+			<li>XXZS_WM_AAAAB_02</li>
+			<li>XXZS_WM_AAAAB_03</li>
+			<li>XXZS_WM_AAABB_01</li>
+			<li>XXZS_WM_AAABB_02</li>
+			<li>XXZS_WM_AAABB_03</li>
+			<li>XXZS_WM_BBBBB_01</li>
+			<li>XXZS_WM_BBBBA_01</li>
+			<li>XXZS_WM_BBBBA_02</li>
+			<li>XXZS_WM_BBBBA_03</li>
+			<li>XXZS_WM_BBBAA_01</li>
+			<li>XXZS_WM_BBBAA_02</li>
+			<li>XXZS_WM_BBBAA_03</li>
+			<li>XXZS_WM_AAAA_01</li>
+			<li>XXZS_WM_AAAA_02</li>
+			<li>XXZS_WM_AAAA_03</li>
+			<li>XXZS_WM_BBBB_01</li>
+			<li>XXZS_WM_BBBB_02</li>
+			<li>XXZS_WM_BBBB_03</li>
+			<li>XXZS_WM_AABB_01</li>
+			<li>XXZS_WM_AABB_02</li>
+			<li>XXZS_WM_AABB_03</li>
+			<li>XXZS_WM_AABB_04</li>
+			<li>XXZS_WM_AABB_05</li>
+			<li>XXZS_WM_AABB_06</li>
+			<li>XXZS_WM_AABB_07</li>
+			<li>XXZS_WM_AABB_08</li>
+			<li>XXZS_WM_AABB_09</li>
+			<li>XXZS_WM_AABB_10</li>
+			<li>XXZS_WM_AAA_01</li>
+			<li>XXZS_WM_AAA_02</li>
+			<li>XXZS_WM_AAA_03</li>
+			<li>XXZS_WM_AAA_04</li>
+			<li>XXZS_WM_BBB_01</li>
+			<li>XXZS_WM_BBB_02</li>
+			<li>XXZS_WM_BBB_03</li>
+			<li>XXZS_WM_BBB_04</li>
+			<li>XXZS_WM_AAB_01</li>
+			<li>XXZS_WM_AAB_02</li>
+			<li>XXZS_WM_AAB_03</li>
+			<li>XXZS_WM_AAB_04</li>
+			<li>XXZS_WM_AAB_05</li>
+			<li>XXZS_WM_AAB_06</li>
+			<li>XXZS_WM_AAB_07</li>
+			<li>XXZS_WM_ABB_01</li>
+			<li>XXZS_WM_ABB_02</li>
+			<li>XXZS_WM_ABB_03</li>
+			<li>XXZS_WM_ABB_04</li>
+			<li>XXZS_WM_ABB_05</li>
+			<li>XXZS_WM_ABB_06</li>
+			<li>XXZS_WM_ABB_07</li>
+			<li>XXZS_WM_AA_01</li>
+			<li>XXZS_WM_AA_02</li>
+			<li>XXZS_WM_AA_03</li>
+			<li>XXZS_WM_BB_01</li>
+			<li>XXZS_WM_BB_02</li>
+			<li>XXZS_WM_BB_03</li>
+			<li>XXZS_WM_AB_01</li>
+			<li>XXZS_WM_AB_02</li>
+			<li>XXZS_WM_AB_03</li>
+			<li>XXZS_WM_AB_04</li>
+			<li>XXZS_WM_AB_05</li>
+			<li>XXZS_WM_A_01</li>
+			<li>XXZS_WM_B_01</li>
+		</ZhenNodes>
+	</Esoterica>
+	
+	<!-- ===========================分割线=========================== -->
+	
+	<Esoterica Name="XXZS_SN_DAN_A">
+		<DisplayName>百草谷：丹方残卷 一</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>上面记录着上古丹宗【百草谷】的不传炼丹之道，虽然卷宗有些残破，但不影响学习这上面的炼丹之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n冬灰\n玉泉\n雄黄\n雌黄</EffectDesc>
+		<PreNeed>
+			<li>XXZS_SNBCL_4A</li>
+			<li>XXZS_SNBCL_4B</li>
+			<li>XXZS_SNBCL_4C</li>
+		</PreNeed>
+		<Dans>
+			<li>Dan_SN_A01</li>
+			<li>Dan_SN_A02</li>
+			<li>Dan_SN_A03</li>
+			<li>Dan_SN_A04</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SN_DAN_B">
+		<DisplayName>百草谷：丹方残卷 二</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>上面记录着上古丹宗【百草谷】的不传炼丹之道，虽然卷宗有些残破，但不影响学习这上面的炼丹之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n蛇床子\n石龙子\n冬葵子\n青葙子</EffectDesc>
+		<PreNeed>
+			<li>XXZS_SNBCL_4A</li>
+			<li>XXZS_SNBCL_4B</li>
+			<li>XXZS_SNBCL_4C</li>
+		</PreNeed>
+		<Dans>
+			<li>Dan_SN_B01</li>
+			<li>Dan_SN_B02</li>
+			<li>Dan_SN_B03</li>
+			<li>Dan_SN_B04</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SN_DAN_C">
+		<DisplayName>百草谷：丹方残卷 三</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>上面记录着上古丹宗【百草谷】的不传炼丹之道，虽然卷宗有些残破，但不影响学习这上面的炼丹之道。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n熊脂\n鸢尾\n猬皮\n鹿茸</EffectDesc>
+		<PreNeed>
+			<li>XXZS_SNBCL_4A</li>
+			<li>XXZS_SNBCL_4B</li>
+			<li>XXZS_SNBCL_4C</li>
+		</PreNeed>
+		<Dans>
+			<li>Dan_SN_C01</li>
+			<li>Dan_SN_C02</li>
+			<li>Dan_SN_C03</li>
+			<li>Dan_SN_C04</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SN_DAN_D">
+		<DisplayName>百草谷：丹方残卷 四</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>上面记录着上古丹宗【百草谷】的不传炼丹之道，虽然卷宗有些残破，但不影响学习这上面的炼丹之道。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得  丹方：\n木香\n赤箭\n蒲黄\n紫菀</EffectDesc>
+		<PreNeed>
+			<li>XXZS_SNBCL_4A</li>
+			<li>XXZS_SNBCL_4B</li>
+			<li>XXZS_SNBCL_4C</li>
+		</PreNeed>
+		<Dans>
+			<li>Dan_SN_D01</li>
+			<li>Dan_SN_D02</li>
+			<li>Dan_SN_D03</li>
+			<li>Dan_SN_D04</li>
+		</Dans>
+	</Esoterica>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Esotericas>

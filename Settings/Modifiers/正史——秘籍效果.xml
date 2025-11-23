@@ -1,0 +1,22 @@
+<ModifierDefs><List>
+	
+	<Modifier Name="XXZS_Zhen" Type="Normal">
+		<DisplayName>天道阵法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="10"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="50"/>
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ========================================================分割线========================================================== -->
+	
+	
+	
+	
+</List></ModifierDefs>

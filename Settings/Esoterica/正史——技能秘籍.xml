@@ -1,0 +1,505 @@
+﻿<Esotericas><List>
+	
+	<Esoterica Name="XXZS_God2_Zhen">
+		<DisplayName>天道阵法</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<GLevel>God2</GLevel>
+		<Desc>既度天劫，洞彻天道。如阵法造诣登峰造极，即可领悟窃天道结阵之术。</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提高阵法极限技能等级\n提高阵法负荷能力\n提高阵法规模承载量[/color][/size]</EffectDesc>
+		<Modifier>XXZS_Zhen</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_God2_Shen">
+		<DisplayName>天道分神</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<GLevel>God2</GLevel>
+		<Desc>既度天劫，洞彻天道。如分神造诣登峰造极，即可领悟窃天道分神之术。</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提高分神能力，增加二十条分神[/color][/size]</EffectDesc>
+		<GodSoulCount>20</GodSoulCount>
+	</Esoterica>
+	
+	<!-- ====================分割线==================== -->
+	
+	<Esoterica Name="XXZS_TJYYJ_1">
+		<DisplayName>太极印</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>八卦纳，四象生，两仪合，谓之太极。太极阴阳诀至高绝学，威力绝伦。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：太极印[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TJYYJ_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TJYYJ_2">
+		<DisplayName>阴阳印</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>八卦纳，四象生，两仪合，谓之太极。太极阴阳诀至高绝学，威力绝伦。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：阴阳印[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TJYYJ_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_SCZJL_1">
+		<DisplayName>玄武真罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_HT\HT_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>玄武真罡，化灵为盾，刀枪不入。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：玄武真罡[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_SCZJL_1</li>
+		</Skills>
+	</Esoterica> 
+	
+	<Esoterica Name="XXZS_SCZJL_2">
+		<DisplayName>青龙天罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>青龙天罡，以灵滋体，救死扶伤。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：青龙天罡[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_SCZJL_2</li>
+		</Skills>
+	</Esoterica> 
+	
+	<Esoterica Name="XXZS_SCZJL_3">
+		<DisplayName>朱雀神罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>朱雀神罡，释灵御敌，以快制胜。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：朱雀神罡[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_SCZJL_3</li>
+		</Skills>
+	</Esoterica> 
+	
+	<Esoterica Name="XXZS_SCZJL_4">
+		<DisplayName>白虎仙罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>白虎仙罡，聚灵破敌，厚积薄发。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：白虎仙罡[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_SCZJL_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_JTJDDBJ_1">
+		<DisplayName>九地圣手</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>九地圣手，变化无穷。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：九地圣手[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_JTJDDBJ_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_JTJDDBJ_2">
+		<DisplayName>九地妙手</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>九地妙手，变化无穷。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：九地妙手[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_JTJDDBJ_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_JTJDDBJ_3">
+		<DisplayName>九天圣言</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>九天圣言，言出法随。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：九天圣言[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_JTJDDBJ_3</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_JTJDDBJ_4">
+		<DisplayName>九天妙语</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>九天妙语，言出法随。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：九天妙语[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_JTJDDBJ_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_1">
+		<DisplayName>太虚遁影符</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>14</Difficulty>
+		<Desc>以法御器，如形影相随，使器强。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：太虚遁影符[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_2">
+		<DisplayName>太虚遁音符</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>万物皆入法，百音颤胆寒。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：太虚遁音符[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_3">
+		<DisplayName>太虚遁风符</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>18</Difficulty>
+		<Desc>若有似无，不以形铸，法之圣者。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：太虚遁风符[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_3</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_4">
+		<DisplayName>太虚遁空符</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>破虚空，碎混沌，法之威，应如是。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：太虚遁空道[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_5">
+		<DisplayName>混元流沙诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>14</Difficulty>
+		<Desc>凝意入诀，似流沙入隙，令法威。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：混元流沙诀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_5</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_6">
+		<DisplayName>混元焚葬诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>侵蚀似业火，焚尽天下事。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：混元焚葬诀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_6</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_7">
+		<DisplayName>混元奔雷诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>18</Difficulty>
+		<Desc>雷霆若奔，不鸣则已，一鸣惊人。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：混元奔雷诀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_7</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_TXHYD_8">
+		<DisplayName>混元坠星诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>碎天河，坠星陨，法之威，应如是。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：混元坠星诀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_TXHYD_8</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_FXYGL_1">
+		<DisplayName>五帝诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>前算五帝之圣贤，吟之为诀。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：五帝诀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_FXYGL_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_FXYGL_2">
+		<DisplayName>九九归一咒</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>后演九九八十一道法，曰之为咒。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：九九归一咒[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_FXYGL_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_FXYGL_3">
+		<DisplayName>四圣诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>下卜四象之地灵，诵之为诀。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：四圣诀[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_FXYGL_3</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_FXYGL_4">
+		<DisplayName>二八星宿咒</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>上卜四七二十八星宿，歌之为咒。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：二八星宿咒[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_FXYGL_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_LXQZZF_1">
+		<DisplayName>凌天剑罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>凌天而立，以剑为罡，御敌在外。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：凌天剑罡[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_LXQZZF_1</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_LXQZZF_2">
+		<DisplayName>弥天剑雨</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>18</Difficulty>
+		<Desc>弥天布法，散剑为雨，沐雨而生。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：弥天剑雨[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_LXQZZF_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_LXQZZF_3">
+		<DisplayName>封天剑界</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_jin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>封天画阵，树剑为界，囚魂而诛。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：封天剑界[/color][/size]</EffectDesc>
+		<Skills>
+			<li>XXZS_LXQZZF_3</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	
+	
+	
+	
+	
+	<!-- ====================分割线==================== -->
+	
+	<Esoterica Name="XXZS_MXG_A">
+		<DisplayName>墨仙谷：秘法残卷 一</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>上面记录着上古法宗【墨仙谷】的不传秘法之道，虽然卷宗有些残破，但不影响学习这上面的秘法之道。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得  秘术：\n九天长生道\n九地轮回道\n九地驱邪法\n九天御仙道\n九地诸子法\n九天封神道[/color][/size]</EffectDesc>
+		<PreNeed>
+			<li>XXZS_JTJDDBJ_10A</li>
+			<li>XXZS_JTJDDBJ_10B</li>
+			<li>XXZS_JTJDDBJ_10C</li>
+			<li>XXZS_JTJDDBJ_4A</li>
+			<li>XXZS_JTJDDBJ_4B</li>
+			<li>XXZS_JTJDDBJ_4C</li>
+		</PreNeed>
+		<Skills>
+			<li>XXZS_MXG_A_1</li>
+			<li>XXZS_MXG_B_1</li>
+			<li>XXZS_MXG_C_1</li>
+			<li>XXZS_MXG_C_2</li>
+			<li>XXZS_MXG_D_1</li>
+			<li>XXZS_MXG_D_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="XXZS_MXG_B">
+		<DisplayName>墨仙谷：秘法残卷 二</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_shui.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>上面记录着上古法宗【墨仙谷】的不传秘法之道，虽然卷宗有些残破，但不影响学习这上面的秘法之道。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得  秘术：\n太虚红尘决\n太虚万象决\n混元破邪法\n混元诛煞法[/color][/size]</EffectDesc>
+		<PreNeed>
+			<li>XXZS_TXHYD_4A</li>
+			<li>XXZS_TXHYD_4B</li>
+			<li>XXZS_TXHYD_4C</li>
+			<li>XXZS_TXHYD_3A</li>
+			<li>XXZS_TXHYD_3B</li>
+			<li>XXZS_TXHYD_3C</li>
+		</PreNeed>
+		<Skills>
+			<li>XXZS_MXG_E_1</li>
+			<li>XXZS_MXG_E_2</li>
+			<li>XXZS_MXG_E_3</li>
+			<li>XXZS_MXG_E_4</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Esotericas>

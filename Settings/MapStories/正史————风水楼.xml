@@ -1,0 +1,200 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_A_01"  Parent="BaseFillingStory">
+		<DisplayName>风水楼</DisplayName>
+		<Desc>[NAME]抬头一看，只见【风水楼】三字赫然在目，仔细想想应该和风水镇物有关，[IT]正好感觉门派还缺一件合适的风水镇物，要不就进去挑挑看吧。</Desc>
+		<Selections>
+			<li>
+				<Display>购买风水镇物【2000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 2000
+				]]>
+				</Condition>
+				<Tip>游戏自带风水镇物</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_01A");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("风水楼老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被风水楼老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"风水楼老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开风水楼</Display>
+				<Tip>返回东坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS_A_01A"  Parent="BaseFillingStory">
+		<DisplayName>风水楼</DisplayName>
+		<Desc>【风水楼】的【风水镇物】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>道德印【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_YinZhang1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>元始印【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_YinZhang2",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵宝印【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_YinZhang3",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天工塔【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_Ta1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>万灵塔【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_Ta2",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>汇阴瓶【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_Ping1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>十州鼎【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_Ding1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>无字灵碑【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_Bei1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>辟邪玉狮子【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_ShiZi1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>不周元石【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_ShiTou1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>三才阴阳榜【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_TuHua1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>群鲜录【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_ShuJi1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>仙机谱【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_QiJu1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>锁阴符【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_FuZhou1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>灵宝剑【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_Jian1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>兜率葫芦【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_HuLu1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>赤龙之根【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_BaoBei1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>慧光【2000】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 2000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]2000[/color]点门派声望，购买了一件[color=#BC1717]风水镇物[/color]，便匆匆离开了。");
+				me:DropAwardItem("FengShuiItem_SheLi1",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回风水楼</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_01");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	
+	
+	
+</List></Stories>

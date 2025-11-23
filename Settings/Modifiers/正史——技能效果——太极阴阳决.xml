@@ -1,0 +1,213 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_TJYYJ_1A" Type="Normal">
+		<DisplayName>阴阳分化</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_1B" Type="Normal">
+		<DisplayName>太阴之气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="10"/>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_1C" Type="Normal">
+		<DisplayName>太阳之气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="1"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_TJYYJ_2A" Type="Normal">
+		<DisplayName>阴阳相生</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_2B" Type="Normal">
+		<DisplayName>少阴之气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="20"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_2C" Type="Normal">
+		<DisplayName>少阳之气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_TJYYJ_3A" Type="Normal">
+		<DisplayName>阴阳调和</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-30"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_3B" Type="Normal">
+		<DisplayName>阴阙之气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="40"/>
+			<li Name="MaxAge" AddV="600"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_3C" Type="Normal">
+		<DisplayName>阳阙之气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="30"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_TJYYJ_4A" Type="Normal">
+		<DisplayName>孕育大道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-40"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_4B" Type="Normal">
+		<DisplayName>两仪相合</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="80"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.45"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.45"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.45"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_4C" Type="Normal">
+		<DisplayName>太极大道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="40"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="5"/>
+			<li Name="Fabao" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_TJYYJ_5A" Type="Normal">
+		<DisplayName>太极法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_5B" Type="Normal">
+		<DisplayName>太极印</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_TJYYJ_6A" Type="Normal">
+		<DisplayName>阴阳法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TJYYJ_6B" Type="Normal">
+		<DisplayName>阴阳印</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

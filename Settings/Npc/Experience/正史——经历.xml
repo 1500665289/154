@@ -1,0 +1,131 @@
+<Experiences><List>
+	<Experience Name="Experiences1G1_6" Group="G1">
+		<DisplayName>玉清传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过《玉清仙法》的传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]《玉清仙法》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Point>5</Point>
+		<Gongs>
+			<li>Gong_4_None</li>
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_1" Group="G1">
+		<DisplayName>墨仙谷传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【墨仙谷】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《太极阴阳决》\n《九天九地盗宝经》\n《太虚混元道》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Point>5</Point>
+		<Gongs>
+			<li>XXZS_TJYYJ</li>
+			<li>XXZS_JTJDDBJ</li>
+			<li>XXZS_TXHYD</li>
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_2" Group="G1">
+		<DisplayName>百草谷传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【百草谷】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《伏羲演卦论》\n《神农百草论》\n《女娲采石论》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Point>5</Point>
+		<Gongs>
+			<li>XXZS_FXYGL</li>
+			<li>XXZS_SNBCL</li>
+			<li>XXZS_NWCSL</li>
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_3" Group="G1">
+		<DisplayName>御剑山庄传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【御剑山庄】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《星芒补器真解》\n《洪荒御剑真意》\n《凌霄器宗真法》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Point>5</Point>
+		<Gongs>
+			<li>XXZS_HHYJZY</li>
+			<li>XXZS_XMBQZJ</li>
+			<li>XXZS_LXQZZF</li>
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_4" Group="G1">
+		<DisplayName>逍遥峰传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【逍遥峰】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《》\n《》\n《》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Hide>1</Hide>
+		<Point>5</Point>
+		<Gongs>
+			<!-- <li>XXZS_FXYGL</li> -->
+			<!-- <li>XXZS_SNBCL</li> -->
+			<!-- <li>XXZS_NWCSL</li> -->
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_5" Group="G1">
+		<DisplayName>幽冥殿传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【幽冥殿】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《》\n《》\n《》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Hide>1</Hide>
+		<Point>5</Point>
+		<Gongs>
+			<!-- <li>XXZS_FXYGL</li> -->
+			<!-- <li>XXZS_SNBCL</li> -->
+			<!-- <li>XXZS_NWCSL</li> -->
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_6" Group="G1">
+		<DisplayName>异界传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【异界】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《身残志坚论》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Point>5</Point>
+		<Gongs>
+			<li>XXZS_SCZJL</li>
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_7" Group="G1">
+		<DisplayName>异界传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【异界】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]《武穆遗书》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Point>5</Point>
+		<Gongs>
+			<li>XXZS_WMYS</li>
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_8" Group="G1">
+		<DisplayName>异界传承</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合得到过【异界】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《天书秘录》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Hide>1</Hide>
+		<Point>5</Point>
+		<Gongs>
+			<!-- <li>XXZS_TSML</li> -->
+		</Gongs>
+	</Experience>
+	
+	<Experience Name="Experiences1G2_9" Group="G1">
+		<DisplayName>上古之闻</DisplayName>
+		<Desc>你进入太一门之前就机缘巧合听到过【上古】的秘闻传说，从而得知了一个天大的秘密，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《》\n《》\n《》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Recommend>1</Recommend>
+		<Hide>1</Hide>
+		<Point>5</Point>
+		<Gongs>
+			<!-- <li>XXZS_FXYGL</li> -->
+			<!-- <li>XXZS_SNBCL</li> -->
+			<!-- <li>XXZS_NWCSL</li> -->
+		</Gongs>
+	</Experience>
+	
+	
+	
+	
+	<Experience Name="XXZS_DTQK">
+		<DisplayName>显示全图</DisplayName>
+		<Desc>[size=10][color=#D06508]开启：全地图[/color][/size]</Desc>
+		<Recommend>1</Recommend>
+		<Point>0</Point>
+		<ModifierDef>
+			<NoFog>1</NoFog>
+		</ModifierDef>
+	</Experience>
+	
+	
+</List></Experiences>

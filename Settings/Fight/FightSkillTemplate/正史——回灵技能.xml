@@ -1,0 +1,80 @@
+<FightSkills><List>
+	<Skill Name="XXZS_SCZJL_2"><!--恢复技能基础模板 --> 
+		<DisplayName>青龙天罡</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_JTJDDBJ_2"><!--恢复技能基础模板 --> 
+		<DisplayName>九地妙手</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>420</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_FXYGL_4"><!--恢复技能基础模板 --> 
+		<DisplayName>二八星宿咒</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_LXQZZF_2"><!--恢复技能基础模板 --> 
+		<DisplayName>弥天剑雨</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>25</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>200</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200007</HitEffect>
+	</Skill>
+	
+	
+	
+	
+	
+	
+	
+</List></FightSkills>

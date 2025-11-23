@@ -1,0 +1,887 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_D_04_A"  Parent="BaseFillingStory">
+		<DisplayName>乐坊</DisplayName>
+		<Desc>[NAME]一入乐坊大院正堂，便被乐坊老板笑脸相迎，可能是觉着[NAME]面生，便一路引领，并一 一介绍其乐坊主要休闲之处。。。\n这才得知乐坊内大致分[color=#238E23]【知音巷】[/color]、[color=#238E23]【诸子坛】[/color]、[color=#238E23]【赋诗台】[/color]、[color=#238E23]【五谷坪】[/color]四座别苑，别苑内又分成多个单独的居室；\n其中大的居室大多为一些名声显赫的当世名流做会晤之用，偶尔也会有各家学者来此传教授学；\n而小的居室大多作三两好友聚欢之用。\n乐坊平常多是文人墨客在此歇脚约闲，很少有修士道长到此修身养性，而今却见[NAME]一身修士装扮，想来老板是不愿意放过这个发财地机会的，因此才热烈迎接，为[NAME]详解疑惑。。。\n[NAME]听完乐坊老板的介绍，站在乐坊大院内，不停的徘徊起来，到底是去[color=#238E23]【知音巷】[/color]、[color=#238E23]【诸子坛】[/color]、[color=#238E23]【赋诗台】[/color]、[color=#238E23]【五谷坪】[/color]中的哪一处别苑呢？</Desc>
+		<Selections>
+			<li>
+				<Display>知音巷【500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 500
+				]]>
+				</Condition>
+				<Tip>听歌、接歌词</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]听到知音巷里面时不时的传出优美的旋律，想来此别苑应是听歌颂曲之所，是以净化心灵，陶冶情操最适合不过。。。\n正所谓：高山流水，知音难觅。也许这就是知音巷的由来吧。\n[NAME]进入知音巷，花费了[color=#007FFF]500[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:TriggerStory("XXZS_CS_D_04_A_1");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("当听到[NAME]的宗门声望不足以在乐坊消费时，乐坊老板瞬间变脸，纤纤玉指朝门外一指：“各巫恩————滚！！！”\n话毕，一群壮汉立马冲了出来，把[NAME]直接连推带打，给赶出了乐坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"乐坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>诸子坛【500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 500
+				]]>
+				</Condition>
+				<Tip>听评书、说故事</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]听到诸子坛里面时不时的有拍案声响起，难不成里面有人在说书？\n[NAME]倒是挺想听说书先生说的什么故事，立马走了进去。。。\n[NAME]进入诸子坛，花费了[color=#007FFF]500[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:TriggerStory("XXZS_CS_D_04_A_2");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("当听到[NAME]的宗门声望不足以在乐坊消费时，乐坊老板瞬间变脸，纤纤玉指朝门外一指：“各巫恩————滚！！！”\n话毕，一群壮汉立马冲了出来，把[NAME]直接连推带打，给赶出了乐坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"乐坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>赋诗台【500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 500
+				]]>
+				</Condition>
+				<Tip>接对联、接诗词、成语接龙（成语接龙暂无）</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]听到里面有人似乎在玩成语接龙，貌似已经接到意欲何为这个成语了！！\n[NAME]一边激动的喊道：“这个我会！我会！”一边大步冲了进去。。。\n[NAME]进入赋诗台，花费了[color=#007FFF]500[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:TriggerStory("XXZS_CS_D_04_A_3");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("当听到[NAME]的宗门声望不足以在乐坊消费时，乐坊老板瞬间变脸，纤纤玉指朝门外一指：“各巫恩————滚！！！”\n话毕，一群壮汉立马冲了出来，把[NAME]直接连推带打，给赶出了乐坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"乐坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>五谷坪【500】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 500
+				]]>
+				</Condition>
+				<Tip>美食、美酒</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]貌似闻到里面不停的有淡淡的香气飘散出来，香气中夹杂着各种酒香，菜香等等，馋的[NAME]口水直流。。。\n乐坊老板也不怠慢，直接领着[NAME]就进了五谷坪。。。\n[NAME]进入五谷坪，花费了[color=#007FFF]500[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:TriggerStory("XXZS_CS_D_04_A_4");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("当听到[NAME]的宗门声望不足以在乐坊消费时，乐坊老板瞬间变脸，纤纤玉指朝门外一指：“各巫恩————滚！！！”\n话毕，一群壮汉立马冲了出来，把[NAME]直接连推带打，给赶出了乐坊。。。");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"乐坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>返回乐坊</Display>
+				<Tip></Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_04")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================知音巷分割线======================================= -->
+	
+	<Story Name="XXZS_CS_D_04_A_1"  Parent="BaseFillingStory">
+		<DisplayName>知音巷</DisplayName>
+		<Desc>知音巷\n此别苑内设琴台五处，皆以六角亭盖之，晴将焚香抚琴，游鱼赏花；夜将掌灯击罄，观灯赏月；\n苑内大厅一处，于山石水榭之畔，上设楼台，能观四方景色；\n大厅左右各一长廊，长廊婉转不断，联通各处，左通大小琴舍四座，右达大小琴舍五座，皆独立往来，甚为私密；\n然别苑之大，不能一日尽览，实则遗憾。。。</Desc>
+		<Selections>
+			<li>
+				<Display>联动修仙手机APP</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				if PhoneLib == nil then
+					world:ShowMsgBox('为了最佳体验，请订阅并激活\n修仙手机Mod、TuneShell播放器以及RadioFM模组');
+				else
+					local radioFM = GameMain:GetMod("RadioFM");
+					if radioFM ~= nil then
+						GameMain:GetMod("Windows"):GetWindow("Wnd_RadioFM"):Show();
+					else
+						world:ShowMsgBox('为了最佳体验，请订阅并激活\n修仙手机Mod、TuneShell播放器以及RadioFM模组');
+					end
+				end
+					me:AddMsg("  琴音渺渺，焚香而舞，\n  君子谦谦，素儒其风。\n  淡泊其志，颂德之悠悠，\n  慈厚其怀，歌贤之逸逸。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					me:AddModifier("XXZS_YY_01");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>听歌赏月</Display>
+				<Tip>为了更好的体验，请关闭游戏背景音</Tip>
+				<OKResult>
+				<![CDATA[
+				local QQ = me:RandomInt(1,39);
+				local YY01 = ("Spr/Music/01/01.ogg")
+				local YY02 = ("Spr/Music/01/02.ogg")
+				local YY03 = ("Spr/Music/01/03.ogg")
+				local YY04 = ("Spr/Music/01/04.ogg")
+				local YY05 = ("Spr/Music/01/05.ogg")
+				local YY06 = ("Spr/Music/01/06.ogg")
+				local YY07 = ("Spr/Music/01/07.ogg")
+				local YY08 = ("Spr/Music/01/08.ogg")
+				local YY09 = ("Spr/Music/01/09.ogg")
+				local YY10 = ("Spr/Music/01/10.ogg")
+				
+				local XX01 = ("Spr/Music/02/01.ogg")
+				local XX02 = ("Spr/Music/02/02.ogg")
+				local XX03 = ("Spr/Music/02/03.ogg")
+				local XX04 = ("Spr/Music/02/04.ogg")
+				local XX05 = ("Spr/Music/02/05.ogg")
+				local XX06 = ("Spr/Music/02/06.ogg")
+				local XX07 = ("Spr/Music/02/07.ogg")
+				
+				local ZZ01 = ("Spr/Music/03/01.ogg")
+				local ZZ02 = ("Spr/Music/03/02.ogg")
+				local ZZ03 = ("Spr/Music/03/03.ogg")
+				local ZZ04 = ("Spr/Music/03/04.ogg")
+				local ZZ05 = ("Spr/Music/03/05.ogg")
+				local ZZ06 = ("Spr/Music/03/06.ogg")
+				local ZZ07 = ("Spr/Music/03/07.ogg")
+				local ZZ08 = ("Spr/Music/03/08.ogg")
+				local ZZ09 = ("Spr/Music/03/09.ogg")
+				local ZZ10 = ("Spr/Music/03/10.ogg")
+				local ZZ11 = ("Spr/Music/03/11.ogg")
+				local ZZ12 = ("Spr/Music/03/12.ogg")
+				local ZZ13 = ("Spr/Music/03/13.ogg")
+				local ZZ14 = ("Spr/Music/03/14.ogg")
+				local ZZ15 = ("Spr/Music/03/15.ogg")
+				local ZZ16 = ("Spr/Music/03/16.ogg")
+				local ZZ17 = ("Spr/Music/03/17.ogg")
+				local ZZ18 = ("Spr/Music/03/18.ogg")
+				local ZZ19 = ("Spr/Music/03/19.ogg")
+				local ZZ20 = ("Spr/Music/03/20.ogg")
+				local ZZ21 = ("Spr/Music/03/21.ogg")
+				
+				if QQ == 1 then 
+					me:AddMsg("  琴声起，笙箫和，\n  此居中，闻天籁，\n  波伴亭台阑干侧，\n  梧桐轩里几人和？\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/01.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 2 then 
+					me:AddMsg("  萧来天霜，\n  琴生海波，\n  一萧一琴，\n  永为和歌。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/02.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 3 then 
+					me:AddMsg("  三弦拨不清，\n  青丝理还乱，\n  若问来着客，\n  何必曾相识。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/03.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 4 then 
+					me:AddMsg("  青山不厌高，\n  北海不烦深，\n  皆是有缘客，\n  山水也相逢。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/04.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 5 then 
+					me:AddMsg("  蒹葭苍苍，\n  白露为霜，\n  所谓伊人，\n  在水一方。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/05.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 6 then 
+					me:AddMsg("  关关雎鸠，\n  在河之洲，\n  窈窕淑女，\n  君子好逑。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/06.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 7 then 
+					me:AddMsg("  桃之夭夭，\n  灼灼其华，\n  之子于归，\n  宜室宜家。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/07.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 8 then 
+					me:AddMsg("  南有乔木，\n  不可休思，\n  汉有游女，\n  不可求思。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/08.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 9 then 
+					me:AddMsg("  葛之覃兮，\n  施于中谷，\n  维叶萋萋，\n  黄鸟于飞，\n  集于灌木，\n  其鸣喈喈。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/09.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 10 then 
+					me:AddMsg("  采采卷耳，\n  不盈顷筐，\n  嗟我怀人，\n  置彼周行。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/01/10.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 11 then 
+					me:AddMsg("  南有樛木，\n  葛藟累之，\n  乐只君子，\n  福履绥之。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/01.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 12 then 
+					me:AddMsg("  螽斯羽，诜诜兮，\n  宜尔子孙，振振兮，\n  螽斯羽，薨薨兮，\n  宜尔子孙，绳绳兮。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/02.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 13 then 
+					me:AddMsg("  肃肃兔罝，\n  椓之丁丁，\n  赳赳武夫，\n  公侯干城。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/03.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 14 then 
+					me:AddMsg("  采采芣苢，\n  薄言采之，\n  采采芣苢，\n  薄言有之。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/04.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 15 then 
+					me:AddMsg("  遵彼汝坟，\n  伐其条枚，\n  未见君子，\n  惄如调饥。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/05.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 16 then 
+					me:AddMsg("  麟之趾，振振公子，于嗟麟兮。\n  麟之定，振振公姓，于嗟麟兮。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/06.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 17 then 
+					me:AddMsg("  维鹊有巢，\n  维鸠居之，\n  之子于归，\n  百两御之。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/02/07.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 18 then 
+					me:AddMsg("  于以采蘩？于沼于沚。\n  于以用之？公侯之事。\n  于以采蘩？于涧之中。\n  于以用之？公侯之宫。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/01.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 19 then 
+					me:AddMsg("  喓喓草虫，趯趯阜螽。\n  未见君子，忧心忡忡。\n  亦既见止，亦既觏止，我心则降。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/02.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 20 then 
+					me:AddMsg("  于以奠之？\n  宗室牖下。\n  谁其尸之？\n  有齐季女。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/03.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 21 then 
+					me:AddMsg("  蔽芾甘棠，勿翦勿伐，召伯所茇。\n  蔽芾甘棠，勿翦勿败，召伯所憩。\n  蔽芾甘棠，勿翦勿拜，召伯所说。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/04.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 22 then 
+					me:AddMsg("  谁谓雀无角？何以穿我屋？谁谓女无家？\n  何以速我狱？虽速我狱，室家不足！\n  谁谓鼠无牙？何以穿我墉？谁谓女无家？\n  何以速我讼？虽速我讼，亦不女从！\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/05.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 23 then 
+					me:AddMsg("  羔羊之皮，\n  素丝五紽。\n  退食自公，\n  委蛇委蛇。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/06.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 24 then 
+					me:AddMsg("  殷其雷，在南山之阳。\n  何斯违斯，莫敢或遑？\n  振振君子，归哉归哉！\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/07.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 25 then 
+					me:AddMsg("  摽有梅，其实七兮。\n  求我庶士，迨其吉兮。\n  摽有梅，其实三兮。\n  求我庶士，迨其今兮。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/08.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 26 then 
+					me:AddMsg("  嘒彼小星，三五在东。\n  肃肃宵征，夙夜在公。\n  寔命不同。\n  嘒彼小星，维参与昴。\n  肃肃宵征，抱衾与裯。\n  寔命不犹。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/09.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 27 then 
+					me:AddMsg("  江有汜，之子归，不我以。\n  不我以，其后也悔。\n  江有渚，之子归，不我与。\n  不我与，其后也处。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/10.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 28 then 
+					me:AddMsg("  野有死麕，白茅包之。\n  有女怀春，吉士诱之。\n  林有朴樕，野有死鹿。\n  白茅纯束，有女如玉。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/11.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 29 then 
+					me:AddMsg("  何彼襛矣，\n  唐棣之华？\n  曷不肃雍？\n  王姬之车。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/12.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 30 then 
+					me:AddMsg("  彼茁者葭，壹发五豝，于嗟乎驺虞！\n  彼茁者蓬，壹发五豵，于嗟乎驺虞！\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/13.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 31 then 
+					me:AddMsg("  彼黍离离，彼稷之苗。\n  行迈靡靡，中心摇摇。\n  知我者，谓我心忧；\n  不知我者，谓我何求。\n  悠悠苍天，此何人哉？\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/14.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 32 then 
+					me:AddMsg("  山有扶苏，隰有荷华。\n  不见子都，乃见狂且。\n  山有乔松，隰有游龙，\n  不见子充，乃见狡童。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/15.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 33 then 
+					me:AddMsg("  青青子衿，悠悠我心。\n  纵我不往，子宁不嗣音？\n  青青子佩，悠悠我思。\n  纵我不往，子宁不来？\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/16.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 34 then 
+					me:AddMsg("  硕鼠硕鼠，无食我黍！\n  三岁贯女，莫我肯顾。\n  逝将去女，适彼乐土。\n  乐土乐土，爰得我所。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/17.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 35 then 
+					me:AddMsg("  鴥彼晨风，郁彼北林。\n  未见君子，忧心钦钦。\n  如何如何，忘我实多！\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/18.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 36 then 
+					me:AddMsg("  庶见素冠兮？棘人栾栾兮，劳心慱慱兮。\n  庶见素衣兮？我心伤悲兮，聊与子同归兮。\n  庶见素韠兮？我心蕴结兮，聊与子如一兮。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/19.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 37 then 
+					me:AddMsg("  七月流火，九月授衣。\n  一之日觱发，二之日栗烈。\n  无衣无褐，何以卒岁？\n  三之日于在耜，四之日举趾。\n  同我妇子，馌彼南亩，田畯至喜。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/20.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				elseif QQ == 38 then 
+					me:AddMsg("  月出皎兮，佼人僚兮。\n  舒窈纠兮，劳心悄兮。\n  月出皓兮，佼人懰兮。\n  舒忧受兮，劳心慅兮。\n  。。。。。。\n[NAME]在知音巷听了很久的琴音，方才悄然离去。。。");
+					world:PlayBGM("Spr/Music/03/21.ogg",false);
+					me:AddModifier("XXZS_YY_01");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>接词对曲</Display>
+				<Tip>目前总共六轮题目，请耐心作答</Tip>
+				<OKResult>
+				<![CDATA[
+				local AA = me:RandomInt(0, 10);
+				me:AddMsg("大厅中一曲唱罢，众人皆乐，原来是方才有个人接错了歌词，令众人忍俊不禁，[NAME]觉得这游戏挺有意思，便加入了进来。。。");
+				me:TriggerStory("XXZS_CS_D_04_A_1A_"..AA.."");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回乐坊大院</Display>
+				<Tip></Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_04_A")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================诸子坛分割线======================================= -->
+	
+	<Story Name="XXZS_CS_D_04_A_2"  Parent="BaseFillingStory">
+		<DisplayName>诸子坛</DisplayName>
+		<Desc>诸子坛\n此别苑内设讲坛一处，周立石柱二十又四，上盖楼台，下设桌椅茶盏；\n讲坛每日巳时迎客说书，夜至戌时人走茶凉；\n楼台二三，皆为雅座，非富贵者不敢登矣；其中空如井，周围廊，再隔屏障，雅座如是；\n坛有特设，但逢月初，不论古评今，只谈街巷之闲，以博众人一乐，是为民趣耳。。。</Desc>
+		<Selections>
+			<li>
+				<Display>听书【该功能与修仙手机MOD联动】</Display>
+				<Condition>
+				<![CDATA[
+				world.DaySecond > 249 and world.DaySecond < 451
+				]]>
+				</Condition>
+				<Tip>下午开放</Tip>
+				<OKResult>
+				<![CDATA[
+				if PhoneLib == nil then
+					world:ShowMsgBox('为了最佳体验，请订阅并激活\n修仙手机Mod、TuneShell播放器');
+				else
+					local tuneShell = GameMain:GetMod("Windows"):GetWindow("Wnd_TuneShell");
+					if	tuneShell ~=nil then
+						local modPath = PhoneLib.GetModInfos("XXZS_SP_01");
+						if modPath ~=nil then
+							local musicRootPath = modPath.MainPath .. "/Resources/Spr/";
+							tuneShell.mainRoot = musicRootPath;
+							tuneShell:Show();
+						else
+							world:ShowMsgBox('请订阅并激活 修仙正史评述补充包Mod');
+						end
+					else
+						world:ShowMsgBox('为了最佳体验，请订阅并激活\n修仙手机Mod、TuneShell播放器');
+					end
+				end
+					me:AddModifier("XXZS_SS_01");
+					me:AddMsg("话说天下，分久必合，合久必分。。。");
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				local nQ = me:RandomInt(1,5);
+				local nW = me:RandomInt(1,12);
+				local ZM = CS.XiaWorld.SchoolMgr.Instance.Name;
+				local MP = world:GetSchoolName(nW);
+				if  nQ == 1 then 
+					me:AddMsg("[NAME]抬头看了下天色，发现此时并不适合听书，还是去别处逛逛吧。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 2 then 
+					me:AddMsg("[NAME]寻了张空的桌椅坐下，只是迟迟等不到说书人开讲，看来是错过时机了，还是下次再来吧。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 3 then 
+					me:AddMsg("[NAME]刚坐下才一会儿，突然感觉内急，只能先去茅房方便，等到出来之时，听书已然结束，看来只能下次了。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 4 then 
+					me:AddMsg("[NAME]听了没一会儿，居然睡着了，等到[IT]再醒来时，这里早已是人走茶凉。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>听闲</Display>
+				<Condition>
+				<![CDATA[
+				World.Weather:GetSeasonDays() > 22 
+				]]>
+				</Condition>
+				<Tip>月初开放</Tip>
+				<OKResult>
+				<![CDATA[
+				local A = me:RandomInt(1,4);
+				if A == 1 then 
+					me:AddMsg("说书人：[color=#238E23]话说早些年，法器坊老板曾在杂货铺购置材料时，因与其老板多喝了两杯，直到醒来之后，这才发现自己身下竟然少了一物！[/color]\n说书人惊堂木一拍“啪！！”这才接着往下说；\n说书人：[color=#238E23]那便是‘宝贝儿’，只是发现已迟，宝贝儿想必是被这黑店贼人给割了去，这便折回法器坊，挑了十来伙计，分别带上刀枪剑锤等兵刃，直奔那杂货铺面。[/color]\n说书人说到此，小抿一口热茶，再打一横扇，这才开口；\n说书人：[color=#238E23]话说这杂货铺老板听到消息，也不认怂，只略一沉思，便有了主意，先是藏好那‘宝贝儿’，再召来十余伙计，拿上各自的法器，左右分列，挡在店铺之前，而杂货铺老板也不含糊，不知从哪里抽来一条板凳，就这么一横，屁股一落，这才定在门口，那架势！好家伙！不说有气吞山河之势，但比那立马横刀的将军也不弱几分！[/color]\n说书人纸扇一摇，从椅子上站起来，单抬一腿，踩在案台之上，另一只手化掌为刀，像斜上方一指，已然化身杂货铺老板；\n说书人：[color=#238E23]接着说这法器坊老板也是说到就到，也就半柱香的时间，已经从西坊赶到了东市，法器坊老板与手下十来人冲到杂货铺门口，估计法器坊老板已是怒从心中起，恶向胆边生，才打照面，法器已经飞向对方；这边法器坊老板反而一愣，再怎么说，谁打架不都先放个狠话什么的，这法器坊老板完全不按套路出牌啊；就这一愣，法器已然到了眼前，杂货铺老板连忙招架，双方小弟们也是一呆，看见老板都出手了，才反应过来，这才挥舞着法器就跟着出手。[/color]\n说书人一边说，一边手舞足蹈，以扇为剑，又舞了起来；\n说书人：[color=#238E23]正所谓，一招先，步步先；这杂货铺老板连接十来招，对方招招都打向要害，偶有避之不及，被余波打在护体真气上，竟然一时间真气有点跟不上，杂货铺老板自知这样下去，恐有性命之忧，竟是心一横，将体内七成真气，凝聚成一个冲击波，炸在两人之间；法器坊老板也是眼拙，本为了追求招招制敌，已是步步紧逼，而此时刚好与这冲击波撞在一起，护体真气瞬间被打散，反被这冲击波震开百来步，口吐鲜血；而杂货铺老板则借着这冲击波也退到一个安全的位置，气喘吁吁，看来也好不到哪里去。[/color]\n说书人说到此，这才一展纸扇，轻轻一摇，缓缓说道；\n说书人：[color=#238E23]嘿嘿，好嘛，你别说这个时候，双方小弟们倒是反应快了，立马停下打斗，各自回归阵营，分散开来，护卫在自己老板周围，那架势，好一个忠心护主啊！这双方人马刚一站定，杂货铺老板竟是先开了口，说道：哼，我们两家店铺向来井水不犯河水，今天你是说打就打，怎么样？现在打过瘾了？我看你现在伤的不轻吧？这样吧，我们都退一步，如今架也打了，气也出了，我这里还要开门做生意，今日之事就一笔勾销如何？[/color]\n说书人：[color=#238E23]法器坊老板显然不知对方是佯做镇定，运气调整了下护体真气，这才说道：哼，好一个一笔勾销，你做了什么，你自己清楚！一笔勾销？那我的损失怎么说？[/color]\n说书人：[color=#238E23]杂货铺老板见对方也不想纠缠，就顺坡下驴：呵，先动手打人的貌似是你吧？算了算了，算我倒霉，要不是我有个大单等着我，我才懒得和你废话，有什么要求就说，只要我杂货铺有的，别太过分，我都答应了！[/color]\n说书人：[color=#238E23]法器坊老板一听，只觉得有点不对劲，但是也没深想，毕竟现在有伤在身，也不想硬拼，犹豫了一会儿，这才说道：这可是你说的！我店里需要大量材料做法宝，其中不乏以‘宝贝儿’为主材料，你给我店里，无条件提供‘宝贝儿’吧！[/color]\n说书人说到这里，拿起茶壶一饮而尽，纸扇一收，这才接着说；\n说书人：[color=#238E23]话说自此，那杂货铺老板也不得不答应，毕竟此时体内真气十不存九，只得答了一声：哼！口气还不小，老夫应了便是！[/color]\n说书人：[color=#238E23]再说这法器坊老板听到此，便使唤手下伙计扶着身体，便离开了杂货铺门前；[/color]\n说书人：[color=#238E23]咱们再说说这杂货铺老板也是搬起石头砸自己的脚，本来想割个‘宝贝儿’放在店里做镇店之用，结果宝贝儿才到手里，又得退回去，还要常年供应，但是大话都说出去了，街里邻坊都可听见了，也只能打掉门牙往肚里吞。[/color]\n说书人抬手一拍惊堂木“啪！！”\n说书人：[color=#238E23]正所谓：害人之心不可有，防人之心不可无。是听闲还是听典，还由看官们自行省之，预知下月是何闲事，且待来日吾等道来！[/color]");
+					me:AddModifier("XXZS_SS_01");
+				elseif A == 2 then 
+					me:AddMsg("说书人：[color=#238E23]话说早些年，风水楼的老板最开始并不是做的风水生意，年轻时的风水老板，只是帮人押运梁木的一位小镖车师傅，一车，一人，一趟镖去，一趟镖回，就这么春去秋来，一直做了些许时日；[/color]\n说书人说到此，手提惊堂木，缓缓一拍“啪！！”接着说道；\n说书人：[color=#238E23]而这天刚回村歇脚，才到门口就被村里的媒婆一把拦住，还不等风水老板开口，就巴拉巴拉巴拉说了一炷香的时间，总算是道明了原由；原是邻村的一个姑娘委托这个媒婆做媒，刚好村里的年轻一点的单身汉就风水老板一人，这才过来牵线搭桥；风水老板也是个干脆人，刚好手里没活，自己确实也想找个好姑娘好好过日子，这便让媒婆上了镖车，就往邻村去了。。。[/color]\n说书人缓缓展开纸扇，往胸前那么一放，悠然的摇了起来，顿了顿又接着说道；\n说书人：[color=#238E23]说来也巧，就这么一去，还真看对眼了，没过几天就张罗着办喜酒，倒是把风水老板给乐得不行；就这样，风水老板娶了亲，修了房，接着又迎来了几个镖，便又出门押镖了；这日子照道理呢，也就这么平静过下去，生老病死，一生平淡，百年安好，但是天不遂人愿；[/color]\n说书人纸扇一打，大喝一口香茗，再对台下看官道来；\n说书人：[color=#238E23]怎么个不遂人愿之法呢，原是风水老板新婚才七月余，新婚媳妇便已诞下一子，风水老板当时被其媳妇草草搪塞过去，但是依然心存疑虑，只是未曾细想；而一波未平一波又起，新婚方才十月余，押镖时，回来没接到镖，便轻装而回，比其媳妇估算回归之日快了八九天，竟然被风水老板撞见其媳妇与其他男人同床而卧；[/color]\n说书人再拍惊堂木“啪！！”然后便一手撑着案台，一手轻带纸扇至背后，接着说道；\n说书人：[color=#238E23]哎呀，所以说有时候，不得不说爱情的力量是伟大的，风水老板虽然和其媳妇吵了一架，但是随后还是原谅了她；可谁曾知，其媳妇并不爱他，坚决要和离，并明确要风水老板全部家当做赔偿，原因竟是说风水老板是强迫她才娶来的，并非自愿咱先不说是非对错，但这要求确实有违公平，若是常人是绝不答应的，怎奈风水老板是当局者迷，竟是全然同意，最后落个净身出户。。。[/color]\n说书人摇了摇头，做悲悯状，又提起茶壶，抿了一口茶，叹了口气道；\n说书人：[color=#238E23]唉，也只能说是流年不利，风水老板在净身出户之后，又逢商场失意，一下子流落到了贫民窟，只能依靠路人的施舍勉强度日，衣不蔽体，食不果腹；就这样又过了数月有余，却见一修士向自己走来，给了自己几个烧饼，和自己聊了起来。。。[/color]\n说书人猛地一转身，从案台的一边转到另一边，手持纸扇随身行带过，纸扇又到了胸前，手腕那么一抖，纸扇一收，扇叶被敲到了另一只手的手掌中，这才开口；\n说书人：[color=#238E23]也许是老天开眼，此修士临走之前竟然遗落了一件风水镇物，反而是让风水老板眼前一亮，瞬间有了一个想法；第二天的东市街角，有一地摊，上面铺满各种风水镇物，其老板正是那个衣衫褴褛的，流浪在贫民窟的风水老板；也就这之后，风水摊的生意越做越大，最后在东市盘了个铺面，名为风水楼！[/color]\n说书人一手起落，惊堂木响“啪！！”另一手轻晃，纸扇一展，接着往下说到；\n说书人：[color=#238E23]常言道：风雨无常，人生如戏，若不言弃，方现彩虹。说是听闲享趣，实则品为人之道，应当如何，想必看官们心中自有批判，预知下月是何闲事，且待来日吾等道来！[/color]");
+					me:AddModifier("XXZS_SS_01");
+				elseif A == 3 then 
+					me:AddMsg("说书人：[color=#238E23]话说早些年，赌坊的老板并非现在的老板，而原老板本是一个叫无法真仙的大能，同时也是最早的赌坊开创者；[/color]\n说书人说到此，手提惊堂木，猛然一拍“怕！！”接着说道；\n说书人：[color=#238E23]那是很多年前的某一天，咱们集市上来了一个生面孔，而身后跟着一辆类似押解囚犯的马车，正在中央大街上走着，走到天香阁门前时，来人停了下来，只身走进了天香阁，天香阁老鸨也不是简单人，招呼下人把囚车给带进了后院；[/color]\n说书人纸扇一拍，摇头晃脑的接着说道；\n说书人：[color=#238E23]男人嘛，每个月总有那么几天特别的需要异性的关怀，大家都懂得哦；咱们再说这陌生男人，而他在天香阁呆了一日，到第三天才从里面慢悠悠地走出来，看样子应该受到了前所未有的关怀，脸上洋溢着轻松愉悦的表情，唯一奇怪的是，那囚车竟然没有跟着一起出来；[/color]\n说书人抬脚一跨，踩在了讲坛的台阶上，纸扇往背后一打，快速扇了几下，又一脸坏笑的接着说道：\n说书人：[color=#238E23]说时迟，那时快，老鸨紧接着跟了出来，一把握住那个男人的手，说道：官人，留步啊，你这次给咱这带来这么多上等货色，今日一别，以后如何联系呀？那男人抬手一扬，道：老板既然说到这了，我就不客气了，我想在当地弄个铺子，赚点小钱，就是没有门路，如果老板愿意帮这个忙的话，以后的货，我定当竭尽全力提供！[/color]\n说书人纸扇一收，转身回到讲桌前，喝了口茶接着说：[color=#238E23]不久之后，中央大街便新开张了一间铺子，名为赌坊，上到天命轮，下到骰子赌大小，无所不赌，旨在赚取巨额声望，并发放大量高利贷，骗取更多的人抵押自己的妻女，然后源源不断的给天香阁提供女色，据说，该男人还在别的地方成立了一个通天商会，商会中竟然还有贩售奴隶的广场，专门用来关押这些天下各地的女子，甚为可怕！而最后该男子赚的盆满钵满之后便隐居幕后，而现在的老板只是其代言人罢了；最后江湖上只留下了这位“无法真仙”大能的传说。。。[/color]\n说书人说到此，拿起惊堂木狠狠一拍“啪！！”接着说道：[color=#238E23]常言道：一失足成千古恨！小赌怡情，大赌伤身，强赌必定人财两空，天怨人怒；只要洁身自好，又何来这些凄凉之人？说是听闲，论人长短，实则也是自省吾身，而应当如何，想必看官们心中自有批判，预知下月是何闲事，且待来日吾等道来！[/color]");
+					me:AddModifier("XXZS_SS_01");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				local nQ = me:RandomInt(1,7);
+				local nW = me:RandomInt(1,12);
+				local ZM = CS.XiaWorld.SchoolMgr.Instance.Name;
+				local MP = world:GetSchoolName(nW);
+				if  nQ == 1 then 
+					me:AddMsg("哎呀，真不凑巧，此时并非月初，说书人并不想说别人的闲话。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 2 then 
+					me:AddMsg("哎呀，真不凑巧，此时并非月初，说书人正在[color=#BC1717]"..ZM.."[/color]附近探查呢，据说这个宗门常有怪事发生。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 3 then 
+					me:AddMsg("哎呀，真不凑巧，此时并非月初，说书人只想摸鱼混日子，得过且过。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 4 then 
+					me:AddMsg("哎呀，真不凑巧，此时并非月初，说书人并不在此，听说是出门搜集素材了。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 5 then 
+					me:AddMsg("哎呀，真不凑巧，此时并非月初，说书人貌似还在艰苦地创作故事中，还是不要打搅的好。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				elseif nQ == 6 then 
+					me:AddMsg("哎呀，真不凑巧，此时并非月初，说书人正忙于整理素材，据传闻这次打探到了[color=#BC1717]"..MP.."[/color]的劲爆花边。。。");
+					me:TriggerStory("XXZS_CS_D_04_A_2");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>返回乐坊大院</Display>
+				<Tip></Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_04_A")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================赋诗台分割线======================================= -->
+	
+	<Story Name="XXZS_CS_D_04_A_3"  Parent="BaseFillingStory">
+		<DisplayName>赋诗台</DisplayName>
+		<Desc>赋诗台\n此别苑内设厅台三处，皆以砖瓦砌之，月逢初一十五，常有各路学者在此设坛布道，以兴百家之盛；\n苑内独立私塾十余所，皆布文房四宝，团蒲案台数十余；\n私塾后设书阁，南北经卷不计其数，四海简牍百余册；\n真可谓：谈笑有鸿儒，往来无白丁。\n曾有圣人云：\n      初送同门数日前，\n      再逢已是座上宾。\n      吟诗作赋数十载，\n      不及此台八九天。\n想来能到这赋诗台坐上一日，定是读书人的荣幸吧。。。</Desc>
+		<Selections>
+			<li>
+				<Display>吟诗作赋</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local AA = me:RandomInt(0, 91);
+				me:TriggerStory("XXZS_CS_D_04_A_3A_"..AA.."");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>对联会友</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local AA = me:RandomInt(0, 21);
+				me:TriggerStory("XXZS_CS_D_04_A_3B_"..AA.."");
+				]]>
+				</OKResult>
+			</li>
+			<!-- <li>
+				<Display>成语接龙</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local AA = me:RandomInt(0, 10);
+				me:AddMsg("厅中长袍道服数十余人，论道辩理不在少数，然群中一桌八九人，却正以词会友，好不欢快！\n“。。。那我接，为所欲为，你接。。。”\n[NAME]走过去听到他们正在接词，[IT]便积极地要求加入其中。。。");
+				me:TriggerStory("XXZS_CS_D_04_A_3C_"..AA.."");
+				]]>
+				</OKResult>
+			</li> -->
+			<li>
+				<Display>返回乐坊大院</Display>
+				<Tip></Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_04_A")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================五谷坪分割线======================================= -->
+	
+	<Story Name="XXZS_CS_D_04_A_4"  Parent="BaseFillingStory">
+		<DisplayName>五谷坪</DisplayName>
+		<Desc>五谷坪\n此别苑内墙作圆，坪作方，是以天圆地方之象，坪内大小桌宴九九之数，乃作归一之意；\n方圆之余，设厨、灶、柴、谷等屋舍于坪外，辅以花草山石点缀之，虽显空旷但不失美感；\n苑内如逢寻常之日，宴席无多，但遇喜庆之贺，必人满为患，更有甚者，以摆场包坪拒之，也为平常。。。</Desc>
+		<Selections>
+			<li>
+				<Display>尝佳酿</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local MS = me:RandomInt(1,15)
+				local QQ = me:RandomInt(1,101)
+				if MS == 1 then 
+					me:AddMsg("[NAME]：此酒无色透明，清香纯汇，醇厚柔和，甘润绵软，自然协调，余味爽净．后味较长；嗯。。。想必这就是[color=#007FFF]杏花村酒[/color]了，原是产自中原晋城附近某一小山村的当地美酒，主要用高粱等谷物酿制而成，也称汾酒是吧？\n[color=#BC1717]斯文眼睛狗[/color]：喝酒就喝酒，我管他什么乱七八糟的！我就只知道，今天有人请客，就要大碗喝酒，大口吃肉！\n[color=#BC1717]梅川内裤[/color]：切，真没文化，我还是喜欢这位道长说的，一边喝酒一边品酒才有意思。哦？你说呢？\n[color=#BC1717]日川钢板[/color]：你发什么骚？给我赶紧麻利吃完，回家带孩子，看我回家怎么收拾你！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]已然酩酊大醉，最后还是被乐坊老板差人给送回了宗门。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 2 then 
+					me:AddMsg("[NAME]：此酒无色或微黄色，透明晶亮，酱香突出，优雅细腻，空杯留香，经久不散，幽雅持久，口味醇厚、丰满，回味悠长。。。\n[color=#BC1717]王雨衣[/color]：嘿，眼力不错嘛，这是乐坊有名的珍藏，名叫[color=#007FFF]枸酱酒[/color]，是来自南荒贵城附近某一小山村的当地美酒，主要用高粱等谷物酿制而成，也称茅台酒。\n[color=#BC1717]龙剑[/color]：这位姑娘，好博学！看来见识甚广，不过小弟我，有些愚见，不知能否指点一二？\n[color=#BC1717]黄导[/color]：别指点一二了，他就想说这是八二年的酒，姑娘别和他一般见识，喝酒喝酒！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]却因不胜酒力，早已醉倒在桌子上，乐坊老板只能差人给送回宗门了。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 3 then 
+					me:AddMsg("[NAME]：此酒无色或微黄色，清亮透明．窖乔浓郁．甜绵爽净，纯正协调，余味悠长。。。我居然没喝过！\n[color=#BC1717]子歌令[/color]：此酒名为[color=#007FFF]龙泉窖[/color]，是产自南荒川城附近某一小山村的当地美酒，主要用高粱等谷物酿制而成，也称泸州老窖。\n[color=#BC1717]子珩[/color]：据说是因为当地有一口龙泉井，其水质清澈甘甜，用来酿酒最好不过。\n[color=#BC1717]虞又火[/color]：据传言，这酒窖的泥土也很是少见，酿酒也少不了这个酒窖的功劳哦！我估计只要这村人世代相传，这酒窖以后可能会是最出名的酒窖之一啊！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]居然还抱着酒壶呼呼大睡，看来是早就喝醉了，乐坊老板一挥手，差人给送回宗门了。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 4 then 
+					me:AddMsg("[NAME]：老兄，我看你有点眼熟啊，怎么？也是过来蹭酒喝？\n[color=#BC1717]李万机[/color]：嘿，你谁啊，我和你不熟啊，别打搅我喝酒啊，陈年的[color=#007FFF]瑞露[/color]，世间少有啊~~\n[color=#BC1717]赤咸鱼[/color]：嗯，无色透明，蜜香清雅，入口绵甜，落口爽净，回味怡畅，具有令人愉快的药香，果然是上好的佳酿啊！\n[color=#BC1717]季狂徒[/color]：这种产自南荒桂城附近某一小山村的当地美酒，主要用大米等谷物酿制而成，也称三花酒。据说是乐坊老板亲自去采购的，今天可有口福了！嘿嘿嘿！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]醉醺醺的朝门外走去，就[IT]这个样子，能不能安全地走回去还可真难说啊。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 5 then 
+					me:AddMsg("[NAME]：俗话说：酒逢知己千杯少，话不投机半句多。我说你要喝酒就喝酒，你别扒拉我！\n[color=#BC1717]轩辕狗蛋[/color]：谁稀罕扒拉你啊，我要的是酒壶，八二年的[color=#007FFF]秦酒[/color]啊，你快点行不行！\n[color=#BC1717]李狗蛋[/color]：行了，他都喝得快见底了，你就别喊了，我的给你，拿去喝，等会儿还会再上酒的，你瞎叫唤个啥！\n[color=#BC1717]王二狗[/color]：啧啧啧，据传这酒是产自中原陕城附近某一小山村的当地美酒，主要用高粱等谷物酿制而成，也名西凤酒。其酒无色，清澈透明，醇香秀雅，甘润挺爽，诸味谐调。。。\n。。。。。。\n当五谷坪逐渐散场时，[NAME]摇摇晃晃的走向门口，乐坊老板看着[IT]一步三回头的架势，够呛能出得了门，便差人送回了宗门。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 6 then 
+					me:AddMsg("[NAME]：此酒药香味甚浓，应该是药酒吧。\n[color=#BC1717]李仙音[/color]：不错，此酒正是产自大雪原附近某一小山村的当地美酒，主要用鹿茸等药物酿制而成，人称[color=#007FFF]鹿茸酒[/color]。\n[color=#BC1717]云墨怀[/color]：其酒多为深棕色或黄色，药香浓郁，醇香浓烈，苦去回甘，余味悠长，是不可多得的好酒。\n[color=#BC1717]灵老亿[/color]：所以我一般都是一直喝！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]拖着昏沉沉的身体，勉强迈出了乐坊。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 7 then 
+					me:AddMsg("[NAME]：哟！不得了啊！[color=#007FFF]三鞭酒[/color]！看来今晚的新郎是要挑灯夜战啊！\n[color=#BC1717]大屌萌妹[/color]：我和你们说啊，这个[color=#007FFF]三鞭酒[/color]其酒色为深棕色不透明，酒香淡雅，口味刚烈，后劲十足，嚯嚯嚯，新娘子有最受了！\n[color=#BC1717]林家大少[/color]：据说这是产自大雪原附近某一小山村的当地美酒，主要用虎鞭、鹿鞭、马鞭等药物调制而成，没有后劲才怪。\n[color=#BC1717]龟田志彬[/color]：唉，最近肾不行，看来我今晚要多喝一点，补补肾，也让我家那口子，嘿嘿嘿。\n。。。。。。\n当五谷坪逐渐散场时，[NAME]难受的捂着下体，急急忙忙的冲出了乐坊的大门。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 8 then 
+					me:AddMsg("[NAME]：采四季芳华，酿百花玉液。这[color=#007FFF]百花酿[/color]果然不简单啊，比女子还香！\n[color=#BC1717]上官柱子[/color]：那可不，据说是产自江岸沃野附近某一小山村的当地美酒，主要用百合、金银花、芍药等药物酿制而成，用了数十种花卉入药呢！\n[color=#BC1717]灭门证道[/color]：这酒色也是极为纯正，看这淡棕色，多么纯正；再闻这酒香，花香四溢；再喝一口，甘润清爽，经久不散，回味悠长；好酒啊！\n[color=#BC1717]妖秀道人[/color]：不说了，我先干为敬，敬这[color=#007FFF]百花酿[/color]！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]瘫倒在桌宴之上，口里还在念叨着好酒好酒，乐坊老板无奈，只能差人给送回宗门了。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 9 then 
+					me:AddMsg("[NAME]：你们说这西域的酒是在怎么做的呢？\n[color=#BC1717]源石大帝[/color]：什么西域啊，这酒叫[color=#007FFF]西域琼[/color]，据传是产自大漠附近某一个小山村的当地美酒，主要用葡萄、青提等果实酿制而成。\n[color=#BC1717]屠龙勇者[/color]：话说这[color=#007FFF]西域琼[/color]的酒色也很是特别，多为深红色或暗红色，而酒色多是清新甜软，口味微甜，余味微酸，后劲较足。\n[color=#BC1717]御凤天尊[/color]：这你们就不懂了吧，这是果酒，甜度比五谷酒高，好的果酒，酸度低，差的果酒，就比较酸涩，我看着壶[color=#007FFF]西域琼[/color]，就是上好的佳酿！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]还醉醺醺的一边朝门外走去一边念叨着：一定要去大漠喝一次这种酒，好喝！然后就消失在人群中了。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 10 then 
+					me:AddMsg("[NAME]：初品似茶，入口回甘，好酒好酒！\n[color=#BC1717]陌邪言[/color]：上好的[color=#007FFF]回甘露[/color]啊，据传是产自中原附近某一小山村的当地美酒，主要用甘蔗等果实酿制而成。\n[color=#BC1717]古死斗[/color]：呵，就你知道的多？这酒色如何？酒味如何？你倒是说说看啊！\n[color=#BC1717]风御殇[/color]：其酒多为无色或淡黄色，透明清澈，清香淡雅，口感绵软，余味清爽；怎么样？我说的可有错？\n。。。。。。\n当五谷坪逐渐散场时，[NAME]犹如一滩烂泥，醉倒在桌子底下，最后还是被乐坊老板差人给送回了宗门。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 11 then 
+					me:AddMsg("[NAME]：[color=#007FFF]三月三[/color]！好酒啊，说是产自江岸沃野附近某一小山村的当地美酒，主要用杏花、桃花、迎春花等花卉调制而成。\n[color=#BC1717]决先锋[/color]：好酒就多喝，这位道长，我敬你学识渊博！\n[color=#BC1717]孔小七[/color]：这酒字有几种写法你知道吗？我和你说有四种写法，你看啊，先这样，再这样。。。\n[color=#BC1717]未英雄[/color]：滚滚滚！我们喝酒，你写字！煞风景！好好听我给你说说这[color=#007FFF]三月三[/color]，这酒色啊，多为明黄色或淡黄色，香味呢是芳香浓烈，口感呢是口味甘润，特色呢是空杯留香，经久不散，令人清爽。。。\n。。。。。。\n当五谷坪逐渐散场时，[NAME]明显已经支撑不住，最后醉倒在了五谷坪的门口，不省人事。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 12 then 
+					me:AddMsg("[NAME]：我和你们说，此酒名为[color=#007FFF]羊脂[/color]，典型的混香型，乳酒！\n[color=#BC1717]马化腾飞[/color]：据传是产自中原附近某一个小山村的当地美酒，主要用羊奶等乳液炼制而成。\n[color=#BC1717]马云之上[/color]：其酒多为乳白色，不透明，乳香扑鼻，略有膻味，口感醇厚，余味浓烈\n[color=#BC1717]刘强东西[/color]：什么鬼东西，快拿开，快拿开，膻死我了！！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]浑身充斥这一股羊奶味儿，再加上东倒西歪的样子，活似一只醉倒的绵羊，把乐坊的伙计们都给逗乐了。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 13 then 
+					me:AddMsg("[NAME]：这酒和[color=#007FFF]羊脂[/color]有点像耶，这叫啥酒？\n[color=#BC1717]王思聪达[/color]：[color=#007FFF]白玉液[/color]，混香型，乳酒。\n[color=#BC1717]韵长生者[/color]：你可还真是简短啊，我和你说，这酒据传是产自大漠附近某一个小山村的当地美酒，主要用马奶等乳液炼制而成。\n[color=#BC1717]康凯[/color]：等等，让我也装个逼啊！再说这酒色啊多为乳白色，不透明，乳香扑鼻，入口回甘，醇厚柔和，余味浓烈；所以和[color=#007FFF]羊脂[/color]极为相似，但是口感不同，道长喝喝看哦！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]大喊了一声“驾！！”便快步冲了出去，看来是喝多了罢。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				elseif MS == 14 then 
+					me:AddMsg("[NAME]：百年陈，百年陈，若是今天的酒，真是百年陈酿那可就赚大了！\n[color=#BC1717]天麟上人[/color]：百年陈一般是淡黄色或淡棕色，不透明，香气浓郁，酒味醇厚，口味独特，略带甘甜口感，今天这酒色甚浓，些许是百年陈酿也说不定哦！\n[color=#BC1717]守望星夜[/color]：据传是产自江岸闽城附近某一小山村的当地美酒，主要用糯米等谷物酿制而成，也称福州老酒。有幸喝上一壶，我才不管年份呢，喝就完事了！\n[color=#BC1717]叶凡尘埃[/color]：这位兄台说的极是，我敬你一杯，我干了，您随意！\n。。。。。。\n当五谷坪逐渐散场时，[NAME]已经喝得伶仃大醉，不省人事，最后还是乐坊老板差人给送了回来。。。");
+					me:AddModifier("XXZS_MJ_01");
+					me:AddModifier("XXZS_MJ_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MJ_03");
+					else
+						me:AddModifier("XXZS_MJ_04");
+					end
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>品珍馐</Display>
+				<Tip></Tip>
+				<OKResult>
+				<![CDATA[
+				local MS = me:RandomInt(1,22)
+				local QQ = me:RandomInt(1,101)
+				if MS == 1 then 
+					me:AddMsg("[NAME]初尝了一口，大惊道：这是！！！\n[NAME]：[color=#238E23]居然能想到采用鸡、鸭、鹅三种家禽肉同时做主材料，而且还要同时保留三种肉的独特风味！真是了不起！[/color]\n[NAME]再尝了一口：[color=#238E23]应该是先切块焯水，焯掉血腥味，用特殊调味品腌制一段时间；随后起锅烧油，放入姜、蒜、辣椒等佐料爆香，再混入三种腌制好的鸡、鸭、鹅肉，翻炒，期间分三次加入上好的百花酿增香调味，然后炒至八成熟，加少量水，用文火收汁；想必这关键就是这腌制的过程了！[/color]\n[NAME]又吃了一口面，再说道：[color=#238E23]嗯，这面也不简单啊！想必是收汁期间，再起一锅，加入少量鸡肥膘，煎炸出油脂，加入各种秘制调味料，加少量水，文火熬至汤汁浓稠，装盘待用；另外又准备了煮熟的拉面过凉，待用；这不但考验厨师对火候的把控，还要把时间拿捏到半分不差，这样才能同时兼顾三个锅的烹制过程，稍有差池，定会导致最少有一锅菜品出错。这是何等的功力！[/color]\n[NAME]接着喝了一口汤汁，道：[color=#238E23]果然！！这汤汁的浇盖，犹如点睛之笔！！想必最后是将收汁好的鸡、鸭、鹅肉装盘，拼接成飞鹤之象，盘上一圈过凉的拉面，以示云雾，最后淋上那秘制汤汁；妙哉！妙哉！[/color]\n[color=#238E23]这汤汁搭配上这面条，让人既倍感温馨，又充满活力！汤汁中的鸡油的醇香混合着那秘制调料，不停的冲击我的味蕾，似乎我又回到了那田园小屋；而肉中百花酿的芬芳，充满着朝气，如接连不断的潮汐拍打我的胸膛！而这绵长不断的拉面，则蕴含着长寿之意。三清祝寿，果然名不虚传！！[/color]\n\n这道菜古往今来能做好的人少之又少！想必这乐坊之厨定非等闲之辈！\n\n[color=#007FFF]相传此菜肴是上古时期，三清祖师于庐山野炊之时，三祖师之间相互拼比厨艺，临时起兴所做之菜肴，后被其门下弟子所收录。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 2 then 
+					me:AddMsg("[NAME]初尝了一口，大惊道：这是！！！\n[NAME]：[color=#238E23]居然能想到采用鸡、鸭、鹅三种家禽肉同时做主材料，而且还要同时保留三种肉的独特风味！真是了不起！[/color]\n[NAME]再尝了一口：[color=#238E23]应该是先切块焯水，焯掉血腥味，用特殊调味品腌制一段时间；随后起锅烧油，放入姜、蒜、辣椒等佐料爆香，再混入三种腌制好的鸡、鸭、鹅肉，翻炒，期间分三次加入上好的百花酿增香调味，然后炒至八成熟，加少量水，用文火收汁；想必这关键就是这腌制的过程了！[/color]\n[NAME]又尝了一口酱汁，再说道：[color=#238E23]嗯，这酱汁也不简单啊！想必是收汁期间，再起一锅烧油，加入大量鸭血，不停翻炒，然后加入各种秘制调味料，加少量水，文火熬至酱汁浓稠，装盘待用；并将煮好的花生、红枣摆至盘中；这不但考验厨师对火候的把控，还要把时间拿捏到半分不差，这样才能同时兼顾两个锅的烹制过程，稍有差池，定会导致最少有一锅菜品出错。这是何等的功力！[/color]\n[NAME]接着吃了一点红枣花生，道：[color=#238E23]果然！！这红枣、花生的点缀更具韵味！！想必最后是将收汁好的鸡、鸭、鹅肉装盘，拼接成莲花之象，盘上一圈红枣花生，以示多子多福之意，最后淋上那秘制鸭血酱汁；妙哉！妙哉！[/color]\n[color=#238E23]这鸭血酱汁搭配上这肉块、红枣、同食，让人犹如回到家中，被子女环绕的天伦之乐当中！！酱汁中的鸭血的醇香混合着那秘制调料，不停的冲击我的味蕾；鸭血混杂着红枣的香甜，犹如妻女之怀抱，甜软温暖；肉块与花生同食，如脆骨横生，骨肉相连的情感不断的冲上头顶，送子嗣之福至脑海，想来是其寓意吧。三清送福，果然名不虚传！！[/color]\n\n这道菜古往今来能做好的人少之又少！想必这乐坊之厨定非等闲之辈！\n\n[color=#007FFF]相传此菜肴是上古时期，三清祖师于庐山野炊之时，三祖师之间相互拼比厨艺，临时起兴所做之菜肴，后被其门下弟子所收录。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 3 then 
+					me:AddMsg("[NAME]初尝了一口，大惊道：这是！！！\n[NAME]：[color=#238E23]居然能想到采用鸡、鸭、鹅三种家禽肉同时做主材料，而且还要同时保留三种肉的独特风味！真是了不起！[/color]\n[NAME]再尝了一口：[color=#238E23]应该是先切块焯水，焯掉血腥味，用特殊调味品腌制一段时间；随后起锅烧油，放入姜、蒜、辣椒等佐料爆香，再混入三种腌制好的鸡、鸭、鹅肉，翻炒，期间分三次加入上好的百花酿增香调味，然后炒至八成熟，加少量水，用文火收汁；想必这关键就是这腌制的过程了！[/color]\n[NAME]又吃了一口水饺，再说道：[color=#238E23]嗯，这水饺也不简单啊！想必是腌制期间，用鸡、鸭、鹅的剩余部位，加入各种秘制调味料搅拌均匀，包入饺子皮中，等肉块收汁期间，再将这特制水饺入锅水煮至熟，捞出待凉备用；这不但考验厨师对火候和时间的把控，还要将此过程做到完美无瑕，这样才能确保过程中任何一步都不会落下，这中间若稍有差池，定会导致最后的菜品失败。这是何等的功力！[/color]\n[NAME]接着尝了一口辣酱，道：[color=#238E23]果然！！这辣酱的浇盖，犹如点睛之笔！！想必最后是将收汁好的鸡、鸭、鹅肉装盘，拼接成元宝之象，围上一圈特制的水饺，以示小元宝之意，最后淋上那秘制辣酱；妙哉！妙哉！[/color]\n[color=#238E23]这辣酱搭配上这特制水饺，让人犹如身处于聚宝盆中，金光夺目！蘸有辣酱的饺子中，不停的散发出鹅肝的软糯馨香、鸡肠的韧性嚼劲、鸭胗的滑弹爽口，这三种风味不停的冲击我的味蕾；而自古以来水饺便被赋予了元宝之意，这三清抬禄，果然名不虚传！！[/color]\n\n这道菜古往今来能做好的人少之又少！想必这乐坊之厨定非等闲之辈！\n\n[color=#007FFF]相传此菜肴是上古时期，三清祖师于庐山野炊之时，三祖师之间相互拼比厨艺，临时起兴所做之菜肴，后被其门下弟子所收录。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 4 then 
+					me:AddMsg("满桌佳肴，唯独一盘菜品，红艳似火，令[NAME]忍不住走过去尝了一口：[color=#238E23]好！！酸甜可口，清爽开胃！[/color]\n[NAME]用箸取食：[color=#238E23]番茄之酸甜水润，再混以砂糖，拌至均匀，静置半柱香之久，便可食之！[/color]\n[NAME]忍不住又吃了一口：[color=#238E23]番茄切片，使砂糖能充分融入果肉之中，砂糖又将果肉中的汁水，排挤而出，美妙至极！[/color]\n[NAME]舀了一勺汤汁：[color=#238E23]甚甜！如无数霞光在口腔中绽放！[/color]\n[NAME]舔了一口嘴唇：[color=#238E23]此菜肴必是【糖拌番茄】了，只是这番茄应是特供，此地并不见如此品种，个大饱满圆润！好菜！好菜！[/color]\n\n[color=#007FFF]相传是南屏村某家农夫于某天做菜时，失误打翻白砂糖到装番茄片的盘子中，这才成就的菜肴，传至今天已做过大量创新改进。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 5 then 
+					me:AddMsg("满桌佳肴，唯独一盘菜品，翠绿似碧玉，令[NAME]忍不住走过去尝了一口：[color=#238E23]爽！！清脆可口，爽辣开胃！[/color]\n[NAME]用箸取食：[color=#238E23]黄瓜之脆爽，再混以辣椒、醋、酱油、盐等佐料拌至均匀，静置半柱香之久，便可食之！[/color]\n[NAME]忍不住又吃了一口：[color=#238E23]黄瓜拍碎，既不失黄瓜的鲜脆口感，又能充分吸收醋、盐等佐料的精华，而辣椒的辛辣，又为黄瓜赋予了更强的味觉冲击，如此有层次的美食冲撞，一个字——爽！！[/color]\n[NAME]舀了一勺汤汁：[color=#238E23]呼！酸爽！！辣椒、酱、醋等佐料与黄瓜的汁水充分融合，掩盖了醋的酸涩，提升了黄瓜的清新！！[/color]\n[NAME]舔了一口嘴唇：[color=#238E23]此菜肴必是【拍黄瓜】了，只是这黄瓜应是特供，此地并不见如此品种，个头偏长瘦，表面多凸起！！好菜！好菜！[/color]\n\n[color=#007FFF]相传是五华村某家瓜农于某天做菜时，失误将黄瓜拍碎了，便混以剁椒等配料，这便是拍黄瓜的由来了。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 6 then 
+					me:AddMsg("满桌佳肴，唯独一盘菜品，看似朴实无华，但芳香不断，令[NAME]忍不住走过去尝了一口：[color=#238E23]妙！！满口豆香，却满赋弹性！！[/color]\n[NAME]用箸取食：[color=#238E23]不似豆腐的软糯，也不似千张的棉弹，更不似腐乳的粘粘，难道是！！[/color]\n[NAME]忍不住又吃了一口：[color=#238E23]果然！传说中的腐竹！甚幸！甚幸！[/color]\n[NAME]又夹了一块：[color=#238E23]既保留了豆腐的醇香，又兼顾千张与腐乳的风味，调以酱汁、辣椒同食，鲜味更甚！！[/color]\n[NAME]舔了一口嘴唇：[color=#238E23]这道【凉拌腐竹】果然名不虚传，只是这腐竹应是特供，并非常见之腐竹，应是磨豆浆时还加了别的秘密材料！！好菜！好菜！[/color]\n\n[color=#007FFF]相传是芦墟村某家豆腐坊在做豆皮时，失误导致豆皮发霉了，便将发霉的豆皮洗净煮熟，混以辣椒等配料，这便是如今的菜肴了。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 7 then 
+					me:AddMsg("[NAME]惊呼：[color=#238E23]这是！！【佛跳墙】！！[/color]\n[NAME]揭开荷叶，立马香气扑鼻而来：[color=#238E23]据说是以鲍鱼、海参、鱼唇、牦牛皮胶、杏鲍菇、蹄筋、花菇、墨鱼、瑶柱、鹌鹑蛋等材料汇聚一坛，加入高汤以及百年陈，用文火煨制。[/color]\n[NAME]先尝了一口汤汁：[color=#238E23]鲜！！其汤浓色褐，厚而不腻，回味无穷。而这高汤之中集其主食材之精华，海鲜、河鲜、地鲜皆被无限叠加，鲜味之浓郁，世上罕有！而百年陈的酒香又如一道封印，不仅仅驱散掉食材和汤汁中的异邪之味，还将这些食材的鲜味完美的保留下来！此举真乃神人也！[/color]\n[NAME]连吃数口荤食：[color=#238E23]这荤食不仅没有互相影响，反而相互协调，味中有味，相互渗透，视为极品！其肉质软嫩柔润，浓郁荤香，混而不腻，肉烂而不散。这天下美味不及这一坛啊！[/color]\n\n[color=#007FFF]相传是一边海渔民，突然心血来潮，将各种海鲜、河鲜、地鲜等食材合炖而成，后经世人不断改进，这才成了今天的佳肴。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 8 then 
+					me:AddMsg("[NAME]：[color=#238E23]咦！今天的汤品貌似挺不错！这道菜我就没见过！[/color]\n[NAME]举箸而食：[color=#238E23]甚是奇妙呀！花香满腹，荤素相宜，猪骨荤而不腻，却能补荤腥之馋；而这花香，应当是合欢花和黄花菜的香味，合欢花用到此处，应当是做药膳之用，毕竟很少菜肴用到合欢花，黄花菜的用处应当是中和合欢花的苦涩了。[/color]\n[NAME]再舀了一勺，细品汤汁：[color=#238E23]这汤汁如涓涓细流，流过身体五脏六腑，又似悠扬琴曲，直达神识脑海；这药膳果然奇妙，喝一口，心情都好很多了，天下药膳估计能有此效果的，恐怕为数不多吧，只是不知这汤为何名呢？[/color]\n\n[color=#007FFF]相传此汤名为————合欢汤，本是一江湖游医，结合药膳之原理，熬制成汤羹，后被其他厨子改进，这便是如今的菜肴了。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 9 then 
+					me:AddMsg("[NAME]：[color=#238E23]天赐啊！这一宴，所用之鱼多达百种，而这主菜，更是久负盛名的龙门宴，今天可要好好尝一尝了！[/color]\n[NAME]夹起一块鱼肉，送入口中：[color=#238E23]鱼肉滑嫩鲜美，却又各有风味，有鲟鱼的鲜、鲫鱼的嫩、鲶鱼的糯等等，虽然看似一锅乱炖，但是却各有滋味，互不干扰，奇妙！奇妙！[/color]\n[NAME]不敢停顿，又喝上一口汤汁：[color=#238E23]好！汤汁居然用菌汤做底，却又同时用花椒、干椒、姜片、蒜段等材料干煸爆香提味，初尝，菌汤味浓且鲜香，复尝，麻爽且辛辣，乃味中之味，而汤中还有鱼籽、鱼鳔等做爽口之肴，如锦上添花，味之更甚！[/color]\n[NAME]一瞥，周有酱汁数碟，无一重复：[color=#238E23]蒜汁碟，与鱼肉鲜汤向来是相辅相成，风味独具；酱醋碟，咸酸之味入鱼肉，更能去鱼中腥味，是为上品；辣油碟，内含小米辣、红油、葱花、香菜沫等调料，此等香辣，犹如江南风味，回味无穷！[/color]\n[NAME]将鱼片蘸酱，一一食之：[color=#238E23]恐今日之后，再无此等美味，今天一定要敞开肚皮吃了！[/color]\n\n[color=#007FFF]相传是一道士，因钓太多鱼，不方便保存，便一锅炖之，借鱼跃龙门之意，取名为龙门宴。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 10 then 
+					me:AddMsg("[NAME]：[color=#238E23]过年了？居然有饺子吃！[/color]\n[NAME]：[color=#238E23]这次不错啊，猪肉香菜馅、韭菜鸡蛋馅、驴肉大葱馅。。。[/color]\n[NAME]：[color=#238E23]不行，一口气说不完这么多种饺子，今天不光是饺子种类多，其中这馅也是极其讲究的；肉取其精瘦之部位，取其膘做成肉冻，混入芝麻酱、胡椒粉、蒜末、姜末、盐、酱油等裹入馅中；而混搭的素菜部分，也是用当地最新鲜的蔬菜，相辅相成，荤素搭配，浑然天成。[/color]\n[NAME]：[color=#238E23]天下之传统，但遇喜庆之际，必煮水饺，聚众而食，是为同乐耳！[/color]\n\n[color=#007FFF]据说年代太久远，已不知是何人所创，老人们都传说是女娲娘娘传授的，也不知是真是假。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 11 then 
+					me:AddMsg("[NAME]问擀面之人：[color=#238E23]需要帮忙吗？我擀面也还拿手。[/color]\n[NAME]一边擀面，一边惊叹：[color=#238E23]这面不错啊，面粉用特供的细磨面粉，其中还混有老面做酵母，增加其韧性，揉面中还不停的混入香油以增加其独特风味；面要擀成长条状，再稍微拉长，拉匀，最后入锅水煮。[/color]\n[NAME]下完面，又做了一个碗底：[color=#238E23]碗底一般常用，少许猪油、酱油、盐、香葱末、香菜末等常用调料，最后盖上少量醇香大骨汤，此时将煮熟的面条捞出，捞至碗中，滴少许芝麻油，盖上自己喜欢的菜码，这变成了。[/color]\n[NAME]：[color=#238E23]香！真香！等下再来一碗才好！[/color]\n\n[color=#007FFF]据说年代太久远，已不知是何人所创，老人们都传说是女娲娘娘传授的，也不知是真是假。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 12 then 
+					me:AddMsg("[NAME]：[color=#238E23]嘿！大米饭，既简单又困难，饭要粒粒酥软还要透着香。。。[/color]\n[NAME]唱罢，又屁颠屁颠的装了一碗大米饭：[color=#238E23]这普天之下，大米饭应该是最常用做主食的了！自古中原于江岸沃野多产大米，而今这碗大米饭，还真有点不一样，似乎有鸡肉的香味，应当是用了鸡汤做煮饭的汤水，而鸡汤中的鸡油，又能封锁住米饭的香味，鸡汤融入到米饭中，也增添了独特的风味，这创意还真是独具一格！[/color]\n[NAME]一边就着其他菜肴，一边吃着大米饭：[color=#238E23]难得啊！居然还用了豌豆、肉沫、玉米粒、胡萝卜丁等其他食材做底，盛饭时居然没发现，估计是用了纱布隔开，这也算是用了什锦闷饭的技巧，增添了米饭的风味，无疑是锦上添花了，如此好的米饭，今天我一定要吃个够本了！[/color]\n\n[color=#007FFF]据说年代太久远，已不知是何人所创，老人们都传说是女娲娘娘传授的，也不知是真是假。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 13 then 
+					me:AddMsg("[NAME]：[color=#238E23]哟！不错哦，有名的生煎包子，一口一个，爽！[/color]\n[NAME]咬开生煎一个小口，汤汁四溢：[color=#238E23]Double sauce ！完美，双倍的皮冻和馅料，从所未有的体验！肉馅用了上等驴肉，还有猪肉沫混合，常言道：天上龙肉，地上驴肉！今日之小吃，虽不及那饕餮盛宴，但比之山珍海味还是更具风味！[/color]\n[NAME]又让伙计上了一份小吃：[color=#238E23]生煎最让人难忘的，便是那第一口，一嘴下去，满嘴汤汁，汤汁的浓香热烈的充斥着口腔，再一口吞下腹中，让这汤汁在身体深处，与每个器官尽情缠绵。。。[/color]\n\n[color=#007FFF]据说是九华村的早点铺创新的一项菜肴，最初的原型是油炸肉包子。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 14 then 
+					me:AddMsg("[NAME]小心的吹着碗里的佳肴：[color=#238E23]呼，甜酒的香甜，糯米汤圆的粘软，还有枸杞做点缀，相当喜人的甜品了。[/color]\n[NAME]咬下一口汤圆：[color=#238E23]嗯！豆沙馅儿的汤圆，传说汤圆的做法也是出自女娲之手，随不论其真假，光这粘软绵甜的糯米搓成丸状，并且还要将各种馅儿揉入其中，这创意，当世都不曾有人超越了。[/color]\n[NAME]又喝了一口甜酒汤汁：[color=#238E23]真甜！米酒之香，令人回味；甘甜之味，萦绕唇齿，久久不能散去；偶尔几粒枸杞，酥软的口感，再度拉回这甜酒中，方才明白这不仅仅有酒的香味，还有借鉴药酒的原理，想必也能达到食药同补的养生之法，妙哉！妙哉！[/color]\n\n[color=#007FFF]据说是芦墟村一位卖酒的老头，自己研究酿酒时，发现糯米发酵而成的粥状物，在煮熟之后拌入糖，会相当美味，后传承至今。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 15 then 
+					me:AddMsg("[NAME]兴匆匆的对伙计喊道：[color=#238E23]再来一碗！[/color]\n[NAME]：[color=#238E23]还是童年的味道，小时候，就是吃着这红糖冰粉长大的，真令人难忘啊！[/color]\n[NAME]不停的搅拌着红糖和冰粉：[color=#238E23]冰粉的来源据说是来自异域，是一种白色的粉末，加入水中，烧开，不停的搅拌，然后静置一段时间，便能自行凝固，成为一种膏状的透明物质，甚是神奇。[/color]\n[NAME]尝了一口冰粉：[color=#238E23]冰爽！要是夏天吃，更是爽快；而且这冰粉里面除了主要的红糖，还可以加很多别的食材，乐坊这里加的是，山楂碎、葡萄干、芝麻、花生碎、薄荷叶等等；算是比较常规的搭配了。[/color]\n[NAME]端起碗，大喝了一口：[color=#238E23]爽！伙计！再来一碗！[/color]\n\n[color=#007FFF]据说是丰城的一位官员，从异域带回来的一种叫冰粉的食材，偶然做成冻状，拌入各种食材得到的一种美味，后传承至今。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 16 then 
+					me:AddMsg("[NAME]：[color=#238E23]天哪，今天居然有幸吃上这个点心，难得啊！[/color]\n[NAME]抓起一块稣，就开始吃了起来：[color=#238E23]哇嗯，哇嗯~这个点心，叫做龙须酥，因为其状如发须般纤细，粘有麦粉绕成一团，其形又犹如酥糖般方正，故称龙须酥。[/color]\n[NAME]掰开龙须酥：[color=#238E23]这酥本是麦芽糖，但是经过点心师的反复拉扯，犹如拉面般，不停的均匀拉扯至细丝状，这等工序就十分费力气，据说一盆十斤的麦芽糖，要全部做出龙须酥，需四五人轮流工作五天之久，而这十斤麦芽糖，却能做出百来份龙须酥，才刚够卖一天，真是不容易。[/color]\n[NAME]吃上一口酥：[color=#238E23]丝丝润滑，入口即化，甜软不粘牙，真是点心中难得的佳品！[/color]\n\n[color=#007FFF]据说是丰城的一位妇人，在无聊时不停的拉扯麦芽糖时，偶然而成，因为像胡须一样，取名为龙须酥。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 17 then 
+					me:AddMsg("[NAME]闻到一股清香：[color=#238E23]嗯，还没上桌，便能闻到这股桂花的清香，看来今天吃的是桂花糕了。[/color]\n[NAME]看着端上桌的点心：[color=#238E23]果然不出我所料，中原著名点心之一，桂花糕；因其食材中，加入了桂花这等材料，因此才有桂花的独特香味；常言：十里飘香寻桂花，街巷走遍知此糕。[/color]\n[NAME]塞下一块桂花糕：[color=#238E23]酥脆香甜，满身桂花香；每一口，都让我走进那桂花飘香的金秋时节，仿佛身处一片桂花林中，久久不能自拔，天下百花，都不及此时之美感！[/color]\n[NAME]依旧没忘记，让伙计再来一份：[color=#238E23]伙计，这里再来一份！[/color]\n\n[color=#007FFF]据说是丰城的一位妇人，在揉面团时，无意中混入桂花，而提供的灵感，因此取名为桂花糕。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 18 then 
+					me:AddMsg("[NAME]手拿南瓜饼，正吃得香：[color=#238E23]南瓜南瓜，田中硕大，今我食之，香馥满牙。。。[/color]\n[NAME]唱完儿歌，又拿起一块南瓜饼：[color=#238E23]想当年，没饭吃，老一辈的人们，只能用各种食材做饼，这南瓜饼便流传了下来。[/color]\n[NAME]沉浸在回忆中：[color=#238E23]小时候，一边等着吃南瓜饼，一边看父辈们边烤饼边给我们唱儿歌，真是怀念啊；每吃一口，犹如又回到那古老的岁月了，南瓜甜软，饼却能烤出更为酥脆的外壳，外面酥脆，里面软糯，这也算是小时候的人间美味了！[/color]\n\n[color=#007FFF]据说是九华村的一位瓜农，因家中无米面可用，只能用南瓜做煎饼，后被其子女传承至今。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 19 then 
+					me:AddMsg("[NAME]舔了一口嘴唇：[color=#238E23]银耳莲子羹，清热降火，甘甜可口，夏季少有的清甜饮品。[/color]\n[NAME]呲溜呲溜的又喝了一口：[color=#238E23]莲子是采自最新鲜的莲子，去掉莲子心，没有了那种苦涩口感，只有莲子的酥软；银耳用的干制银耳，用山泉水泡发好，再熬制出汤汁，加入糖，与莲子同煮；嗯，口水又留下来了。[/color]\n[NAME]再喝一口：[color=#238E23]枸杞、红枣既有养生之法，又能重复调和此羹中莲子和银耳的生涩气味，是为不错的改动，即打破了传统的饮品思路，又是将羹汤用作饮品的一大创举。[/color]\n[NAME]连连招呼伙计：[color=#238E23]再加点汤汁吧，真好喝！[/color]\n\n[color=#007FFF]据说是五华村的一位农民，因其妻爱食甜食，因此将莲子混入银耳做成甜羹，这便是如今的菜肴了。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 20 then 
+					me:AddMsg("[NAME]招来伙计：[color=#238E23]我要续杯！[/color]\n[NAME]不停的舔着杯口：[color=#238E23]能用西瓜榨汁，这比平时半瓤西瓜，自己舀汁方便多了，当时想到这个的人，还真他娘的是个人才！[/color]\n[NAME]又喝上了第二杯：[color=#238E23]伙计，你们这要是再加上冰块在这西瓜汁里面，你说会不会更加清凉？[/color]\n[NAME]打趣的给伙计说完，而第二杯已经喝完一半了：[color=#238E23]不是我说，这西瓜既然能榨汁，那为啥不把哈密瓜，草莓，葡萄，橘子什么的都榨汁？我想未来这饮品应该会风靡全天下吧，这可真是太好喝了，又甜，又方便！[/color]\n\n[color=#007FFF]据说是南屏村的一位瓜农，实在是受不住酷暑之炎热，便把西瓜瓤压榨成汁，这一做法风靡至今。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				elseif MS == 21 then 
+					me:AddMsg("[NAME]大呼：[color=#238E23]伙计！你今天这菜是真的辣，帮我上壶酸梅汤吧，那个是真的解辛辣！[/color]\n[NAME]等到酸梅汤上桌，便一口闷了起来：[color=#238E23]爽！真解辣！谁能想到当年的酸梅汤是茶馆开发出来的，哈哈哈哈。。。[/color]\n[NAME]又喝上一小口：[color=#238E23]有乌梅，有山楂，此为酸；有甘草，有冰糖，此为甜；酸甜相辅相成，令人垂涎不止，古有望梅止渴，今有酸梅汤止辣，真是巧！[/color]\n[NAME]一边吃菜，一边喝酸梅汤：[color=#238E23]此名为汤，实为茶饮，乃凉茶的一种，不但是解渴的佳饮，还是具有养生妙用的茶水，古人之智慧，岂是吾辈能及！妙！妙不可言！[/color]\n\n[color=#007FFF]据说是南屏村的一间茶铺，其幼子学父煮茶，将山楂、乌梅等自己爱吃的甜品加入其中，熬成的汤水，这便是最早的酸梅汤了。[/color]");
+					me:AddModifier("XXZS_MS_01");
+					me:AddModifier("XXZS_MS_02");
+					if QQ > 49 then 
+						me:AddModifier("XXZS_MS_03");
+					else
+						me:AddModifier("XXZS_MS_04");
+					end
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回乐坊大院</Display>
+				<Tip></Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_04_A")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

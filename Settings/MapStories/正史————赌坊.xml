@@ -1,0 +1,2056 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_D_03_A"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]走进赌场，第一眼便看准了骰子区的热闹，再三掂量了下自己的声望之后，[NAME]便径直走向了骰子区。</Desc>
+		<Selections>
+			<li>
+				<Display>100声望押大</Display>
+				<Tip>11点到17点为大</Tip>
+				<OKResult>
+				<![CDATA[
+				local SZT = { 
+					string.format("[img]Spr/Object/sz/sz_1.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_2.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_3.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_4.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_5.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_6.png[/img]"),
+				}
+				local ds1 = math.random(1,6)
+				local ds2 = math.random(1,6)
+				local ds3 = math.random(1,6)
+				local zds = ds1 + ds2 + ds3
+				if ds1 == ds2 and ds2 == ds3 then
+					me:AddMsg("买大押大！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 豹子！[/size]\n[NAME]输了，损失了[color=#007FFF]100[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+				elseif zds >= 11 and zds <= 17 then
+					me:AddMsg("买大押大！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 大！[/size]\n[NAME]赢了，赚取了[color=#007FFF]100[/color]点声望。\n[NAME]心满意足的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 100;
+				else
+					me:AddMsg("买大押大！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 小！[/size]\n[NAME]输了，损失了[color=#007FFF]100[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>100声望押小</Display>
+				<Tip>4点到10点为小</Tip>
+				<OKResult>
+				<![CDATA[
+				local SZT = { 
+					string.format("[img]Spr/Object/sz/sz_1.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_2.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_3.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_4.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_5.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_6.png[/img]"),
+				}
+				local ds1 = math.random(1,6)
+				local ds2 = math.random(1,6)
+				local ds3 = math.random(1,6)
+				local zds = ds1 + ds2 + ds3
+				if ds1 == ds2 and ds2 == ds3 then
+					me:AddMsg("买小押小！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 豹子！[/size]\n[NAME]输了，损失了[color=#007FFF]100[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+				elseif zds >= 11 and zds <= 17 then
+					me:AddMsg("买小押小！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 大！[/size]\n[NAME]输了，损失了[color=#007FFF]100[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+				else
+					me:AddMsg("买小押小！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 小！[/size]\n[NAME]赢了，赚取了[color=#007FFF]100[/color]点声望。\n[NAME]心满意足的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 100;
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>前往二楼的骰子区</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 5000
+				]]>
+				</Condition>
+				<Tip>高倍率</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一看[NAME]的身形气质，就感觉此人必非凡夫俗子，迎着[NAME]就笑吟吟的陪着上了二楼，想必是想在[NAME]身上大赚一笔了。");
+				me:TriggerStory("XXZS_CS_D_03_A_A")
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一把拦住[NAME]，怒斥道：“走开走开，哪里来的无名散修，这上面是非富即贵才能去的，乖乖的呆在一楼玩去！！否则我们不客气了！！”\n[NAME]只能败兴而返，怪只能怪自己宗门太贫寒，没声望支持自己去到楼上玩了。。。");
+				me:TriggerStory("XXZS_CS_D_03_A");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开骰子区</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_03")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_A_A"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]凭借着强横的声望实力，轻松进入了二楼，并且还受到赌坊老板的关注，居然亲自陪同着[NAME]在二楼骰子区做引导。</Desc>
+		<Selections>
+			<li>
+				<Display>5000声望押大</Display>
+				<Tip>11点到17点为大</Tip>
+				<OKResult>
+				<![CDATA[
+				local SZT = { 
+					string.format("[img]Spr/Object/sz/sz_1.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_2.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_3.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_4.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_5.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_6.png[/img]"),
+				}
+				local ds1 = math.random(1,6)
+				local ds2 = math.random(1,6)
+				local ds3 = math.random(1,6)
+				local zds = ds1 + ds2 + ds3
+				if ds1 == ds2 and ds2 == ds3 then
+					me:AddMsg("买大押大！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 豹子！[/size]\n[NAME]输了，损失了[color=#007FFF]5000[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				elseif zds >= 11 and zds <= 17 then
+					me:AddMsg("买大押大！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 大！[/size]\n[NAME]赢了，赚取了[color=#007FFF]5000[/color]点声望。\n[NAME]心满意足的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 5000;
+				else
+					me:AddMsg("买大押大！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 小！[/size]\n[NAME]输了，损失了[color=#007FFF]5000[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>5000声望押小</Display>
+				<Tip>4点到10点为小</Tip>
+				<OKResult>
+				<![CDATA[
+				local SZT = { 
+					string.format("[img]Spr/Object/sz/sz_1.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_2.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_3.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_4.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_5.png[/img]"),
+					string.format("[img]Spr/Object/sz/sz_6.png[/img]"),
+				}
+				local ds1 = math.random(1,6)
+				local ds2 = math.random(1,6)
+				local ds3 = math.random(1,6)
+				local zds = ds1 + ds2 + ds3
+				if ds1 == ds2 and ds2 == ds3 then
+					me:AddMsg("买小押小！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 豹子！[/size]\n[NAME]输了，损失了[color=#007FFF]5000[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				elseif zds >= 11 and zds <= 17 then
+					me:AddMsg("买小押小！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 大！[/size]\n[NAME]输了，损失了[color=#007FFF]5000[/color]点声望。\n[NAME]垂头丧气的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 5000;
+				else
+					me:AddMsg("买小押小！买定离手！开！\n骰子数————"..SZT[ds1].."     "..SZT[ds2].."     "..SZT[ds3].."[size=35] 小！[/size]\n[NAME]赢了，赚取了[color=#007FFF]5000[/color]点声望。\n[NAME]心满意足的走出了赌坊。。。");
+					me:TriggerStory("XXZS_CS_D_03");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 5000;
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回一楼骰子区</Display>
+				<Tip>返回赌坊一楼</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_03_A")
+				me:AddMsg("[NAME]看了下二楼的金主们，一掷千金的疯狂之举，瞬间有些胆怯，还是去一楼玩吧\n赌场老板鄙夷的随意招呼了下，就让手下人送[NAME]去了一楼。。。");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开骰子区</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D")
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Story Name="XXZS_CS_D_03_B"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]走进赌场，第一眼便看准了玉牌区的热闹，再三掂量了下自己的声望之后，[NAME]便径直走向了玉牌区。</Desc>
+		<Selections>
+			<li>
+				<Display>规则说明</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("1、牌堆中玉牌为0~9共10种牌；\n其中1~9为1~9点，0既可以算1点，也可以算10点；\n2、玩家在博弈过程中，必须尽可能的让手中的牌大于庄家的牌，方能获胜；\n其中开局时庄家拿三张玉牌，一张明牌，两张暗牌；\n玩家最开始拿两张牌，皆为明牌；\n3、在玩家确定手中点数后，可以选择拿牌，或者开牌；\n但是如果玩家手中的牌的点数之和超过19点，将视为爆掉，直接判输；\n4、如果玩家手中的牌与庄家的牌的点数之和相同，那么同点数下庄家为大，判庄家赢。\n5、任意牌型都可以无限次重复获取，但是庄家在开局后将不再拿牌。");
+				me:TriggerStory("XXZS_CS_D_03_B");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>赔率说明</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("1、开始发牌时，玩家保底投入100声望，称为底番；\n当玩家每多拿一张牌，底番便翻倍，即100声望翻倍成200声望，并以此类推；\n2、只要玩家的明牌点数之和不超过19点，皆可以拿牌；\n3、玩家最大拿牌上限次数为7次，最高奖励为100乘2的7次方，即12800声望；\n获胜则赢取等价声望，失败则损失等价声望。\n4、庄家不拿牌，因此只要策略得当，拿牌越多赢得的声望越多。");
+				me:TriggerStory("XXZS_CS_D_03_B");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>开始发牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = math.random(0,9)
+				local ZJ02 = math.random(0,9)
+				local ZJ03 = math.random(0,9)
+				local WJ01 = math.random(0,9)
+				local WJ02 = math.random(0,9)
+				local WJ03 = math.random(0,9)
+				local WJ04 = math.random(0,9)
+				local WJ05 = math.random(0,9)
+				local WJ06 = math.random(0,9)
+				local WJ07 = math.random(0,9)
+				local WJ08 = math.random(0,9)
+				local WJ09 = math.random(0,9)
+				world:SetWorldFlag(7770,ZJ01)
+				
+				world:SetWorldFlag(771,WJ01)
+				world:SetWorldFlag(772,WJ02)
+				world:SetWorldFlag(773,WJ03)
+				world:SetWorldFlag(774,WJ04)
+				world:SetWorldFlag(775,WJ05)
+				world:SetWorldFlag(776,WJ06)
+				world:SetWorldFlag(777,WJ07)
+				world:SetWorldFlag(778,WJ08)
+				world:SetWorldFlag(779,WJ09)
+				
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				
+				if WJ < 3 then 
+					if ZJ01 == 1 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 2 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 3 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 4 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 5 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 6 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 7 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 8 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 9 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(1,8)
+					elseif ZJ01 == 0 then 
+						ZJ02 = 9
+						ZJ03 = 9
+					end
+				elseif WJ < 11 then 
+					if ZJ01 == 1 then 
+						ZJ02 = math.random(1,8)
+						ZJ03 = 0
+					elseif ZJ01 == 2 then 
+						ZJ02 = math.random(1,7)
+						ZJ03 = 0
+					elseif ZJ01 == 3 then 
+						ZJ02 = math.random(1,6)
+						ZJ03 = 0
+					elseif ZJ01 == 4 then 
+						ZJ02 = math.random(1,5)
+						ZJ03 = 0
+					elseif ZJ01 == 5 then 
+						ZJ02 = math.random(1,4)
+						ZJ03 = 0
+					elseif ZJ01 == 6 then 
+						ZJ02 = math.random(1,3)
+						ZJ03 = 0
+					elseif ZJ01 == 7 then 
+						ZJ02 = math.random(1,2)
+						ZJ03 = 0
+					elseif ZJ01 == 8 then 
+						ZJ02 = 1
+						ZJ03 = 0
+					elseif ZJ01 == 9 then 
+						ZJ02 = 9
+						ZJ03 = 0
+					elseif ZJ01 == 0 then 
+						ZJ02 = 9
+						ZJ03 = 9
+					end
+				elseif WJ < 19 then 
+					if ZJ01 == 1 then 
+						ZJ02 = math.random(8,9)
+						ZJ03 = math.random(8,9)
+					elseif ZJ01 == 2 then 
+						ZJ02 = math.random(7,8)
+						ZJ03 = math.random(7,8)
+					elseif ZJ01 == 3 then 
+						ZJ02 = math.random(6,7)
+						ZJ03 = math.random(6,7)
+					elseif ZJ01 == 4 then 
+						ZJ02 = math.random(5,6)
+						ZJ03 = math.random(5,6)
+					elseif ZJ01 == 5 then 
+						ZJ02 = math.random(4,5)
+						ZJ03 = math.random(4,5)
+					elseif ZJ01 == 6 then 
+						ZJ02 = math.random(3,4)
+						ZJ03 = math.random(3,4)
+					elseif ZJ01 == 7 then 
+						ZJ02 = math.random(2,3)
+						ZJ03 = math.random(2,3)
+					elseif ZJ01 == 8 then 
+						ZJ02 = math.random(1,2)
+						ZJ03 = math.random(1,2)
+					elseif ZJ01 == 9 then 
+						ZJ02 = math.random(0,9)
+						ZJ03 = math.random(0,9)
+					elseif ZJ01 == 0 then 
+						ZJ02 = 9
+						ZJ03 = 9
+					end
+				elseif WJ == 19 then 
+					if ZJ01 == 1 then 
+						ZJ02 = 0
+						ZJ03 = 8
+					elseif ZJ01 == 2 then 
+						ZJ02 = 0
+						ZJ03 = 7
+					elseif ZJ01 == 3 then 
+						ZJ02 = 0
+						ZJ03 = 6
+					elseif ZJ01 == 4 then 
+						ZJ02 = 0
+						ZJ03 = 5
+					elseif ZJ01 == 5 then 
+						ZJ02 = 0
+						ZJ03 = 4
+					elseif ZJ01 == 6 then 
+						ZJ02 = 0
+						ZJ03 = 3
+					elseif ZJ01 == 7 then 
+						ZJ02 = 0
+						ZJ03 = 2
+					elseif ZJ01 == 8 then 
+						ZJ02 = 0
+						ZJ03 = 1
+					elseif ZJ01 == 9 then 
+						ZJ02 = 0
+						ZJ03 = 9
+					elseif ZJ01 == 0 then 
+						ZJ02 = 9
+						ZJ03 = 9
+					end
+				end
+				
+				world:SetWorldFlag(7771,ZJ02)
+				world:SetWorldFlag(7772,ZJ03)
+				
+				local ZJList = {};
+				table.insert(ZJList,ZJ01);
+				table.insert(ZJList,ZJ02);
+				table.insert(ZJList,ZJ03);
+				
+				local ZJ = 0;
+				for k,v in pairs(ZJList) do
+					ZJ = ZJ + v;
+					if v == 0 then
+						ZJ = ZJ + 1;
+					end
+				end
+				if ZJ < 11 then
+					for k,v in pairs(ZJList) do
+						if v == 0 then
+							ZJ = ZJ + 9;
+							break;
+						end
+					end
+				end
+				
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				world:SetWorldFlag(77771,ZJ)
+				
+				if ZJ <= 19 then 
+					if WJ <= 19 then 
+						me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."  ");
+						me:TriggerStory("XXZS_CS_D_03_B_1");
+					else
+						me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]100[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+						SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+						me:TriggerStory("XXZS_CS_D_03");
+					end
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和超过了19点，爆掉了！！[NAME]赢取了[color=#007FFF]100[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 100;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开玉牌区</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_03");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_1"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 200
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_2");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]200[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 200;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]100[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]100[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]100[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 100;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_2"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 400
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_3");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]400[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 400;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]200[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 200;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]200[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 200;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]200[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 200;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_3"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 800
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_4");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]800[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 800;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]400[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 400;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]400[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 400;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]400[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 400;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_4"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 1600
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_5");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]1600[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1600;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]800[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 800;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]800[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 800;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]800[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 800;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_5"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 3200
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				table.insert(WJList,WJ07);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_6");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]3200[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3200;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]1600[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1600;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]1600[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1600;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]1600[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 1600;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_6"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 6400
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				table.insert(WJList,WJ07);
+				table.insert(WJList,WJ08);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_7");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]6400[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6400;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				table.insert(WJList,WJ07);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]3200[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3200;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]3200[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3200;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]3200[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 3200;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_7"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]是选择继续拿牌还是选择开牌呢？</Desc>
+		<Selections>
+			<li>
+				<Display>拿牌</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 12800
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				table.insert(WJList,WJ07);
+				table.insert(WJList,WJ08);
+				table.insert(WJList,WJ09);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if WJ <= 19 then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."        [color=#BC1717]暗牌[/color]        [color=#BC1717]暗牌[/color]\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."        "..D[WJ09].."  ");
+					me:TriggerStory("XXZS_CS_D_03_B_8");
+				else
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."        "..D[WJ09].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n[NAME]的玉牌点数之和超过了19点，爆掉了！！输掉了[color=#007FFF]12800[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 12800;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一只手把[NAME]从赌桌上提了起来，怒斥道：“没声望也敢拿牌，你小子怕不是吃了豹子胆！！伙计们给我揍他丫的，告诉他什么叫他妈的拿牌！！告诉他什么叫他妈的拿牌！！”/n伙计喊道：“没声望就不能拿牌，拿牌就翻倍声望！！老板这就叫他妈的拿牌！！”/n老板一脚踩在[NAME]的脸上，喝到：“听明白什么叫拿牌了吗！！滚！！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				table.insert(WJList,WJ07);
+				table.insert(WJList,WJ08);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]6400[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6400;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]6400[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 6400;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]6400[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 6400;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_B_8"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]已经拿了7次牌了，只能开牌了。</Desc>
+		<Selections>
+			<li>
+				<Display>开牌</Display>
+				<OKResult>
+				<![CDATA[
+				local D = { 
+					[0] = string.format("[img]Spr/Object/21D/0.png[/img]"),
+					[1] = string.format("[img]Spr/Object/21D/1.png[/img]"),
+					[2] = string.format("[img]Spr/Object/21D/2.png[/img]"),
+					[3] = string.format("[img]Spr/Object/21D/3.png[/img]"),
+					[4] = string.format("[img]Spr/Object/21D/4.png[/img]"),
+					[5] = string.format("[img]Spr/Object/21D/5.png[/img]"),
+					[6] = string.format("[img]Spr/Object/21D/6.png[/img]"),
+					[7] = string.format("[img]Spr/Object/21D/7.png[/img]"),
+					[8] = string.format("[img]Spr/Object/21D/8.png[/img]"),
+					[9] = string.format("[img]Spr/Object/21D/9.png[/img]"),
+					[10] = string.format("[img]Spr/Object/21D/1.png[/img][img]Spr/Object/21D/0.png[/img]"),
+				}
+				local ZJ01 = world:GetWorldFlag(7770)
+				local ZJ02 = world:GetWorldFlag(7771)
+				local ZJ03 = world:GetWorldFlag(7772)
+				local WJ01 = world:GetWorldFlag(771)
+				local WJ02 = world:GetWorldFlag(772)
+				local WJ03 = world:GetWorldFlag(773)
+				local WJ04 = world:GetWorldFlag(774)
+				local WJ05 = world:GetWorldFlag(775)
+				local WJ06 = world:GetWorldFlag(776)
+				local WJ07 = world:GetWorldFlag(777)
+				local WJ08 = world:GetWorldFlag(778)
+				local WJ09 = world:GetWorldFlag(779)
+				local ZJ = world:GetWorldFlag(77771)
+				local WJList = {};
+				table.insert(WJList,WJ01);
+				table.insert(WJList,WJ02);
+				table.insert(WJList,WJ03);
+				table.insert(WJList,WJ04);
+				table.insert(WJList,WJ05);
+				table.insert(WJList,WJ06);
+				table.insert(WJList,WJ07);
+				table.insert(WJList,WJ08);
+				table.insert(WJList,WJ09);
+				local WJ = 0;
+				for k,v in pairs(WJList) do
+					WJ = WJ + v;
+					if v == 0 then
+						WJ = WJ + 1;
+					end
+				end
+				if WJ < 11 then
+					for k,v in pairs(WJList) do
+						if v == 0 then
+							WJ = WJ + 9;
+							break;
+						end
+					end
+				end
+				msg = "玩家点数：" .. WJ;
+				for k,v in pairs(WJList) do
+					msg = msg .. ", " .. v;
+				end
+				print(msg);
+				print("------------------------------------");
+				
+				if ZJ == WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."        "..D[WJ09].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和与[NAME]一致，但是庄家为大，因此[NAME]输了！！输掉了[color=#007FFF]12800[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 12800;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif ZJ > WJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."        "..D[WJ09].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和大于[NAME]的点数之和，因此[NAME]输了！！输掉了[color=#007FFF]12800[/color]点声望，[IT]黯然神伤地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 12800;
+					me:TriggerStory("XXZS_CS_D_03");
+				elseif WJ > ZJ then 
+					me:AddMsg("庄家明牌："..D[ZJ01].."\n玩家明牌："..D[WJ01].."        "..D[WJ02].."        "..D[WJ03].."        "..D[WJ04].."        "..D[WJ05].."        "..D[WJ06].."        "..D[WJ07].."        "..D[WJ08].."        "..D[WJ09].."\n庄家的底牌是："..D[ZJ02].."        "..D[ZJ03].."\n庄家的玉牌点数之和小于[NAME]的点数之和，因此[NAME]赢了！！赢取了[color=#007FFF]12800[/color]点声望，[IT]兴高采烈地离开了赌坊。。。");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 12800;
+					me:TriggerStory("XXZS_CS_D_03");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	<Story Name="XXZS_CS_D_03_C"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]走进赌场，第一眼便看准了天命区的热闹，再三掂量了下自己的声望之后，[NAME]便径直走向了天命区。</Desc>
+		<Selections>
+			<li>
+				<Display>规则说明</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("1、玩家与庄家分别轮流承受总共九轮天雷，玩家先手；\n2、承受天雷失败便意味着死亡，并且失去最开始的1000声望，而相反的成功方则能活着离开，并且带走对方的所有声望；\n3、起底为1000声望，玩家每通过一轮便将此翻十倍，最高为1000乘10的五次方，庄家轮不翻倍；\n4、每当玩家轮通过，来到庄家轮时，玩家可以选择中途放弃，但是只能拿走当前声望的二十分之一；\n即逢2、4、6、8轮时，只能带走500、5000、50000、500000的声望；\n5、庄家承雷失败时，玩家可以带走当前场上全部声望；\n6、第一轮失败几率最小，越往后，失败几率越大，第九轮的失败几率为99.99%，若非天命之子，绝无人能从第九轮天雷之下完美脱身；\n7、每轮都会受到一次天雷伤害，但不会致死。");
+				me:TriggerStory("XXZS_CS_D_03_C");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(1) > 1000
+				]]>
+				</Condition>
+				<Tip>第一轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				local TM = me:RandomInt(1, 10001);
+				local CF = me:RandomInt(1, 10000);
+				if TM <= 500 or TM >= 9500 then 
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n看来这便是[NAME]的天命了。。。但愿来世[NAME]能重新做人，不再嗜赌如命吧。。。\n随着[NAME]的死亡，赌坊老板一边迈着小步悠悠然地迈向后院，一边大笑着炫耀道：“今天你是第[color=#007FFF]"..CF.."[/color]个死在我的天命之轮下的倒霉赌鬼了~~~哈哈哈哈哈哈！！！”。。。\n现场只留下一边咧着嘴笑，一边忙着收钱的伙计，以及一群唏嘘不已的围观赌鬼。。。\n谁又知道他们其中的某一位，会不会是那悲惨的下一个呢。。。");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自天命之雷");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				else
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n当前声望：[color=#007FFF]1000[/color]点\n剩余天命轮：[color=#BC1717]八[/color]");
+					me:AddDamageRandomPart(5,"XXZS_SH_02",1,"天命之雷");
+					me:TriggerStory("XXZS_CS_D_03_C_1");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一脚把[NAME]从天命轮前踢了出来，大声骂道：“没声望你小子凑什么热闹，给老子滚一边去！！今天就留你条烂命！下次记得攒够声望了再来这里看热闹！！快滚！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开天命区</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_D_03");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_1"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次醒来时，只觉得浑身像是被乱棍打过，疼痛无比，却又毫无伤痕；\n在周遭好心人的提醒下，才知道已经进入第二轮，接下来便是看庄家能否挺过天命轮了。。。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第二轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("此时只见庄家居然派出了一具傀儡，而那傀儡僵硬地走进了天命轮之中，便一动不动，应是在静静的等待着天雷的到来。。。\n[NAME]大惊，却也只是敢怒不敢言，谁叫赌坊向来以庄家为大，只能祈愿傀儡扛不住天雷之威了。。。");
+				local TM = me:RandomInt(1, 10001);
+				if TM <= 1 or TM >= 9999 then 
+					me:AddMsg("随着“轰！！”的一声，傀儡当场粉碎，[NAME]一边庆幸自己逃过一劫，一边却又心有不甘。。。\n也难怪，[color=#007FFF]1000[/color]声望压下去，如今左手转右手，换做谁都会心有不甘的。。。");
+					
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 1000;
+				else
+					me:AddMsg("随着“轰！！”的一声，傀儡竟然纹丝未动，看样子庄家的傀儡是专门定制的。。。[NAME]开始担心起自己的下一轮了。。。\n当前声望：[color=#007FFF]1000[/color]点\n剩余天命轮：[color=#BC1717]七[/color]");
+					
+					me:TriggerStory("XXZS_CS_D_03_C_2");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一脚把[NAME]从天命轮前踢了出来，大声骂道：“没声望你小子凑什么热闹，给老子滚一边去！！今天就留你条烂命！下次记得攒够声望了再来这里看热闹！！快滚！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>放弃天命之轮</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]自认无法承受住下一轮的天命轮之威，只能选择放弃，[IT]带走了当前场上一半的声望，垂头丧气地离开了赌坊。。。\n[NAME]亏损了[color=#BC1717]500[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:TriggerStory("XXZS_CS_D_03");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_2"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次进入天命轮之中，准备承受天命之威。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第三轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				local TM = me:RandomInt(1, 10001);
+				local CF = me:RandomInt(1, 10000);
+				if TM <= 1500 or TM >= 8500 then 
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n看来这便是[NAME]的天命了。。。但愿来世[NAME]能重新做人，不再嗜赌如命吧。。。\n随着[NAME]的死亡，赌坊老板一边迈着小步悠悠然地迈向后院，一边大笑着炫耀道：“今天你是第[color=#007FFF]"..CF.."[/color]个死在我的天命之轮下的倒霉赌鬼了~~~哈哈哈哈哈哈！！！”。。。\n现场只留下一边咧着嘴笑，一边忙着收钱的伙计，以及一群唏嘘不已的围观赌鬼。。。\n谁又知道他们其中的某一位，会不会是那悲惨的下一个呢。。。");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自天命之雷");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				else
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n当前声望：[color=#007FFF]10000[/color]点\n剩余天命轮：[color=#BC1717]六[/color]");
+					me:AddDamageRandomPart(5,"XXZS_SH_02",1,"天命之雷");
+					me:TriggerStory("XXZS_CS_D_03_C_3");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_3"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次醒来时，只觉得浑身像是被乱棍打过，疼痛无比，却又毫无伤痕；\n在周遭好心人的提醒下，才知道已经进入第四轮，接下来便是看庄家能否挺过天命轮了。。。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第四轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("此时只见庄家居然派出了一具傀儡，而那傀儡僵硬地走进了天命轮之中，便一动不动，应是在静静的等待着天雷的到来。。。");
+				local TM = me:RandomInt(1, 10001);
+				if TM <= 500 or TM >= 9500 then 
+					me:AddMsg("随着“轰！！”的一声，傀儡当场粉碎，[NAME]一边庆幸自己逃过一劫，一边又开始暗自庆幸。。。\n[color=#007FFF]10000[/color]声望就这么到手了，等下应该是先去断袖居呢，还是先去天香阁？这是个问题。。。");
+					
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 10000;
+				else
+					me:AddMsg("随着“轰！！”的一声，傀儡竟然纹丝未动，看样子庄家的傀儡是专门定制的。。。[NAME]开始担心起自己的下一轮了。。。\n当前声望：[color=#007FFF]10000[/color]点\n剩余天命轮：[color=#BC1717]五[/color]");
+					
+					me:TriggerStory("XXZS_CS_D_03_C_4");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一脚把[NAME]从天命轮前踢了出来，大声骂道：“没声望你小子凑什么热闹，给老子滚一边去！！今天就留你条烂命！下次记得攒够声望了再来这里看热闹！！快滚！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>放弃天命之轮</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]自认无法承受住下一轮的天命轮之威，只能选择放弃，[IT]带走了当前场上一半的声望，垂头丧气地离开了赌坊。。。\n[NAME]获得[color=#007FFF]5000[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore + 5000;
+				me:TriggerStory("XXZS_CS_D_03");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_4"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次进入天命轮之中，准备承受天命之威。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第五轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				local TM = me:RandomInt(1, 10001);
+				local CF = me:RandomInt(1, 10000);
+				if TM <= 2500 or TM >= 7500 then 
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n看来这便是[NAME]的天命了。。。但愿来世[NAME]能重新做人，不再嗜赌如命吧。。。\n随着[NAME]的死亡，赌坊老板一边迈着小步悠悠然地迈向后院，一边大笑着炫耀道：“今天你是第[color=#007FFF]"..CF.."[/color]个死在我的天命之轮下的倒霉赌鬼了~~~哈哈哈哈哈哈！！！”。。。\n现场只留下一边咧着嘴笑，一边忙着收钱的伙计，以及一群唏嘘不已的围观赌鬼。。。\n谁又知道他们其中的某一位，会不会是那悲惨的下一个呢。。。");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自天命之雷");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				else
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n当前声望：[color=#007FFF]100000[/color]点\n剩余天命轮：[color=#BC1717]四[/color]");
+					me:AddDamageRandomPart(5,"XXZS_SH_02",1,"天命之雷");
+					me:TriggerStory("XXZS_CS_D_03_C_5");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_5"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次醒来时，只觉得浑身像是被乱棍打过，疼痛无比，却又毫无伤痕；\n在周遭好心人的提醒下，才知道已经进入第四轮，接下来便是看庄家能否挺过天命轮了。。。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第六轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("此时只见庄家居然派出了一具傀儡，而那傀儡僵硬地走进了天命轮之中，便一动不动，应是在静静的等待着天雷的到来。。。");
+				local TM = me:RandomInt(1, 10001);
+				if TM <= 1500 or TM >= 8500 then 
+					me:AddMsg("随着“轰！！”的一声，傀儡当场粉碎，[NAME]一边庆幸自己逃过一劫，一边又开始浮想联翩。。。\n[color=#007FFF]100000[/color]声望就这么到手了，看来等下先去断袖居找两位公子陪着喝花茶，再去天香阁找两位姑娘喝花酒。。。这应该是普天之下最快乐的事情了。。。");
+					
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 100000;
+				else
+					me:AddMsg("随着“轰！！”的一声，傀儡竟然纹丝未动，看样子庄家的傀儡是专门定制的。。。[NAME]开始担心起自己的下一轮了。。。\n当前声望：[color=#007FFF]100000[/color]点\n剩余天命轮：[color=#BC1717]三[/color]");
+					
+					me:TriggerStory("XXZS_CS_D_03_C_6");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一脚把[NAME]从天命轮前踢了出来，大声骂道：“没声望你小子凑什么热闹，给老子滚一边去！！今天就留你条烂命！下次记得攒够声望了再来这里看热闹！！快滚！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>放弃天命之轮</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]自认无法承受住下一轮的天命轮之威，只能选择放弃，[IT]带走了当前场上一半的声望，垂头丧气地离开了赌坊。。。\n[NAME]获得[color=#007FFF]50000[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore + 50000;
+				me:TriggerStory("XXZS_CS_D_03");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_6"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次进入天命轮之中，准备承受天命之威。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第七轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				local TM = me:RandomInt(1, 10001);
+				local CF = me:RandomInt(1, 10000);
+				if TM <= 3500 or TM >= 6500 then 
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n看来这便是[NAME]的天命了。。。但愿来世[NAME]能重新做人，不再嗜赌如命吧。。。\n随着[NAME]的死亡，赌坊老板一边迈着小步悠悠然地迈向后院，一边大笑着炫耀道：“今天你是第[color=#007FFF]"..CF.."[/color]个死在我的天命之轮下的倒霉赌鬼了~~~哈哈哈哈哈哈！！！”。。。\n现场只留下一边咧着嘴笑，一边忙着收钱的伙计，以及一群唏嘘不已的围观赌鬼。。。\n谁又知道他们其中的某一位，会不会是那悲惨的下一个呢。。。");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自天命之雷");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				else
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n当前声望：[color=#007FFF]1000000[/color]点\n剩余天命轮：[color=#BC1717]二[/color]");
+					me:AddDamageRandomPart(5,"XXZS_SH_02",1,"天命之雷");
+					me:TriggerStory("XXZS_CS_D_03_C_7");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_7"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次醒来时，只觉得浑身像是被乱棍打过，疼痛无比，却又毫无伤痕；\n在周遭好心人的提醒下，才知道已经进入第四轮，接下来便是看庄家能否挺过天命轮了。。。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第八轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("此时只见庄家居然派出了一具傀儡，而那傀儡僵硬地走进了天命轮之中，便一动不动，应是在静静的等待着天雷的到来。。。");
+				local TM = me:RandomInt(1, 10001);
+				if TM <= 2500 or TM >= 7500 then 
+					me:AddMsg("随着“轰！！”的一声，傀儡当场粉碎，[NAME]一边庆幸自己逃过一劫，一边又开始手舞足蹈地离开了此地。。。\n[color=#007FFF]1000000[/color]声望就这么到手了，等下直接去把集市东西坊市的货物全买了，哈哈哈哈。。。衣食无忧的暴发户说的就是我吧。。。");
+					
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore + 1000000;
+				else
+					me:AddMsg("随着“轰！！”的一声，傀儡竟然纹丝未动，看样子庄家的傀儡是专门定制的。。。[NAME]开始担心起自己的下一轮了。。。\n当前声望：[color=#007FFF]1000000[/color]点\n剩余天命轮：[color=#BC1717]一[/color]");
+					
+					me:TriggerStory("XXZS_CS_D_03_C_8");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("赌坊老板一脚把[NAME]从天命轮前踢了出来，大声骂道：“没声望你小子凑什么热闹，给老子滚一边去！！今天就留你条烂命！下次记得攒够声望了再来这里看热闹！！快滚！！”");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",0.8,"赌坊老板的痛打");
+				me:AddDamage("Fabao_CutOff","Genitals", 1, "街边路过的无法真仙的阉割");
+				me:AddDamage("Destroy","Mouth", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				me:AddDamage("Destroy","Throat", 1, "街边路过的一位名为【[color=#007FFF]无法真仙[/color]】的爆**");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>放弃天命之轮</Display>
+				<Tip>返回赌坊</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg("[NAME]自认无法承受住下一轮的天命轮之威，只能选择放弃，[IT]带走了当前场上一半的声望，垂头丧气地离开了赌坊。。。\n[NAME]获得[color=#007FFF]500000[/color]点声望。");
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore + 500000;
+				me:TriggerStory("XXZS_CS_D_03");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_D_03_C_8"  Parent="BaseFillingStory">
+		<DisplayName>赌坊</DisplayName>
+		<Desc>[NAME]再次进入天命轮之中，准备承受天命之威。</Desc>
+		<Selections>
+			<li>
+				<Display>开启天命之轮</Display>
+				<Tip>第九轮天雷</Tip>
+				<OKResult>
+				<![CDATA[
+				local TM = me:RandomInt(1, 10001);
+				local CF = me:RandomInt(1, 10000);
+				if TM == 4999 then 
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n再醒来时，一切早已结束，老板就那么随手一划，[color=#007FFF]10000000[/color]声望便到了[NAME]的宗门内。。。\n老板不屑的嗔道：“哼！小子，这次算你命好，下次就没这么幸运了！”说完便离开了。。。\n[NAME]脑子一片混乱，也来不及多想，只能拖着虚弱的身体，踏上了返程之路。。。");
+					me:AddDamageRandomPart(5,"XXZS_SH_02",1,"天命之雷");
+				else
+					me:AddMsg("随着“轰！！”的一声，[NAME]只感觉肉身短暂一痛，便没了知觉。。。\n看来这便是[NAME]的天命了。。。但愿来世[NAME]能重新做人，不再嗜赌如命吧。。。\n随着[NAME]的死亡，赌坊老板一边迈着小步悠悠然地迈向后院，一边大笑着炫耀道：“今天你是第[color=#007FFF]"..CF.."[/color]个死在我的天命之轮下的倒霉赌鬼了~~~哈哈哈哈哈哈！！！”。。。\n现场只留下一边咧着嘴笑，一边忙着收钱的伙计，以及一群唏嘘不已的围观赌鬼。。。\n谁又知道他们其中的某一位，会不会是那悲惨的下一个呢。。。");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自天命之雷");
+					SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- =======================================分割线======================================= -->
+	
+	
+	
+</List></Stories>

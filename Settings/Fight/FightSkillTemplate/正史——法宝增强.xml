@@ -1,0 +1,61 @@
+<FightSkills><List>
+	<Skill Name="XXZS_JTJDDBJ_3"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>九天圣言</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>5</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_1"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>太虚遁影符</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>10</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>2</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	<Skill Name="XXZS_FXYGL_3"><!--飞行法宝增强技能基础模板 --> 
+		<DisplayName>四象诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>15</CD>
+		<LingCost>60</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>1</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>200005</HitEffect>
+	</Skill>
+	
+	
+	
+</List></FightSkills>

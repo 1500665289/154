@@ -1,0 +1,357 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_1A" Type="Normal">
+		<DisplayName>太虚淬体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-20"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_1B" Type="Normal">
+		<DisplayName>太虚锻体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="RecoveryPower" AddP="3"/>
+			<li Name="ToleranceTMax" AddV="45"/>
+			<li Name="ToleranceTMin" AddV="-45"/>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_1C" Type="Normal">
+		<DisplayName>太虚罡体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="25"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="15"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_2A" Type="Normal">
+		<DisplayName>混元淬神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-40"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-40"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_2B" Type="Normal">
+		<DisplayName>太虚炼心</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="3"/>
+			<li Name="ComfyTMax" AddV="45"/>
+			<li Name="ComfyTMin" AddV="-45"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_2C" Type="Normal">
+		<DisplayName>太虚真意</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="50"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="25"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_3A" Type="Normal">
+		<DisplayName>太虚道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-60"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-60"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_3B" Type="Normal">
+		<DisplayName>太虚极道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.5"/>
+			<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_3C" Type="Normal">
+		<DisplayName>太虚法道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="75"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.75"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.75"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.75"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_4A" Type="Normal">
+		<DisplayName>太虚道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-80"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-80"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_4B" Type="Normal">
+		<DisplayName>太虚极道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddP="600"/>
+			<li Name="NutritionConsumeConstant" AddP="-0.5"/>
+			<li Name="WaterConsumeConstant" AddP="-0.5"/>
+			<li Name="FatigueConsumeConstant" AddP="-0.5"/>
+			<li Name="HappyConsumeConstant" AddP="-0.5"/>
+			<li Name="NutritionToJingYuanK" AddP="0.5"/>
+			<li Name="NutritionWaterAutoRecover" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_4C" Type="Normal">
+		<DisplayName>太虚法道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
+			<li Name="NpcLingMaxValue" AddV="50000"/>
+			<li Name="LingAbsorbSpeed" AddP="50"/>
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_5A" Type="Normal">
+		<DisplayName>太虚法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_5B" Type="Normal">
+		<DisplayName>太虚遁影符</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_6A" Type="Normal">
+		<DisplayName>太虚法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_6B" Type="Normal">
+		<DisplayName>太虚遁音符</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_7A" Type="Normal">
+		<DisplayName>太虚法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_7B" Type="Normal">
+		<DisplayName>太虚遁风符</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_8A" Type="Normal">
+		<DisplayName>太虚法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_8B" Type="Normal">
+		<DisplayName>太虚遁空符</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_9A" Type="Normal">
+		<DisplayName>混元法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_9B" Type="Normal">
+		<DisplayName>混元流沙诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_10A" Type="Normal">
+		<DisplayName>混元法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_10B" Type="Normal">
+		<DisplayName>混元焚葬诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_11A" Type="Normal">
+		<DisplayName>混元法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_11B" Type="Normal">
+		<DisplayName>混元奔雷诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能12========================== -->
+	
+	<Modifier Name="XXZS_TXHYD_12A" Type="Normal">
+		<DisplayName>混元法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_TXHYD_12B" Type="Normal">
+		<DisplayName>混元坠星诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

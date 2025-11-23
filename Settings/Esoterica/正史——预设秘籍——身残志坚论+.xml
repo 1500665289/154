@@ -1,0 +1,351 @@
+<Esotericas><List>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_1">
+		<DisplayName>玄武篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>玄武修仙之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升寿命\n提升根骨\n提升自然恢复力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_2">
+		<DisplayName>青龙篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>青龙修仙之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升寿命\n提升神识\n提升自然恢复力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_2</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_3">
+		<DisplayName>朱雀篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>朱雀修仙之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升寿命\n提升魅力\n提升自然恢复力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_3</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_4">
+		<DisplayName>白虎篇</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>白虎修仙之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升寿命\n提升悟性\n提升自然恢复力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_4</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_5">
+		<DisplayName>玄武归元经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>玄武凝丹聚气之法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升灵气值\n提升灵气恢复速度\n提升寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_5</Modifier>	
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_6">
+		<DisplayName>玄武丹略</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>相传是根据玄武饮食习惯炼制而成。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升炼丹极限等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_6</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_7">
+		<DisplayName>青龙吐息术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>青龙凝丹聚气之法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升灵气值\n提升灵气恢复速度\n提升寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_7</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_8">
+		<DisplayName>青龙丹略</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>相传是根据青龙饮食习惯炼制而成。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升炼丹极限等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_8</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_9">
+		<DisplayName>朱雀窥天诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>朱雀凝丹聚气之法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝灵气值\n提升灵气恢复速度\n提升寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_9</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_10">
+		<DisplayName>朱雀丹略</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>相传是根据朱雀饮食习惯炼制而成。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升炼丹极限等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_10</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_11">
+		<DisplayName>白虎荡魔令</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>白虎凝丹聚气之法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝灵气值\n提升灵气恢复速度\n提升寿命[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_11</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_12">
+		<DisplayName>白虎丹略</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>相传是根据白虎饮食习惯炼制而成。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升炼丹极限等级[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_12</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_13">
+		<DisplayName>玄武祈天经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>玄武将成丹突破经验记录在册，以福泽后世。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝灵气恢复速度\n提升法宝威力\n提升灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_13</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_14">
+		<DisplayName>玄武秘术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>玄武乃上古圣兽之一，自有其独门秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]不再感到饥饿\n提升心境\n降低天谴值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_14</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_15">
+		<DisplayName>青龙聚灵术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>青龙将成丹突破经验记录在册，以福泽后世。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝灵气恢复速度\n提升法宝威力\n提升灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_15</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_16">
+		<DisplayName>青龙秘术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>青龙乃上古圣兽之一，自有其独门秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]不再感到口渴\n提升心境\n降低天谴值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_16</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_17">
+		<DisplayName>朱雀凌天诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>朱雀将成丹突破经验记录在册，以福泽后世。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升灵气值\n提升法宝威力\n提升灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_17</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_18">
+		<DisplayName>朱雀秘术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>朱雀乃上古圣兽之一，自有其独门秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]不再感到困倦\n提升心境\n降低天谴值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_18</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_19">
+		<DisplayName>白虎诛仙令</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>白虎将成丹突破经验记录在册，以福泽后世。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升灵气值\n提升法宝威力\n提升灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_19</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_20">
+		<DisplayName>白虎秘术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_JC\JC_xin.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>白虎乃上古圣兽之一，自有其独门秘术。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]不再感到悲伤\n提升心境\n降低天谴值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_20</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_21">
+		<DisplayName>玄武避世经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>玄武显圣，以罡气庇佑，以助道友成仙。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升五维属性\n提升法术威力\n提升护盾强度[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_21</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_22">
+		<DisplayName>玄武真罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_HT\HT_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>玄武真罡，化灵为盾，刀枪不入。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  秘术：\n玄武真罡[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_22</Modifier>
+		<Skills>
+			<li>XXZS_SCZJL_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_23">
+		<DisplayName>青龙渡劫术</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>青龙显圣，以罡气庇佑，以助道友成仙。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升五维属性\n提升法术威力\n降低法术冷却[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_23</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_24">
+		<DisplayName>青龙天罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>青龙天罡，以灵滋体，救死扶伤。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  秘术：\n青龙天罡[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_24</Modifier>
+		<Skills>
+			<li>XXZS_SCZJL_2</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_25">
+		<DisplayName>朱雀逆天诀</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>朱雀显圣，以罡气庇佑，以助道友成仙。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升五维属性\n提升法术威力\n降低法术吟唱[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_25</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_26">
+		<DisplayName>朱雀神罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>朱雀神罡，释灵御敌，以快制胜。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  秘术：\n朱雀神罡[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_26</Modifier>
+		<Skills>
+			<li>XXZS_SCZJL_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_27">
+		<DisplayName>白虎灭世令</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_ZDFS\ZDFS_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>白虎显圣，以罡气庇佑，以助道友成仙。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升五维属性\n提升法术威力\n降低法术冷却[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_27</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_SCZJL_Esoterica_28">
+		<DisplayName>白虎仙罡</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>白虎仙罡，聚灵破敌，厚积薄发。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得  秘术：\n白虎仙罡[/color][/size]</EffectDesc>
+		<Modifier>XXZS_SCZJL_Esoterica_28</Modifier>
+		<Skills>
+			<li>XXZS_SCZJL_4</li>
+		</Skills>
+	</Esoterica>
+	
+</List></Esotericas>

@@ -1,0 +1,188 @@
+<Gongs><List>
+	<Gong Name="XXZS_LXQZZF">
+		<DisplayName>凌霄器宗真法</DisplayName>
+		<Desc>据传是【中原】上古剑宗【御剑山庄】一脉的镇派功法之一。此功法根据【星芒补器真解】推演而成，专注于运法作道，外可诵法退敌，内可布道济人，是不可多得的上乘功法。</Desc>
+		<SelectDesc>此功法专注于御敌之法，不但境界较多，而且多雷劫相伴，若想得大乘之法，没有几件称手的法器，恐怕天威难渡。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>6,9,-1,-1,-1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Jin</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期-->
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>炼器法</DisplayName>
+				<Desc>雷劫之威，外炼法器，内敛法则。</Desc>
+				<Value>20000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>雷炼</DisplayName>
+						<Desc>外练法器。</Desc>
+						<ThunderValue>1000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>渡法</DisplayName>
+						<Desc>内敛法则。</Desc>
+						<ThunderValue>1000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage2" Level="3">
+				<DisplayName>铸器法</DisplayName>
+				<Desc>雷劫之威，外炼法器，内敛法则。</Desc>
+				<Value>40000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>雷铸</DisplayName>
+						<Desc>外练法器。</Desc>
+						<ThunderValue>2000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>渡法</DisplayName>
+						<Desc>内敛法则。</Desc>
+						<ThunderValue>2000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期-->
+			<Stage Name="Stage3" Level="4">
+				<DisplayName>淬器法</DisplayName>
+				<Desc>雷劫之威，外炼法器，内敛法则。</Desc>
+				<Value>80000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>雷淬</DisplayName>
+						<Desc>外练法器。</Desc>
+						<ThunderValue>4000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>渡法</DisplayName>
+						<Desc>内敛法则。</Desc>
+						<ThunderValue>4000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage4" Level="6">
+				<DisplayName>凝器法</DisplayName>
+				<Desc>雷劫之威，外炼法器，内敛金丹。</Desc>
+				<Value>160000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>雷凝</DisplayName>
+						<Desc>外练法器。</Desc>
+						<ThunderValue>8000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>渡丹</DisplayName>
+						<Desc>内敛金丹。</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage5" Level="7">
+				<DisplayName>灵宝法</DisplayName>
+				<Desc>圣劫之威，灵雷祭器，雷灵渡法。</Desc>
+				<Value>320000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>灵雷祭</DisplayName>
+						<Desc>灵雷祭器。</Desc>
+						<ThunderValue>16000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>渡法</DisplayName>
+						<Desc>雷灵渡法。</Desc>
+						<ThunderValue>16000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage6" Level="9">
+				<DisplayName>灵器法</DisplayName>
+				<Desc>圣劫之威，灵雷祭器，雷灵渡法。</Desc>
+				<Value>640000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>灵雷祀</DisplayName>
+						<Desc>灵雷祭器。</Desc>
+						<ThunderValue>32000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>渡法</DisplayName>
+						<Desc>雷灵渡法。</Desc>
+						<ThunderValue>32000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期-->
+			<Stage Name="Stage7" Level="10">
+				<DisplayName>圣物法</DisplayName>
+				<Desc>圣劫之威，灵雷祭器，雷灵渡法。</Desc>
+				<Value>1240000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>圣雷祭</DisplayName>
+						<Desc>圣雷祭器。</Desc>
+						<ThunderValue>64000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>渡法</DisplayName>
+						<Desc>雷灵渡法。</Desc>
+						<ThunderValue>64000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage8" Level="12">
+				<DisplayName>圣器法</DisplayName>
+				<Desc>圣劫之威，灵雷祭器，雷灵渡法。</Desc>
+				<Value>2480000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>圣雷祀</DisplayName>
+						<Desc>圣雷祭器。</Desc>
+						<ThunderValue>128000</ThunderValue>
+						<NeckCountdown>6000</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>渡天</DisplayName>
+						<Desc>天威得道。</Desc>
+						<ThunderValue>128000</ThunderValue>
+						<NeckCountdown>30000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

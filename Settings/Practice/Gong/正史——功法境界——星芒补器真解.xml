@@ -1,0 +1,132 @@
+<Gongs><List>
+	<Gong Name="XXZS_XMBQZJ">
+		<DisplayName>星芒补器真解</DisplayName>
+		<Desc>据传是【中原】上古剑宗【御剑山庄】一脉的镇派功法之一。此功法来源于昆仑法会秘境的深处，其道法之妙，曾引无数英雄向往，以致古往今来觊觎者甚多，山庄的盛极而衰，若是说和这功法无关，恐怕很难有人相信吧。</Desc>
+		<SelectDesc>此功法专注于炼器之道，虽然大境界少，但是小境界较多，并且需要长时间外出历练，若是不能合理分配炼器之机，恐一生难有好法宝来对抗天劫之难。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>-1,9,-1,-1,6</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Huo</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>兵刃成器</DisplayName>
+				<Desc>练气之初，先将兵刃炼之，转而成器。</Desc>
+				<Value>4000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Explore">
+						<DisplayName>砺锋</DisplayName>
+						<Desc>法器初现，砺锋而寒。</Desc>
+						<ExploreValue>1</ExploreValue>
+					</Neck>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>藏刃</DisplayName>
+						<Desc>法器初成，藏刃于内。</Desc>
+						<ExploreValue>2</ExploreValue>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>甲胄成器</DisplayName>
+				<Desc>结丹之始，再将甲胄炼之，转而成器。</Desc>
+				<Value>12000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Explore">
+						<DisplayName>遁甲</DisplayName>
+						<Desc>巧夺天工，奇门遁甲。</Desc>
+						<ExploreValue>3</ExploreValue>
+					</Neck>
+					<Neck Location="0.66" Kind="Explore">
+						<DisplayName>灵铠</DisplayName>
+						<Desc>别具匠心，驱灵附铠。</Desc>
+						<ExploreValue>4</ExploreValue>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>凝罡</DisplayName>
+						<Desc>匠心独具，乾坤凝罡。</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>金石成器</DisplayName>
+				<Desc>金丹之上，复以金石炼之，转而成器。</Desc>
+				<Value>48000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Explore">
+						<DisplayName>褪尘</DisplayName>
+						<Desc>初选之土，褪尘而炼。</Desc>
+						<ExploreValue>5</ExploreValue>
+					</Neck>
+					<Neck Location="0.5" Kind="Explore">
+						<DisplayName>遗沙</DisplayName>
+						<Desc>复得之石，遗沙而铸。</Desc>
+						<ExploreValue>6</ExploreValue>
+					</Neck>
+					<Neck Location="0.75" Kind="Explore">
+						<DisplayName>落岩</DisplayName>
+						<Desc>精炼之晶，落岩而淬。</Desc>
+						<ExploreValue>7</ExploreValue>
+					</Neck>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>散金</DisplayName>
+						<Desc>锤炼之罡，散金而灼。</Desc>
+						<ExploreValue>8</ExploreValue>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期-->
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>万物成器</DisplayName>
+				<Desc>元神之途，择其万物炼之，皆可成器。</Desc>
+				<Value>2400000</Value>
+				<Necks>
+					<Neck Location="0.2" Kind="Explore">
+						<DisplayName>器具榜</DisplayName>
+						<Desc>天下法器，器具之圣，自成一榜。</Desc>
+						<ExploreValue>9</ExploreValue>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Explore">
+						<DisplayName>生灵榜</DisplayName>
+						<Desc>天下法器，生灵之圣，自成一榜。</Desc>
+						<ExploreValue>10</ExploreValue>
+					</Neck>
+					<Neck Location="0.6" Kind="Explore">
+						<DisplayName>元素榜</DisplayName>
+						<Desc>天下法器，元素之圣，自成一榜。</Desc>
+						<ExploreValue>11</ExploreValue>
+					</Neck>
+					<Neck Location="0.8" Kind="Explore">
+						<DisplayName>三界榜</DisplayName>
+						<Desc>天下法器，三界之圣，自成一榜。</Desc>
+						<ExploreValue>12</ExploreValue>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>万物成器</DisplayName>
+						<Desc>天下法器，皆可成圣，悟而得道。</Desc>
+						<ThunderValue>320000</ThunderValue>
+						<NeckCountdown>6400</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

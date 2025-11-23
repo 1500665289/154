@@ -1,0 +1,289 @@
+<Stories><List>
+	
+	<Story Name="XXZS_CS_A_02"  Parent="BaseFillingStory">
+		<DisplayName>杂货铺</DisplayName>
+		<Desc>[NAME]抬头一看，只见【杂货铺】三字赫然在目，仔细想想应该都是些杂七杂八的东西，[IT]正好感觉门派还缺点生活上的物资，要不就进去挑挑看吧。</Desc>
+		<Selections>
+			<li>
+				<Display>购买杂货【3300】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 3300
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02A");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("杂货铺老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被杂货铺老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"杂货铺老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买材料【1000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 1000
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02B");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("杂货铺老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被杂货铺老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"杂货铺老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>购买建材【15000】</Display>
+				<Condition>
+				<![CDATA[
+				me:GetSchoolScore(1) > 15000
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02C");
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg("杂货铺老板冷冷的看了一眼[NAME]，并说道：“小小门派，连声望都没有，还想来买东西，赶紧滚蛋！”\n[NAME]被杂货铺老板轰到了大街上，还被暴揍了一顿！！");
+				me:AddDamageRandomPart(5,"XXZS_SH_01",1,"杂货铺老板的痛打");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开杂货铺</Display>
+				<Tip>返回东坊</Tip>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<!-- ==========================================================================分割线========================================================================== -->
+	
+	<Story Name="XXZS_CS_A_02A"  Parent="BaseFillingStory">
+		<DisplayName>杂货铺</DisplayName>
+		<Desc>【杂货铺】的【杂货】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>购买蜚之皮【5*110】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 550;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]550[/color]点门派声望，购买了一捆[color=#BC1717]皮毛[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_FeiLeather",110);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买鹿蜀之皮【5*110】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 550;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]550[/color]点门派声望，购买了一捆[color=#BC1717]皮毛[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_LuShuLeather",110);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买妖化的兽皮【15*110】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1650;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1650[/color]点门派声望，购买了一捆[color=#BC1717]皮毛[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_YaoLeather",110);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买妖兽的韧皮【30*110】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 3300;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]3300[/color]点门派声望，购买了一捆[color=#BC1717]皮毛[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_YaoLeather1",110);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买观音土【40*5】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 200;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]200[/color]点门派声望，购买了一堆[color=#BC1717]泥土[/color]，便匆匆离开了。\n\n（emmm…………竟然还有人是专程来购买观音土…………果然修真世界，凡人是不能理解的…………）");
+				me:DropAwardItem("GuanyinMud",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买野外的水【20*5】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]100[/color]点门派声望，购买了一担[color=#BC1717]脏水[/color]，便匆匆离开了。\n\n（emmm…………竟然还有人是专程来购买野外的水…………果然修真世界，凡人是不能理解的…………）");
+				me:DropAwardItem("Item_DirtyWater",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买垃圾【20*5】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 100;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]100[/color]点门派声望，购买了一堆[color=#BC1717]垃圾[/color]，便匆匆离开了。\n\n（emmm…………竟然还有人是专程来购买垃圾…………果然修真世界，凡人是不能理解的…………）");
+				me:DropAwardItem("Item_Garbage",5);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买粪便【15*10】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 150;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]150[/color]点门派声望，购买了一摊[color=#BC1717]粪便[/color]，便匆匆离开了。\n\n（emmm…………竟然还有人是专程来购买粪便…………果然修真世界，凡人是不能理解的…………）");
+				me:DropAwardItem("Item_Shit",10);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买天龙砂【50】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 50;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]50[/color]点门派声望，购买了一坨[color=#BC1717]天龙砂[/color]，便匆匆离开了。\n\n（emmm…………竟然还有人是专程来购买天龙砂…………果然修真世界，凡人是不能理解的…………）");
+				me:DropAwardItem("Item_DragonShit",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回杂货铺</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_A_02B"  Parent="BaseFillingStory">
+		<DisplayName>杂货铺</DisplayName>
+		<Desc>【杂货铺】的【材料】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>购买灵石【1*500】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]500[/color]点门派声望，购买了一袋[color=#BC1717]灵石[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_LingStone",500);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买灵晶【10*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一袋[color=#BC1717]灵晶[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_LingCrystal",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买家常菜【5*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]500[/color]点门派声望，购买了一份[color=#BC1717]便食[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_HomeFood",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买佳肴【7.5*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 750;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]750[/color]点门派声望，购买了一份[color=#BC1717]便食[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_DeliciousFood",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买珍馐美食【10*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 1000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]1000[/color]点门派声望，购买了一份[color=#BC1717]便食[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_DelicacyFood",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买搞砸的饭菜【2.5*100】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 250;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]250[/color]点门派声望，购买了一份[color=#BC1717]便食[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_HorribleMeal",100);
+				</OKResult>
+			</li>
+			<li>
+				<Display>顺走神物【？？？】</Display>
+				<OKResult>
+				me:AddMsg("[NAME]走到角落时，突然觉得有个什么东西在发光发亮，难不成那个神秘的东西和自己有所联系？[IT]四下里看了看，趁没人赶紧收了起来，便快速离开此地，应该不会有人发现。");
+				me:DropAwardItem("Item_Baobeier",1);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回杂货铺</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_CS_A_02C"  Parent="BaseFillingStory">
+		<DisplayName>杂货铺</DisplayName>
+		<Desc>【杂货铺】的【建材】陈列架。</Desc>
+		<Selections>
+			<li>
+				<Display>购买灰石【20*25】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 500;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]500[/color]点门派声望，购买了一堆[color=#BC1717]建材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_GrayRock",20);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买星髓锭【200*75】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 15000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]15000[/color]点门派声望，购买了一堆[color=#BC1717]建材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_StarEssenceBlock",200);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买梧桐木料【200*75】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 15000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]15000[/color]点门派声望，购买了一堆[color=#BC1717]建材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_ParasolWoodBlock",200);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买寒精锭【200*75】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 15000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]15000[/color]点门派声望，购买了一堆[color=#BC1717]建材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_SilverBlock1",200);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买火精锭【200*75】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 15000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]15000[/color]点门派声望，购买了一堆[color=#BC1717]建材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_CopperBlock1",200);
+				</OKResult>
+			</li>
+			<li>
+				<Display>购买天柱石砖【200*75】</Display>
+				<OKResult>
+				SchoolMgr.BaseScore = SchoolMgr.BaseScore - 15000;
+				me:AddMsg("[NAME]最终花费了[color=#007FFF]15000[/color]点门派声望，购买了一堆[color=#BC1717]建材[/color]，便匆匆离开了。");
+				me:DropAwardItem("Item_SkyStoneBlock",200);
+				</OKResult>
+			</li>
+			<li>
+				<Display>返回杂货铺</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_CS_A_02");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	
+	
+</List></Stories>

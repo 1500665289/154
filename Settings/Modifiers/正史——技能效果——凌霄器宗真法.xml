@@ -1,0 +1,345 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_1A" Type="Normal">
+		<DisplayName>精炼法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_1B" Type="Normal">
+		<DisplayName>精炼法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_1C" Type="Normal">
+		<DisplayName>精炼法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="2"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_2A" Type="Normal">
+		<DisplayName>灵粹法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_2B" Type="Normal">
+		<DisplayName>灵粹法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_2C" Type="Normal">
+		<DisplayName>灵粹法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_QualityAddV" AddV="2"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_3A" Type="Normal">
+		<DisplayName>造物法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_3B" Type="Normal">
+		<DisplayName>造物法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_3C" Type="Normal">
+		<DisplayName>造物法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_4A" Type="Normal">
+		<DisplayName>创圣法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRateAddV" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_4B" Type="Normal">
+		<DisplayName>创圣法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_4C" Type="Normal">
+		<DisplayName>创圣法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Manual" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_5A" Type="Normal">
+		<DisplayName>凌空法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="-25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_5B" Type="Normal">
+		<DisplayName>凌空法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_5C" Type="Normal">
+		<DisplayName>凌空法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_6A" Type="Normal">
+		<DisplayName>凌烟法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="-25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_6B" Type="Normal">
+		<DisplayName>凌烟法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_6C" Type="Normal">
+		<DisplayName>凌烟法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="MaxAge" AddV="300"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_7A" Type="Normal">
+		<DisplayName>凌云法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="-25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_7B" Type="Normal">
+		<DisplayName>凌云法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NutritionToJingYuanK" AddP="0.5"/>
+			<li Name="NutritionWaterAutoRecover" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_7C" Type="Normal">
+		<DisplayName>凌云法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="75"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_8A" Type="Normal">
+		<DisplayName>凌霄法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="-25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_8B" Type="Normal">
+		<DisplayName>凌霄法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="100000"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_8C" Type="Normal">
+		<DisplayName>凌霄法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能9========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_9A" Type="Normal">
+		<DisplayName>凌天剑罡</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_9B" Type="Normal">
+		<DisplayName>凌天剑罡</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能10========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_10A" Type="Normal">
+		<DisplayName>弥天剑雨</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_10B" Type="Normal">
+		<DisplayName>弥天剑雨</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能11========================== -->
+	
+	<Modifier Name="XXZS_LXQZZF_11A" Type="Normal">
+		<DisplayName>封天剑界</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_LXQZZF_11B" Type="Normal">
+		<DisplayName>封天剑界</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

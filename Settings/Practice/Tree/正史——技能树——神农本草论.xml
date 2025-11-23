@@ -1,0 +1,389 @@
+<SkillTree><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Node Name="XXZS_SNBCL_Qi_6A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_1A</Esoterica>
+		<DisplayName>神农卷·一</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Qi_6B</li>
+			<li>XXZS_SNBCL_Qi_6C</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Qi_6B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_1B</Esoterica>
+		<DisplayName>养气血</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_SNBCL_Qi_6C" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_1C</Esoterica>
+		<DisplayName>练筋骨</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan1_6A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_2A</Esoterica>
+		<DisplayName>神农卷·二</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Dan1_6B</li>
+			<li>XXZS_SNBCL_Dan1_6C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Qi_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan1_6B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_2B</Esoterica>
+		<DisplayName>采百草</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan1_6C" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_2C</Esoterica>
+		<DisplayName>制灵丹</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan2_6A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_3A</Esoterica>
+		<DisplayName>神农卷·三</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Dan2_6B</li>
+			<li>XXZS_SNBCL_Dan2_6C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Dan1_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan2_6B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_3B</Esoterica>
+		<DisplayName>滋阴补阳</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan2_6C" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_3C</Esoterica>
+		<DisplayName>五运六气</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Node Name="XXZS_SNBCL_God_6A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_4A</Esoterica>
+		<DisplayName>本草总纲</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_God_6B</li>
+			<li>XXZS_SNBCL_God_6C</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_God_6B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_4B</Esoterica>
+		<DisplayName>本草·外经</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="XXZS_SNBCL_God_6C" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_4C</Esoterica>
+		<DisplayName>本草·内经</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan1_4A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_5A</Esoterica>
+		<DisplayName>神农丹经</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Dan1_4B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Dan1_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan1_4B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_5B</Esoterica>
+		<DisplayName>神农丹经</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan1_8A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_6A</Esoterica>
+		<DisplayName>神农丹典</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Dan1_8B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Dan1_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan1_8B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_6B</Esoterica>
+		<DisplayName>神农丹典</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan2_4A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_7A</Esoterica>
+		<DisplayName>神农丹集</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Dan2_4B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan2_4B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_7B</Esoterica>
+		<DisplayName>神农丹集</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan2_8A" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_8A</Esoterica>
+		<DisplayName>神农丹册</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>XXZS_SNBCL_Dan2_8B</li>
+		</Layers>
+		<PreUnit>
+			<li>XXZS_SNBCL_Dan2_6A</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="XXZS_SNBCL_Dan2_8B" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_SNBCL_8B</Esoterica>
+		<DisplayName>神农丹册</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!-- ==========================空技能========================== -->
+	
+	<Node Name="XXZS_SNBCL_Dan1_5" Gong="XXZS_SNBCL">
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_SNBCL_Dan1_7" Gong="XXZS_SNBCL">
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_SNBCL_Dan2_5" Gong="XXZS_SNBCL">
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="XXZS_SNBCL_Dan2_7" Gong="XXZS_SNBCL">
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,2,0,1,0,0,0,0</Line>
+	</Node>
+	
+	<!-- ==========================真仙技========================== -->
+	
+	<Node Name="XXZS_SNBCL_e4" Gong="XXZS_SNBCL">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SNBCL_e8" Gong="XXZS_SNBCL">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SNBCL_e0" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_God2_Zhen</Esoterica>
+		<DisplayName>天道阵法</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Zhen" Level="20"/>
+		</Skills>
+		<LingMax>5000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>5</GodCount>
+	</Node>
+	
+	<Node Name="XXZS_SNBCL_e1" Gong="XXZS_SNBCL">
+		<Esoterica>XXZS_God2_Shen</Esoterica>
+		<DisplayName>天道分神</DisplayName>
+		<Level>God2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Barrier" Level="20"/>
+		</Skills>
+		<LingMax>10000000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+</List></SkillTree> 

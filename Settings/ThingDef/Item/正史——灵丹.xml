@@ -1,0 +1,3005 @@
+<ThingDefs><List>
+	
+	<!-- ======================伏羲1分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_01" Parent="DanBase">
+		<ThingName>坤之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充1000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "5"/>
+					<Item name = "Item_RedGinseng" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>200</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_02" Parent="DanBase">
+		<ThingName>艮之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充5000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>5000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "10"/>
+					<Item name = "Item_RedGinseng" count = "10"/>
+					<Item name = "Item_Fruit" count = "2"/>
+					<Item name = "Item_LingWater" count = "2"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>400</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_03" Parent="DanBase">
+		<ThingName>坎之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充10000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "15"/>
+					<Item name = "Item_RedGinseng" count = "15"/>
+					<Item name = "Item_SnakeGallbladder" count = "4"/>
+					<Item name = "Item_BearGallbladder" count = "4"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>600</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_04" Parent="DanBase">
+		<ThingName>巽之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充50000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>50000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "20"/>
+					<Item name = "Item_RedGinseng" count = "20"/>
+					<Item name = "Item_WinterWarm" count = "6"/>
+					<Item name = "Item_SummerHerb" count = "6"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>800</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_05" Parent="DanBase">
+		<ThingName>震之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充100000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>100000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "25"/>
+					<Item name = "Item_RedGinseng" count = "25"/>
+					<Item name = "Item_Fruit" count = "8"/>
+					<Item name = "Item_LingWater" count = "8"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1000</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_06" Parent="DanBase">
+		<ThingName>离之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充500000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>500000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "30"/>
+					<Item name = "Item_RedGinseng" count = "30"/>
+					<Item name = "Item_SnakeGallbladder" count = "10"/>
+					<Item name = "Item_BearGallbladder" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1200</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_07" Parent="DanBase">
+		<ThingName>兑之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充1000000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>1000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "35"/>
+					<Item name = "Item_RedGinseng" count = "35"/>
+					<Item name = "Item_WinterWarm" count = "12"/>
+					<Item name = "Item_SummerHerb" count = "12"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1400</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX1_08" Parent="DanBase">
+		<ThingName>乾之丹</ThingName>
+		<TexPath>res\Sprs\object\object_xiehunlu01</TexPath>
+		<Desc>补充5000000点灵气，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>5000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "40"/>
+					<Item name = "Item_RedGinseng" count = "40"/>
+					<Item name = "Item_WinterWarm" count = "14"/>
+					<Item name = "Item_SummerHerb" count = "14"/>
+					<Item name = "Item_SnakeGallbladder" count = "14"/>
+					<Item name = "Item_BearGallbladder" count = "14"/>
+					<Item name = "Item_Fruit" count = "14"/>
+					<Item name = "Item_LingWater" count = "14"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1600</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================伏羲2分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_01" Parent="DanBase">
+		<ThingName>地丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "5"/>
+					<Item name = "Item_GanodermaLucidum" count = "5"/>
+					<Item name = "Item_Mint" count = "5"/>
+					<Item name = "Item_MagicHerb" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>300</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_02" Parent="DanBase">
+		<ThingName>山丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升三十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "10"/>
+					<Item name = "Item_GanodermaLucidum" count = "10"/>
+					<Item name = "Item_Mint" count = "10"/>
+					<Item name = "Item_MagicHerb" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>500</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_03" Parent="DanBase">
+		<ThingName>水丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升五十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "15"/>
+					<Item name = "Item_GanodermaLucidum" count = "15"/>
+					<Item name = "Item_Mint" count = "15"/>
+					<Item name = "Item_MagicHerb" count = "15"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>700</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_04" Parent="DanBase">
+		<ThingName>风丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升七十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "20"/>
+					<Item name = "Item_GanodermaLucidum" count = "20"/>
+					<Item name = "Item_Mint" count = "20"/>
+					<Item name = "Item_MagicHerb" count = "20"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>900</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_05" Parent="DanBase">
+		<ThingName>雷丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升九十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_05</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "25"/>
+					<Item name = "Item_GanodermaLucidum" count = "25"/>
+					<Item name = "Item_Mint" count = "25"/>
+					<Item name = "Item_MagicHerb" count = "25"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1100</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_06" Parent="DanBase">
+		<ThingName>火丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升一百八十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_06</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "30"/>
+					<Item name = "Item_GanodermaLucidum" count = "30"/>
+					<Item name = "Item_Mint" count = "30"/>
+					<Item name = "Item_MagicHerb" count = "30"/>
+					<Item name = "Item_LingMuXueJie" count = "3"/>
+					<Item name = "Item_EarthEssence1" count = "3"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1300</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_07" Parent="DanBase">
+		<ThingName>泽丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升三百六十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_07</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "35"/>
+					<Item name = "Item_GanodermaLucidum" count = "35"/>
+					<Item name = "Item_Mint" count = "35"/>
+					<Item name = "Item_MagicHerb" count = "35"/>
+					<Item name = "Item_LingMuXueJie" count = "6"/>
+					<Item name = "Item_EarthEssence1" count = "6"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1500</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FX2_08" Parent="DanBase">
+		<ThingName>天丹</ThingName>
+		<TexPath>res\Sprs\object\object_yuanhunlu01</TexPath>
+		<Desc>使用后，在一段时间内，提升七百二十倍灵气恢复速度，同时补充少量精元。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FX2_08</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "40"/>
+					<Item name = "Item_GanodermaLucidum" count = "40"/>
+					<Item name = "Item_Mint" count = "40"/>
+					<Item name = "Item_MagicHerb" count = "40"/>
+					<Item name = "Item_LingMuXueJie" count = "9"/>
+					<Item name = "Item_EarthEssence1" count = "9"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>1700</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================神农1分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN1_01" Parent="DanBase">
+		<ThingName>丹砂</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升五维属性各一点，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN1_01</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_EarthEssence_1" count = "1"/>
+					<Item name = "Item_EarthEssence1_1" count = "1"/>
+					<Item name = "Item_Cinnabar" count = "15"/>
+					<Item name = "Item_Dan_FiveBaseFromLife" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN1_02" Parent="DanBase">
+		<ThingName>云母</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升五维属性各两点，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN1_02</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_EarthEssence_1" count = "2"/>
+					<Item name = "Item_EarthEssence1_1" count = "2"/>
+					<Item name = "Item_Cinnabar" count = "30"/>
+					<Item name = "Item_Dan_FiveBaseFromLife" count = "2"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN1_03" Parent="DanBase">
+		<ThingName>石英</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升五维属性各三点，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN1_03</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_EarthEssence_1" count = "3"/>
+					<Item name = "Item_EarthEssence1_1" count = "3"/>
+					<Item name = "Item_Cinnabar" count = "45"/>
+					<Item name = "Item_Dan_FiveBaseFromLife" count = "3"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================神农2分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN2_01" Parent="DanBase">
+		<ThingName>车前子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，提升一甲子的阳寿，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN2_01</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_LifeStream" count = "1"/>
+					<Item name = "Item_Laxative" count = "7"/>
+					<Item name = "Item_SnakeGallbladder" count = "1"/>
+					<Item name = "Item_BearGallbladder" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN2_02" Parent="DanBase">
+		<ThingName>五味子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，提升三甲子的阳寿，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN2_02</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_LifeStream" count = "3"/>
+					<Item name = "Item_Laxative" count = "7"/>
+					<Item name = "Item_SnakeGallbladder" count = "2"/>
+					<Item name = "Item_BearGallbladder" count = "2"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN2_03" Parent="DanBase">
+		<ThingName>决明子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，提升五甲子的阳寿，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN2_03</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_LifeStream" count = "5"/>
+					<Item name = "Item_Laxative" count = "7"/>
+					<Item name = "Item_SnakeGallbladder" count = "3"/>
+					<Item name = "Item_BearGallbladder" count = "3"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================神农3分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN3_01" Parent="DanBase">
+		<ThingName>龙骨</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，提升内门属性技能等级，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN3_01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_IncreaseNeckCountdown1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase2" count = "1"/>
+					<Item name = "Item_Dan_FiveBase3" count = "1"/>
+					<Item name = "Item_Dan_FiveBase4" count = "1"/>
+					<Item name = "Item_Dan_FiveBase5" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN3_02" Parent="DanBase">
+		<ThingName>龙胆</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，提升外门工作技能等级，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN3_02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_IncreaseNeckCountdown1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase2" count = "1"/>
+					<Item name = "Item_Dan_FiveBase3" count = "1"/>
+					<Item name = "Item_Dan_FiveBase4" count = "1"/>
+					<Item name = "Item_Dan_FiveBase5" count = "1"/>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN3_03" Parent="DanBase">
+		<ThingName>麝香</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，提升各项极限技能等级，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN3_03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_IncreaseNeckCountdown1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase2" count = "1"/>
+					<Item name = "Item_Dan_FiveBase3" count = "1"/>
+					<Item name = "Item_Dan_FiveBase4" count = "1"/>
+					<Item name = "Item_Dan_FiveBase5" count = "1"/>
+					<Item name = "Item_XianDaoShenNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN3_04" Parent="DanBase">
+		<ThingName>犀角</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，提升御剑能力，能使自身多控制一件法器，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN3_04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_IncreaseNeckCountdown1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase1" count = "1"/>
+					<Item name = "Item_Dan_FiveBase2" count = "1"/>
+					<Item name = "Item_Dan_FiveBase3" count = "1"/>
+					<Item name = "Item_Dan_FiveBase4" count = "1"/>
+					<Item name = "Item_Dan_FiveBase5" count = "1"/>
+					<Item name = "Item_XianDaoXieNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================神农4分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN4_01" Parent="DanBase">
+		<ThingName>丹参</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升1000点灵气值，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN4_01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_BenYuan_Shui" count = "5"/>
+					<Item name = "Item_Dan_CureJinDamage" count = "1"/>
+					<Item name = "Item_Dan_CureMuDamage" count = "1"/>
+					<Item name = "Item_Dan_CureShuiDamage" count = "1"/>
+					<Item name = "Item_Dan_CureHuoDamage" count = "1"/>
+					<Item name = "Item_Dan_CureTuDamage" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN4_02" Parent="DanBase">
+		<ThingName>沙参</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升10点基础心境值，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN4_02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_BenYuan_Mu" count = "5"/>
+					<Item name = "Item_Dan_CureJinDamage" count = "1"/>
+					<Item name = "Item_Dan_CureMuDamage" count = "1"/>
+					<Item name = "Item_Dan_CureShuiDamage" count = "1"/>
+					<Item name = "Item_Dan_CureHuoDamage" count = "1"/>
+					<Item name = "Item_Dan_CureTuDamage" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN4_03" Parent="DanBase">
+		<ThingName>泽兰</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升25点炉鼎值，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN4_03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_BenYuan_Huo" count = "5"/>
+					<Item name = "Item_Dan_CureJinDamage" count = "1"/>
+					<Item name = "Item_Dan_CureMuDamage" count = "1"/>
+					<Item name = "Item_Dan_CureShuiDamage" count = "1"/>
+					<Item name = "Item_Dan_CureHuoDamage" count = "1"/>
+					<Item name = "Item_Dan_CureTuDamage" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN4_04" Parent="DanBase">
+		<ThingName>白芷</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升1点潜力值，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN4_04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_BenYuan_Tu" count = "5"/>
+					<Item name = "Item_Dan_CureJinDamage" count = "1"/>
+					<Item name = "Item_Dan_CureMuDamage" count = "1"/>
+					<Item name = "Item_Dan_CureShuiDamage" count = "1"/>
+					<Item name = "Item_Dan_CureHuoDamage" count = "1"/>
+					<Item name = "Item_Dan_CureTuDamage" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================女娲1分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW1_01" Parent="DanBase">
+		<ThingName>宫音</ThingName>
+		<TexPath>res\Sprs\object\object_xianshixienian01</TexPath>
+		<Desc>使用后，在一段时间内，提升两倍自身法宝威力。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW1_01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_StoneEssence" count = "20"/>
+					<Item name = "Item_JadeEssence" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "20"/>
+					<Item name = "Item_Dan_PracticeSpeed" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW1_02" Parent="DanBase">
+		<ThingName>商音</ThingName>
+		<TexPath>res\Sprs\object\object_xianshixienian01</TexPath>
+		<Desc>使用后，在一段时间内，提升两倍自身法术威力。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW1_02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_StoneEssence" count = "20"/>
+					<Item name = "Item_JadeEssence" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "20"/>
+					<Item name = "Item_Dan_PracticeRate" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW1_03" Parent="DanBase">
+		<ThingName>角音</ThingName>
+		<TexPath>res\Sprs\object\object_xianshixienian01</TexPath>
+		<Desc>使用后，在一段时间内，提升一倍自身灵气护盾强度。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW1_03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_StoneEssence" count = "20"/>
+					<Item name = "Item_JadeEssence" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "20"/>
+					<Item name = "Item_Dan_Defense" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW1_04" Parent="DanBase">
+		<ThingName>徵音</ThingName>
+		<TexPath>res\Sprs\object\object_xianshixienian01</TexPath>
+		<Desc>使用后，在一段时间内，提升一倍自身五行护盾强度。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW1_04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_StoneEssence" count = "20"/>
+					<Item name = "Item_JadeEssence" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "20"/>
+					<Item name = "Item_Dan_Defense" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW1_05" Parent="DanBase">
+		<ThingName>羽音</ThingName>
+		<TexPath>res\Sprs\object\object_xianshixienian01</TexPath>
+		<Desc>使用后，在一段时间内，提升大量内外门伤势恢复速度，甚至有造化之奇效。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW1_05</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+					<li>None</li>
+					<li>OldScar</li>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+				</RecoveryLable>
+				<RecoveryValue>1000</RecoveryValue>
+				<RecoveryDuration>3</RecoveryDuration>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_StoneEssence" count = "20"/>
+					<Item name = "Item_JadeEssence" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "20"/>
+					<Item name = "Item_Dan_CureFiveElementDamage" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================女娲2分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW2_01" Parent="DanBase">
+		<ThingName>合琴</ThingName>
+		<TexPath>res\Sprs\object\object_xianshishennian01</TexPath>
+		<Desc>使用后，在一段时间内，减少大量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW2_01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_SilverGrit" count = "50"/>
+					<Item name = "Item_CopperGrit" count = "50"/>
+					<Item name = "Item_Cinnabar" count = "10"/>
+					<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_LingCrystal" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW2_02" Parent="DanBase">
+		<ThingName>鸣瑟</ThingName>
+		<TexPath>res\Sprs\object\object_xianshishennian01</TexPath>
+		<Desc>使用后，在一段时间内，减少大量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW2_02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_SilverGrit" count = "50"/>
+					<Item name = "Item_CopperGrit" count = "50"/>
+					<Item name = "Item_Cinnabar" count = "10"/>
+					<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_LingCrystal" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW2_03" Parent="DanBase">
+		<ThingName>鼓笙</ThingName>
+		<TexPath>res\Sprs\object\object_xianshishennian01</TexPath>
+		<Desc>使用后，能大幅推迟天劫的到来。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW2_03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_SilverGrit" count = "50"/>
+					<Item name = "Item_CopperGrit" count = "50"/>
+					<Item name = "Item_Cinnabar" count = "10"/>
+					<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_LingCrystal" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW2_04" Parent="DanBase">
+		<ThingName>吹埙</ThingName>
+		<TexPath>res\Sprs\object\object_xianshishennian01</TexPath>
+		<Desc>使用后，在一段时间内，大幅提升突破几率。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW2_04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_SilverGrit" count = "50"/>
+					<Item name = "Item_CopperGrit" count = "50"/>
+					<Item name = "Item_Cinnabar" count = "10"/>
+					<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_LingCrystal" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW2_05" Parent="DanBase">
+		<ThingName>击磐</ThingName>
+		<TexPath>res\Sprs\object\object_xianshishennian01</TexPath>
+		<Desc>使用后，在一段时间内，大幅提升修炼速度。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_NW2_05</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_SilverGrit" count = "50"/>
+					<Item name = "Item_CopperGrit" count = "50"/>
+					<Item name = "Item_Cinnabar" count = "10"/>
+					<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_LingCrystal" count = "10"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================女娲3分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW3_01" Parent="DanBase">
+		<ThingName>锋芒之珠</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<Desc>一种特殊的金属性丹药，服用可以提升大量参悟值，也可以用来作为特殊聚灵阵的材料。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>5000000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_TreeEXP" count = "5"/>
+					<Item name = "Item_JinEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW3_02" Parent="DanBase">
+		<ThingName>芷兰之珠</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<Desc>一种特殊的木属性丹药，服用可以提升大量参悟值，也可以用来作为特殊聚灵阵的材料。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>5000000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_TreeEXP" count = "5"/>
+					<Item name = "Item_MuEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW3_03" Parent="DanBase">
+		<ThingName>涟漪之珠</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<Desc>一种特殊的水属性丹药，服用可以提升大量参悟值，也可以用来作为特殊聚灵阵的材料。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>5000000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_TreeEXP" count = "5"/>
+					<Item name = "Item_ShuiEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW3_04" Parent="DanBase">
+		<ThingName>烈阳之珠</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<Desc>一种特殊的火属性丹药，服用可以提升大量参悟值，也可以用来作为特殊聚灵阵的材料。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>5000000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_TreeEXP" count = "5"/>
+					<Item name = "Item_HuoEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW3_05" Parent="DanBase">
+		<ThingName>苍峦之珠</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<Desc>一种特殊的土属性丹药，服用可以提升大量参悟值，也可以用来作为特殊聚灵阵的材料。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>5000000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_TreeEXP" count = "5"/>
+					<Item name = "Item_TuEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_NW3_06" Parent="DanBase">
+		<ThingName>灵虚之珠</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<Desc>一种特殊的无属性丹药，服用可以提升大量参悟值，也可以用来作为特殊聚灵阵的材料。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>5000000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_Dan_TreeEXP" count = "5"/>
+					<Item name = "Item_JinEssence" count = "1"/>
+					<Item name = "Item_MuEssence" count = "1"/>
+					<Item name = "Item_ShuiEssence" count = "1"/>
+					<Item name = "Item_HuoEssence" count = "1"/>
+					<Item name = "Item_TuEssence" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================女娲4分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_JinEX" Parent="DanBase">
+		<ThingName>锋芒阵（金）</ThingName>
+		<TexPath>Spr\Object\jinquan01.png</TexPath>
+		<TexScale>0.55</TexScale>
+		<Desc>超强的金属性聚灵宝物，服用也能一次性补充一千万点灵气。</Desc>
+		<MaxStack>10</MaxStack>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星辉</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_AttackLow</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_NW3_01" count = "2"/>
+					<Item name = "Item_Dan_FX1_08" count = "2"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>220</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.7</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>15</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MuEX" Parent="DanBase">
+		<ThingName>芷兰阵（木）</ThingName>
+		<TexPath>Spr\Object\muquan01.png</TexPath>
+		<TexScale>0.45</TexScale>
+		<Desc>超强的木属性聚灵宝物，服用也能一次性补充一千万点灵气。</Desc>
+		<MaxStack>10</MaxStack>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星辉</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_AttackLow</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_NW3_02" count = "2"/>
+					<Item name = "Item_Dan_FX1_08" count = "2"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>220</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.7</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>15</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShuiEX" Parent="DanBase">
+		<ThingName>涟漪阵（水）</ThingName>
+		<TexPath>Spr\Object\shuiquan01.png</TexPath>
+		<TexScale>0.45</TexScale>
+		<Desc>超强的水属性聚灵宝物，服用也能一次性补充一千万点灵气。</Desc>
+		<MaxStack>10</MaxStack>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星辉</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_AttackLow</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_NW3_03" count = "2"/>
+					<Item name = "Item_Dan_FX1_08" count = "2"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>220</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.7</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>15</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_HuoEX" Parent="DanBase">
+		<ThingName>烈阳阵（火）</ThingName>
+		<TexPath>Spr\Object\huoquan01.png</TexPath>
+		<TexScale>0.45</TexScale>
+		<Desc>超强的火属性聚灵宝物，服用也能一次性补充一千万点灵气。</Desc>
+		<MaxStack>10</MaxStack>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星辉</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_AttackLow</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_NW3_04" count = "2"/>
+					<Item name = "Item_Dan_FX1_08" count = "2"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>220</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.7</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>15</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TuEX" Parent="DanBase">
+		<ThingName>苍峦阵（土）</ThingName>
+		<TexPath>Spr\Object\tuquan01.png</TexPath>
+		<TexScale>0.45</TexScale>
+		<Desc>超强的土属性聚灵宝物，服用也能一次性补充一千万点灵气。</Desc>
+		<MaxStack>10</MaxStack>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星辉</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_AttackLow</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_NW3_05" count = "2"/>
+					<Item name = "Item_Dan_FX1_08" count = "2"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>220</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.7</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>15</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_WuEX" Parent="DanBase">
+		<ThingName>灵虚阵（无）</ThingName>
+		<TexPath>Spr\Object\wuquan01.png</TexPath>
+		<TexScale>0.4</TexScale>
+		<Desc>超强的无属性聚灵宝物，服用也能一次性补充一千万点灵气。</Desc>
+		<MaxStack>10</MaxStack>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星辉</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_AttackLow</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>PhysicalLables_None</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_NW3_06" count = "2"/>
+					<Item name = "Item_Dan_FX1_08" count = "2"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>220</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.7</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>15</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<!-- ======================神农补充1分割线====================== -->
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_A01" Parent="DanBase">
+		<ThingName>冬灰</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升劝说成功率，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_A01</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_A02" Parent="DanBase">
+		<ThingName>玉泉</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升全局工作效率，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_A02</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_A03" Parent="DanBase">
+		<ThingName>雄黄</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升美梦几率，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_A03</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_A04" Parent="DanBase">
+		<ThingName>雌黄</ThingName>
+		<TexPath>res\Sprs\object\object_kuangsha01</TexPath>
+		<Desc>使用后，提升噩梦几率，但因其药性太烈，也会被药性所伤。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_A04</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+				<Damages>
+					<li PartName="TheWholeBody" Name="Damage_Boss_LingBoom" Rate="1"/>
+				</Damages>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_B01" Parent="DanBase">
+		<ThingName>蛇床子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，可使人不再进食，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_B01</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_B02" Parent="DanBase">
+		<ThingName>石龙子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，可使人不再饮水，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_B02</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_B03" Parent="DanBase">
+		<ThingName>冬葵子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，可使人不再休眠，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_B03</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_B04" Parent="DanBase">
+		<ThingName>青葙子</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao03</TexPath>
+		<Desc>使用后，可使人不再消极，但俗话说：“是药三分毒”，服用后会造成短时间的腹泻。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_B04</Modifier>
+				<RecoveryLable>
+					<li>Dfood</li>
+				</RecoveryLable>
+				<RecoveryValue>1.5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+				<Modifier>Modifier_Item_Laxative</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_YuanHunLu" count = "1"/>
+					<Item name = "Item_XieHunLu" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_C01" Parent="DanBase">
+		<ThingName>熊脂</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，提升阵法极限技能等级，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_C01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoXieNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_C02" Parent="DanBase">
+		<ThingName>鸢尾</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，增加两道分神，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<GodSoulCount>2</GodSoulCount>
+				<Modifier>Dan_SN_C02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoXieNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_C03" Parent="DanBase">
+		<ThingName>猬皮</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，增加四道分神，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<GodSoulCount>4</GodSoulCount>
+				<Modifier>Dan_SN_C03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoXieNian" count = "2"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_C04" Parent="DanBase">
+		<ThingName>鹿茸</ThingName>
+		<TexPath>res\Sprs\object\object_xuesuizhi01</TexPath>
+		<Desc>使用后，增加六道分神，但此举有违医道，会给服用之人增加少量天谴。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<GodSoulCount>6</GodSoulCount>
+				<Modifier>Dan_SN_C04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoXieNian" count = "3"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_D01" Parent="DanBase">
+		<ThingName>木香</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升阵法负荷能力，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_D01</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoShenNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_D02" Parent="DanBase">
+		<ThingName>赤箭</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升阵法稳定度，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_D02</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoShenNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_D03" Parent="DanBase">
+		<ThingName>蒲黄</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升潜行值，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_D03</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoShenNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SN_D04" Parent="DanBase">
+		<ThingName>紫菀</ThingName>
+		<TexPath>res\Sprs\object\object_lingsuizhi01</TexPath>
+		<Desc>使用后，提升心境稳定度，但此举有违丹道，会给服用之人增加少量道行。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<FabaoSuffix>星陨</FabaoSuffix>
+			<PhysicalLables>
+				<li>PhysicalLables_None</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_SN_D04</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+				<CostItems>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_XianDaoShenNian" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<FunAddion>0</FunAddion>
+				<PracticeNutrition>0</PracticeNutrition>
+			</Food>
+		</Item>
+		
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

@@ -1,0 +1,90 @@
+﻿<TangDefs><List>
+	
+	<Tang Name="Tang_zhanglao">
+		<DisplayName>长老</DisplayName>
+		<Desc>内门中资质顶尖的弟子，可以提拔为长老，将获得大幅属性加成，其中对堂主要求属性非常高。</Desc>
+		<Icon>Spr\Building\TANG\XXZS_ZLT.png</Icon>
+		<!-- 五维高于5时，每点+1，最高+5;低于5时，每点-1，最多-5。 -->
+		<FiveBases>
+			<li>Physique</li>
+			<li>Perception</li>
+			<li>Charisma</li>
+			<li>Intelligence</li>
+			<li>Luck</li>
+		</FiveBases>
+		<Skills><!--技能高于15级时，每级+1，最高+5;低于15级时，每级-1 -->
+			<li>Medicine</li>
+			<li>Manual</li>
+			<li>FightSkill</li>
+			<li>Fabao</li>
+			<li>Barrier</li>
+		</Skills>
+		<GRank>-10,-5,0,5,10</GRank><!--境界加值 练气,结丹,金丹,元神,仙人 -->
+		<DaoHang>100</DaoHang><!--每N点真实道行+1 -->
+		<!--功法拥有这个技能+5 -->
+		<GongSkill>ciqi</GongSkill>
+		<AreaModifierNei>zhanglao_nei_BUFF</AreaModifierNei><!--内门在区域内的BUFF 每个Level获得1层-->
+		<Modifier>zhanglao_tang_BUFF</Modifier><!--分堂BUFF 每10个Layer获得1层-->
+	</Tang>
+	
+	<Tang Name="Tang_hufa">
+		<DisplayName>护法</DisplayName>
+		<Desc>内门中资质优秀的弟子，可以提拔为护法，将获得较多属性加成，其中对堂主要求属性很高。</Desc>
+		<Icon>Spr\Building\TANG\XXZS_HFT.png</Icon>
+		<!-- 五维高于5时，每点+1，最高+5;低于5时，每点-1，最多-5。 -->
+		<FiveBases>
+			<li>Physique</li>
+			<li>Perception</li>
+			<li>Charisma</li>
+			<li>Intelligence</li>
+			<li>Luck</li>
+		</FiveBases>
+		<Skills><!--技能高于15级时，每级+1，最高+5;低于15级时，每级-1 -->
+			<li>FightSkill</li>
+			<li>Fabao</li>
+			<li>Barrier</li>
+		</Skills>
+		<GRank>-7,-4,0,4,7</GRank><!--境界加值 练气,结丹,金丹,元神,仙人 -->
+		<GongSkill>chumo</GongSkill>
+		<AreaModifierNei>hufa_nei_BUFF</AreaModifierNei><!--内门在区域内的BUFF 每个Level获得1层-->
+		<Modifier>hufa_tang_BUFF</Modifier><!--分堂BUFF 每10个Layer获得1层-->
+	</Tang>
+	
+	<Tang Name="Tang_jingying">
+		<DisplayName>精英</DisplayName>
+		<Desc>内门中资质不错的弟子，可以提拔为精英，将获得小幅加成，其中对堂主要求属性较高。</Desc>
+		<Icon>Spr\Building\TANG\XXZS_JYT.png</Icon>
+		<!-- 五维高于5时，每点+1，最高+5;低于5时，每点-1，最多-5。 -->
+		<FiveBases>
+			<li>Physique</li>
+			<li>Perception</li>
+			<li>Charisma</li>
+			<li>Intelligence</li>
+			<li>Luck</li>
+		</FiveBases>
+		<GRank>-5,-3,0,3,5</GRank><!--境界加值 练气,结丹,金丹,元神,仙人 -->
+		<GongSkill>cuiti</GongSkill>
+		<AreaModifierNei>jingying_nei_BUFF</AreaModifierNei><!--内门在区域内的BUFF 每个Level获得1层-->
+		<Modifier>jingying_tang_BUFF</Modifier><!--分堂BUFF 每10个Layer获得1层-->
+	</Tang>
+	
+	<Tang Name="Tang_guanshi">
+		<DisplayName>管事</DisplayName>
+		<Desc>内门中资质一般的弟子，可以提拔为管事，将获得小幅加成，其中对堂主要求属性一般。</Desc>
+		<Icon>Spr\Building\TANG\XXZS_DZT.png</Icon>
+		<!-- 五维高于5时，每点+1，最高+5;低于5时，每点-1，最多-5。 -->
+		<FiveBases>
+			<li>Perception</li>
+			<li>Charisma</li>
+		</FiveBases>
+		<GRank>0,1,2,3,4</GRank><!--境界加值 练气,结丹,金丹,元神,仙人 -->
+		<GongSkill>bihu</GongSkill>
+		<AreaModifierWai>guanshi_wai_BUFF</AreaModifierWai><!--外门在区域内的BUFF 每个Level获得1层-->
+		<Modifier>guanshi_tang_BUFF</Modifier><!--分堂BUFF 每10个Layer获得1层-->
+	</Tang>
+	
+	
+	
+	
+	
+</List></TangDefs>

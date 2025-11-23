@@ -1,0 +1,180 @@
+<Experiences><List>
+	<Experience Name="CeShi">
+		<DisplayName>测试</DisplayName><!-- 经历名称 -->
+		<Desc>测试用经历。</Desc><!-- 经历说明 -->
+		<Point>5</Point><!-- 需求点数 -->
+		<Hide>1</Hide>
+		<Recommend>1</Recommend><!-- 推荐星级 -->
+		<NpcSlot>9</NpcSlot><!-- 开局伙伴 -->
+		<ModifierDef>
+			<NoFog>1</NoFog>
+			<BaseFive>10,10,10,10,10</BaseFive><!-- 五维属性 -->
+			<Skills>
+				<!-- 人物技能 -->
+				<li Name="DouFa" Level="50"/><!-- 斗法 -->
+				<li Name="DanQi" Level="50"/><!-- 丹器 -->
+				<li Name="Fabao" Level="50"/><!-- 法宝 -->
+				<li Name="FightSkill" Level="50"/><!-- 术法 -->
+				<li Name="Barrier" Level="50"/><!-- 护体 -->
+				<li Name="Fight" Level="110"/><!-- 御物 -->
+				<li Name="Qi" Level="110"/><!-- 气感 -->
+				<li Name="SocialContact" Level="110"/><!-- 社交 -->
+				<li Name="Medicine" Level="110"/><!-- 岐黄 -->
+				<li Name="Cooking" Level="110"/><!-- 烹饪 -->
+				<li Name="Building" Level="110"/><!-- 建筑 -->
+				<li Name="Farming" Level="110"/><!-- 农事 -->
+				<li Name="Mining" Level="110"/><!-- 采掘 -->
+				<li Name="Art" Level="110"/><!-- 巧匠 -->
+				<li Name="Manual" Level="110"/><!-- 制造 -->
+			</Skills>
+			<Properties>
+				<!-- 属性 -->
+				<li Name="MaxAge" AddV="999"/><!--寿元-->
+				<li Name="BaseEmotionAddV" AddV="99"/><!--心情基础值-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="2"/><!--学习速度-->
+				<li Name="MoveSpeed" AddP="2"/><!--移动速度-->
+				<li Name="RecoveryPower" AddP="10"/><!--自然恢复力-->
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/><!--内门伤自然恢复力-->
+				<li Name="FatigueConsumeConstant" AddP="-0.9"/><!--精力消耗速度加成-->
+				<li Name="NutritionConsumeConstant" AddP="-0.9"/><!--食物消耗速度加成-->
+				<li Name="WaterConsumeConstant" AddP="-0.9"/><!--饮水消耗速度加成-->
+				<li Name="HappyConsumeConstant" AddP="-0.9"/><!--娱乐消耗速度加成-->
+				<li Name="ToleranceTMin" AddV="-999"/><!--最低极限温度-->
+				<li Name="ToleranceTMax" AddV="999"/><!--最高极限温度-->
+				<li Name="ComfyTMin" AddV="-999"/><!--最低舒适温度-->
+				<li Name="ComfyTMax" AddV="999"/><!--最高舒适温度-->
+				<!-- 工作 -->
+				<li Name="GlobalEfficiency" AddP="2"/><!--全局工作速度-->
+				<li Name="TreatSuccessChance" AddP="1"/><!--治疗成功率-->
+				<li Name="TreatmentExpectQuality" AddP="1"/><!-- 治疗效果 -->
+				<li Name="MiningYieldEfficiency" AddP="1"/><!--采掘技巧-->
+				<li Name="MadeQualityAddValue" AddP="2"/><!--制作附加值-->
+				<li Name="ManufactureExpectQuality" AddP="2"/><!--制造品质-->
+				<!-- 修仙 -->
+				<li Name="AbilityLvAddV" AddV="-200"/><!--道行-->
+				<li Name="GodPenaltyAddV" AddV="-99"/><!--天谴-->
+				<li Name="PotentialOfBasepracticeAddValue" AddV="3"/><!--潜力加值-->
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/><!--修炼速度加成-->
+				<li Name="MindStateBaseValue" AddV="150"/><!--心境的基础值-->
+				<li Name="SpeedOfMindStateCoefficient" AddP="-0.9"/><!--心境稳定程度-->
+				<li Name="InspirationCoefficient" AddP="2"/><!--领悟悟性倍率，悟性越高的人越容易在生活中发生领悟。-->
+				<li Name="NpcLingMaxValue" BAddV="100000"/><!--灵气值-->
+				<li Name="LingAbsorbSpeed" AddV="500"/><!--灵气恢复-->
+				<li Name="FabaoMake_SpeedAddV" AddV="10"/><!--法宝炼制速度加值-->
+				<li Name="FabaoMake_SuccessRateAddV" AddV="10"/><!--法宝炼制成功率加值-->
+				<li Name="FabaoMake_LingInheritRateAddV" AddV="10"/><!--法宝炼制品阶加成，原材料灵气对法宝品阶加成的幅度。-->
+				<li Name="FabaoMake_QualityAddV" AddV="10"/><!--法宝炼制品质加值，成品品质的加值。-->
+				<li Name="FabaoMake_TwelveRateChance" AddV="100"/><!--神器炼成基础几率-->
+				<li Name="DanMake_SpeedAddV" AddV="10"/><!--丹药炼制速度-->
+				<li Name="DanMake_SuccessRate" AddV="10"/><!--炼丹技能炼制成功率，炼丹技能带来的成功率。-->
+				<li Name="DanMake_Yield" AddV="10"/><!--炼丹技能炼制产量加成，炼丹技能带来的产量加成。-->
+				<li Name="WorldMapFlySpeedAddP" AddV="5"/><!--历练速度-->
+				<!-- 战斗 -->
+				<li Name="NpcFight_BaseHitChance" AddV="1"/><!--战斗命中-->
+				<li Name="NpcFight_BaseDodgeChance" AddV="1"/><!--战斗闪避-->
+				<li Name="NpcFight_FabaoPowerAddP" BAddP="100"/><!--法宝威力加成-->
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="10"/><!--法宝灵气恢复速度加成-->
+				<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/><!--法宝攻击间隔加成-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/><!--法宝灵气最大值加成-->
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="10"/><!--法宝击退距离加成-->
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/><!--法宝飞行速度加成-->
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/><!--法宝转向速度加成-->
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="1"/><!--法宝击退距离抗性-->
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="2"/><!--法宝拖尾长度加成-->
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/><!--术法灵气消耗加成-->
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.5"/><!--术法吟唱时间加成-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="100"/><!--术法伤害加成-->
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/><!--术法冷却时间加成-->
+				<li Name="NpcFight_ShieldConversionRate" AddP="100"/><!--护盾强度加值-->
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="100"/><!--护盾强度加成-->
+				<li Name="NpcFight_FabaoNum" AddV="5"/>
+			</Properties>
+		</ModifierDef>
+		<Esoterics>
+			<li>Tianshu_1</li>
+			<li>Tianshu_2</li>
+			<li>Tianshu_3</li>
+			<li>Tianshu_4</li>
+			<li>Tianshu_5</li>
+			<li>Tianshu_6</li>
+			<li>Tianshu_7</li>
+			<li>Tianshu_8</li>
+			<li>Tianshu_9</li>
+			<li>XXZS_ZF</li>
+			<li>Esoterica_ZhenFa_Suit1</li>
+			<li>Esoterica_ZhenFa_Suit2</li>
+			<li>Esoterica_ZhenFa_Suit3</li>
+			<li>Esoterica_ZhenFa_Suit4</li>
+			<li>Esoterica_ZhenFa_Suit5</li>
+			<li>Esoterica_ZhenFa_Suit6</li>
+			<li>Esoterica_ZhenFa_Suit7</li>
+			<li>Esoterica_ZhenFa_Suit8</li>
+			<li>Esoterica_ZhenFa_Suit9</li>
+			<li>Esoterica_ZhenFa_Suit10</li>
+			<li>Esoterica_ZhenFa_Suit11</li>
+			<li>Other_Esoterica_LongDan</li>
+			<li>Other_Esoterica_FengDan</li>
+			<li>Other_Esoterica_ZhuLongDan</li>
+			<li>Esoterica_LingZhi_MiFa_Ling_Jin</li>
+			<li>Esoterica_LingZhi_MiFa_Ling_Mu</li>
+			<li>Esoterica_LingZhi_MiFa_Ling_Shui</li>
+			<li>Esoterica_LingZhi_MiFa_Ling_Huo</li>
+			<li>Esoterica_LingZhi_MiFa_Ling_Tu</li>
+			<li>Esoterica_LingZhi_MiFa_Sha_Jin</li>
+			<li>Esoterica_LingZhi_MiFa_Sha_Mu</li>
+			<li>Esoterica_LingZhi_MiFa_Sha_Shui</li>
+			<li>Esoterica_LingZhi_MiFa_Sha_Huo</li>
+			<li>Esoterica_LingZhi_MiFa_Sha_Tu</li>
+		</Esoterics>
+		<Gongs>
+			<li>Gong_1_Shui</li><!-- 太和十六洞天 -->
+			<li>Gong_2_Mu</li><!-- 己寅九冲多宝真解 -->
+			<li>Gong_3_Jin</li><!-- 七杀剑诀 -->
+			<li>Gong_4_None</li><!-- 玉清仙法 -->
+			<li>Gong_5_Tu</li><!-- 偷天诀 -->
+			<li>Gong_6_Huo</li><!-- 九转金丹直指 -->
+			<li>Gong_7_Huo</li><!-- 太上忘情道 -->
+			<li>Gong_8_Jin</li><!-- 北斗洞心劫法 -->
+			<li>Gong_9_Mu</li><!-- 长生六道轮回经 -->
+			<li>Gong_10_Huo</li><!-- 三阳三昧丙丁炼火诀 -->
+			<li>Gong_11_Tu</li><!-- 葵花炼神大法 -->
+			<li>XXZS_TJYYJ</li><!-- 太极阴阳诀 -->
+			<li>XXZS_JTJDDBJ</li><!-- 九天九地盗宝经 -->
+			<li>XXZS_TXHYD</li><!-- 太虚混元道 -->
+			<li>XXZS_SCZJL</li><!-- 身残志坚论 -->
+			<li>XXZS_SNBCL</li><!-- 神农百草论 -->
+			<li>XXZS_FXYGL</li><!-- 伏羲演卦论 -->
+			<li>XXZS_NWCSL</li><!-- 女娲采石论 -->
+			<li>XXZS_HHYJZY</li><!-- 洪荒御剑真意 -->
+			<li>XXZS_XMBQZJ</li><!-- 星芒补器真解 -->
+			<li>XXZS_LXQZZF</li><!-- 凌霄器宗真法 -->
+			<li>XXZS_WMYS</li><!-- 武穆遗书 -->
+		</Gongs>
+		<Items>
+			<li Name= "Item_Dan_LunHui1" Count="100"/><!-- 星途闪耀 -->
+			<li Name= "Item_BasePracticeDrug" Count="99"/><!-- 筑基丹 -->
+			<li Name= "Item_Dan_Ling" Count="100"/><!-- 聚灵丹 -->
+			<li Name= "Item_Dan_Ling2" Count="100"/><!-- 紫阳丹 -->
+			<li Name= "Item_Dan_Ling3" Count="100"/><!-- 万灵散 -->
+			<li Name= "Item_Dan_CalmDown" Count="100"/><!-- 清心丹 -->
+			<li Name= "Item_Dan_NoHunger2" Count="100"/><!-- 辟谷丹 -->
+			<li Name= "Item_Dan_Restore" Count="100"/><!-- 归元散 -->
+			<li Name= "Item_Dan_ExtremeLofty" Count="10"/><!-- 造化神丹 -->
+			<li Name= "Item_Dan_HundredRefine" Count="10"/><!-- 九转金丹 -->
+			<li Name= "Item_Dan_TreeEXP" Count="100"/><!-- 天道神丹 -->
+			<li Name= "Item_SoulPearl" Count="20"/><!-- 玄牝珠 -->
+			<li Name= "Item_YaoLeather1" Count="1000"/><!-- 妖兽韧皮 -->
+			<li Name= "Item_LingWoodBlock" Count="1000"/><!-- 灵木料 -->
+			<li Name= "Item_LingCrystal" Count="5000"/><!-- 灵晶 -->
+			<li Name= "Item_SkyStoneBlock" Count="1000"/><!-- 天柱石砖 -->
+			<li Name= "Item_LingCrystalBlock" Count="1000"/><!-- 灵晶砖 -->
+			<li Name= "Item_JC_01" Count="10000"/>
+			<li Name= "Item_JC_02" Count="10000"/>
+			<li Name= "Item_JC_03" Count="10000"/>
+			<li Name= "Item_JC_04" Count="10000"/>
+			<li Name= "Item_JC_05" Count="10000"/>
+			<li Name= "Item_JC_06" Count="10000"/>
+			<li Name= "Item_JL_06" Count="10000"/>
+		</Items>
+	</Experience>
+</List></Experiences>

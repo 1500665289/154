@@ -1,0 +1,327 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_1A">
+		<DisplayName>先天八卦</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以先天为本。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_1B">
+		<DisplayName>先天八卦</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以先天为本。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_1C">
+		<DisplayName>先天八卦</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以先天为本。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力\n加炉鼎\n加心境[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_1C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_2A">
+		<DisplayName>中天八卦</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以中天为照。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_2A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_2B">
+		<DisplayName>中天八卦</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以中天为照。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加法宝威力\n加法术威力[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_2C">
+		<DisplayName>中天八卦</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以中天为照。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加心境稳定度\n加极限温度限值\n加舒适温度限值[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_2C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_3A">
+		<DisplayName>后天八卦</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以后天为果。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_3A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_3B">
+		<DisplayName>后天八卦</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以后天为果。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼丹速度\n加炼丹成功率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_3B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_3C">
+		<DisplayName>后天八卦</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，以后天为果。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加炼丹等级\n加法术等级\n加领悟几率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_3C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_4A">
+		<DisplayName>六十四象</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>伏羲氏推演八卦之象，终成六四卦象。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_4A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_4B">
+		<DisplayName>六十四象</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，终成六四卦象。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加炼丹产量\n加寿命\n加突破几率[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_4B</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_4C">
+		<DisplayName>六十四象</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏推演八卦之象，终成六四卦象。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加法术威力\n减技能冷却\n减技能消耗\n减技能吟唱[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_4C</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_5A">
+		<DisplayName>伏羲丹经</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>伏羲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_5A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_5B">
+		<DisplayName>伏羲丹经</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——伏羲丹经：\n坤之丹\n艮之丹\n坎之丹\n巽之丹\n震之丹\n离之丹\n兑之丹\n乾之丹[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_FX1_01</li>
+			<li>Dan_FX1_02</li>
+			<li>Dan_FX1_03</li>
+			<li>Dan_FX1_04</li>
+			<li>Dan_FX1_05</li>
+			<li>Dan_FX1_06</li>
+			<li>Dan_FX1_07</li>
+			<li>Dan_FX1_08</li>
+		</Dans>
+		<Modifier>XXZS_FXYGL_5B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_6A">
+		<DisplayName>伏羲丹典</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>伏羲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_6A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_6B">
+		<DisplayName>伏羲丹典</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_PF\PF_ye.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>伏羲氏所撰写的经书。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  丹方——伏羲丹典：\n地丹\n山丹\n水丹\n风丹\n雷丹\n火丹\n泽丹\n天丹[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_FX2_01</li>
+			<li>Dan_FX2_02</li>
+			<li>Dan_FX2_03</li>
+			<li>Dan_FX2_04</li>
+			<li>Dan_FX2_05</li>
+			<li>Dan_FX2_06</li>
+			<li>Dan_FX2_07</li>
+			<li>Dan_FX2_08</li>
+		</Dans>
+		<Modifier>XXZS_FXYGL_6B</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_7A">
+		<DisplayName>九宫法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>以九宫法而入八卦，掐指能算。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_7A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_7B">
+		<DisplayName>五帝诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>前算五帝之圣贤，吟之为诀。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  秘术：\n五帝诀[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_7B</Modifier>
+		<Skills>
+			<li>XXZS_FXYGL_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_7C">
+		<DisplayName>九九归一咒</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>后演九九八十一道法，曰之为咒。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n习得  秘术：\n九九归一咒[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_7C</Modifier>
+		<Skills>
+			<li>XXZS_FXYGL_2</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Esoterica Name="XXZS_FXYGL_8A">
+		<DisplayName>河洛法</DisplayName>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>以河洛法而入八卦，见天而卜。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n减五维属性[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_8A</Modifier>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_8B">
+		<DisplayName>四象诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>下卜四象之地灵，诵之为诀。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n习得  秘术：\n四象诀[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_8B</Modifier>
+		<Skills>
+			<li>XXZS_FXYGL_3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="XXZS_FXYGL_8C">
+		<DisplayName>二八星宿咒</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\XXZZ_SF\SF_wu.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>上卜四七二十八星宿，歌之为咒。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n习得  秘术：\n二八星宿咒[/color][/size]</EffectDesc>
+		<Modifier>XXZS_FXYGL_8C</Modifier>
+		<Skills>
+			<li>XXZS_FXYGL_4</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+</List></Esotericas>

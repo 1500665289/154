@@ -1,0 +1,334 @@
+<FightSkills><List>
+	<Skill Name="XXZS_TJYYJ_1"><!--伤害技能基础模板 --> 
+		<DisplayName>太极印</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>420</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="XXZS_TJYYJ_2"><!--伤害技能基础模板 --> 
+		<DisplayName>阴阳印</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>420</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="XXZS_SCZJL_3"><!--伤害技能基础模板 --> 
+		<DisplayName>朱雀神罡</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="XXZS_SCZJL_4"><!--伤害技能基础模板 --> 
+		<DisplayName>白虎仙罡</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>LowLing</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_2"><!--伤害技能基础模板 --> 
+		<DisplayName>太虚遁音符</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>15</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>120</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_TXHYD_2A" Parent="XXZS_TXHYD_2">
+		<DisplayName>遁音群</DisplayName>
+		<SelectCount>11</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_3"><!--伤害技能基础模板 --> 
+		<DisplayName>太虚遁风符</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>20</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>240</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_TXHYD_3A" Parent="XXZS_TXHYD_3">
+		<DisplayName>遁风群</DisplayName>
+		<SelectCount>7</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_4"><!--伤害技能基础模板 --> 
+		<DisplayName>太虚遁空符</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>420</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_TXHYD_4A" Parent="XXZS_TXHYD_4">
+		<DisplayName>遁空群</DisplayName>
+		<SelectCount>5</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_6"><!--伤害技能基础模板 --> 
+		<DisplayName>混元葬焚诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>15</CD>
+		<LingCost>75</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>120</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_TXHYD_6A" Parent="XXZS_TXHYD_6">
+		<DisplayName>焚葬群</DisplayName>
+		<SelectCount>5</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_7"><!--伤害技能基础模板 --> 
+		<DisplayName>混元奔雷诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>20</CD>
+		<LingCost>90</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>240</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_TXHYD_7A" Parent="XXZS_TXHYD_7">
+		<DisplayName>奔雷群</DisplayName>
+		<SelectCount>7</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_TXHYD_8"><!--伤害技能基础模板 --> 
+		<DisplayName>混元坠星诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>25</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>420</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_TXHYD_8A" Parent="XXZS_TXHYD_8">
+		<DisplayName>坠星群</DisplayName>
+		<SelectCount>11</SelectCount>
+	</Skill>
+	
+	<Skill Name="XXZS_LXQZZF_3"><!--伤害技能基础模板 --> 
+		<DisplayName>封天剑界</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>105</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>350</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="XXZS_LJMB_1"><!--伤害技能基础模板 --> 
+		<DisplayName>万剑归宗</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>1</CD>
+		<LingCost>10</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>5</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200000</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="XXZS_LJMB_1A" Parent="XXZS_LJMB_1">
+		<DisplayName>万剑群</DisplayName>
+		<SelectCount>999</SelectCount>
+	</Skill>
+	
+	
+	
+	
+	
+</List></FightSkills>

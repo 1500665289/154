@@ -1,0 +1,224 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_1A" Type="Normal">
+		<DisplayName>神农卷·一</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_1B" Type="Normal">
+		<DisplayName>养气血</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_1C" Type="Normal">
+		<DisplayName>练筋骨</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="300"/>
+			<li Name="NutritionToJingYuanK" AddP="0.5"/>
+			<li Name="NutritionWaterAutoRecover" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_2A" Type="Normal">
+		<DisplayName>神农卷·二</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_2B" Type="Normal">
+		<DisplayName>采百草</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_2C" Type="Normal">
+		<DisplayName>制灵丹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="30"/>
+			<li Name="ComfyTMax" AddV="45"/>
+			<li Name="ComfyTMin" AddV="-45"/>
+			<li Name="ToleranceTMax" AddV="45"/>
+			<li Name="ToleranceTMin" AddV="-45"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_3A" Type="Normal">
+		<DisplayName>神农卷·三</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_3B" Type="Normal">
+		<DisplayName>滋阴补阳</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_3C" Type="Normal">
+		<DisplayName>五运六气</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="25"/>
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_4A" Type="Normal">
+		<DisplayName>本草总纲</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_4B" Type="Normal">
+		<DisplayName>本草·外经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1.5,1.5,1.5,1.5,1.5</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_4C" Type="Normal">
+		<DisplayName>本草·内经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-100"/>
+			<li Name="DanMake_YieldAddP" AddV="2"/>
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="20"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_5A" Type="Normal">
+		<DisplayName>神农丹经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_5B" Type="Normal">
+		<DisplayName>神农丹经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能6========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_6A" Type="Normal">
+		<DisplayName>神农丹典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_6B" Type="Normal">
+		<DisplayName>神农丹典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能7========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_7A" Type="Normal">
+		<DisplayName>神农丹集</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_7B" Type="Normal">
+		<DisplayName>神农丹集</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================技能8========================== -->
+	
+	<Modifier Name="XXZS_SNBCL_8A" Type="Normal">
+		<DisplayName>神农丹册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="XXZS_SNBCL_8B" Type="Normal">
+		<DisplayName>神农丹册</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

@@ -1,0 +1,216 @@
+<Gongs><List>
+	<Gong Name="XXZS_HHYJZY">
+		<DisplayName>洪荒御剑真意</DisplayName>
+		<Desc>据传是【中原】上古剑宗【御剑山庄】一脉的镇派功法之一。此功法根据【星芒补器真解】推演而成，专注于御剑克敌之道，境界越高，可御之法器越多，其道法高深，威力莫测，是不可多得的上乘功法。</Desc>
+		<SelectDesc>此功法专注于御剑之术，虽突破境界较少，但突破之时不仅需要大量法器辅佐，同时也极易被剑气反噬，望慎修之。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>-1,9,-1,6,-1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Jin</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>一剑破万法</DisplayName>
+				<Desc>练气执一剑，万法皆可破。</Desc>
+				<Value>10000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>剑斩轮回</DisplayName>
+						<Desc>天地轮回，一剑斩之。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.5</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="XXZS_WQ_G01"/>
+							<Item name="XXZS_WQ_D01"/>
+							<Item name="XXZS_WQ_Q01"/>
+							<Item name="XXZS_WQ_J01"/>
+							<Item name="XXZS_WQ_C01"/>
+							<Item name="XXZS_WQ_H01"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>剑破诸道</DisplayName>
+						<Desc>诸天万道，一剑破之。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.4</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="XXZS_WQ_G01"/>
+							<Item name="XXZS_WQ_D01"/>
+							<Item name="XXZS_WQ_Q01"/>
+							<Item name="XXZS_WQ_J01"/>
+							<Item name="XXZS_WQ_C01"/>
+							<Item name="XXZS_WQ_H01"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--结丹期-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>双剑平天下</DisplayName>
+				<Desc>结丹双剑出，天下皆可平。</Desc>
+				<Value>60000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>剑震地煞</DisplayName>
+						<Desc>三十六地煞，击双剑而震。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="XXZS_WQ_G02"/>
+							<Item name="XXZS_WQ_D02"/>
+							<Item name="XXZS_WQ_Q02"/>
+							<Item name="XXZS_WQ_J02"/>
+							<Item name="XXZS_WQ_C02"/>
+							<Item name="XXZS_WQ_H02"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>剑舞天罡</DisplayName>
+						<Desc>七十二天罡，挥双剑而舞。</Desc>
+						<ItemCost>
+							<Item name="XXZS_WQ_G02"/>
+							<Item name="XXZS_WQ_D02"/>
+							<Item name="XXZS_WQ_Q02"/>
+							<Item name="XXZS_WQ_J02"/>
+							<Item name="XXZS_WQ_C02"/>
+							<Item name="XXZS_WQ_H02"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>三剑荡妖魔</DisplayName>
+				<Desc>金丹协三剑，剑剑指妖魔。</Desc>
+				<Value>360000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>剑诛妖邪</DisplayName>
+						<Desc>三剑齐出鞘，诛妖邪于世。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.2</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="XXZS_WQ_G03"/>
+							<Item name="XXZS_WQ_D03"/>
+							<Item name="XXZS_WQ_Q03"/>
+							<Item name="XXZS_WQ_J03"/>
+							<Item name="XXZS_WQ_C03"/>
+							<Item name="XXZS_WQ_H03"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>剑镇鬼魅</DisplayName>
+						<Desc>三剑动乾坤，镇鬼魅在冥。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="XXZS_WQ_G03"/>
+							<Item name="XXZS_WQ_D03"/>
+							<Item name="XXZS_WQ_Q03"/>
+							<Item name="XXZS_WQ_J03"/>
+							<Item name="XXZS_WQ_C03"/>
+							<Item name="XXZS_WQ_H03"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期-->
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>四剑纵八荒</DisplayName>
+				<Desc>元神得四剑，踏四海八荒。</Desc>
+				<Value>2160000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>剑荡四海</DisplayName>
+						<Desc>四海潮声起，剑鸣荡悲歌。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<ItemCost>
+							<Item name="XXZS_WQ_G01"/>
+							<Item name="XXZS_WQ_D01"/>
+							<Item name="XXZS_WQ_Q01"/>
+							<Item name="XXZS_WQ_J01"/>
+							<Item name="XXZS_WQ_C01"/>
+							<Item name="XXZS_WQ_H01"/>
+							<Item name="XXZS_WQ_G02"/>
+							<Item name="XXZS_WQ_D02"/>
+							<Item name="XXZS_WQ_Q02"/>
+							<Item name="XXZS_WQ_J02"/>
+							<Item name="XXZS_WQ_C02"/>
+							<Item name="XXZS_WQ_H02"/>
+							<Item name="XXZS_WQ_G03"/>
+							<Item name="XXZS_WQ_D03"/>
+							<Item name="XXZS_WQ_Q03"/>
+							<Item name="XXZS_WQ_J03"/>
+							<Item name="XXZS_WQ_C03"/>
+							<Item name="XXZS_WQ_H03"/>
+							<Item name="XXZS_WQ_G04"/>
+							<Item name="XXZS_WQ_D04"/>
+							<Item name="XXZS_WQ_Q04"/>
+							<Item name="XXZS_WQ_J04"/>
+							<Item name="XXZS_WQ_C04"/>
+							<Item name="XXZS_WQ_H04"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>剑纵八荒</DisplayName>
+						<Desc>八荒风云变，剑啸纵天音。</Desc>
+						<ThunderValue>60000</ThunderValue>
+						<NeckCountdown>60000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

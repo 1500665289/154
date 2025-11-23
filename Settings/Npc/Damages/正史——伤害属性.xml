@@ -1,0 +1,115 @@
+<DamageDefs><List>
+	<!--属性伤-->
+	<Damage Name="XXZS_SH_01">
+		<DisplayName>重伤</DisplayName>     <!--血肉，内脏-->
+		<Lable>Ling</Lable>            <!--伤害类别-->
+		<TreatConstant>0</TreatConstant>  <!-- 是否可以自愈-->
+		<ValueMin>0.2</ValueMin>    <!-- 最低损伤器官百分比-->
+		<ValueMax>0.8</ValueMax>       <!--最高损伤器官百分比-->
+		<Pain>1</Pain>               <!--疼痛程度-->
+		<Trend>0.5</Trend>			<!--恶化速度-->
+		<Previous>ViscusInjury</Previous>      <!--治疗后转变的伤势-->
+		<Next>SevereInjury</Next>              <!--恶化后转变的伤势-->
+	</Damage>
+	
+	<Damage Name="XXZS_SH_02">
+		<DisplayName>天命之创</DisplayName>
+		<Lable>Ling</Lable>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.09</ValueMin>
+		<ValueMax>0.09</ValueMax>
+		<Pain>1</Pain>
+		<Trend>0.09</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<!--内脏伤-->
+	<Damage Name="XXZS_SH_03">
+		<DisplayName>坏变</DisplayName>
+		<ValueMin>0.1</ValueMin>
+		<ValueMax>0.5</ValueMax>
+		<Pain>0.2</Pain>
+		<Trend>0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_04">
+		<DisplayName>折断</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_05">
+		<DisplayName>撞击</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_06">
+		<DisplayName>扩张</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_07">
+		<DisplayName>摩擦</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_08">
+		<DisplayName>顺产</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_09">
+		<DisplayName>打脸</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="XXZS_SH_10">
+		<DisplayName>润滑</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.02</ValueMin>
+		<ValueMax>0.02</ValueMax>
+		<Pain>0.99</Pain>
+		<Trend>-0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+</List></DamageDefs>

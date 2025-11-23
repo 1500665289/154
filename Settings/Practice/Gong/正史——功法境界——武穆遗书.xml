@@ -1,0 +1,144 @@
+<Gongs><List>
+	<Gong Name="XXZS_WMYS">
+		<DisplayName>武穆遗书</DisplayName>
+		<Desc>据传是来自【异界】中一个名为华夏的古老功法，那里的人们称其祖师为金庸老爷子。其功法内注重融会贯通之法，取长补短之途，阴阳结合之道，为其三大核心，最终自成一派。而其中记录有武学无数，仅得其一者便可独步于天下！正因此引无数武林人士争夺之。。。</Desc>
+		<SelectDesc>此功法虽然修炼门槛较低，但是想要精进领悟却是难上加难，自古大成者更是寥寥无几，但若能得其一者，便可自立宗派，流芳百世。少侠确定要修行吗？</SelectDesc>
+		<FiveBaseNeed>1,1,1,1,1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill><!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<!--练气期1-->
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>我之为谁</DisplayName>
+				<Desc>初入我门，先问其身，我谓之谁？</Desc>
+				<Value>5000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>非草木</DisplayName>
+						<Desc>我并非草木尔，有情有欲。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>非兽鸟</DisplayName>
+						<Desc>我并非兽鸟尔，有礼有德。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>非日月</DisplayName>
+						<Desc>我并非日月尔，有寿有疾。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<!--结丹期1-->
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>我即是我</DisplayName>
+				<Desc>渐得其心，再省其本，我即是我！</Desc>
+				<Value>25000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>即七情六欲</DisplayName>
+						<Desc>我谓之人，乃知七情六欲。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>即是非曲直</DisplayName>
+						<Desc>我谓之人，乃知是非曲直。</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>即人无完人</DisplayName>
+						<Desc>我谓之人，乃知人无完人。</Desc>
+						<ResourceCost>
+							<Resource kind="Age" value="100"/>
+						</ResourceCost>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--金丹期1-->
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>我为何哉</DisplayName>
+				<Desc>破而后立，舎其本我，自我难求。</Desc>
+				<Value>125000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>无所为</DisplayName>
+						<Desc>为天下之所不敢为，是为我。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>无所求</DisplayName>
+						<Desc>求天下之所不能求，是为我。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>无所证</DisplayName>
+						<Desc>证天下之所不可证，是为我。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0</FailedChangeAdd>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<!--元神期1-->
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>我非我矣</DisplayName>
+				<Desc>求证大道，台即非台，我亦非我。</Desc>
+				<Value>625000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>何为天地</DisplayName>
+						<Desc>我非我也，天地何存乎？何为天地？</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.67" Kind="Chance">
+						<DisplayName>何为表里</DisplayName>
+						<Desc>我非我也，表里何有乎？何为表里？</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>何为你我</DisplayName>
+						<Desc>我非我也，你我何在乎？何为你我？</Desc>
+						<ThunderValue>80000</ThunderValue>
+						<NeckCountdown>42000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

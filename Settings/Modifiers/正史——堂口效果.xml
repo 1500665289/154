@@ -1,0 +1,163 @@
+<ModifierDefs><List>
+	
+	<!-- ========================长老======================== -->
+	
+	<Modifier Name="zhanglao_nei_BUFF" Type="Normal">
+		<DisplayName>长老加持（内门）</DisplayName>
+		<Desc>内门弟子在本堂范围内可提升五维、心境、心境稳定度、修炼速度、精元转换、饮气效率等等。堂主能力越强，加成越高。</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="1"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.01"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.01"/>
+			<li Name="LingAbsorbSpeed" AddP="0.01"/>
+			<li Name="NutritionToJingYuanK" AddP="0.01"/>
+			<li Name="NutritionWaterAutoRecover" AddP="0.01"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="zhanglao_tang_BUFF" Type="Normal">
+		<DisplayName>长老加持（常驻）</DisplayName>
+		<Desc>内门弟子加入本堂后可提升炼丹速度、炼丹成功率、炼器速度、炼器成功率、法宝威力、法术威力、灵气护盾强度等等。堂主能力越强，加成越高</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="0.01"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.01"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.01"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.01"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.01"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================护法======================== -->
+	
+	<Modifier Name="hufa_nei_BUFF" Type="Normal">
+		<DisplayName>护法加持（内门）</DisplayName>
+		<Desc>内门弟子在本堂范围内可提升五维、五技能极限等级、回灵速度、灵气护盾强度等等。堂主能力越强，加成越高。</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="0.01"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.01"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="0.01"/>
+		</Properties>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+			<li Name="Manual" Level="1"/>
+			<li Name="FightSkill" Level="1"/>
+			<li Name="Fabao" Level="1"/>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="hufa_tang_BUFF" Type="Normal">
+		<DisplayName>护法加持（常驻）</DisplayName>
+		<Desc>内门弟子加入本堂后可提升法宝威力、法术威力、灵气护盾强度、五行护盾强度等等。堂主能力越强，加成越高</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.1"/>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="0.01"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================精英======================== -->
+	
+	<Modifier Name="jingying_nei_BUFF" Type="Normal">
+		<DisplayName>精英加持（内门）</DisplayName>
+		<Desc>内门弟子在本堂范围内可降低食物消耗、饮水消耗、精力消耗、娱乐消耗，以及提升心境稳定度等等。堂主能力越强，加成越高。</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-0.01"/>
+			<li Name="WaterConsumeConstant" AddP="-0.01"/>
+			<li Name="FatigueConsumeConstant" AddP="-0.01"/>
+			<li Name="HappyConsumeConstant" AddP="-0.01"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.01"/>
+			<li Name="NutritionToJingYuanK" AddP="0.01"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="jingying_tang_BUFF" Type="Normal">
+		<DisplayName>精英加持（常驻）</DisplayName>
+		<Desc>内门弟子加入本堂后可提升学习速度、修炼速度、历练速度、历练声望获得、心境值等等。堂主能力越强，加成越高</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.01"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.05"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="0.01"/>
+			<li Name="ExperiencePrestigeAddP" AddP="0.01"/>
+			<li Name="MindStateBaseValue" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ========================弟子======================== -->
+	
+	<Modifier Name="guanshi_wai_BUFF" Type="Normal">
+		<DisplayName>管事加持（外门）</DisplayName>
+		<Desc>外门弟子在本堂范围内可提升极限温度限值、舒适温度限值、外门技能等级、驯服成功率等等。堂主能力越强，加成越高。</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="ComfyTMax" AddV="20"/>
+			<li Name="ComfyTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="TameSuccessChance" AddP="-10"/>
+		</Properties>
+		<Skills>
+			<li Name="SocialContact" Level="1"/><!-- 社交 -->
+			<li Name="Medicine" Level="1"/><!-- 岐黄 -->
+			<li Name="Cooking" Level="1"/><!-- 烹饪 -->
+			<li Name="Building" Level="1"/><!-- 建筑 -->
+			<li Name="Farming" Level="1"/><!-- 农事 -->
+			<li Name="Mining" Level="1"/><!-- 采掘 -->
+			<li Name="Art" Level="1"/><!-- 巧匠 -->
+			<li Name="Manual" Level="1"/><!-- 制造 -->
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="guanshi_tang_BUFF" Type="Normal">
+		<DisplayName>管事加持（常驻）</DisplayName>
+		<Desc>外门弟子加入本堂后可提升移动速度、搬运能力、全局工作效率、自然伤势恢复速度等等。堂主能力越强，加成越高</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>605</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.02"/>
+			<li Name="WeightCarryLossSpeedRate" AddP="0.01"/>
+			<li Name="GlobalEfficiency" AddP="0.01"/>
+			<li Name="RecoveryPower" AddP="0.01"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

@@ -1,0 +1,61 @@
+<Experiences><List>
+	<Experience Name="CeShi09">
+		<DisplayName>测试数值</DisplayName><!-- 经历名称 -->
+		<Desc>测试数值专用。</Desc><!-- 经历说明 -->
+		<Point>5</Point><!-- 需求点数 -->
+		<Hide>1</Hide>
+		<Recommend>1</Recommend><!-- 推荐星级 -->
+		<NpcSlot>9</NpcSlot><!-- 开局伙伴 -->
+		<ModifierDef>
+			<Properties>
+				<!-- 属性 -->
+				<li Name="MaxAge" AddV="1000"/><!--寿元-->
+				<li Name="BaseEmotionAddV" AddV="100"/><!--心情基础值-->
+				<li Name="ToleranceTMin" AddV="-999"/><!--最低极限温度-->
+				<li Name="ToleranceTMax" AddV="999"/><!--最高极限温度-->
+				<li Name="ComfyTMin" AddV="-999"/><!--最低舒适温度-->
+				<li Name="ComfyTMax" AddV="999"/><!--最高舒适温度-->
+				<!-- 修仙 -->
+				<li Name="AbilityLvAddV" AddV="-500"/><!--道行-->
+				<li Name="GodPenaltyAddV" AddV="-100"/><!--天谴-->
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/><!--修炼速度加成-->
+				<li Name="MindStateBaseValue" AddV="150"/><!--心境的基础值-->
+				<!-- 战斗 -->
+				<li Name="NpcFight_BaseHitChance" AddV="1"/><!--战斗命中-->
+				<li Name="NpcFight_BaseDodgeChance" AddV="1"/><!--战斗闪避-->
+			</Properties>
+		</ModifierDef>
+		<Gongs>
+			<li>Gong_1_Shui</li><!-- 太和十六洞天 -->
+			<li>Gong_2_Mu</li><!-- 己寅九冲多宝真解 -->
+			<li>Gong_3_Jin</li><!-- 七杀剑诀 -->
+			<li>Gong_4_None</li><!-- 玉清仙法 -->
+			<li>Gong_5_Tu</li><!-- 偷天诀 -->
+			<li>Gong_6_Huo</li><!-- 九转金丹直指 -->
+			<li>Gong_7_Huo</li><!-- 太上忘情道 -->
+			<li>Gong_8_Jin</li><!-- 北斗洞心劫法 -->
+			<li>Gong_9_Mu</li><!-- 长生六道轮回经 -->
+			<li>Gong_10_Huo</li><!-- 三阳三昧丙丁炼火诀 -->
+			<li>Gong_11_Tu</li><!-- 葵花炼神大法 -->
+			<li>XXZS_TJYYJ</li>
+			<li>XXZS_JTJDDBJ</li>
+			<li>XXZS_TXHYD</li>
+			<li>XXZS_SCZJL</li>
+			<li>XXZS_FXYGL</li>
+			<li>XXZS_SNBCL</li>
+			<li>XXZS_NWCSL</li>
+			<li>XXZS_HHYJZY</li>
+			<li>XXZS_LXQZZF</li>
+			<li>XXZS_XMBQZJ</li>
+			<li>XXZS_WMYS</li>
+		</Gongs>
+		<Items>
+			<li Name= "Item_BasePracticeDrug" Count="99"/><!-- 筑基丹 -->
+			<li Name= "Item_Dan_Ling" Count="100"/><!-- 聚灵丹 -->
+			<li Name= "Item_Dan_CalmDown" Count="100"/><!-- 清心丹 -->
+			<li Name= "Item_Dan_NoHunger2" Count="100"/><!-- 辟谷丹 -->
+			<li Name= "Item_Dan_DredgeQi" Count="100"/><!-- 理气丹 -->
+			<li Name= "Item_Dan_TreeEXP" Count="100"/><!-- 天道神丹 -->
+		</Items>
+	</Experience>
+</List></Experiences>

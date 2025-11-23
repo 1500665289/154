@@ -1,0 +1,907 @@
+<ZhenNodeDefs><List>
+	<!-- 阵枢 -->
+	<Def Name="XXZS_WM_A1" DisplayName="武穆遗阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+			<li>XXZS_ZF_02</li>
+			<li>XXZS_ZF_03</li>
+			<li>XXZS_ZF_04</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_A2" DisplayName="武穆遗阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+			<li>XXZS_ZF_02</li>
+			<li>XXZS_ZF_03</li>
+			<li>XXZS_ZF_04</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_A3" DisplayName="武穆遗阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+			<li>XXZS_ZF_02</li>
+			<li>XXZS_ZF_03</li>
+			<li>XXZS_ZF_04</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_A4" DisplayName="武穆遗阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+			<li>XXZS_ZF_02</li>
+			<li>XXZS_ZF_03</li>
+			<li>XXZS_ZF_04</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_A5" DisplayName="武穆遗阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+			<li>XXZS_ZF_02</li>
+			<li>XXZS_ZF_03</li>
+			<li>XXZS_ZF_04</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_B1" DisplayName="武穆残阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_B2" DisplayName="武穆残阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_B3" DisplayName="武穆残阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_B4" DisplayName="武穆残阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_B5" DisplayName="武穆残阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_01</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_C1" DisplayName="武穆缺阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_02</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_C2" DisplayName="武穆缺阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_02</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_C3" DisplayName="武穆缺阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_02</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_C4" DisplayName="武穆缺阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_02</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_C5" DisplayName="武穆缺阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>XXZS_ZF_02</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<!-- 6阵眼 -->
+	<Def Name="XXZS_WM_AAABBB_01" DisplayName="九阴九阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAABBB_02" DisplayName="九阴九阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAABBB_03" DisplayName="九阴九阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAABBB_04" DisplayName="九阴九阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<!-- 6阵眼 -->
+	<Def Name="XXZS_WM_AAAAAA_01" DisplayName="九阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAAAB_01" DisplayName="纯阳无极" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAABB_01" DisplayName="纯阳汇顶" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAABB_02" DisplayName="纯阳汇顶" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAABB_03" DisplayName="纯阳汇顶" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_BBBBBB_01" DisplayName="九阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBBA_01" DisplayName="纯阴无道" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBAA_01" DisplayName="纯阴聚底" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBAA_02" DisplayName="纯阴聚底" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBAA_03" DisplayName="纯阴聚底" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<!-- 5阵眼 -->
+	<Def Name="XXZS_WM_AAAAA_01" DisplayName="至阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAAB_01" DisplayName="至阳至刚" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAAB_02" DisplayName="至阳至刚" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAAB_03" DisplayName="至阳至刚" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_AAABB_01" DisplayName="至阳合力" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAABB_02" DisplayName="至阳合力" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAABB_03" DisplayName="至阳合力" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_BBBBB_01" DisplayName="至阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBA_01" DisplayName="至阴至柔" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBA_02" DisplayName="至阴至柔" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBBA_03" DisplayName="至阴至柔" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_BBBAA_01" DisplayName="至阴合气" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBAA_02" DisplayName="至阴合气" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBAA_03" DisplayName="至阴合气" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<!-- 4阵眼 -->
+	<Def Name="XXZS_WM_AAAA_01" DisplayName="太阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAA_02" DisplayName="太阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAAA_03" DisplayName="太阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_BBBB_01" DisplayName="太阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBB_02" DisplayName="太阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBBB_03" DisplayName="太阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_AABB_01" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_02" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_03" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_04" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_05" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_06" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_07" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_08" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_09" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AABB_10" DisplayName="阴阳相济" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<!-- 3阵眼 -->
+	<Def Name="XXZS_WM_AAA_01" DisplayName="少阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAA_02" DisplayName="少阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAA_03" DisplayName="少阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAA_04" DisplayName="少阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_BBB_01" DisplayName="少阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBB_02" DisplayName="少阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBB_03" DisplayName="少阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BBB_04" DisplayName="少阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_AAB_01" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAB_02" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAB_03" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAB_04" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAB_05" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAB_06" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AAB_07" DisplayName="阴阳交汇" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_ABB_01" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_ABB_02" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_ABB_03" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_ABB_04" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_ABB_05" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+			<li SlotName="XXZS_5_A" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_ABB_06" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_ABB_07" DisplayName="阴阳交错" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	
+	
+	<!-- 2阵眼 -->
+	<Def Name="XXZS_WM_AA_01" DisplayName="绝阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="1"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AA_02" DisplayName="绝阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AA_03" DisplayName="绝阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_A" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_BB_01" DisplayName="绝阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BB_02" DisplayName="绝阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_BB_03" DisplayName="绝阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_AB_01" DisplayName="阴阳调和" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="1"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AB_02" DisplayName="阴阳调和" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AB_03" DisplayName="阴阳调和" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="2"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AB_04" DisplayName="阴阳调和" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="XXZS_WM_AB_05" DisplayName="阴阳调和" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+			<li SlotName="XXZS_5_B" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<!-- 1阵眼 -->
+	<Def Name="XXZS_WM_A_01" DisplayName="纯阳" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_A" Pos="0"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="XXZS_WM_B_01" DisplayName="纯阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="XXZS_5_B" Pos="0"/>
+		</Slot>
+	</Def>
+	
+	
+	
+	
+	
+	
+	
+</List></ZhenNodeDefs>

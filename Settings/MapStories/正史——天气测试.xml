@@ -1,0 +1,367 @@
+<Stories><List>
+	
+	<Story Name="XXZS_TQ_CS">
+		<DisplayName>祈求天时</DisplayName>
+		<Desc>只要[NAME]诚心祭祀，便能改变天象。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>变换时辰</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_TQ_CS_SJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>变换季节</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_TQ_CS_JJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>变换天气</Display>
+				<OKResult>
+				me:TriggerStory("XXZS_TQ_CS_TQ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>祭祀结束</Display>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_TQ_CS_SJ">
+		<DisplayName>变换时辰</DisplayName>
+		<Desc>需要将时间调整到什么时候呢。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>晨钟</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeTime(5)</OKResult>
+			</li>
+			<li>
+				<Display>日中</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeTime(11)</OKResult>
+			</li>
+			<li>
+				<Display>暮鼓</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeTime(17)</OKResult>
+			</li>
+			<li>
+				<Display>夜半</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeTime(23)</OKResult>
+			</li>
+			<li>
+				<Display>再想想</Display>
+				<OKResult> me:TriggerStory("XXZS_TQ_CS");</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_TQ_CS_JJ">
+		<DisplayName>变换季节</DisplayName>
+		<Desc>需要将季节调整到什么时候呢。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>春</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeDay(14)</OKResult>
+			</li>
+			<li>
+				<Display>夏</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeDay(42)</OKResult>
+			</li>
+			<li>
+				<Display>秋</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeDay(70)</OKResult>
+			</li>
+			<li>
+				<Display>冬</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeDay(98)</OKResult>
+			</li>
+			<li>
+				<Display>再想想</Display>
+				<OKResult> me:TriggerStory("XXZS_TQ_CS");</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_TQ_CS_TQ">
+		<DisplayName>祭祀</DisplayName>
+		<Desc>[NAME]一边对着神奇的坑叩首，一边对着上天祷念祭词：自古有云，上事天，下事地，尊先祖而隆君师，是礼之三本也。而今上乘天尊天师之圣贤，下效三皇五帝之仁德，妄自尊从礼法，恪守古训，纵然斋戒沐浴，焚香供火，乃敢下跪神坑，上祭血骨，冒不尊不敬之嫌，望祈苍天，赐吾福泽，以求洞天福地之异象，化吾门下荒蛮之凶煞，诚感天恩浩荡，吾辈穷尽己身以侍绵长。。。稽首！尚飨！</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>凉风</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 1000;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【凉风】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("ColdWaveInSummer");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【凉风】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("ColdWaveInSummer");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>暖流</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 1000;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【暖流】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("HeatWaveInWinter");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【暖流】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("HeatWaveInWinter");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>灵气爆发</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 2000;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDisciple == false then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【灵气爆发】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("LingUpWave");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭。");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【灵气爆发】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("LingUpWave");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>仙界气息</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 3000;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDisciple == false then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【仙界气息】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("ZuShiBiHu");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭。");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【仙界气息】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("ZuShiBiHu");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>丰收的气息</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 500;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【丰收的气息】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("HarvestAir");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【丰收的气息】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("HarvestAir");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>暧昧的空气</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 500;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【暧昧的空气】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("Ambiguous");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【暧昧的空气】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("Ambiguous");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>晴天</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 100;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【晴天】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("SunnyDay");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【晴天】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("SunnyDay");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>暴雨</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 100;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【暴雨】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("Rainstorm");
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【暴雨】片刻，若无他事，莫扰吾之清修！");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("Rainstorm");
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>清除所有天气</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetSchoolScore(0) > 5000;
+				]]>
+				</Condition>
+				<Tip>声望</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.IsDiscple then 
+					world:ShowMsgBox("既然汝诚心而祈，便献祭汝之骨血以祭天恩，赐汝【太平乾坤】之象，若无他事，莫扰吾之清修！");
+					World.Weather:ClearAllWeather();
+					me.npcObj.PropertyMgr.BodyData:Kill("来自神坑的血之献祭");
+				else
+					world:ShowMsgBox("既然汝诚心而祈，便献汝之气海、骨血以祭天恩，赐汝【太平乾坤】之象，若无他事，莫扰吾之清修！");
+					World.Weather:ClearAllWeather();
+					me:ModifierProperty("NpcLingMaxValue",-1000);
+					me:AddDamageRandomPart(5,"Jin_ThunderDamage",0.8,"来自神坑的雷之献祭");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				world:ShowMsgBox("无名小辈，汝何德何能竟敢扰吾之清修，降之惩罚以示告诫！望好自为之！");
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>放弃祭祀</Display>
+				<OKResult>
+				<![CDATA[	
+				world:ShowMsgBox("哼！凡人竟然如此毫无诚意！祭祀从古至今，皆吾天朝之大礼！汝等轻视之！死罪可免，惩戒难逃，吾便夺你一甲子阳寿，以示告诫！\n\n你突然感觉自己一下子苍老了60岁…………");
+				me.npcObj.PropertyMgr:AddAge(60);
+				me:AddDamageRandomPart(5,"Jin_ThunderDamage",1,"来自神坑的雷之神罚");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+</List></Stories>
