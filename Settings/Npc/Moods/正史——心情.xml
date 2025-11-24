@@ -32,7 +32,7 @@
 	
 	<Mood Name="YY_02">
 		<DisplayName>掌声环绕</DisplayName>
-		<Desc>千歌万曲信手拈，接词对曲无人敌！</Desc>
+		<Desc>千歌万曲信手捏，接词对曲无人敌！</Desc>
 		<StoryDesc>正沉浸在掌声雷动的簇拥中。</StoryDesc>
 		<MaxStack>1</MaxStack>
 		<StackRatio>1</StackRatio>
@@ -42,12 +42,12 @@
 	
 	<Mood Name="YY_03">
 		<DisplayName>嘘声一片</DisplayName>
-		<Desc>技不如人，来日再战！</Desc>
+		<Desc>区区戏耳，来日再战！</Desc>
 		<StoryDesc>正沉浸在尴尬的嘘声中。</StoryDesc>
 		<MaxStack>3</MaxStack>
 		<StackRatio>1</StackRatio>
 		<Value>-35</Value>
-		<Duration>7</Duration>
+		<Duration>15</Duration>
 	</Mood>
 	
 	<Mood Name="SS_01">
@@ -71,13 +71,13 @@
 	</Mood>
 	
 	<Mood Name="YS_02">
-		<DisplayName>才思枯竭</DisplayName>
-		<Desc>江郎才尽，文思枯竭！</Desc>
-		<StoryDesc>正沉浸在才思枯竭的苦恼中。</StoryDesc>
+		<DisplayName>废物三连</DisplayName>
+		<Desc>别问我！我不会啊！我应该已经废了！</Desc>
+		<StoryDesc>正沉浸在废物的自闭中。</StoryDesc>
 		<MaxStack>3</MaxStack>
 		<StackRatio>1</StackRatio>
 		<Value>-35</Value>
-		<Duration>7</Duration>
+		<Duration>15</Duration>
 	</Mood>
 	
 	<Mood Name="DL_01">
@@ -97,7 +97,7 @@
 		<MaxStack>3</MaxStack>
 		<StackRatio>1</StackRatio>
 		<Value>-35</Value>
-		<Duration>7</Duration>
+		<Duration>15</Duration>
 	</Mood>
 	
 </List></MoodDefs>

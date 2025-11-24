@@ -1,6 +1,5 @@
 <FightSkills><List>
-	<Skill Name="XXZS_JTJDDBJ_3">
-		<!-- 九天圣言：辅助增强技能 -->
+	<Skill Name="XXZS_JTJDDBJ_3"><!--飞行法宝增强技能基础模板 --> 
 		<DisplayName>九天圣言</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Fabao</Kind>
@@ -19,8 +18,7 @@
 		<HitEffect>200005</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_TXHYD_1">
-		<!-- 太虚遁影符：自身位移或隐身技能 -->
+	<Skill Name="XXZS_TXHYD_1"><!--飞行法宝增强技能基础模板 --> 
 		<DisplayName>太虚遁影符</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Fabao</Kind>
@@ -39,8 +37,7 @@
 		<HitEffect>200005</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_FXYGL_3">
-		<!-- 四象诀：辅助增强技能 -->
+	<Skill Name="XXZS_FXYGL_3"><!--飞行法宝增强技能基础模板 --> 
 		<DisplayName>四象诀</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Fabao</Kind>
@@ -58,4 +55,7 @@
 		<SelectType>Self</SelectType>
 		<HitEffect>200005</HitEffect>
 	</Skill>
+	
+	
+	
 </List></FightSkills>

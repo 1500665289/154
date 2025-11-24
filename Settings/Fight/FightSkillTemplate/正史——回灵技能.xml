@@ -1,6 +1,5 @@
 <FightSkills><List>
-	<Skill Name="XXZS_SCZJL_2">
-		<!-- 青龙天罡：自身治疗技能 -->
+	<Skill Name="XXZS_SCZJL_2"><!--恢复技能基础模板 --> 
 		<DisplayName>青龙天罡</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
@@ -18,8 +17,7 @@
 		<HitEffect>200007</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_JTJDDBJ_2">
-		<!-- 九地妙手：群体治疗技能 -->
+	<Skill Name="XXZS_JTJDDBJ_2"><!--恢复技能基础模板 --> 
 		<DisplayName>九地妙手</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
@@ -37,8 +35,7 @@
 		<HitEffect>200007</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_FXYGL_4">
-		<!-- 二八星宿咒：群体治疗技能 -->
+	<Skill Name="XXZS_FXYGL_4"><!--恢复技能基础模板 --> 
 		<DisplayName>二八星宿咒</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
@@ -56,8 +53,7 @@
 		<HitEffect>200007</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_LXQZZF_2">
-		<!-- 弥天剑雨：快速群体治疗技能 -->
+	<Skill Name="XXZS_LXQZZF_2"><!--恢复技能基础模板 --> 
 		<DisplayName>弥天剑雨</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
@@ -74,4 +70,11 @@
 		<SelectType>AllNpc</SelectType>
 		<HitEffect>200007</HitEffect>
 	</Skill>
+	
+	
+	
+	
+	
+	
+	
 </List></FightSkills>

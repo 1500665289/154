@@ -7,7 +7,7 @@
 		<TexScale>1</TexScale>
 		<ThingName>神奇的坑</ThingName>
 		<Desc>就是一个神奇的坑。</Desc>
-		<Selectable>1</Selectable>
+		<SelectAble>1</SelectAble>
 		<CastShadow>1</CastShadow>
 		<BlockLight>1</BlockLight>
 		<MaxHitPoints>500</MaxHitPoints>
@@ -26,23 +26,23 @@
 				[0,4,0]
 			</Data>
 			<WorkOffset>
-				<li Index="0" X="-0.05" Y="-0.16" Ang="180"/>
-				<li Index="1" X="0.2" Y="0" Ang="90"/>
-				<li Index="2" X="-0.2" Y="0" Ang="-90"/>
-				<li Index="3" X="0" Y="0.45" Ang="1"/>
+				<li Index="0"  X="-0.05" Y="-0.16" Ang="180"/>
+				<li Index="1"  X="0.2" Y="0" Ang="90"/>
+				<li Index="2"  X="-0.2" Y="0" Ang="-90"/>
+				<li Index="3"  X="0" Y="0.45" Ang="1"/>
 			</WorkOffset>
 		</Collider>
 		<Building>
 			<RoomKind>None</RoomKind>
 			<ShowFree>0</ShowFree>
-			<NoFengShui>1</NoFengShui>
+			<NoFengshui>1</NoFengshui>
 			<WorkAnimation>ketou</WorkAnimation>
 			<BeMade>
 				<WorkToMake>30</WorkToMake>
 				<Quality>0</Quality>
 				<ArtDesc>0</ArtDesc>
 				<StuffCategories>
-					<Stuff name="RockBlock"/>
+					<Stuff name = "RockBlock"/>
 				</StuffCategories>
 				<CostStuffCount>666</CostStuffCount>
 			</BeMade>
@@ -63,14 +63,93 @@
 					<Display>女装大佬下装</Display>
 					<Count>1</Count>
 				</Produce>
-				<!-- 其他Produce保持类似修正 -->
+				<Produce>
+					<ThingDef>Item_XXZS_YF_B</ThingDef>
+					<Display>哲学基佬上衣</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_B</ThingDef>
+					<Display>哲学基佬下装</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_C</ThingDef>
+					<Display>幼幼百合上衣</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_C</ThingDef>
+					<Display>幼幼百合下装</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_02</ThingDef>
+					<Display>罡气护体衣——金</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_02</ThingDef>
+					<Display>罡气护体裤——金</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_03</ThingDef>
+					<Display>罡气护体衣——木</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_03</ThingDef>
+					<Display>罡气护体裤——木</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_04</ThingDef>
+					<Display>罡气护体衣——水</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_04</ThingDef>
+					<Display>罡气护体裤——水</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_05</ThingDef>
+					<Display>罡气护体衣——火</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_05</ThingDef>
+					<Display>罡气护体裤——火</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_06</ThingDef>
+					<Display>罡气护体衣——土</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_06</ThingDef>
+					<Display>罡气护体裤——土</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_YF_07</ThingDef>
+					<Display>罡气护体衣——混</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XXZS_KZ_07</ThingDef>
+					<Display>罡气护体裤——混</Display>
+					<Count>1</Count>
+				</Produce>
 			</Produces>
 		</Building>
-		<StoryBtns>
+		<StoryBnts>
 			<li Name="祭祀" Desc="用庄严的仪式，举行祭祀，以祈求天时之利" Story="XXZS_TQ_CS_TQ" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
 			<li Name="挑战" Desc="打不过的都是垃圾！" Story="XXZS_SK_TZ" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
 			<li Name="一键解锁" Desc="第一年后方可正常解锁正史地点" Story="XXZS_JS" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-		</StoryBtns>
+		</StoryBnts>
 	</ThingDef>
 	
 	<!-- ========================法座======================== -->
@@ -85,22 +164,22 @@
 			<Tag Name="Practice" Level="1"/>
 		</Tags>
 		<TexScale>0.65</TexScale>
-		<TexPath>Spr/Object/fazuo01.png</TexPath>
-		<Selectable>1</Selectable>
+		<TexPath>Spr\Object\fazuo01.png</TexPath>
+		<SelectAble>1</SelectAble>
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
-		<Collider>
-			<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
-			<Data>
-				[6]
-			</Data>
-			<WorkOffset>
-				<li Index="0" X="0" Y="0" Ang="181"/>
-			</WorkOffset>
-		</Collider>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
 		<Building>
 			<OwnerCount>1</OwnerCount>
-			<NoFengShui>1</NoFengShui>
+			<NoFengshui>1</NoFengshui>
 			<RoomKind>None</RoomKind>
 			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
 			<BePackage>1</BePackage>
@@ -110,13 +189,13 @@
 				<WorkToMake>50</WorkToMake>
 				<Quality>0</Quality>
 				<StuffCategories>
-					<Stuff name="MetalBlock"/>
-					<Stuff name="WoodBlock"/>
-					<Stuff name="RockBlock"/>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
 				</StuffCategories>
 				<CostStuffCount>20</CostStuffCount>
 				<CostItems>
-					<Item name="Item_LingCrystal" count="50"/>
+					<Item name = "Item_LingCrystal" count = "50"/>
 				</CostItems>
 			</BeMade>
 		</Building>
@@ -133,10 +212,301 @@
 		</Element>
 	</ThingDef>
 	
+	<ThingDef Type="Building" Name="FAZUO_2" Parent="FurnitureBase">
+		<ThingName>木灵法座</ThingName>
+		<Desc>修炼专用的法座，能聚集灵气。</Desc>
+		<Beauty>100</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="1"/>
+		</Tags>
+		<TexScale>0.65</TexScale>
+		<TexPath>Spr\Object\fazuo01.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>res/Sprs/buildingnew/building_fazuo01</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "50"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>225</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO_3" Parent="FurnitureBase">
+		<ThingName>水灵法座</ThingName>
+		<Desc>修炼专用的法座，能聚集灵气。</Desc>
+		<Beauty>100</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="1"/>
+		</Tags>
+		<TexScale>0.65</TexScale>
+		<TexPath>Spr\Object\fazuo01.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>res/Sprs/buildingnew/building_fazuo01</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "50"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>225</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO_4" Parent="FurnitureBase">
+		<ThingName>火灵法座</ThingName>
+		<Desc>修炼专用的法座，能聚集灵气。</Desc>
+		<Beauty>100</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="1"/>
+		</Tags>
+		<TexScale>0.65</TexScale>
+		<TexPath>Spr\Object\fazuo01.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>res/Sprs/buildingnew/building_fazuo01</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "50"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>225</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO_5" Parent="FurnitureBase">
+		<ThingName>土灵法座</ThingName>
+		<Desc>修炼专用的法座，能聚集灵气。</Desc>
+		<Beauty>100</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="1"/>
+		</Tags>
+		<TexScale>0.65</TexScale>
+		<TexPath>Spr\Object\fazuo01.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>res/Sprs/buildingnew/building_fazuo01</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "50"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>225</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO_6" Parent="FurnitureBase">
+		<ThingName>虚灵法座</ThingName>
+		<Desc>修炼专用的法座，能聚集灵气。</Desc>
+		<Beauty>100</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="1"/>
+		</Tags>
+		<TexScale>0.65</TexScale>
+		<TexPath>Spr\Object\fazuo01.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>res/Sprs/buildingnew/building_fazuo01</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "50"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>225</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
 	<!-- ========================灵台======================== -->
 	
 	<ThingDef Type="Building" Name="JULING_1" Parent="OrnamentBase">
-		<TexPath>Spr/Building/ZWT/Z1.png</TexPath>
+		<TexPath>Spr\Building\ZWT\Z1.png</TexPath>
 		<TexScale>1.2</TexScale>
 		<NoElementKind>1</NoElementKind>
 		<ThingName>聚灵台</ThingName>
@@ -148,27 +518,249 @@
 		<Collider>
 			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
 			<Data>
-				[3]
+			[3],
 			</Data>
 			<Offset>
 				<y>0</y>
 				<x>0</x>
 			</Offset>
 		</Collider>
+	
 		<Building>
-			<Prefab>Building/Prefabs/ItemShelf</Prefab>
+			<Perfab>Building/Prefabs/ItemShelf</Perfab>
 			<HelperClass>BuildingHelperItemShelf</HelperClass>
 			<BeMade>
 				<WorkToMake>50</WorkToMake>
 				<Quality>0</Quality>
 				<StuffCategories>
-					<Stuff name="MetalBlock"/>
-					<Stuff name="WoodBlock"/>
-					<Stuff name="RockBlock"/>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
 				</StuffCategories>
 				<CostStuffCount>5</CostStuffCount>
 			</BeMade>
 		</Building>
+		
+		<Ling>
+			<AddionLing>30</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="JULING_2" Parent="OrnamentBase">
+		<TexPath>Spr\Building\ZWT\Z1_R.png</TexPath>
+		<TexScale>1.2</TexScale>
+		<NoElementKind>1</NoElementKind>
+		<ThingName>聚灵台</ThingName>
+		<Desc>可以聚灵的置物台，还能组合成好看的聚灵阵。</Desc>
+		<Tags>
+			<Tag Name="ItemShelf" Level="1"/>
+		</Tags>
+		<ColliderKind>Across</ColliderKind>  
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3],
+			</Data>
+			<Offset>
+				<y>0</y>
+				<x>0</x>
+			</Offset>
+		</Collider>
+	
+		<Building>
+			<Perfab>Building/Prefabs/ItemShelf</Perfab>
+			<HelperClass>BuildingHelperItemShelf</HelperClass>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>5</CostStuffCount>
+			</BeMade>
+		</Building>
+		
+		<Ling>
+			<AddionLing>30</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="JULING_3" Parent="OrnamentBase">
+		<TexPath>Spr\Building\ZWT\Z1_F.png</TexPath>
+		<TexScale>1.2</TexScale>
+		<NoElementKind>1</NoElementKind>
+		<ThingName>聚灵台</ThingName>
+		<Desc>可以聚灵的置物台，还能组合成好看的聚灵阵。</Desc>
+		<Tags>
+			<Tag Name="ItemShelf" Level="1"/>
+		</Tags>
+		<ColliderKind>Across</ColliderKind>  
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3],
+			</Data>
+			<Offset>
+				<y>0</y>
+				<x>0</x>
+			</Offset>
+		</Collider>
+	
+		<Building>
+			<Perfab>Building/Prefabs/ItemShelf</Perfab>
+			<HelperClass>BuildingHelperItemShelf</HelperClass>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>5</CostStuffCount>
+			</BeMade>
+		</Building>
+		
+		<Ling>
+			<AddionLing>30</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="JULING_4" Parent="OrnamentBase">
+		<TexPath>Spr\Building\ZWT\Z1_B.png</TexPath>
+		<TexScale>1.2</TexScale>
+		<NoElementKind>1</NoElementKind>
+		<ThingName>聚灵台</ThingName>
+		<Desc>可以聚灵的置物台，还能组合成好看的聚灵阵。</Desc>
+		<Tags>
+			<Tag Name="ItemShelf" Level="1"/>
+		</Tags>
+		<ColliderKind>Across</ColliderKind>  
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3],
+			</Data>
+			<Offset>
+				<y>0</y>
+				<x>0</x>
+			</Offset>
+		</Collider>
+	
+		<Building>
+			<Perfab>Building/Prefabs/ItemShelf</Perfab>
+			<HelperClass>BuildingHelperItemShelf</HelperClass>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>5</CostStuffCount>
+			</BeMade>
+		</Building>
+		
+		<Ling>
+			<AddionLing>30</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="JULING_5" Parent="OrnamentBase">
+		<TexPath>Spr\Building\ZWT\X1.png</TexPath>
+		<TexScale>1</TexScale>
+		<NoElementKind>1</NoElementKind>
+		<ThingName>聚灵线</ThingName>
+		<Desc>可以聚灵的置物台，还能组合成好看的聚灵阵。</Desc>
+		<Tags>
+			<Tag Name="ItemShelf" Level="1"/>
+		</Tags>
+		<ColliderKind>Across</ColliderKind>  
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3],
+			</Data>
+			<Offset>
+				<y>0</y>
+				<x>0</x>
+			</Offset>
+		</Collider>
+	
+		<Building>
+			<Perfab>Building/Prefabs/ItemShelf</Perfab>
+			<HelperClass>BuildingHelperItemShelf</HelperClass>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>5</CostStuffCount>
+			</BeMade>
+		</Building>
+		
+		<Ling>
+			<AddionLing>30</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="JULING_6" Parent="OrnamentBase">
+		<TexPath>Spr\Building\ZWT\X2.png</TexPath>
+		<TexScale>1</TexScale>
+		<NoElementKind>1</NoElementKind>
+		<ThingName>聚灵线</ThingName>
+		<Desc>可以聚灵的置物台，还能组合成好看的聚灵阵。</Desc>
+		<Tags>
+			<Tag Name="ItemShelf" Level="1"/>
+		</Tags>
+		<ColliderKind>Across</ColliderKind>  
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3],
+			</Data>
+			<Offset>
+				<y>0</y>
+				<x>0</x>
+			</Offset>
+		</Collider>
+	
+		<Building>
+			<Perfab>Building/Prefabs/ItemShelf</Perfab>
+			<HelperClass>BuildingHelperItemShelf</HelperClass>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>5</CostStuffCount>
+			</BeMade>
+		</Building>
+		
 		<Ling>
 			<AddionLing>30</AddionLing>
 			<AddionRadius>2</AddionRadius>
@@ -180,11 +772,11 @@
 	<!-- ========================建筑======================== -->
 	
 	<ThingDef Type="Building" Name="XXZS_JT" Parent="BuildingBase">
-		<TexPath>Spr/Building/YJSZ/jiantaiB.png</TexPath>
+		<TexPath>Spr\Building\YJSZ\jiantaiB.png</TexPath>
 		<TexScale>1</TexScale>
 		<ThingName>剑台</ThingName>
 		<Desc>御剑山庄弟子用来铸造法器所需基础材料的建筑。</Desc>
-		<Selectable>1</Selectable>
+		<SelectAble>1</SelectAble>
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 		<MaxHitPoints>10000</MaxHitPoints>
@@ -197,35 +789,35 @@
 		<Collider>
 			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
 			<Data>
-				[0,4,4,4,1,1,4,4,4,0],
-				[4,1,1,1,1,1,1,1,1,4],
-				[4,1,1,1,1,1,1,1,1,4],
-				[1,1,1,1,1,1,1,1,1,1],
-				[4,1,1,1,1,1,1,1,1,4],
-				[4,1,1,1,1,1,1,1,1,4],
-				[0,4,4,4,1,1,4,4,4,0]
+			[0,4,4,4,1,1,4,4,4,0],
+			[4,1,1,1,1,1,1,1,1,4],
+			[4,1,1,1,1,1,1,1,1,4],
+			[1,1,1,1,1,1,1,1,1,1],
+			[4,1,1,1,1,1,1,1,1,4],
+			[4,1,1,1,1,1,1,1,1,4],
+			[0,4,4,4,1,1,4,4,4,0],
 			</Data>
 			<WorkOffset>
-				<li Index="0" X="0" Y="0" Ang="180"/>
-				<li Index="1" X="0" Y="0" Ang="180"/>
-				<li Index="2" X="0" Y="0" Ang="180"/>
-				<li Index="3" X="0" Y="0" Ang="180"/>
-				<li Index="4" X="0" Y="0" Ang="180"/>
-				<li Index="5" X="0" Y="0" Ang="180"/>
-				<li Index="6" X="0" Y="0" Ang="90"/>
-				<li Index="7" X="0" Y="0" Ang="90"/>
-				<li Index="8" X="0" Y="0" Ang="90"/>
-				<li Index="9" X="0" Y="0" Ang="90"/>
-				<li Index="10" X="0" Y="0" Ang="1"/>
-				<li Index="11" X="0" Y="0" Ang="1"/>
-				<li Index="12" X="0" Y="0" Ang="1"/>
-				<li Index="13" X="0" Y="0" Ang="1"/>
-				<li Index="14" X="0" Y="0" Ang="1"/>
-				<li Index="15" X="0" Y="0" Ang="1"/>
-				<li Index="16" X="0" Y="0" Ang="-90"/>
-				<li Index="17" X="0" Y="0" Ang="-90"/>
-				<li Index="18" X="0" Y="0" Ang="-90"/>
-				<li Index="19" X="0" Y="0" Ang="-90"/>
+				<li Index="0"  X="0" Y="0" Ang="180"/>
+				<li Index="1"  X="0" Y="0" Ang="180"/>
+				<li Index="2"  X="0" Y="0" Ang="180"/>
+				<li Index="3"  X="0" Y="0" Ang="180"/>
+				<li Index="4"  X="0" Y="0" Ang="180"/>
+				<li Index="5"  X="0" Y="0" Ang="180"/>
+				<li Index="6"  X="0" Y="0" Ang="90"/>
+				<li Index="7"  X="0" Y="0" Ang="90"/>
+				<li Index="8"  X="0" Y="0" Ang="90"/>
+				<li Index="9"  X="0" Y="0" Ang="90"/>
+				<li Index="10"  X="0" Y="0" Ang="1"/>
+				<li Index="11"  X="0" Y="0" Ang="1"/>
+				<li Index="12"  X="0" Y="0" Ang="1"/>
+				<li Index="13"  X="0" Y="0" Ang="1"/>
+				<li Index="14"  X="0" Y="0" Ang="1"/>
+				<li Index="15"  X="0" Y="0" Ang="1"/>
+				<li Index="16"  X="0" Y="0" Ang="-90"/>
+				<li Index="17"  X="0" Y="0" Ang="-90"/>
+				<li Index="18"  X="0" Y="0" Ang="-90"/>
+				<li Index="19"  X="0" Y="0" Ang="-90"/>
 			</WorkOffset>
 		</Collider>
 		<Building>
@@ -233,19 +825,19 @@
 			<ShowFree>1</ShowFree>
 			<AutoUnLock>0</AutoUnLock>
 			<BePackage>0</BePackage>
-			<NoFengShui>0</NoFengShui>
+			<NoFengshui>0</NoFengshui>
 			<MaxCount>1</MaxCount>
 			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
 			<WorkAnimation>ketou</WorkAnimation>
-			<WorkTexPath>Spr/Building/YJSZ/jiantaiB.png</WorkTexPath>
+			<WorkTexPath>Spr\Building\YJSZ\jiantaiB.png</WorkTexPath>
 			<BeMade>
 				<WorkToMake>450</WorkToMake>
 				<Quality>12</Quality>
 				<ArtDesc>12</ArtDesc>
 				<StuffCategories>
-					<Stuff name="MetalBlock"/>
-					<Stuff name="RockBlock"/>
-					<Stuff name="WoodBlock"/>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "RockBlock"/>
+					<Stuff name = "WoodBlock"/>
 				</StuffCategories>
 				<CostStuffCount>200</CostStuffCount>
 			</BeMade>
@@ -259,25 +851,264 @@
 			<Produces>
 				<Produce>
 					<ThingDef>Item_JC_01</ThingDef>
-					<Display>基础材料1</Display>
+					<Display></Display>
 					<Count>30</Count>
 				</Produce>
 				<Produce>
 					<ThingDef>Item_JC_02</ThingDef>
-					<Display>基础材料2</Display>
+					<Display></Display>
 					<Count>30</Count>
 				</Produce>
-				<!-- 其他Produce保持类似修正 -->
+				<Produce>
+					<ThingDef>Item_JC_03</ThingDef>
+					<Display></Display>
+					<Count>30</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JC_04</ThingDef>
+					<Display></Display>
+					<Count>30</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JC_05</ThingDef>
+					<Display></Display>
+					<Count>30</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JC_06</ThingDef>
+					<Display></Display>
+					<Count>30</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JL_01</ThingDef>
+					<Display></Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JL_02</ThingDef>
+					<Display></Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JL_03</ThingDef>
+					<Display></Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JL_04</ThingDef>
+					<Display></Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JL_05</ThingDef>
+					<Display></Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JL_06</ThingDef>
+					<Display></Display>
+					<Count>100</Count>
+				</Produce>
+			</Produces>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="XXZS_JL" Parent="BuildingBase">
+		<TexPath>Spr\Building\YJSZ\jianling.png</TexPath>
+		<TexScale>1</TexScale>
+		<ThingName>剑陵</ThingName>	
+		<Desc>御剑山庄弟子用来铸造法器所需基础器材的建筑。</Desc>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Beauty>100</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<ColliderKind>Slow</ColliderKind>
+		<Tags>
+			<Tag Name="Zhen" Level="1"/>
+		</Tags>
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[1,1,1,1,1,1,1],
+			[1,1,1,1,1,1,1],
+			[1,1,1,3,1,1,1],
+			[1,1,1,1,1,1,1],
+			[1,1,1,1,1,1,1],
+			[0,0,0,4,0,0,0],
+			</Data>
+			<WorkOffset>
+				<li Index="0"  X="0" Y="0" Ang="1"/>
+			</WorkOffset>
+			<OffsetGroup>
+				<li><x>0</x><y>0</y></li>  <!-- 后 -->
+				<li><x>0</x><y>0</y></li>     <!-- 右 -->
+				<li><x>0</x><y>1.5</y></li>     <!-- 前 -->
+				<li><x>0</x><y>0</y></li>     <!-- 左 -->
+			</OffsetGroup>
+		</Collider>
+		<Building>
+			<RoomKind>None</RoomKind>
+			<ShowFree>1</ShowFree>
+			<AutoUnLock>0</AutoUnLock>
+			<BePackage>0</BePackage>
+			<NoFengshui>0</NoFengshui>
+			<MaxCount>1</MaxCount>
+			<Perfab>Building/Prefabs/Jianzhu</Perfab>
+			<HelperClass>BuildingHelperZhen</HelperClass>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<WorkAnimation>ketou</WorkAnimation>
+			<WorkTexPath>Spr\Building\YJSZ\jianling.png</WorkTexPath>
+			<BeMade>
+				<WorkToMake>450</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>12</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "RockBlock"/>
+					<Stuff name = "WoodBlock"/>
+				</StuffCategories>
+				<CostStuffCount>200</CostStuffCount>
+			</BeMade>
+			<SnowRenderData>
+				<x>3.15</x>
+				<y>4.1</y>
+				<z>1</z>
+			</SnowRenderData>
+			<ProducePriority>1</ProducePriority>
+			<ProduceKind>Smithing</ProduceKind>
+			<Produces>
+				<Produce>
+					<ThingDef>XXZS_WQ_G01</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_G02</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_G03</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_G04</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_D01</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_D02</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_D03</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_D04</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_Q01</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_Q02</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_Q03</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_Q04</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_J01</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_J02</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_J03</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_J04</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_C01</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_C02</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_C03</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_C04</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_H01</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_H02</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_H03</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>XXZS_WQ_H04</ThingDef>
+					<Display></Display>
+					<Count>1</Count>
+				</Produce>
 			</Produces>
 		</Building>
 	</ThingDef>
 	
 	<ThingDef Type="Building" Name="XXZS_JZ" Parent="BuildingBase">
-		<TexPath>res/Sprs/building_zhengfatianxia/building_jianchi01</TexPath>
+		<TexPath>res\Sprs\building_zhengfatianxia\building_jianchi01</TexPath>
 		<TexScale>1</TexScale>
 		<ThingName>剑塚</ThingName>	
 		<Desc>御剑山庄弟子用来铸造法器所使用的炼宝建筑。</Desc>
-		<Selectable>1</Selectable>
+		<SelectAble>1</SelectAble>
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 		<MaxHitPoints>10000</MaxHitPoints>
@@ -294,22 +1125,22 @@
 		<Collider>
 			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
 			<Data>
-				[1,1,1,1,1,1,1,1],
-				[1,1,1,1,1,1,1,1],
-				[1,1,1,3,1,1,1,1],
-				[1,1,1,1,1,1,1,1],
-				[1,1,1,1,1,1,1,1],
-				[4,4,4,4,4,4,4,4]
+			[1,1,1,1,1,1,1,1],
+			[1,1,1,1,1,1,1,1],
+			[1,1,1,3,1,1,1,1],
+			[1,1,1,1,1,1,1,1],
+			[1,1,1,1,1,1,1,1],
+			[4,4,4,4,4,4,4,4],
 			</Data>
 			<WorkOffset>
-				<li Index="0" X="0" Y="0" Ang="1"/>
-				<li Index="1" X="0" Y="0" Ang="1"/>
-				<li Index="2" X="0" Y="0" Ang="1"/>
-				<li Index="3" X="0" Y="0" Ang="1"/>
-				<li Index="4" X="0" Y="0" Ang="1"/>
-				<li Index="5" X="0" Y="0" Ang="1"/>
-				<li Index="6" X="0" Y="0" Ang="1"/>
-				<li Index="7" X="0" Y="0" Ang="1"/>
+				<li Index="0"  X="0" Y="0" Ang="1"/>
+				<li Index="1"  X="0" Y="0" Ang="1"/>
+				<li Index="2"  X="0" Y="0" Ang="1"/>
+				<li Index="3"  X="0" Y="0" Ang="1"/>
+				<li Index="4"  X="0" Y="0" Ang="1"/>
+				<li Index="5"  X="0" Y="0" Ang="1"/>
+				<li Index="6"  X="0" Y="0" Ang="1"/>
+				<li Index="7"  X="0" Y="0" Ang="1"/>
 			</WorkOffset>
 			<OffsetGroup>
 				<li><x>0</x><y>0</y></li>  <!-- 后 -->
@@ -323,20 +1154,20 @@
 			<ShowFree>1</ShowFree>
 			<AutoUnLock>0</AutoUnLock>
 			<BePackage>0</BePackage>
-			<NoFengShui>0</NoFengShui>
+			<NoFengshui>0</NoFengshui>
 			<MaxCount>1</MaxCount>
 			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
 			<WorkAnimation>ketou</WorkAnimation>
-			<Prefab>Building/Prefabs/RefiningCushion</Prefab>
-			<WorkTexPath>res/Sprs/building_zhengfatianxia/building_jianchi01</WorkTexPath>
+			<Perfab>Building/Prefabs/RefiningCushion</Perfab>
+			<WorkTexPath>res\Sprs\building_zhengfatianxia\building_jianchi01</WorkTexPath>
 			<BeMade>
 				<WorkToMake>450</WorkToMake>
 				<Quality>12</Quality>
 				<ArtDesc>12</ArtDesc>
 				<StuffCategories>
-					<Stuff name="MetalBlock"/>
-					<Stuff name="RockBlock"/>
-					<Stuff name="WoodBlock"/>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "RockBlock"/>
+					<Stuff name = "WoodBlock"/>
 				</StuffCategories>
 				<CostStuffCount>200</CostStuffCount>
 			</BeMade>
@@ -348,5 +1179,9 @@
 			<ProduceKind>Refining</ProduceKind>
 		</Building>
 	</ThingDef>
+	
+	
+	
+	
 	
 </List></ThingDefs>

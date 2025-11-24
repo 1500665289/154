@@ -1,9 +1,8 @@
 <FightSkills><List>
-	<Skill Name="XXZS_SCZJL_1">
-		<!-- 玄武真罡：自身护盾技能 -->
+	<Skill Name="XXZS_SCZJL_1"><!--护体真强基础模板 --> 
 		<DisplayName>玄武真罡</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>1.5</SingTime>
 		<CD>30</CD>
@@ -19,11 +18,10 @@
 		<HitEffect>200006</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_JTJDDBJ_4">
-		<!-- 九天妙言：群体护盾技能 -->
-		<DisplayName>九天妙言</DisplayName> <!-- 修正：九天妙语 -> 九天妙言 -->
+	<Skill Name="XXZS_JTJDDBJ_4"><!--护体真强基础模板 --> 
+		<DisplayName>九天妙语</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>1.5</SingTime>
 		<CD>25</CD>
@@ -39,11 +37,10 @@
 		<HitEffect>200006</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_FXYGL_2">
-		<!-- 九九归一咒：群体护盾技能 -->
+	<Skill Name="XXZS_FXYGL_2"><!--护体真强基础模板 --> 
 		<DisplayName>九九归一咒</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>1.5</SingTime>
 		<CD>30</CD>
@@ -59,11 +56,10 @@
 		<HitEffect>200006</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_LXQZZF_1">
-		<!-- 凌天剑罡：群体护盾技能 -->
+	<Skill Name="XXZS_LXQZZF_1"><!--护体真强基础模板 --> 
 		<DisplayName>凌天剑罡</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>0.5</SingTime>
 		<CD>20</CD>
@@ -78,4 +74,7 @@
 		<SelectType>AllNpc</SelectType>
 		<HitEffect>200006</HitEffect>
 	</Skill>
+	
+	
+	
 </List></FightSkills>

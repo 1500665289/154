@@ -154,7 +154,7 @@
 	<Skill Name="XXZS_WMYS_C_1"><!--护体增强基础模板 --> 
 		<DisplayName>降龙十八掌</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>0</SingTime>
 		<CD>10</CD>
@@ -172,7 +172,7 @@
 	<Skill Name="XXZS_WMYS_C_2"><!--护体增强基础模板 --> 
 		<DisplayName>生死符</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>0</SingTime>
 		<CD>20</CD>
@@ -190,7 +190,7 @@
 	<Skill Name="XXZS_WMYS_C_3"><!--护体增强基础模板 --> 
 		<DisplayName>蛤蟆功</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>0</SingTime>
 		<CD>30</CD>
@@ -208,7 +208,7 @@
 	<Skill Name="XXZS_WMYS_C_4"><!--护体增强基础模板 --> 
 		<DisplayName>九阳真经</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>0</SingTime>
 		<CD>40</CD>
@@ -308,7 +308,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>50</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -332,7 +332,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>100</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -356,7 +356,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>200</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -380,7 +380,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>350</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -407,7 +407,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>125</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -431,7 +431,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>175</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -455,7 +455,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>275</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -479,7 +479,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>425</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -506,7 +506,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>200</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>LowLing</SelectType>
@@ -530,7 +530,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>250</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>LowLing</SelectType>
@@ -554,7 +554,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>350</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>LowLing</SelectType>
@@ -578,7 +578,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>500</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>LowLing</SelectType>
@@ -605,7 +605,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>275</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -629,7 +629,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>325</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -653,7 +653,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>425</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -677,7 +677,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>575</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>Target</SelectType>
@@ -704,7 +704,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>350</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -728,7 +728,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>400</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -752,7 +752,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>500</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>
@@ -776,7 +776,7 @@
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>650</Value>
-		<TargetCamp>Enemy</TargetCamp> <!-- 修正：Friendly -> Enemy -->
+		<TargetCamp>Enemy</TargetCamp>
 		
 		<Shape>Missile</Shape>
 		<SelectType>AllNpc</SelectType>

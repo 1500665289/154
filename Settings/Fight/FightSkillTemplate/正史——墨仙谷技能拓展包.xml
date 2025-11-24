@@ -46,7 +46,7 @@
 	<Skill Name="XXZS_MXG_C_1"><!--护体增强基础模板 --> 
 		<DisplayName>九地驱邪法</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>0</SingTime>
 		<CD>10</CD>
@@ -64,7 +64,7 @@
 	<Skill Name="XXZS_MXG_C_2"><!--护体增强基础模板 --> 
 		<DisplayName>九天御仙道</DisplayName>
 		<IsTemplate>0</IsTemplate>
-		<Kind>Shield</Kind> <!-- 修正：Sheild -> Shield -->
+		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
 		<SingTime>2</SingTime>
 		<CD>30</CD>
@@ -145,7 +145,6 @@
 	</Skill>
 	<Skill Name="XXZS_MXG_E_1A" Parent="XXZS_MXG_E_1">
 		<DisplayName>群</DisplayName>
-		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>999</SelectCount>
 	</Skill>
 	
@@ -175,7 +174,6 @@
 	</Skill>
 	<Skill Name="XXZS_MXG_E_2A" Parent="XXZS_MXG_E_2">
 		<DisplayName>群</DisplayName>
-		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>999</SelectCount>
 	</Skill>
 	
@@ -205,7 +203,6 @@
 	</Skill>
 	<Skill Name="XXZS_MXG_E_3A" Parent="XXZS_MXG_E_3">
 		<DisplayName>群</DisplayName>
-		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>999</SelectCount>
 	</Skill>
 	
@@ -235,7 +232,20 @@
 	</Skill>
 	<Skill Name="XXZS_MXG_E_4A" Parent="XXZS_MXG_E_4">
 		<DisplayName>群</DisplayName>
-		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>999</SelectCount>
 	</Skill>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 </List></FightSkills>

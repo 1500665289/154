@@ -2,13 +2,11 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB01">
 		<DisplayName>御剑山庄：残卷 一</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古器宗【御剑山庄】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
 		<GLevel>God</GLevel>
 		<Element>Jin</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n破天剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_YJSZ_01</li>
@@ -17,13 +15,11 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB02">
 		<DisplayName>御剑山庄：残卷 二</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古器宗【御剑山庄】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
 		<GLevel>God</GLevel>
 		<Element>Jin</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n绝天剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_YJSZ_02</li>
@@ -32,13 +28,11 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB03">
 		<DisplayName>御剑山庄：残卷 三</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古器宗【御剑山庄】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
 		<GLevel>God</GLevel>
 		<Element>Jin</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n斩天剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_YJSZ_03</li>
@@ -47,13 +41,11 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB04">
 		<DisplayName>御剑山庄：残卷 四</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古器宗【御剑山庄】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
 		<GLevel>God</GLevel>
 		<Element>Jin</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n玄天剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_YJSZ_04</li>
@@ -62,13 +54,11 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB05">
 		<DisplayName>御剑山庄：铸剑残篇 一</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>上面记录着上古器宗【御剑山庄】的不传铸剑之法，虽然卷宗有些残破，但不影响学习这上面的铸剑之法。</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>Huo</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n杏黄剑\n绯红剑\n乌墨剑\n月白剑\n碧青剑\n黛罗剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_LJ_01</li>
@@ -82,13 +72,11 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB06">
 		<DisplayName>御剑山庄：铸剑残篇 二</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>上面记录着上古器宗【御剑山庄】的不传铸剑之法，虽然卷宗有些残破，但不影响学习这上面的铸剑之法。</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>Huo</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n清溪剑\n千屠剑\n瞬影剑\n嗜灵剑\n回光剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_LJ_07</li>
@@ -101,14 +89,12 @@
 	
 	<Esoterica Name="XXZS_YJSZ_MB07">
 		<DisplayName>御剑山庄：铸剑残篇 三</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>上面记录着上古器宗【御剑山庄】的不传铸剑之法，虽然卷宗有些残破，但不影响学习这上面的铸剑之法。</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>Huo</Element>
-		<Type>None</Type> <!-- 添加类型 -->
-		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n断尘剑\n雷音剑\n悬河剑\n深泉剑\n怀玉剑\n天罡剑\n通明剑[/color][/size]</EffectDesc> <!-- 修正不雅剑名 -->
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n断根剑\n鼓掌剑\n悬河剑\n深吞剑\n怀胎剑\n大放厥词剑\n通畅剑[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_LJ_12</li>
 			<li>XXZS_LJ_13</li>
@@ -120,15 +106,20 @@
 		</Fabaos>
 	</Esoterica>
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	<Esoterica Name="XXZS_MXG_MB01">
 		<DisplayName>墨仙谷：残卷 一</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古法宗【墨仙谷】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
-		<GLevel>God</GLevel> <!-- 添加GLevel -->
 		<Element>Shui</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n太虚混元台[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_MXG_01</li>
@@ -137,32 +128,38 @@
 	
 	<Esoterica Name="XXZS_MXG_MB02">
 		<DisplayName>墨仙谷：残卷 二</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古法宗【墨仙谷】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
-		<GLevel>God</GLevel> <!-- 添加GLevel -->
 		<Element>Shui</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n太极阴阳羽[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_MXG_02</li>
 		</Fabaos>
 	</Esoterica>
 	
+	
+	
+	
+	
+	
+	
 	<Esoterica Name="XXZS_BCG_MB01">
 		<DisplayName>百草谷：残卷 一</DisplayName>
-		<Icon>Spr/Object/JN/XXZZ_PF/PF_ye.png</Icon> <!-- 添加图标 -->
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<Desc>据说是上古丹宗【百草谷】的典藏秘录残篇，虽然上面文字已经难以辨认，但其所绘之物绝非凡品。</Desc>
-		<GLevel>God</GLevel> <!-- 添加GLevel -->
 		<Element>Mu</Element>
-		<Type>None</Type> <!-- 添加类型 -->
 		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n三皇五帝鼎[/color][/size]</EffectDesc>
 		<Fabaos>
 			<li>XXZS_BCG_01</li>
 		</Fabaos>
 	</Esoterica>
+	
+	
+	
+	
+	
+	
 	
 </List></Esotericas>

@@ -14,7 +14,7 @@
 		<Desc>[IT]虽身为掌门，却总是很苦恼，比如来自弟子的暗恋和追求。</Desc>
 	</Feature>
 	
-	<Feature Name="WanPiShuTong" Type="Backstory">
+	<Feature Name="ZhangMenRen" Type="Backstory">
 		<DisplayName>顽皮的书童</DisplayName>
 		<Desc>[IT]总是想着把各种粪便加入到食材当中，甚至还想出了上百种做法。</Desc>
 	</Feature>
@@ -24,23 +24,24 @@
 		<Desc>此人小宇宙爆发，潜力无限。</Desc>
 		<ModifierDef>
 			<Properties>
-				<li Name="GlobalEfficiency" AddP="30"/>
-				<li Name="MadeQualityAddValue" AddP="50"/>
-				<li Name="ManufactureExpectQuality" AddP="50"/>
+				<li Name="GlobalEfficiency" AddP="3"/>
+				<li Name="MadeQualityAddValue" AddP="5"/>
+				<li Name="ManufactureExpectQuality" AddP="5"/>
 				<li Name="MindStateBaseValue" AddV="100"/>
-				<li Name="SpeedOfMindStateCoefficient" AddP="-90"/>
+				<li Name="SpeedOfMindStateCoefficient" AddP="-0.9"/>
 				<li Name="NpcLingMaxValue" AddV="10000"/>
 				<li Name="ToleranceTMin" AddV="-75"/>
 				<li Name="ToleranceTMax" AddV="75"/>
 				<li Name="ComfyTMin" AddV="-75"/>
 				<li Name="ComfyTMax" AddV="75"/>
-				<li Name="RecoveryPower" AddP="100"/>
-				<li Name="MoveSpeed" AddP="20"/>
+				<li Name="RecoveryPower" AddP="10"/>
+				<li Name="MoveSpeed" AddP="2"/>
 				<li Name="BaseEmotionAddV" AddV="99"/>
 				<li Name="MaxAge" AddV="200"/>
 				<li Name="FatigueConsumeConstant" AddV="-0.75"/>
 			</Properties>
 		</ModifierDef>
 	</Feature>
+	
 	
 </List></FeatureDefs>

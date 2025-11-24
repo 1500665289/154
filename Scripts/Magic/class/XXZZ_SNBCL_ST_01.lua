@@ -6,7 +6,7 @@ local tbMagic = tbTable:GetMagic("XXZZ_SNBCL_ST_01");--创建一个新的神通c
 --self.bind 执行神通的npcObj
 --self.magic 当前神通的数据，也就是定义在xml里的数据
 
-local _COSTLING = 0;  -- 修正拼写错误
+local _COSTLING = 0;
 local _R = 3;
 local tbMine = 
 {
@@ -43,35 +43,27 @@ end
 function tbMagic:MagicEnter(IDs, IsThing)
 	self.curIndex = 0;
 	self.jump = 0;
-	if self.bind then
-		self.bind:EnterFlying();
-	end
-	self.begin = IDs and IDs[0] or 0;  -- 增加空值检查
+	self.bind:EnterFlying();
+	self.begin = IDs[0];
 end
 
 --神通施展过程中，需要返回值
 --成功率跟人物心境有关，200心境则满成功率。
 --返回值  0继续 1成功并结束 -1失败并结束
 function tbMagic:MagicStep(dt, duration)--返回值  0继续 1成功并结束 -1失败并结束 duration:已持续时间
-	if not self.grids then
+	if self.grids == nil then
 		self.grids = GridMgr:GetAroundGrid(self.begin, _R, false);
 	end
-	
-	if self.grids and self.grids.Count then
-		self:SetProgress(self.curIndex/self.grids.Count);--UI上显示的进度
-	end
-	
+	self:SetProgress(self.curIndex/self.grids.Count);--UI上显示的进度
 	self.jump = self.jump + dt;	
 	if self.jump >= 0.1 then
-		local key = self.grids and self.grids[self.curIndex];
-		if key and world:CheckRate( 1 - (self.curIndex / self.grids.Count) - 0.1) and self:CreateMine(key) then
-			if self.bind then
-				self.bind:AddLing(-_COSTLING);
-			end
+		local key = self.grids[self.curIndex];
+		if world:CheckRate( 1 - (self.curIndex / self.grids.Count) - 0.1) and self:CreateMine(key) then
+			self.bind:AddLing(-_COSTLING);
 			self.jump = 0;
 		end		
 		self.curIndex = self.curIndex + 1;	
-		if not self.grids or self.curIndex >= self.grids.Count or (self.bind and self.bind.LingV < _COSTLING) then
+		if self.curIndex >= self.grids.Count or  self.bind.LingV < _COSTLING then
 			return 1;
 		end		
 	end
@@ -79,7 +71,7 @@ function tbMagic:MagicStep(dt, duration)--返回值  0继续 1成功并结束 -1
 end
 
 function tbMagic:CreateMine(key)
-	if not key or Map:CheckGridWalkAble(key, false) == false then
+	if Map:CheckGridWalkAble(key, false) == false then
 		return false;
 	end
 	local g_emPlantKind = CS.XiaWorld.g_emPlantKind;
@@ -88,7 +80,7 @@ function tbMagic:CreateMine(key)
 	if oldbuilding == nil then
 		local oldplant = Things:GetThingAtGrid(key, 3);
 		if oldplant ~= nil then
-			if oldplant.def and oldplant.def.Plant and oldplant.def.Plant.Kind ~= g_emPlantKind.Mine then
+			if oldplant.def.Plant.Kind ~= g_emPlantKind.Mine then
 				ThingMgr:RemoveThing(oldplant, false, false);
 			else
 				return false;
@@ -109,20 +101,18 @@ end
 
 function tbMagic:MagicLeave(success)
 	self.grids = nil;
-	if self.bind then
-		self.bind:LeaveFlying();
-	end
+	self.bind:LeaveFlying();
 end
 
 function tbMagic:OnGetSaveData()
 	return {
-		Index = self.curIndex or 0,
-		Jump = self.jump or 0
+	Index = self.curIndex,
+	Jump = self.jump
 	};
 end
 
-function tbMagic:OnLoadData(tbData, IDs, IsThing)	
-	self.begin = IDs and IDs[0] or 0;  -- 增加空值检查
+function tbMagic:OnLoadData(tbData,IDs, IsThing)	
+	self.begin = IDs[0];
 	self.curIndex = tbData.Index or 0;
 	self.jump = tbData.Jump or 0;	
 end

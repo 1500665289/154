@@ -1,5 +1,4 @@
-<Esotericas>
-<List>
+<Esotericas><List>
 	<Esoterica Name="Tianshu_1">
 		<DisplayName>天书：丹经</DisplayName>
 		<Icon>Spr\Object\JN\XXZZ_LD\LD_qiu.png</Icon>
@@ -76,7 +75,7 @@
 			<li>Dan_FenShen1</li><!-- 盘古元神丹 -->
 			<li>Dan_FenShen2</li><!-- 造化同心丹 -->
 			<li>Dan_FenShen3</li><!-- 裂神丹 -->
-			<!-- 删除重复的灵源种条目 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
 			<li>Dan_TiShen</li><!-- 替身丹 -->
 		</Dans>
 	</Esoterica>
@@ -358,7 +357,7 @@
 			<li>Building_ShaShenMu3</li>
 			<li>Building_ShaShenMu4</li>
 			<li>Building_ShuiShenHuaShu1</li>
-			<!-- 删除重复的Building_ShuiShenHuaShu1 -->
+			<li>Building_ShuiShenHuaShu1</li>
 			<li>Building_ShuiShenHuaShu2</li>
 			<li>Building_ShuiShenHuaShu3</li>
 			<li>Building_TaoShu1</li>
