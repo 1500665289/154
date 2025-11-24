@@ -125,6 +125,7 @@
 	</Skill>
 	<Skill Name="XXZS_TXHYD_2A" Parent="XXZS_TXHYD_2">
 		<DisplayName>遁音群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>11</SelectCount>
 	</Skill>
 	
@@ -154,6 +155,7 @@
 	</Skill>
 	<Skill Name="XXZS_TXHYD_3A" Parent="XXZS_TXHYD_3">
 		<DisplayName>遁风群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>7</SelectCount>
 	</Skill>
 	
@@ -183,11 +185,12 @@
 	</Skill>
 	<Skill Name="XXZS_TXHYD_4A" Parent="XXZS_TXHYD_4">
 		<DisplayName>遁空群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>5</SelectCount>
 	</Skill>
 	
 	<Skill Name="XXZS_TXHYD_6"><!--伤害技能基础模板 --> 
-		<DisplayName>混元葬焚诀</DisplayName>
+		<DisplayName>混元焚葬诀</DisplayName> <!-- 修正：混元葬焚诀 -> 混元焚葬诀 -->
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -212,6 +215,7 @@
 	</Skill>
 	<Skill Name="XXZS_TXHYD_6A" Parent="XXZS_TXHYD_6">
 		<DisplayName>焚葬群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>5</SelectCount>
 	</Skill>
 	
@@ -241,6 +245,7 @@
 	</Skill>
 	<Skill Name="XXZS_TXHYD_7A" Parent="XXZS_TXHYD_7">
 		<DisplayName>奔雷群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>7</SelectCount>
 	</Skill>
 	
@@ -270,6 +275,7 @@
 	</Skill>
 	<Skill Name="XXZS_TXHYD_8A" Parent="XXZS_TXHYD_8">
 		<DisplayName>坠星群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>11</SelectCount>
 	</Skill>
 	
@@ -324,11 +330,7 @@
 	</Skill>
 	<Skill Name="XXZS_LJMB_1A" Parent="XXZS_LJMB_1">
 		<DisplayName>万剑群</DisplayName>
+		<Kind>Damage</Kind> <!-- 补充：定义技能类型 -->
 		<SelectCount>999</SelectCount>
 	</Skill>
-	
-	
-	
-	
-	
 </List></FightSkills>

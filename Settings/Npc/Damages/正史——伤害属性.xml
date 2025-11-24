@@ -2,7 +2,7 @@
 	<!--属性伤-->
 	<Damage Name="XXZS_SH_01">
 		<DisplayName>重伤</DisplayName>     <!--血肉，内脏-->
-		<Lable>Ling</Lable>            <!--伤害类别-->
+		<Label>Ling</Label>            <!--伤害类别-->
 		<TreatConstant>0</TreatConstant>  <!-- 是否可以自愈-->
 		<ValueMin>0.2</ValueMin>    <!-- 最低损伤器官百分比-->
 		<ValueMax>0.8</ValueMax>       <!--最高损伤器官百分比-->
@@ -14,7 +14,7 @@
 	
 	<Damage Name="XXZS_SH_02">
 		<DisplayName>天命之创</DisplayName>
-		<Lable>Ling</Lable>
+		<Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.09</ValueMin>
 		<ValueMax>0.09</ValueMax>
@@ -27,6 +27,7 @@
 	<!--内脏伤-->
 	<Damage Name="XXZS_SH_03">
 		<DisplayName>坏变</DisplayName>
+                <Label>Ling</Label>
 		<ValueMin>0.1</ValueMin>
 		<ValueMax>0.5</ValueMax>
 		<Pain>0.2</Pain>
@@ -37,6 +38,7 @@
 	
 	<Damage Name="XXZS_SH_04">
 		<DisplayName>折断</DisplayName>
+                <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>
@@ -48,6 +50,7 @@
 	
 	<Damage Name="XXZS_SH_05">
 		<DisplayName>撞击</DisplayName>
+                <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>
@@ -59,6 +62,7 @@
 	
 	<Damage Name="XXZS_SH_06">
 		<DisplayName>扩张</DisplayName>
+                 <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>
@@ -70,6 +74,7 @@
 	
 	<Damage Name="XXZS_SH_07">
 		<DisplayName>摩擦</DisplayName>
+                 <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>
@@ -81,6 +86,7 @@
 	
 	<Damage Name="XXZS_SH_08">
 		<DisplayName>顺产</DisplayName>
+                <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>
@@ -92,6 +98,7 @@
 	
 	<Damage Name="XXZS_SH_09">
 		<DisplayName>打脸</DisplayName>
+                <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>
@@ -103,6 +110,7 @@
 	
 	<Damage Name="XXZS_SH_10">
 		<DisplayName>润滑</DisplayName>
+                <Label>Ling</Label>
 		<TreatConstant>0</TreatConstant>
 		<ValueMin>0.02</ValueMin>
 		<ValueMax>0.02</ValueMax>

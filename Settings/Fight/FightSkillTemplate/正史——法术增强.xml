@@ -1,5 +1,6 @@
 <FightSkills><List>
-	<Skill Name="XXZS_JTJDDBJ_1"><!--术法增强基础模板 --> 
+	<Skill Name="XXZS_JTJDDBJ_1">
+		<!-- 九地圣手：群体辅助增强技能 -->
 		<DisplayName>九地圣手</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Skill</Kind>
@@ -18,7 +19,8 @@
 		<HitEffect>200005</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_TXHYD_5"><!--术法增强基础模板 --> 
+	<Skill Name="XXZS_TXHYD_5">
+		<!-- 混元流沙诀：自身强化技能 -->
 		<DisplayName>混元流沙诀</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Skill</Kind>
@@ -37,7 +39,8 @@
 		<HitEffect>200005</HitEffect>
 	</Skill>
 	
-	<Skill Name="XXZS_FXYGL_1"><!--术法增强基础模板 --> 
+	<Skill Name="XXZS_FXYGL_1">
+		<!-- 五帝诀：自身辅助增强技能 -->
 		<DisplayName>五帝诀</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Skill</Kind>
@@ -55,5 +58,4 @@
 		<SelectType>Self</SelectType>
 		<HitEffect>200005</HitEffect>
 	</Skill>
-	
 </List></FightSkills>

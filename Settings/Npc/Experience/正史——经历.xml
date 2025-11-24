@@ -46,32 +46,32 @@
 	
 	<Experience Name="Experiences1G2_4" Group="G1">
 		<DisplayName>逍遥峰传承</DisplayName>
-		<Desc>你进入太一门之前就机缘巧合得到过【逍遥峰】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《》\n《》\n《》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Desc>你进入太一门之前就机缘巧合得到过【逍遥峰】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《逍遥游》\n《北冥神功》\n《凌波微步》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
 		<Recommend>1</Recommend>
 		<Hide>1</Hide>
 		<Point>5</Point>
 		<Gongs>
-			<!-- <li>XXZS_FXYGL</li> -->
-			<!-- <li>XXZS_SNBCL</li> -->
-			<!-- <li>XXZS_NWCSL</li> -->
+			<li>XXZS_XYY</li>
+			<li>XXZS_BMSG</li>
+			<li>XXZS_LBWB</li>
 		</Gongs>
 	</Experience>
 	
 	<Experience Name="Experiences1G2_5" Group="G1">
 		<DisplayName>幽冥殿传承</DisplayName>
-		<Desc>你进入太一门之前就机缘巧合得到过【幽冥殿】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《》\n《》\n《》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Desc>你进入太一门之前就机缘巧合得到过【幽冥殿】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《幽冥鬼典》\n《九幽炼魂诀》\n《黄泉引渡法》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
 		<Recommend>1</Recommend>
 		<Hide>1</Hide>
 		<Point>5</Point>
 		<Gongs>
-			<!-- <li>XXZS_FXYGL</li> -->
-			<!-- <li>XXZS_SNBCL</li> -->
-			<!-- <li>XXZS_NWCSL</li> -->
+			<li>XXZS_YMGD</li>
+			<li>XXZS_JYLHJ</li>
+			<li>XXZS_HQYDF</li>
 		</Gongs>
 	</Experience>
 	
 	<Experience Name="Experiences1G2_6" Group="G1">
-		<DisplayName>异界传承</DisplayName>
+		<DisplayName>异界传承·武道</DisplayName>
 		<Desc>你进入太一门之前就机缘巧合得到过【异界】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《身残志坚论》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
 		<Recommend>1</Recommend>
 		<Point>5</Point>
@@ -81,7 +81,7 @@
 	</Experience>
 	
 	<Experience Name="Experiences1G2_7" Group="G1">
-		<DisplayName>异界传承</DisplayName>
+		<DisplayName>异界传承·兵法</DisplayName>
 		<Desc>你进入太一门之前就机缘巧合得到过【异界】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]《武穆遗书》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
 		<Recommend>1</Recommend>
 		<Point>5</Point>
@@ -91,33 +91,30 @@
 	</Experience>
 	
 	<Experience Name="Experiences1G2_8" Group="G1">
-		<DisplayName>异界传承</DisplayName>
+		<DisplayName>异界传承·天书</DisplayName>
 		<Desc>你进入太一门之前就机缘巧合得到过【异界】的道统传承，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《天书秘录》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
 		<Recommend>1</Recommend>
 		<Hide>1</Hide>
 		<Point>5</Point>
 		<Gongs>
-			<!-- <li>XXZS_TSML</li> -->
+			<li>XXZS_TSML</li>
 		</Gongs>
 	</Experience>
 	
 	<Experience Name="Experiences1G2_9" Group="G1">
 		<DisplayName>上古之闻</DisplayName>
-		<Desc>你进入太一门之前就机缘巧合听到过【上古】的秘闻传说，从而得知了一个天大的秘密，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《》\n《》\n《》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
+		<Desc>你进入太一门之前就机缘巧合听到过【上古】的秘闻传说，从而得知了一个天大的秘密，因此你这些年担惊受怕，不敢引起任何人的注意。\n\n\n[size=10]解锁功法：[color=#D06508]\n《混沌创世经》\n《洪荒纪元录》\n《太古秘闻录》[/color]\n此功法开局艰难，不建议初始选择。[/size]</Desc>
 		<Recommend>1</Recommend>
 		<Hide>1</Hide>
 		<Point>5</Point>
 		<Gongs>
-			<!-- <li>XXZS_FXYGL</li> -->
-			<!-- <li>XXZS_SNBCL</li> -->
-			<!-- <li>XXZS_NWCSL</li> -->
+			<li>XXZS_HDCSJ</li>
+			<li>XXZS_HHJYL</li>
+			<li>XXZS_TGMWL</li>
 		</Gongs>
 	</Experience>
 	
-	
-	
-	
-	<Experience Name="XXZS_DTQK">
+	<Experience Name="XXZS_DTQK" Group="G1">
 		<DisplayName>显示全图</DisplayName>
 		<Desc>[size=10][color=#D06508]开启：全地图[/color][/size]</Desc>
 		<Recommend>1</Recommend>
@@ -126,6 +123,5 @@
 			<NoFog>1</NoFog>
 		</ModifierDef>
 	</Experience>
-	
 	
 </List></Experiences>
