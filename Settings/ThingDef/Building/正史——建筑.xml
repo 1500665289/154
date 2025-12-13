@@ -152,154 +152,62 @@
 		</StoryBnts>
 	</ThingDef>
 
-<ThingDef Type="Building" Name="Shenkeng2" Parent="BuildingBase">
-		<TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
+<ThingDef Type="Building" Name="rbq" Parent="BuildingBase">
+		<TexPath>Spr\Building\rbq2.png</TexPath>
 		<TexScale>1</TexScale>
-		<ThingName>神奇的坑2</ThingName>
-		<Desc>就是2个神奇的坑。</Desc>
+		<ThingName>肉便器</ThingName>
+		<Desc>敌对宗门弟子的下场。</Desc>
 		<SelectAble>1</SelectAble>
 		<CastShadow>1</CastShadow>
 		<BlockLight>1</BlockLight>
 		<MaxHitPoints>500</MaxHitPoints>
 		<Beauty>100</Beauty>
 		<ElementKind>Tu</ElementKind>
-		<ColliderKind>NoPass</ColliderKind>
-		<Tags><!-- 功能属性 -->
-			<Tag Name="ForFun" Level="1"/>
-			<Tag Name="BasePractice" Level="1"/>
-		</Tags>
+		<ColliderKind>Across</ColliderKind>
+		<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="1"/>
+		<Tag Name="Bury" Level="1"/>
+		<Tag Name="Puppet" Level="1"/>
+	</Tags>
 		<Collider>
 			<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
 			<Data>
-				[0,4,0],
-				[4,3,4],
-				[0,4,0]
-			</Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
 			<WorkOffset>
-				<li Index="0"  X="-0.05" Y="-0.16" Ang="180"/>
-				<li Index="1"  X="0.2" Y="0" Ang="90"/>
-				<li Index="2"  X="-0.2" Y="0" Ang="-90"/>
-				<li Index="3"  X="0" Y="0.45" Ang="1"/>
-			</WorkOffset>
+			<li Index="0"  X="0.5" Y="0" Ang="0"/>
+		</WorkOffset>
 		</Collider>
 		<Building>
-			<RoomKind>None</RoomKind>
-			<ShowFree>0</ShowFree>
-			<NoFengshui>1</NoFengshui>
-			<WorkAnimation>ketou</WorkAnimation>
-			<BeMade>
-				<WorkToMake>30</WorkToMake>
-				<Quality>0</Quality>
-				<ArtDesc>0</ArtDesc>
-				<StuffCategories>
-					<Stuff name = "RockBlock"/>
-				</StuffCategories>
-				<CostStuffCount>666</CostStuffCount>
-			</BeMade>
-			<SnowRenderData>
-				<x>2</x>
-				<y>2</y>
-				<z>1</z>
-			</SnowRenderData>
-			<ProduceKind>Handwork</ProduceKind>
-			<Produces>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_A</ThingDef>
-					<Display>女装大佬上衣</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_A</ThingDef>
-					<Display>女装大佬下装</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_B</ThingDef>
-					<Display>哲学基佬上衣</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_B</ThingDef>
-					<Display>哲学基佬下装</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_C</ThingDef>
-					<Display>幼幼百合上衣</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_C</ThingDef>
-					<Display>幼幼百合下装</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_02</ThingDef>
-					<Display>罡气护体衣——金</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_02</ThingDef>
-					<Display>罡气护体裤——金</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_03</ThingDef>
-					<Display>罡气护体衣——木</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_03</ThingDef>
-					<Display>罡气护体裤——木</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_04</ThingDef>
-					<Display>罡气护体衣——水</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_04</ThingDef>
-					<Display>罡气护体裤——水</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_05</ThingDef>
-					<Display>罡气护体衣——火</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_05</ThingDef>
-					<Display>罡气护体裤——火</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_06</ThingDef>
-					<Display>罡气护体衣——土</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_06</ThingDef>
-					<Display>罡气护体裤——土</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_YF_07</ThingDef>
-					<Display>罡气护体衣——混</Display>
-					<Count>1</Count>
-				</Produce>
-				<Produce>
-					<ThingDef>Item_XXZS_KZ_07</ThingDef>
-					<Display>罡气护体裤——混</Display>
-					<Count>1</Count>
-				</Produce>
-			</Produces>
-		</Building>
-		<StoryBnts>
-			<li Name="祭祀" Desc="用庄严的仪式，举行祭祀，以祈求天时之利" Story="XXZS_TQ_CS_TQ" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-			<li Name="挑战" Desc="打不过的都是垃圾！" Story="XXZS_SK_TZ" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-			<li Name="一键解锁" Desc="第一年后方可正常解锁正史地点" Story="XXZS_JS" Cost="3" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-		</StoryBnts>
+		<OwnerCount>1</OwnerCount>
+		<WorkTexPath>Spr/building/rbq2s.png</WorkTexPath>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<HelperClass>BuildingHelperTomb</HelperClass>
+		<BagDrop>0</BagDrop>
+
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>4</MaxWorker>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>45</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
 	</ThingDef>
 
 	
